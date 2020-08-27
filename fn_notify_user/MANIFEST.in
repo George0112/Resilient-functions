@@ -1,0 +1,9 @@
+include README.md
+include Dockerfile
+include entrypoint.sh
+include fn_notify_user/util/*
+include fn_notify_user/LICENSE
+include doc/*.md
+include doc/screenshots/*
+
+exclude *.bak

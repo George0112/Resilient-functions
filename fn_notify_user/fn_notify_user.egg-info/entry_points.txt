@@ -1,0 +1,12 @@
+[resilient.circuits.components]
+FunctCsccNotifyUserFunctionComponent = fn_notify_user.components.funct_CSCC_notify_user:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = fn_notify_user.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = fn_notify_user.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = fn_notify_user.util.selftest:selftest_function
+
