@@ -14,6 +14,7 @@ fn_notify_user.egg-info/requires.txt
 fn_notify_user.egg-info/top_level.txt
 fn_notify_user/components/__init__.py
 fn_notify_user/components/funct_CSCC_notify_user.py
+fn_notify_user/components/labIP.csv
 fn_notify_user/util/__init__.py
 fn_notify_user/util/config.py
 fn_notify_user/util/customize.py
