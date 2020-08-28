@@ -4,10 +4,12 @@
 
 import logging
 import pandas as pd
+import os
 from resilient_circuits import ResilientComponent, function, handler, StatusMessage, FunctionResult, FunctionError
 
 PACKAGE_NAME = "fn_notify_user"
 
+f = pd.read_csv(os.path.dirname(__file__)+'/labIP.csv')
 
 class FunctionComponent(ResilientComponent):
     """Component that implements Resilient function 'CSCC_notify_user''"""
@@ -16,6 +18,7 @@ class FunctionComponent(ResilientComponent):
         """constructor provides access to the configuration options"""
         super(FunctionComponent, self).__init__(opts)
         self.options = opts.get(PACKAGE_NAME, {})
+        self.f = f
 
     def convert_ipv4(self, ip):
         try:
@@ -27,9 +30,8 @@ class FunctionComponent(ResilientComponent):
         return self.convert_ipv4(start) <= self.convert_ipv4(addr) <= self.convert_ipv4(end)
 
     def find_name(self, target, *args, **kwargs):
-        f = pd.read_csv('labIP.csv')
 
-        for index, ip in enumerate(f['IP']):
+        for index, ip in enumerate(self.f['IP']):
             ips = ip.split('--')
             try:
                 start = ips[0]
