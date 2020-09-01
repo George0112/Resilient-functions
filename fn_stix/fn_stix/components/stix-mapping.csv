@@ -1,0 +1,44 @@
+id,label,object,property
+2,DNS 名稱,domain-name,value
+1080,email address,email-addr,value
+35,HTTP 回應標頭,,
+34,HTTP 要求標頭,,
+1,IP 位址,ipv4-addr,value
+1082,Is NTHU,,
+39,MAC 位址,,
+4,RFC 822 電子郵件訊息檔案,,
+1084,STIX bundle,,
+42,URI 路徑,,
+3,URL,url,value
+40,URL 參照者,,
+36,X509 憑證檔案,,
+30,互斥旗標,,
+41,使用者代理程式,,
+23,使用者帳戶,,
+16,其他檔案,,
+27,埠,,
+43,威脅 CVE ID,,
+29,字串,,
+32,密碼,,
+46,已觀察到的資料,,
+13,惡意軟體 MD5 雜湊,file,hash
+14,惡意軟體 SHA-1 雜湊,file,hash
+38,惡意軟體 SHA-256 雜湊,file,hash
+12,惡意軟體樣本,,
+22,惡意軟體樣本模糊雜湊,,
+45,惡意軟體系列/變式,,
+15,日誌檔,,
+28,服務,,
+31,檔名,file,name
+37,檔案路徑,,
+24,登錄機碼,,
+26,程序名稱,,
+25,系統名稱,,
+44,網路 CIDR 範圍,,
+5,電子郵件主旨,email-message,subject
+6,電子郵件內文,email-message,body
+9,電子郵件寄件者,email-address,value
+19,電子郵件寄件者名稱,email-address,display_name
+20,電子郵件收件者,email-address,value
+7,電子郵件附件,,
+8,電子郵件附件名稱,,

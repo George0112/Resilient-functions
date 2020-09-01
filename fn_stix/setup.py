@@ -30,7 +30,10 @@ setup(
     description="Resilient Circuits Components for 'fn_stix'",
     long_description="""Resilient Circuits Components for 'fn_stix'""",
     install_requires=[
-        "resilient_circuits>=30.0.0"
+        "resilient_circuits>=30.0.0",
+        "pandas",
+        "numpy",
+        "stix2"
     ],
     packages=find_packages(),
     include_package_data=True,
