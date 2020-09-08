@@ -4,7 +4,7 @@
 FROM registry.access.redhat.com/ubi8/python-36:latest
 
 ARG APPLICATION=fn_stix
-ARG RESILIENT_CIRCUITS_VERSION=37
+ARG RESILIENT_CIRCUITS_VERSION=38.0.73rc0
 ARG PATH_RESILIENT_CIRCUITS=rescircuits
 
 # Update to latest packages, user 0 for root privilege
@@ -17,8 +17,8 @@ RUN pip install --upgrade pip
 RUN pip install "resilient-circuits>=${RESILIENT_CIRCUITS_VERSION}"
 
 # install requirements
-COPY ./requirements.txt /tmp/packages
-RUN pip install requirements.txt
+COPY ./requirements.txt /
+RUN pip install -r /requirements.txt
 
 ## ---- section for changes ----
 # uncomment and replicate if additional os libraries are needed
@@ -26,8 +26,8 @@ RUN pip install requirements.txt
 #RUN yum -y install <package>
 
 # install the base package
-COPY ./dist /tmp/packages
-RUN pip install /tmp/packages/${APPLICATION}-*.tar.gz
+# COPY ./dist /tmp/packages
+# RUN pip install /tmp/packages/${APPLICATION}-*.tar.gz
 
 # uncomment and replicate if additional pypi packages are needed
 #RUN pip install <package>

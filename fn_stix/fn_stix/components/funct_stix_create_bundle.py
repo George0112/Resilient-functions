@@ -9,6 +9,8 @@ import pandas as pd
 import os
 import numpy as np
 import json
+from io import BytesIO
+from resilient_lib import write_file_attachment
 
 PACKAGE_NAME = "fn_stix"
 p = pd.read_csv(os.path.dirname(__file__)+'/stix-mapping.csv', encoding='utf-8')
@@ -63,18 +65,18 @@ class FunctionComponent(ResilientComponent):
                          continue
             for p in patterns:
                 indicators.append(Indicator(pattern_type='stix', pattern=p))
-            log.info('indicators: ', indicators)
+            
+            log.debug('indicators: ', indicators)
+            
+            # Create new bundle
             bundle = Bundle(*indicators)
-            # payload = """{'type': 1084, 'value': 'bundle'}"""
-            payload = {"type": 1084, "value": str(bundle)}
-            log.debug(json.dumps(payload))
-            self.rest_client().post("/incidents/{}/artifacts/".format(incident_id), payload)
+
+            # Upload attachment
+            datastream = BytesIO(str(bundle))
+            client = self.rest_client()
+            new_attachment = write_file_attachment(client, 'bundle_' + str(incident_id) + '.json', datastream, incident_id)
 
             yield StatusMessage("Finished 'stix_create_bundle' that was running in workflow '{0}'".format(wf_instance_id))
-
-            results = {
-                "content": "xyz"
-            }
 
             # Produce a FunctionResult with the results
             yield FunctionResult({"patterns": patterns})
