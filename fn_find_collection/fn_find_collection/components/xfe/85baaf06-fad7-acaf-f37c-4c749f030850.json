@@ -1,0 +1,219 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--91c96924-f79f-e354-71bf-3a910e5b50d8",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:10.910Z",
+            "modified": "2020-11-09T15:50:10.910Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash 91c96924f79fe35471bf3a910e5b50d8",
+            "description": "File hash indicator for md5 hash 91c96924f79fe35471bf3a910e5b50d8",
+            "pattern": "[ file:hashes.MD5 = '91c96924f79fe35471bf3a910e5b50d8' ]",
+            "valid_from": "2020-11-09T15:50:10.910Z"
+        },
+        {
+            "id": "indicator--85da9f0b-d337-37b6-1d1f-8f9e897d97b5",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:10.920Z",
+            "modified": "2020-11-09T15:50:10.920Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha1 hash dc293a0c146321f6f02399ea626e8030f0006375",
+            "description": "File hash indicator for sha1 hash dc293a0c146321f6f02399ea626e8030f0006375",
+            "pattern": "[ file:hashes.'SHA-1' = 'dc293a0c146321f6f02399ea626e8030f0006375' ]",
+            "valid_from": "2020-11-09T15:50:10.920Z"
+        },
+        {
+            "id": "indicator--13c100dc-e12c-0389-96a1-e8c55fbdeca5",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:10.982Z",
+            "modified": "2020-11-09T15:50:10.982Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha1 hash 209edea3cc34d3b65240a5a6e8c969287efae79c",
+            "description": "File hash indicator for sha1 hash 209edea3cc34d3b65240a5a6e8c969287efae79c",
+            "pattern": "[ file:hashes.'SHA-1' = '209edea3cc34d3b65240a5a6e8c969287efae79c' ]",
+            "valid_from": "2020-11-09T15:50:10.982Z"
+        },
+        {
+            "id": "indicator--df020e81-b7ca-3286-8a8a-c1f5eddd086f",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:11.012Z",
+            "modified": "2020-11-09T15:50:11.012Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash df020e81b7ca32868a8ac1f5eddd086f",
+            "description": "File hash indicator for md5 hash df020e81b7ca32868a8ac1f5eddd086f",
+            "pattern": "[ file:hashes.MD5 = 'df020e81b7ca32868a8ac1f5eddd086f' ]",
+            "valid_from": "2020-11-09T15:50:11.012Z"
+        },
+        {
+            "id": "indicator--a7a7481b-f6ac-71d1-e6d3-c826d4d6eea3",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:11.042Z",
+            "modified": "2020-11-09T15:50:11.042Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 2ab12f79e435abe40ad30076eb4722be724d766c8050dcd9a90fa9f17e6eff1f",
+            "description": "File hash indicator for sha256 hash 2ab12f79e435abe40ad30076eb4722be724d766c8050dcd9a90fa9f17e6eff1f",
+            "pattern": "[ file:hashes.'SHA-256' = '2ab12f79e435abe40ad30076eb4722be724d766c8050dcd9a90fa9f17e6eff1f' ]",
+            "valid_from": "2020-11-09T15:50:11.042Z"
+        },
+        {
+            "id": "indicator--6b7f9c92-b046-449a-822d-82a683aefd67",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:11.068Z",
+            "modified": "2020-11-09T15:50:11.068Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for pgzsa-pl-defence-pk.gov-pok.net",
+            "description": "",
+            "pattern": "[ url:value = 'pgzsa-pl-defence-pk.gov-pok.net' ]",
+            "valid_from": "2020-11-09T15:50:11.068Z"
+        },
+        {
+            "id": "indicator--4ae43407-6efb-4202-b4f6-4ada977a46db",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:12.639Z",
+            "modified": "2020-11-09T15:50:12.639Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for theguardian-pk-protest-against-imran-khan.gov-pok.net",
+            "description": "",
+            "pattern": "[ url:value = 'theguardian-pk-protest-against-imran-khan.gov-pok.net' ]",
+            "valid_from": "2020-11-09T15:50:12.639Z"
+        },
+        {
+            "id": "indicator--a89ba39c-7727-7897-e016-93173a15460b",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:13.959Z",
+            "modified": "2020-11-09T15:50:13.959Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e3be9192477e43ad94b16f4c0a9775adf9019172c0c89712907a8f9a1680100c",
+            "description": "File hash indicator for sha256 hash e3be9192477e43ad94b16f4c0a9775adf9019172c0c89712907a8f9a1680100c",
+            "pattern": "[ file:hashes.'SHA-256' = 'e3be9192477e43ad94b16f4c0a9775adf9019172c0c89712907a8f9a1680100c' ]",
+            "valid_from": "2020-11-09T15:50:13.959Z"
+        },
+        {
+            "id": "indicator--c3d9cc4c-822c-4aa2-905c-0209a2621b96",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:14.313Z",
+            "modified": "2020-11-09T15:50:14.313Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for http://pok.net/images/C7CFABDA/-1/13897/0ac61c6e/main.file.rtf",
+            "description": "",
+            "pattern": "[ url:value = 'http://pok.net/images/C7CFABDA/-1/13897/0ac61c6e/main.file.rtf' ]",
+            "valid_from": "2020-11-09T15:50:14.313Z"
+        },
+        {
+            "id": "indicator--b4a960d6-a547-4ba6-8b4b-0f3a76c28b45",
+            "type": "indicator",
+            "created": "2020-11-09T15:50:48.983Z",
+            "modified": "2020-11-09T15:50:48.983Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for kp.gov-pok.net",
+            "description": "",
+            "pattern": "[ url:value = 'kp.gov-pok.net' ]",
+            "valid_from": "2020-11-09T15:50:48.983Z"
+        },
+        {
+            "id": "indicator--b7fb427e-be0f-42a7-a21f-57c5663f4e09",
+            "type": "indicator",
+            "created": "2020-11-09T15:51:01.684Z",
+            "modified": "2020-11-09T15:51:01.684Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for google.gov-pok.net",
+            "description": "",
+            "pattern": "[ url:value = 'google.gov-pok.net' ]",
+            "valid_from": "2020-11-09T15:51:01.684Z"
+        },
+        {
+            "id": "indicator--285e6d42-663d-4098-ad7b-474e0cd43ec8",
+            "type": "indicator",
+            "created": "2020-11-09T15:51:05.078Z",
+            "modified": "2020-11-09T15:51:05.078Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for moma.gov-pok.net",
+            "description": "",
+            "pattern": "[ url:value = 'moma.gov-pok.net' ]",
+            "valid_from": "2020-11-09T15:51:05.078Z"
+        },
+        {
+            "type": "report",
+            "id": "report--85baaf06-fad7-acaf-f37c-4c749f030850",
+            "name": "SideWinder APT Group Indicators of Compromise",
+            "published": "2020-11-09T20:30:49.163Z",
+            "created": "2020-11-09T20:30:49.163Z",
+            "modified": "2020-11-09T20:30:49.163Z",
+            "labels": [
+                "xftag",
+                "sidewinder",
+                "advisory",
+                "x-industry:gov",
+                "apt",
+                "x-location:south-asia",
+                "malware"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nA recent Rewterz threat alert provides indicators of compromise related to SideWinder APT activity targeting Pakistani Government officials.\n\n# Threat Type\n\n- Malware, APT, Espionage\n\n# Overview\n\nRewterz has published a threat alert providing indicators of compromise (IoCs) tied to the SideWinder APT group. The group is believed to be working in the interest of the Indian government, primarily targeting Pakistani and Chinese military and government entities. Their TTPs include targeting of Windows machines with weaponized Word documents and mobile phones with custom built applications. Their ultimate goal is information theft and espionage. These IoCs are specifically tied to activity targeting Pakistani Government officials via decoy NDC meeting documents. For more information, see the Rewterz alert in the Reference section.\n\n# Indicators of Compromise\n\nSee the Reports section to the right for a list of indicators of compromise.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.rewterz.com/rewterz-news/rewterz-threat-alert-sidewinder-apt-group ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--85baaf06-fad7-acaf-f37c-4c749f030850",
+            "collectionTitle": "SideWinder APT Group Indicators of Compromise",
+            "collectionWikiContent": "Summary\nA recent Rewterz threat alert provides indicators of compromise related to SideWinder APT activity targeting Pakistani Government officials.\nThreat Type\nMalware, APT, Espionage\nOverview\nRewterz has published a threat alert providing indicators of compromise (IoCs) tied to the SideWinder APT group. The group is believed to be working in the interest of the Indian government, primarily targeting Pakistani and Chinese military and government entities. Their TTPs include targeting of Windows machines with weaponized Word documents and mobile phones with custom built applications. Their ultimate goal is information theft and espionage. These IoCs are specifically tied to activity targeting Pakistani Government officials via decoy NDC meeting documents. For more information, see the Rewterz alert in the Reference section.\nIndicators of Compromise\nSee the Reports section to the right for a list of indicators of compromise.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://www.rewterz.com/rewterz-news/rewterz-threat-alert-sidewinder-apt-group ",
+            "collectionWikiMarkdown": "# Summary\n\nA recent Rewterz threat alert provides indicators of compromise related to SideWinder APT activity targeting Pakistani Government officials.\n\n# Threat Type\n\n- Malware, APT, Espionage\n\n# Overview\n\nRewterz has published a threat alert providing indicators of compromise (IoCs) tied to the SideWinder APT group. The group is believed to be working in the interest of the Indian government, primarily targeting Pakistani and Chinese military and government entities. Their TTPs include targeting of Windows machines with weaponized Word documents and mobile phones with custom built applications. Their ultimate goal is information theft and espionage. These IoCs are specifically tied to activity targeting Pakistani Government officials via decoy NDC meeting documents. For more information, see the Rewterz alert in the Reference section.\n\n# Indicators of Compromise\n\nSee the Reports section to the right for a list of indicators of compromise.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.rewterz.com/rewterz-news/rewterz-threat-alert-sidewinder-apt-group ",
+            "collectionId": "85baaf06fad7acaff37c4c749f030850",
+            "owner": {
+                "name": "Megan Roddie",
+                "uuid": "http://www.ibm.com/5500022R9C"
+            },
+            "tags": [
+                "xftag",
+                "sidewinder",
+                "advisory",
+                "x-industry:gov",
+                "apt",
+                "x-location:south-asia",
+                "malware"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T20:30:49.163Z",
+            "modified": "2020-11-09T20:30:49.163Z"
+        }
+    ],
+    "id": "bundle--48e2f095-2848-46c6-970e-96cd7dff4110"
+}

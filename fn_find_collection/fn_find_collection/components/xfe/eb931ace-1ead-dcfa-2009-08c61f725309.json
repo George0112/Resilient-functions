@@ -1,0 +1,517 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--3a6a7d78-b9bb-b3ba-8242-1e240a7b0ebf",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.331Z",
+            "modified": "2020-11-09T16:52:17.331Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha1 hash 5b878805dc643d7e66d81b45797a3d323baa7def",
+            "description": "File hash indicator for sha1 hash 5b878805dc643d7e66d81b45797a3d323baa7def",
+            "pattern": "[ file:hashes.'SHA-1' = '5b878805dc643d7e66d81b45797a3d323baa7def' ]",
+            "valid_from": "2020-11-09T16:52:17.331Z"
+        },
+        {
+            "id": "indicator--dbc0884c-611a-4c87-b763-6f536f603fb6",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.536Z",
+            "modified": "2020-11-09T16:52:17.536Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for hmacount.com",
+            "description": "",
+            "pattern": "[ url:value = 'hmacount.com' ]",
+            "valid_from": "2020-11-09T16:52:17.536Z"
+        },
+        {
+            "id": "indicator--37ab1c87-e0c5-4baa-92ac-5e62caa5bd69",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.560Z",
+            "modified": "2020-11-09T16:52:17.560Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for arbenha.com",
+            "description": "",
+            "pattern": "[ url:value = 'arbenha.com' ]",
+            "valid_from": "2020-11-09T16:52:17.560Z"
+        },
+        {
+            "id": "indicator--23f80ef0-f296-47f0-96b4-873f42f3a023",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.561Z",
+            "modified": "2020-11-09T16:52:17.561Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for outlook-client.com",
+            "description": "",
+            "pattern": "[ url:value = 'outlook-client.com' ]",
+            "valid_from": "2020-11-09T16:52:17.561Z"
+        },
+        {
+            "id": "indicator--7cb86c77-0eff-3099-0289-db3208d3dbd4",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.570Z",
+            "modified": "2020-11-09T16:52:17.570Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash cbca9a92a6aa067ff4cab8f1d34ec49ffc9a06c90881f48da369c973182ce06d",
+            "description": "File hash indicator for sha256 hash cbca9a92a6aa067ff4cab8f1d34ec49ffc9a06c90881f48da369c973182ce06d",
+            "pattern": "[ file:hashes.'SHA-256' = 'cbca9a92a6aa067ff4cab8f1d34ec49ffc9a06c90881f48da369c973182ce06d' ]",
+            "valid_from": "2020-11-09T16:52:17.570Z"
+        },
+        {
+            "id": "indicator--6f09a7e7-e088-4d21-b373-b2d6d622eda5",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.625Z",
+            "modified": "2020-11-09T16:52:17.625Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for gservice.reviews",
+            "description": "",
+            "pattern": "[ url:value = 'gservice.reviews' ]",
+            "valid_from": "2020-11-09T16:52:17.625Z"
+        },
+        {
+            "id": "indicator--747066eb-63a2-46de-b45a-aefa6587fc60",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.631Z",
+            "modified": "2020-11-09T16:52:17.631Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for theme.blogwix.com",
+            "description": "",
+            "pattern": "[ url:value = 'theme.blogwix.com' ]",
+            "valid_from": "2020-11-09T16:52:17.631Z"
+        },
+        {
+            "id": "indicator--5d50f404-7597-4fb0-b4b4-fefe7b099988",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.643Z",
+            "modified": "2020-11-09T16:52:17.643Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "URL Report for summerevent.webhop.net",
+            "description": "Category: Communication Services\n      Description: Includes Web sites such as Web hosting and Internet Service Providers.Category: Cloud\n      Description: This category contains Web sites that provide cloud services. This includes infrastructure as a service, such as web hoster. Furthermore, platform as a service. Moreover, software as a service, for example social networks, social media, web storage, and web mail.",
+            "pattern": "[ url:value = 'summerevent.webhop.net' ]",
+            "valid_from": "2020-11-09T16:52:17.643Z"
+        },
+        {
+            "id": "indicator--eb745f37-c3bb-449d-9c60-18ecd25a55fe",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.660Z",
+            "modified": "2020-11-09T16:52:17.660Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for gusercontent.com",
+            "description": "",
+            "pattern": "[ url:value = 'gusercontent.com' ]",
+            "valid_from": "2020-11-09T16:52:17.660Z"
+        },
+        {
+            "id": "indicator--e55b6ea1-2f4e-4c1c-a43e-af8792a733cf",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.676Z",
+            "modified": "2020-11-09T16:52:17.676Z",
+            "labels": [
+                "anomalous-activity",
+                "xfe-threat-score-4"
+            ],
+            "name": "URL Report for dance-til-dawn.podzone.net",
+            "description": "Category: Pornography\n      Description: Includes Web sites containing the depiction of sexually explicit activities and erotic content unsuitable to persons under the age of 18.",
+            "pattern": "[ url:value = 'dance-til-dawn.podzone.net' ]",
+            "valid_from": "2020-11-09T16:52:17.676Z"
+        },
+        {
+            "id": "indicator--668a2f07-752a-4f6e-8c01-a5a5b7df8b2a",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:17.735Z",
+            "modified": "2020-11-09T16:52:17.735Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for yhsetting.com",
+            "description": "",
+            "pattern": "[ url:value = 'yhsetting.com' ]",
+            "valid_from": "2020-11-09T16:52:17.735Z"
+        },
+        {
+            "id": "indicator--f0b78463-3344-40d4-a334-2cdc77ec7204",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:18.128Z",
+            "modified": "2020-11-09T16:52:18.128Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "URL Report for andreagahuvrauvin.com",
+            "description": "Category: General Business\n      Description: This category includes Web sites of industry, business, economy and supply of services.",
+            "pattern": "[ url:value = 'andreagahuvrauvin.com' ]",
+            "valid_from": "2020-11-09T16:52:18.128Z"
+        },
+        {
+            "id": "indicator--e9b556ff-5a1c-429d-ac73-a1cbd1e2903b",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:18.361Z",
+            "modified": "2020-11-09T16:52:18.361Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ledanvietnam.org",
+            "description": "",
+            "pattern": "[ url:value = 'ledanvietnam.org' ]",
+            "valid_from": "2020-11-09T16:52:18.361Z"
+        },
+        {
+            "id": "indicator--873e3121-d487-0980-23db-499d5d1da9d8",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:18.597Z",
+            "modified": "2020-11-09T16:52:18.597Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 230ac0808fde525306d6e55d389849f67fc328968c433a5053d676d688032e6f",
+            "description": "File hash indicator for sha256 hash 230ac0808fde525306d6e55d389849f67fc328968c433a5053d676d688032e6f",
+            "pattern": "[ file:hashes.'SHA-256' = '230ac0808fde525306d6e55d389849f67fc328968c433a5053d676d688032e6f' ]",
+            "valid_from": "2020-11-09T16:52:18.597Z"
+        },
+        {
+            "id": "indicator--5f08fa83-52f7-41d3-a506-c7a75b34b771",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:18.775Z",
+            "modified": "2020-11-09T16:52:18.775Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for tinmoivietnam.com",
+            "description": "",
+            "pattern": "[ url:value = 'tinmoivietnam.com' ]",
+            "valid_from": "2020-11-09T16:52:18.775Z"
+        },
+        {
+            "id": "indicator--89d2fdb7-88a6-4ca3-8665-a69bb96bc1b6",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:19.129Z",
+            "modified": "2020-11-09T16:52:19.129Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-2"
+            ],
+            "name": "URL Report for https://www.dropbox.com/s/puhwqhjcvn2xuum/Adobe_Flash_Install.rar?dl=1",
+            "description": "Category: Web Storage\n      Description: This category includes Web sites that offer file system-like services to share or backup files, often combined with user definable access rights.Category: Cloud\n      Description: This category contains Web sites that provide cloud services. This includes infrastructure as a service, such as web hoster. Furthermore, platform as a service. Moreover, software as a service, for example social networks, social media, web storage, and web mail.",
+            "pattern": "[ url:value = 'https://www.dropbox.com/s/puhwqhjcvn2xuum/Adobe_Flash_Install.rar?dl=1' ]",
+            "valid_from": "2020-11-09T16:52:19.129Z"
+        },
+        {
+            "id": "indicator--0cdcbd3c-8a89-42cb-9d34-194e30b4193e",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:19.213Z",
+            "modified": "2020-11-09T16:52:19.213Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for khmerleaks.com",
+            "description": "",
+            "pattern": "[ url:value = 'khmerleaks.com' ]",
+            "valid_from": "2020-11-09T16:52:19.213Z"
+        },
+        {
+            "id": "indicator--4121046a-960e-28c6-5b8f-9f46cbc04ba4",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:19.552Z",
+            "modified": "2020-11-09T16:52:19.552Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 7fd58fa4c9f24114c08b3265d30be5aa8f6519ebd2310cc6956eda6c6e6f56f0",
+            "description": "File hash indicator for sha256 hash 7fd58fa4c9f24114c08b3265d30be5aa8f6519ebd2310cc6956eda6c6e6f56f0",
+            "pattern": "[ file:hashes.'SHA-256' = '7fd58fa4c9f24114c08b3265d30be5aa8f6519ebd2310cc6956eda6c6e6f56f0' ]",
+            "valid_from": "2020-11-09T16:52:19.552Z"
+        },
+        {
+            "id": "indicator--15a8874e-3853-4b49-adfa-c7d9143429b4",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:19.751Z",
+            "modified": "2020-11-09T16:52:19.751Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "URL Report for hypepodscase.com",
+            "description": "Category: General Business\n      Description: This category includes Web sites of industry, business, economy and supply of services.",
+            "pattern": "[ url:value = 'hypepodscase.com' ]",
+            "valid_from": "2020-11-09T16:52:19.751Z"
+        },
+        {
+            "id": "indicator--4f4ee671-ebea-4075-b721-57ecf1e8b06e",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:19.948Z",
+            "modified": "2020-11-09T16:52:19.948Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for viewerservice.com",
+            "description": "",
+            "pattern": "[ url:value = 'viewerservice.com' ]",
+            "valid_from": "2020-11-09T16:52:19.948Z"
+        },
+        {
+            "id": "indicator--61c71a09-a0a8-43cb-9b17-69febaa52124",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:19.995Z",
+            "modified": "2020-11-09T16:52:19.995Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for serrvice.net",
+            "description": "",
+            "pattern": "[ url:value = 'serrvice.net' ]",
+            "valid_from": "2020-11-09T16:52:19.995Z"
+        },
+        {
+            "id": "indicator--d30225f0-768d-4cda-b2bd-5f0f6065186b",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:20.068Z",
+            "modified": "2020-11-09T16:52:20.068Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for fontloading.com",
+            "description": "",
+            "pattern": "[ url:value = 'fontloading.com' ]",
+            "valid_from": "2020-11-09T16:52:20.068Z"
+        },
+        {
+            "id": "indicator--1e527361-f8c1-42ba-a557-c9fbc0414404",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:22.570Z",
+            "modified": "2020-11-09T16:52:22.570Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for nhansudaihoi13.org",
+            "description": "",
+            "pattern": "[ url:value = 'nhansudaihoi13.org' ]",
+            "valid_from": "2020-11-09T16:52:22.570Z"
+        },
+        {
+            "id": "indicator--f0594f31-7e8d-4e1c-8485-705505330f73",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:35.469Z",
+            "modified": "2020-11-09T16:52:35.469Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for kmernews.com",
+            "description": "",
+            "pattern": "[ url:value = 'kmernews.com' ]",
+            "valid_from": "2020-11-09T16:52:35.469Z"
+        },
+        {
+            "id": "indicator--47fca4f9-aecb-42d6-bb1e-907c2753f1cf",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:37.659Z",
+            "modified": "2020-11-09T16:52:37.659Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for laostimenews.com",
+            "description": "",
+            "pattern": "[ url:value = 'laostimenews.com' ]",
+            "valid_from": "2020-11-09T16:52:37.659Z"
+        },
+        {
+            "id": "indicator--5aa43aa4-ca2e-4200-86ed-670dfad26f48",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:38.374Z",
+            "modified": "2020-11-09T16:52:38.374Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for baodachieu.com",
+            "description": "",
+            "pattern": "[ url:value = 'baodachieu.com' ]",
+            "valid_from": "2020-11-09T16:52:38.374Z"
+        },
+        {
+            "id": "indicator--275c37e5-6874-48ce-8934-436209e55f79",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:41.445Z",
+            "modified": "2020-11-09T16:52:41.445Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for baomoivietnam.com",
+            "description": "",
+            "pattern": "[ url:value = 'baomoivietnam.com' ]",
+            "valid_from": "2020-11-09T16:52:41.445Z"
+        },
+        {
+            "id": "indicator--1b1bd5f2-835f-4dc9-b870-5d7606772731",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:42.699Z",
+            "modified": "2020-11-09T16:52:42.699Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for khmer-livenews.com",
+            "description": "",
+            "pattern": "[ url:value = 'khmer-livenews.com' ]",
+            "valid_from": "2020-11-09T16:52:42.699Z"
+        },
+        {
+            "id": "indicator--b13ecf71-b94a-4b6b-bdf6-1c5d6df4927f",
+            "type": "indicator",
+            "created": "2020-11-09T16:52:59.223Z",
+            "modified": "2020-11-09T16:52:59.223Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for philiippinesnews.net",
+            "description": "",
+            "pattern": "[ url:value = 'philiippinesnews.net' ]",
+            "valid_from": "2020-11-09T16:52:59.223Z"
+        },
+        {
+            "id": "indicator--323bf683-6e9d-47e1-b535-38e5a9b27bb8",
+            "type": "indicator",
+            "created": "2020-11-09T16:53:19.336Z",
+            "modified": "2020-11-09T16:53:19.336Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for malaynews.org",
+            "description": "",
+            "pattern": "[ url:value = 'malaynews.org' ]",
+            "valid_from": "2020-11-09T16:53:19.336Z"
+        },
+        {
+            "id": "indicator--5d8173ce-7f5c-4f51-85fd-0bf7a233ce21",
+            "type": "indicator",
+            "created": "2020-11-09T16:53:24.902Z",
+            "modified": "2020-11-09T16:53:24.902Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for thamcungbisu.org",
+            "description": "",
+            "pattern": "[ url:value = 'thamcungbisu.org' ]",
+            "valid_from": "2020-11-09T16:53:24.902Z"
+        },
+        {
+            "id": "indicator--323bf683-6e9d-47e1-b535-38e5a9b27bb8",
+            "type": "indicator",
+            "created": "2020-11-09T16:53:27.777Z",
+            "modified": "2020-11-09T16:53:27.777Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for malaynews.org",
+            "description": "",
+            "pattern": "[ url:value = 'malaynews.org' ]",
+            "valid_from": "2020-11-09T16:53:27.777Z"
+        },
+        {
+            "id": "indicator--5d8173ce-7f5c-4f51-85fd-0bf7a233ce21",
+            "type": "indicator",
+            "created": "2020-11-09T16:53:35.847Z",
+            "modified": "2020-11-09T16:53:35.847Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for thamcungbisu.org",
+            "description": "",
+            "pattern": "[ url:value = 'thamcungbisu.org' ]",
+            "valid_from": "2020-11-09T16:53:35.847Z"
+        },
+        {
+            "type": "report",
+            "id": "report--eb931ace-1ead-dcfa-2009-08c61f725309",
+            "name": "OceanLotus Extending Cyber Espionage Operations Through Fake Websites",
+            "published": "2020-11-09T20:32:19.817Z",
+            "created": "2020-11-09T20:32:19.817Z",
+            "modified": "2020-11-09T20:32:19.817Z",
+            "labels": [
+                "x-location:sea",
+                "hive0013",
+                "xfti",
+                "cobaltstrike",
+                "xftag",
+                "malware",
+                "advisory",
+                "espionage"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nExpanding on their previous research into the OceanLotus threat group, Volexity reports on recent campaigns using fake news websites built to target victims in Southeast Asia.\n\n# Threat Type\n\n- Malware\n\n# Overview\n\nVolexity has published a blog post analyzing recent OceanLotus campaigns targeting victims in Southeast Asia. As with previous campaigns, the initial infection source was websites' relation to news in the targeted regions; however, instead of leveraging compromised, legitimate news sites, OceanLotus stood up their own websites. The content on the website appears to have been obtained via legitimate news sources, which Volexity believes is automatically done through a WordPress plugin. Some websites include malicious content on the majority of pages while others include the code only on specific pages, the latter of which are likely used in more targeted attacks where the link is sent via spear phishing messages. The infected pages executed two scripts, one to capture and store information and the other to display a malicious download link. Depending on the type of device the victim is visiting the page from, different links may be displayed. On mobile devices, a link that is currently offline is provided, but Volexity believes that at one point a phishing page was hosted there. On Windows systems, a fake Flash Player download is provided. On all other systems, an error message is displayed. In the case of Windows hosts, the sample analyzed by the researchers led to the download of a RAR archive containing a legitimate copy of Google's Update utility (masquerading as the Adobe Flash installer) and a malicious DLL. DLL side-loading is used to execute the malicious code when the legitimate executable is opened. The DLL loads a Cobalt Strike stager into memory that, in turn, downloads a Cobalt Strike Beacon from a C2 server. For more information, see the Volexity blog post in the Reference section.\n\n# Indicators of Compromise\n\nSee the Reports section to the right for a list of indicators of compromise.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--eb931ace-1ead-dcfa-2009-08c61f725309",
+            "collectionTitle": "OceanLotus Extending Cyber Espionage Operations Through Fake Websites",
+            "collectionWikiContent": "Summary\nExpanding on their previous research into the OceanLotus threat group, Volexity reports on recent campaigns using fake news websites built to target victims in Southeast Asia.\nThreat Type\nMalware\nOverview\nVolexity has published a blog post analyzing recent OceanLotus campaigns targeting victims in Southeast Asia. As with previous campaigns, the initial infection source was websites' relation to news in the targeted regions; however, instead of leveraging compromised, legitimate news sites, OceanLotus stood up their own websites. The content on the website appears to have been obtained via legitimate news sources, which Volexity believes is automatically done through a WordPress plugin. Some websites include malicious content on the majority of pages while others include the code only on specific pages, the latter of which are likely used in more targeted attacks where the link is sent via spear phishing messages. The infected pages executed two scripts, one to capture and store information and the other to display a malicious download link. Depending on the type of device the victim is visiting the page from, different links may be displayed. On mobile devices, a link that is currently offline is provided, but Volexity believes that at one point a phishing page was hosted there. On Windows systems, a fake Flash Player download is provided. On all other systems, an error message is displayed. In the case of Windows hosts, the sample analyzed by the researchers led to the download of a RAR archive containing a legitimate copy of Google's Update utility (masquerading as the Adobe Flash installer) and a malicious DLL. DLL side-loading is used to execute the malicious code when the legitimate executable is opened. The DLL loads a Cobalt Strike stager into memory that, in turn, downloads a Cobalt Strike Beacon from a C2 server. For more information, see the Volexity blog post in the Reference section.\nIndicators of Compromise\nSee the Reports section to the right for a list of indicators of compromise.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites",
+            "collectionWikiMarkdown": "# Summary\n\nExpanding on their previous research into the OceanLotus threat group, Volexity reports on recent campaigns using fake news websites built to target victims in Southeast Asia.\n\n# Threat Type\n\n- Malware\n\n# Overview\n\nVolexity has published a blog post analyzing recent OceanLotus campaigns targeting victims in Southeast Asia. As with previous campaigns, the initial infection source was websites' relation to news in the targeted regions; however, instead of leveraging compromised, legitimate news sites, OceanLotus stood up their own websites. The content on the website appears to have been obtained via legitimate news sources, which Volexity believes is automatically done through a WordPress plugin. Some websites include malicious content on the majority of pages while others include the code only on specific pages, the latter of which are likely used in more targeted attacks where the link is sent via spear phishing messages. The infected pages executed two scripts, one to capture and store information and the other to display a malicious download link. Depending on the type of device the victim is visiting the page from, different links may be displayed. On mobile devices, a link that is currently offline is provided, but Volexity believes that at one point a phishing page was hosted there. On Windows systems, a fake Flash Player download is provided. On all other systems, an error message is displayed. In the case of Windows hosts, the sample analyzed by the researchers led to the download of a RAR archive containing a legitimate copy of Google's Update utility (masquerading as the Adobe Flash installer) and a malicious DLL. DLL side-loading is used to execute the malicious code when the legitimate executable is opened. The DLL loads a Cobalt Strike stager into memory that, in turn, downloads a Cobalt Strike Beacon from a C2 server. For more information, see the Volexity blog post in the Reference section.\n\n# Indicators of Compromise\n\nSee the Reports section to the right for a list of indicators of compromise.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.volexity.com/blog/2020/11/06/oceanlotus-extending-cyber-espionage-operations-through-fake-websites",
+            "collectionId": "eb931ace1eaddcfa200908c61f725309",
+            "owner": {
+                "name": "Megan Roddie",
+                "uuid": "http://www.ibm.com/5500022R9C"
+            },
+            "tags": [
+                "x-location:sea",
+                "hive0013",
+                "xfti",
+                "cobaltstrike",
+                "xftag",
+                "malware",
+                "advisory",
+                "espionage"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T20:32:19.817Z",
+            "modified": "2020-11-09T20:32:19.817Z"
+        }
+    ],
+    "id": "bundle--ec13d3e5-2be5-48fa-ac97-832ebca98977"
+}

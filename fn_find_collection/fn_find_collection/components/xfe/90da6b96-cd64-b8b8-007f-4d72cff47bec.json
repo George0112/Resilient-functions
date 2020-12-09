@@ -1,0 +1,339 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--c204a23e-3e88-4ec9-b796-ba57978bda52",
+            "type": "indicator",
+            "created": "2015-12-23T07:21:00.000Z",
+            "modified": "2019-11-06T07:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 156.255.121.104",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '156.255.121.104' ]",
+            "valid_from": "2019-11-06T07:52:00.000Z"
+        },
+        {
+            "id": "indicator--f1983bac-5d79-487c-8bd3-de9d7185f239",
+            "type": "indicator",
+            "created": "2020-02-13T15:24:03.926Z",
+            "modified": "2020-02-13T15:24:03.926Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for kajxushwnds.com",
+            "description": "Category: Early Warning\n      Description: This category contains potentially malicious domains identified by analysing DNS traffic.",
+            "pattern": "[ url:value = 'kajxushwnds.com' ]",
+            "valid_from": "2020-02-13T15:24:03.926Z"
+        },
+        {
+            "id": "indicator--c97a9cde-04a1-4544-b5f2-513f365ac56c",
+            "type": "indicator",
+            "created": "2015-12-23T07:21:00.000Z",
+            "modified": "2019-11-06T07:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 156.255.121.95",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '156.255.121.95' ]",
+            "valid_from": "2019-11-06T07:52:00.000Z"
+        },
+        {
+            "id": "indicator--04cf5e66-6957-4ebe-bfec-6eb5557d209c",
+            "type": "indicator",
+            "created": "2020-02-14T12:36:09.720Z",
+            "modified": "2020-02-14T12:36:09.720Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for btjbnmmjh.com",
+            "description": "Category: Early Warning\n      Description: This category contains potentially malicious domains identified by analysing DNS traffic.",
+            "pattern": "[ url:value = 'btjbnmmjh.com' ]",
+            "valid_from": "2020-02-14T12:36:09.720Z"
+        },
+        {
+            "id": "indicator--5632f094-1c96-48cb-a2e0-a06cf8ce2f33",
+            "type": "indicator",
+            "created": "2020-02-14T12:36:09.798Z",
+            "modified": "2020-02-14T12:36:09.798Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://btjbnmmjh.com/dvalsr/arm",
+            "description": "Category: Early Warning\n      Description: This category contains potentially malicious domains identified by analysing DNS traffic.",
+            "pattern": "[ url:value = 'http://btjbnmmjh.com/dvalsr/arm' ]",
+            "valid_from": "2020-02-14T12:36:09.798Z"
+        },
+        {
+            "id": "indicator--2f6e85a3-28e6-4d3e-b982-3d1c6f52d84c",
+            "type": "indicator",
+            "created": "2020-02-14T16:16:07.077Z",
+            "modified": "2020-02-14T16:16:07.077Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for http://156.255.121.95:8080/dvalsr/arm",
+            "description": "",
+            "pattern": "[ url:value = 'http://156.255.121.95:8080/dvalsr/arm' ]",
+            "valid_from": "2020-02-14T16:16:07.077Z"
+        },
+        {
+            "id": "indicator--5632f094-1c96-48cb-a2e0-a06cf8ce2f33",
+            "type": "indicator",
+            "created": "2020-02-14T18:43:18.000Z",
+            "modified": "2020-02-14T18:43:18.000Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://btjbnmmjh.com/dvalsr/arm",
+            "description": "Category: Early Warning\n      Description: This category contains potentially malicious domains identified by analysing DNS traffic.",
+            "pattern": "[ url:value = 'http://btjbnmmjh.com/dvalsr/arm' ]",
+            "valid_from": "2020-02-14T18:43:18.000Z"
+        },
+        {
+            "id": "indicator--04cf5e66-6957-4ebe-bfec-6eb5557d209c",
+            "type": "indicator",
+            "created": "2020-02-14T18:52:49.479Z",
+            "modified": "2020-02-14T18:52:49.479Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for btjbnmmjh.com",
+            "description": "Category: Early Warning\n      Description: This category contains potentially malicious domains identified by analysing DNS traffic.",
+            "pattern": "[ url:value = 'btjbnmmjh.com' ]",
+            "valid_from": "2020-02-14T18:52:49.479Z"
+        },
+        {
+            "id": "indicator--06f97e13-99cd-85bd-3996-4bcbe2444e51",
+            "type": "indicator",
+            "created": "2020-02-17T12:31:45.724Z",
+            "modified": "2020-02-17T12:31:45.724Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d",
+            "description": "File hash indicator for sha256 hash 024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d",
+            "pattern": "[ file:hashes.'SHA-256' = '024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d' ]",
+            "valid_from": "2020-02-17T12:31:45.724Z"
+        },
+        {
+            "id": "indicator--b8e0b26a-93f7-b167-c045-3d60ac67e758",
+            "type": "indicator",
+            "created": "2020-02-17T12:31:45.850Z",
+            "modified": "2020-02-17T12:31:45.850Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c",
+            "description": "File hash indicator for sha256 hash 27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c",
+            "pattern": "[ file:hashes.'SHA-256' = '27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c' ]",
+            "valid_from": "2020-02-17T12:31:45.850Z"
+        },
+        {
+            "id": "indicator--4a8527c6-97c3-4da8-9146-7ff8d042135a",
+            "type": "indicator",
+            "created": "2020-02-17T12:31:50.644Z",
+            "modified": "2020-02-17T12:31:50.644Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://btjbnmmjh.com:8080/dvalsr/res.dat",
+            "description": "Category: Early Warning\n      Description: This category contains potentially malicious domains identified by analysing DNS traffic.",
+            "pattern": "[ url:value = 'http://btjbnmmjh.com:8080/dvalsr/res.dat' ]",
+            "valid_from": "2020-02-17T12:31:50.644Z"
+        },
+        {
+            "id": "indicator--2f6e85a3-28e6-4d3e-b982-3d1c6f52d84c",
+            "type": "indicator",
+            "created": "2020-02-17T12:32:34.060Z",
+            "modified": "2020-02-17T12:32:34.060Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://156.255.121.95:8080/dvalsr/arm",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://156.255.121.95:8080/dvalsr/arm' ]",
+            "valid_from": "2020-02-17T12:32:34.060Z"
+        },
+        {
+            "id": "indicator--c97a9cde-04a1-4544-b5f2-513f365ac56c",
+            "type": "indicator",
+            "created": "2015-12-23T07:21:00.000Z",
+            "modified": "2020-02-17T08:59:00.000Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-8.6"
+            ],
+            "name": "IP Report for IP address 156.255.121.95",
+            "description": "The website on this IP address contains content of the aforementioned category.",
+            "pattern": "[ ipv4-addr:value = '156.255.121.95' ]",
+            "valid_from": "2020-02-17T08:59:00.000Z"
+        },
+        {
+            "id": "indicator--a065530e-2fcd-db69-1542-5de99b2cc7aa",
+            "type": "indicator",
+            "created": "2020-02-17T13:05:20.234Z",
+            "modified": "2020-02-17T13:05:20.234Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854",
+            "description": "File hash indicator for sha256 hash 1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854",
+            "pattern": "[ file:hashes.'SHA-256' = '1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854' ]",
+            "valid_from": "2020-02-17T13:05:20.234Z"
+        },
+        {
+            "id": "indicator--3bf9cdf6-179c-9f2e-a197-e05168acb939",
+            "type": "indicator",
+            "created": "2020-02-17T13:05:20.270Z",
+            "modified": "2020-02-17T13:05:20.270Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2",
+            "description": "File hash indicator for sha256 hash e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2",
+            "pattern": "[ file:hashes.'SHA-256' = 'e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2' ]",
+            "valid_from": "2020-02-17T13:05:20.270Z"
+        },
+        {
+            "id": "indicator--41d92a91-134d-4dd2-be10-8e90e0331dec",
+            "type": "indicator",
+            "created": "2020-02-17T13:06:21.622Z",
+            "modified": "2020-02-17T13:06:21.622Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://156.255.121.95:8080/dvalsr/res.dat",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://156.255.121.95:8080/dvalsr/res.dat' ]",
+            "valid_from": "2020-02-17T13:06:21.622Z"
+        },
+        {
+            "id": "indicator--41d92a91-134d-4dd2-be10-8e90e0331dec",
+            "type": "indicator",
+            "created": "2020-02-17T15:33:46.143Z",
+            "modified": "2020-02-17T15:33:46.143Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://156.255.121.95:8080/dvalsr/res.dat",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://156.255.121.95:8080/dvalsr/res.dat' ]",
+            "valid_from": "2020-02-17T15:33:46.143Z"
+        },
+        {
+            "id": "indicator--41d92a91-134d-4dd2-be10-8e90e0331dec",
+            "type": "indicator",
+            "created": "2020-02-17T20:26:51.732Z",
+            "modified": "2020-02-17T20:26:51.732Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://156.255.121.95:8080/dvalsr/res.dat",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://156.255.121.95:8080/dvalsr/res.dat' ]",
+            "valid_from": "2020-02-17T20:26:51.732Z"
+        },
+        {
+            "id": "indicator--c97a9cde-04a1-4544-b5f2-513f365ac56c",
+            "type": "indicator",
+            "created": "2015-12-23T07:21:00.000Z",
+            "modified": "2020-02-17T08:59:00.000Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-8.6"
+            ],
+            "name": "IP Report for IP address 156.255.121.95",
+            "description": "The website on this IP address contains content of the aforementioned category.",
+            "pattern": "[ ipv4-addr:value = '156.255.121.95' ]",
+            "valid_from": "2020-02-17T08:59:00.000Z"
+        },
+        {
+            "id": "indicator--c97a9cde-04a1-4544-b5f2-513f365ac56c",
+            "type": "indicator",
+            "created": "2015-12-23T07:21:00.000Z",
+            "modified": "2020-02-17T08:59:00.000Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-8.6"
+            ],
+            "name": "IP Report for IP address 156.255.121.95",
+            "description": "The website on this IP address contains content of the aforementioned category.",
+            "pattern": "[ ipv4-addr:value = '156.255.121.95' ]",
+            "valid_from": "2020-02-17T08:59:00.000Z"
+        },
+        {
+            "type": "report",
+            "id": "report--90da6b96-cd64-b8b8-007f-4d72cff47bec",
+            "name": "Chalubo - DDoS Botnet Targeting The United States",
+            "published": "2020-11-10T12:20:41.127Z",
+            "created": "2020-09-25T13:22:45.337Z",
+            "modified": "2020-11-10T12:20:41.127Z",
+            "labels": [
+                "advisory",
+                "iris",
+                "x-force",
+                "quad9",
+                "ddos",
+                "botnet",
+                "chalubo",
+                "iot",
+                "xftas",
+                "malware"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nResearchers discovered the Chalubo DDoS Botnet in August 2018, but before long it went silent or at least was not significantly active in any DDoS attacks since then. X-Force Threat Intelligence has now observed a revival with many weakly protected IoT devices from the United States affected. \n\n# Threat Type\n\n- DDoS, Botnet\n\n# Overview\n\nWhen researchers discovered the Chalubo DDoS Botnet in August 2018, it appeared to be on the rise by attacking weak protected SSH servers. Those Linux servers were vulnerable through the secure shell, which is used for the remote administration.\n\nThis same administration method is used by many IoT devices, such as consumer connected devices including smart TVs, smart speakers, toys, wearables and smart appliances, to name a few.\n\nThe botnet's characteristics include a downloader, bot, and Lua script. The bot and its corresponding Lua script are encrypted by using the ChaCha-IETF stream cipher. Variants of the Chalubo Botnet exist for execution on different platforms such as ARM, X86, X64, MIPS, PPC, and MIPS.\n\nAfter a period of silence, X-Force Threat Intelligence has observed a revival as it appears that many weakly protected IoT devices from the United States are affected.\n\nBefore X-Force Threat Intelligence identified the Chalubo Botnet being revived, we identified several massive spikes of calls towards domains we initially marked as malicious back in December 2019, starting with kajxushwnds.com, which was registered in August 9th, 2019. The domain was blocked by the X-Force DNS Analytics source on December 16th, 2019. From then on, the telemetry data constantly showed attempts to contact the domain.\n\nIt finally caught our full attention in early January when we observed a huge increase in those call attempts that continue up to date. Analysis of the URL in various methods left us with a lot of unanswered questions at first, so we started to investigate on the IP instead.\n\nThe domain is hosted on the IP 156.255.121.104 by a Hong Kong based cloud hosting provider, whereas the IP itself is located in the Seychelles. While the domain, despite reaching millions of hits per day, left us with no other signs to track and investigate, the IP turned out to provide more insight.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/45b7bd786106dce21e2ac4b7bdd1b018/2fdf36b006cde8eaccab\n\nkajxushwnds.com  `_blockings_ _based on telemetry data from Quad 9_`\n\nOf particular note, is that the telemetry data which we received from the Quad 9 DNS only points to access attempts within the United States. Since the Chalubo botnet focuses on IoT devices, those millions hits can be attributed to infected IoT devices trying to communicate with the C2 server in order to receive new instructions.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/c9b269a219f849d8b6adf2c85e868e39/23df37c42a44961b6e0f\n\n`_Client Cities Distribution: Top 20 cities with infected Chalubo clients_`\n\nWhile we analyzed the hosting IP, we unfortunately did not find any further suspicious signs, but we widened our search for the whole class C net and found interesting correlations.\n\nOne that attracted our attention was the IP 156.255.121.95. Given that this IP only hosted the domain btjbnmmjh.com with a similar cryptic appearance to the first one, we threw it in our database and found quickly it to be listed in our list of top blocked domains as well. \n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/570169acbe114f9237deabc1b5797b7d/d511f2ea4146dc48dda3\n\nComparing both graphs shows almost identical peaks in the blockings statistics at the same time range. Although lower in numbers, the count was still in the millions. Not only do the access attempts correlate, but also both domains were registered by the same registrar Enom, Inc. The only difference we could identify in our research was that btjbnmmjh.com was registered back in May 15th, 2019.\n\nWe continued our analysis, but this time with a focus on the second domain. We quickly identified the subpath http://btjbnmmjh.com/dvalsr/arm, although it failed to resolve. The characteristics pointed towards a botnet affiliation, which led us, based on our experience on botnet detection, to check the webserver IP http://156.255.121.95:8080/DVALSR/arm with the same path instead. \n\nIt turned out, that our experience was proven right, and we were able to access a direct download for an ARM file. The next section is dedicated the to file analysis by reverse engineering the ARM file. \n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/0cf7d2da93c74e666df9588a5a503ecb/07bccbfc1aec6c60cc6a\n\n# File Analysis \n\n## Downloader\n\nThe downloader tries to download, decrypt, and run the encrypted Chalubo bot. Once the bot is downloaded, the downloader will use a modified version of ChaCha20 stream cipher called ChaCha-IETF to decrypt the Chalubo bot. The ChaCha-IETF implementation used in the downloader requires a 32-byte key, a 12-byte nonce, and a 4-byte counter:\n\n`Fig1:`\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/9e84d27a14d52d3fda9f090d024a777a/64d240f28b94a3debf1b\n\nThe ChaCha key used in the downloader is:\n\n```\nfa 40 88 55 30 4c a1 99 f6 80 b4 94 b6 9e f4 73 dd 9c 5a 5e 0e 78 ba a4 44 04 8b 82 a8 bd 97 a9\n```\n\n`Fig2:`\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/1d957ea95c09bf2d77a38111dc79030a/9bea1b4d9551098ec495\n\nThe ChaCha nonce used in the downloader is: \n\n```\n00 00 00 00 00 00 00 4a 00 00 00 01\n```\n\n`Fig3:`\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/5a3281358552748e2c2ec5057db05de6/20285a3e72e52c33be1b\n\nAnd the counter is 1.\n\nOnce the downloaded bot is decrypted, the downloader will use LZMA to decompress it and execute it using the execve() function.\n\n## ARM\n\nThe malware sample `arm` (SHA256: 024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d ) is an encrypted bot downloaded by the downloader. We implemented a decrypt routine to decrypt and decompress it using the ChaCha-IETF implementation. The decrypted `arm` is an ELF file (SHA256: 27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c ) \n\nThe ELF file is the actual Chalubo bot. It has a built-in Lua script that can be used to download and execute another Lua script from the Command and Control (C2) server. We found the below listed C2 servers hardcoded in the malware.\n\n http://btjbnmmjh.com:8080/DVALSR/res.dat \n http://156.255.121.95:8080/DVALSR/res.dat \n\nThe built-in Lua script will also use the same ChaCha-IETF implementation to decrypt the downloaded Lua script res.dat. The ChaCha key used in the bot is different from the downloader. The value of ChaCha key in the bot is:\n\n```\n00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f\n```\n\nFig4:\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/c718e06c5878c824a3f750dd93cdcb93/17f9128787ae8af5a929\n\nThe bot uses same ChaCha nonce in the downloader, which is:\n\n```\n00 00 00 00 00 00 00 4a 00 00 00 01\n```\n\nOnce the downloaded Lua script is decrypted using task_decrypt function, the bot will call create_task_group function to execute it: \n\n```\nif code ~= 200 and code ~= 304 then\n  select_lua_task_url()\n end\n fail_count = 0\n task_grpid = 0\n restart = false \n function kill_task()\n  if task_grpid ~= 0 then\n  kill_task_group(task_grpid)\n  end\n end\n while true do\n  if code == 200 then\n  kill_task()\n  if body ~= nil and string.len(body) ~= 0 then\n  body = task_decrypt(body) \n  task_grpid = create_task_group(body)\n  end\n  restart = false\n  print(\"[lua] Download Succeed\")\n  sock.sleep(295)\n  fail_count = 0\n  elseif code == 304 then\n  --print(\"Download Not Modified\")\n  if restart then\n  if body ~= nil and string.len(body) ~= 0 then\n  task_grpid = create_task_group(body)\n```\n\nThe downloaded Lua script is res.dat (SHA256: e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2 )\n\n# RES.DAT \n\nOnce the bot successfully decrypted the res.dat, the bot will execute the decrypted res.dat which is another Lua script (SHA256: 1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854 ). The purpose of this Lua script is straight forward. It builds functions such as get, post functions. The User-Agent is selected from 22 items: \n\nFig5:\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/b9d06b4fb292abddd9fb05f532af45fb/7e5299286d7314e70a1f\n\nThe Lua script tries to generate 1,000,000 times HTTP/HTTPS GET request to the target: \n\n\ud83d\udcf7 \n\nFig6:\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/28e185db0602d8f429cbf801ecec92e6/eca05d0be7ba5cc70ca8\n\nThe current victims are:\n\n```\nhttps://www.duote.com/ \n```\n\nThere are many potential victim URLs that are commented at the end of the Lua script as shown in the figure 6 above where duote.com among them is a Chinese APK mirror page for android apps. \n\n# Conclusion\n\nWhen recapping the information above, we'll come inevitably to the question: How does the infection work and who is it targeting? \n\nThe Chalubo botnet was discovered as an IoT-DDoS-Botnet. Un-/weak protected IoT devices like webcams, smart devices, routers, weather stations etc. will be penetrated by the attackers and once accessed the device with admin permission, services like firewalls will be stopped and read-write-execute permission on specific folders established. \n\nThis allows amongst other things to install the malware and its scripts. Targets can vary, especially in DDoS business. The current target list was filled with chinese websites and services, but those can be exchanged quickly in an update which the C2 servers releases to it's botnet clients. Today's threat business models also tend to laterally move towards services. Malware as a Service, DDoS as a Service or Spam as a Service are already models that exists and which threat actors use to execute their campaigns. If Chalubo is also part of such business model, then it's just a matter of time until future cyber criminals decides to rent this botnet for an attack. The targets are then up to them. \n\nBut it's not only how the botnet works or what their current targets are what made us find this case so interesting. It was the view from the client infection perspective that made us wonder. Since the domains btjbnmmjh.com and kajxushwnds.com are hit by users in the U.S in the millions, this fact alone opposes a potential threat when later the targets in the script are updated via the C2 server. \n\nIt also still shows the gap between users with good protected environments and users who install devices and hardware with the out of the box credentials that are easily brute forced. And it is very likely that those users don't even know that they are part of a botnet. \n\nX-Force Threat Intelligence will continue to monitor for such events and will keep you up to date.\n\n# Update\n\nAfter a long period of inactivity, IBM X-Force started to see a new short spike in telemetry hits on the kajxushwnds.com domain. This raises the question, whether the botnet owner reactivated the C2 server in order to transfer new commands to the IoT devices which resulted in a spike of blockings. The graph below shows the timeline of the activity in detail.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/d7c252bdb261f6289d2d74ddacbf145a/959120e0aef095cde087\n\n# Update 2\n\nOne and a half month ago, we reported in a small update about a spike in our telemetry data that shows a sudden increase in traffic towards the Chalubo Botnet C2 server kajxushwnds.com. Our recent monitoring was able to determine a new activity towards this domain shown in the timeline below.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/c2b860bdc0dedd75f24092814c350d27/b2bd5b6f89f90fce9921\n\nThe main activity started slow in low volume at 8:00 A.M on November 1st. 2020 and lasted until 2:00 P.M on November 2nd. 2020. The main increase in volume occurs in the afternoon of November 1st at around 4:00 P.M. \n\nIt is uncertain what caused the massive increase, as it could have many reasons. One plausible theory however could be that the infected IoT devices might have received a command from the botnet C2 server in order to check by and collect a new payload.\n\n# Update 3\n\nAfter pausing for two days, we observed yet another increase in our telemetry data towards the Chalubo Botnet C2 server kajxushwnds.com . In this occasion we observed a sudden increase in traffic on the evening of November 4th that stopped on November 7th, as shown in the timeline below.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/30830dc8e6e51a6daefeccb7380c2885/1ed8cbfae85cc594522d\n\n The reason for this traffic increment still remains unclear, but the reason could still be that the IoT devices are attempting to retrieve new orders, payloads or both.\n\n# Indicators of Compromise\n\n## URL:\n\n-  http://156.255.121.95:8080/dvalsr/res.dat \n-  http://156.255.121.95:8080/dvalsr/arm \n-  http://btjbnmmjh.com/dvalsr/arm \n-  btjbnmmjh.com \n-  kajxushwnds.com \n\n## IPs:\n\n-  156.255.121.95 \n-  156.255.121.104 \n\n## Malware:\n\n- 024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d\n- e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2\n- 1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854\n- 27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c \n\n# Recommendations\n\n- Do not click or open links in emails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IOCs in your environment.\n- Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n- Keep applications and operating systems running at the current released patch level.\n\n# Reference\n\n- Proprietary IBM X-Force Threat Intelligence",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--90da6b96-cd64-b8b8-007f-4d72cff47bec",
+            "collectionTitle": "Chalubo - DDoS Botnet Targeting The United States",
+            "collectionWikiContent": "Summary\nResearchers discovered the Chalubo DDoS Botnet in August 2018, but before long it went silent or at least was not significantly active in any DDoS attacks since then. X-Force Threat Intelligence has now observed a revival with many weakly protected IoT devices from the United States affected. \nThreat Type\nDDoS, Botnet\nOverview\nWhen researchers discovered the Chalubo DDoS Botnet in August 2018, it appeared to be on the rise by attacking weak protected SSH servers. Those Linux servers were vulnerable through the secure shell, which is used for the remote administration.\nThis same administration method is used by many IoT devices, such as consumer connected devices including smart TVs, smart speakers, toys, wearables and smart appliances, to name a few.\nThe botnet's characteristics include a downloader, bot, and Lua script. The bot and its corresponding Lua script are encrypted by using the ChaCha-IETF stream cipher. Variants of the Chalubo Botnet exist for execution on different platforms such as ARM, X86, X64, MIPS, PPC, and MIPS.\nAfter a period of silence, X-Force Threat Intelligence has observed a revival as it appears that many weakly protected IoT devices from the United States are affected.\nBefore X-Force Threat Intelligence identified the Chalubo Botnet being revived, we identified several massive spikes of calls towards domains we initially marked as malicious back in December 2019, starting with kajxushwnds.com, which was registered in August 9th, 2019. The domain was blocked by the X-Force DNS Analytics source on December 16th, 2019. From then on, the telemetry data constantly showed attempts to contact the domain.\nIt finally caught our full attention in early January when we observed a huge increase in those call attempts that continue up to date. Analysis of the URL in various methods left us with a lot of unanswered questions at first, so we started to investigate on the IP instead.\nThe domain is hosted on the IP 156.255.121.104 by a Hong Kong based cloud hosting provider, whereas the IP itself is located in the Seychelles. While the domain, despite reaching millions of hits per day, left us with no other signs to track and investigate, the IP turned out to provide more insight.\n\n \nkajxushwnds.com  blockings based on telemetry data from Quad 9\nOf particular note, is that the telemetry data which we received from the Quad 9 DNS only points to access attempts within the United States. Since the Chalubo botnet focuses on IoT devices, those millions hits can be attributed to infected IoT devices trying to communicate with the C2 server in order to receive new instructions.\n \nClient Cities Distribution: Top 20 cities with infected Chalubo clients\nWhile we analyzed the hosting IP, we unfortunately did not find any further suspicious signs, but we widened our search for the whole class C net and found interesting correlations.\nOne that attracted our attention was the IP 156.255.121.95. Given that this IP only hosted the domain btjbnmmjh.com with a similar cryptic appearance to the first one, we threw it in our database and found quickly it to be listed in our list of top blocked domains as well. \n \nComparing both graphs shows almost identical peaks in the blockings statistics at the same time range. Although lower in numbers, the count was still in the millions. Not only do the access attempts correlate, but also both domains were registered by the same registrar Enom, Inc. The only difference we could identify in our research was that btjbnmmjh.com was registered back in May 15th, 2019.\nWe continued our analysis, but this time with a focus on the second domain. We quickly identified the subpath http://btjbnmmjh.com/dvalsr/arm, although it failed to resolve. The characteristics pointed towards a botnet affiliation, which led us, based on our experience on botnet detection, to check the webserver IP http://156.255.121.95:8080/DVALSR/arm with the same path instead. \nIt turned out, that our experience was proven right, and we were able to access a direct download for an ARM file. The next section is dedicated the to file analysis by reverse engineering the ARM file. \n \nFile Analysis \nDownloader\nThe downloader tries to download, decrypt, and run the encrypted Chalubo bot. Once the bot is downloaded, the downloader will use a modified version of ChaCha20 stream cipher called ChaCha-IETF to decrypt the Chalubo bot. The ChaCha-IETF implementation used in the downloader requires a 32-byte key, a 12-byte nonce, and a 4-byte counter:\nFig1:\n \nThe ChaCha key used in the downloader is:\nfa 40 88 55 30 4c a1 99 f6 80 b4 94 b6 9e f4 73 dd 9c 5a 5e 0e 78 ba a4 44 04 8b 82 a8 bd 97 a9\nFig2:\n \nThe ChaCha nonce used in the downloader is: \n00 00 00 00 00 00 00 4a 00 00 00 01\nFig3:\n \nAnd the counter is 1.\nOnce the downloaded bot is decrypted, the downloader will use LZMA to decompress it and execute it using the execve() function.\n\nARM\nThe malware sample arm (SHA256: 024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d ) is an encrypted bot downloaded by the downloader. We implemented a decrypt routine to decrypt and decompress it using the ChaCha-IETF implementation. The decrypted arm is an ELF file (SHA256: 27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c ) \nThe ELF file is the actual Chalubo bot. It has a built-in Lua script that can be used to download and execute another Lua script from the Command and Control (C2) server. We found the below listed C2 servers hardcoded in the malware.\n http://btjbnmmjh.com:8080/DVALSR/res.dat \n http://156.255.121.95:8080/DVALSR/res.dat \nThe built-in Lua script will also use the same ChaCha-IETF implementation to decrypt the downloaded Lua script res.dat. The ChaCha key used in the bot is different from the downloader. The value of ChaCha key in the bot is:\n00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f\nFig4:\n \nThe bot uses same ChaCha nonce in the downloader, which is:\n00 00 00 00 00 00 00 4a 00 00 00 01\nOnce the downloaded Lua script is decrypted using task_decrypt function, the bot will call create_task_group function to execute it: \nif code ~= 200 and code ~= 304 then\n  select_lua_task_url()\n end\n fail_count = 0\n task_grpid = 0\n restart = false \n function kill_task()\n  if task_grpid ~= 0 then\n  kill_task_group(task_grpid)\n  end\n end\n while true do\n  if code == 200 then\n  kill_task()\n  if body ~= nil and string.len(body) ~= 0 then\n  body = task_decrypt(body) \n  task_grpid = create_task_group(body)\n  end\n  restart = false\n  print(\"[lua] Download Succeed\")\n  sock.sleep(295)\n  fail_count = 0\n  elseif code == 304 then\n  --print(\"Download Not Modified\")\n  if restart then\n  if body ~= nil and string.len(body) ~= 0 then\n  task_grpid = create_task_group(body)\nThe downloaded Lua script is res.dat (SHA256: e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2 )\nRES.DAT \nOnce the bot successfully decrypted the res.dat, the bot will execute the decrypted res.dat which is another Lua script (SHA256: 1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854 ). The purpose of this Lua script is straight forward. It builds functions such as get, post functions. The User-Agent is selected from 22 items: \nFig5:\n \nThe Lua script tries to generate 1,000,000 times HTTP/HTTPS GET request to the target: \n\ud83d\udcf7 \nFig6:\n \nThe current victims are:\nhttps://www.duote.com/ \nThere are many potential victim URLs that are commented at the end of the Lua script as shown in the figure 6 above where duote.com among them is a Chinese APK mirror page for android apps. \nConclusion\nWhen recapping the information above, we'll come inevitably to the question: How does the infection work and who is it targeting? \nThe Chalubo botnet was discovered as an IoT-DDoS-Botnet. Un-/weak protected IoT devices like webcams, smart devices, routers, weather stations etc. will be penetrated by the attackers and once accessed the device with admin permission, services like firewalls will be stopped and read-write-execute permission on specific folders established. \nThis allows amongst other things to install the malware and its scripts. Targets can vary, especially in DDoS business. The current target list was filled with chinese websites and services, but those can be exchanged quickly in an update which the C2 servers releases to it's botnet clients. Today's threat business models also tend to laterally move towards services. Malware as a Service, DDoS as a Service or Spam as a Service are already models that exists and which threat actors use to execute their campaigns. If Chalubo is also part of such business model, then it's just a matter of time until future cyber criminals decides to rent this botnet for an attack. The targets are then up to them. \nBut it's not only how the botnet works or what their current targets are what made us find this case so interesting. It was the view from the client infection perspective that made us wonder. Since the domains btjbnmmjh.com and kajxushwnds.com are hit by users in the U.S in the millions, this fact alone opposes a potential threat when later the targets in the script are updated via the C2 server. \nIt also still shows the gap between users with good protected environments and users who install devices and hardware with the out of the box credentials that are easily brute forced. And it is very likely that those users don't even know that they are part of a botnet. \nX-Force Threat Intelligence will continue to monitor for such events and will keep you up to date.\n\nUpdate\nAfter a long period of inactivity, IBM X-Force started to see a new short spike in telemetry hits on the kajxushwnds.com domain. This raises the question, whether the botnet owner reactivated the C2 server in order to transfer new commands to the IoT devices which resulted in a spike of blockings. The graph below shows the timeline of the activity in detail.\n \nUpdate 2\nOne and a half month ago, we reported in a small update about a spike in our telemetry data that shows a sudden increase in traffic towards the Chalubo Botnet C2 server kajxushwnds.com. Our recent monitoring was able to determine a new activity towards this domain shown in the timeline below.\n \nThe main activity started slow in low volume at 8:00 A.M on November 1st. 2020 and lasted until 2:00 P.M on November 2nd. 2020. The main increase in volume occurs in the afternoon of November 1st at around 4:00 P.M. \nIt is uncertain what caused the massive increase, as it could have many reasons. One plausible theory however could be that the infected IoT devices might have received a command from the botnet C2 server in order to check by and collect a new payload.\nUpdate 3\nAfter pausing for two days, we observed yet another increase in our telemetry data towards the Chalubo Botnet C2 server kajxushwnds.com . In this occasion we observed a sudden increase in traffic on the evening of November 4th that stopped on November 7th, as shown in the timeline below.\n\n \n The reason for this traffic increment still remains unclear, but the reason could still be that the IoT devices are attempting to retrieve new orders, payloads or both.\nIndicators of Compromise\nURL:\n http://156.255.121.95:8080/dvalsr/res.dat \n http://156.255.121.95:8080/dvalsr/arm \n http://btjbnmmjh.com/dvalsr/arm \n btjbnmmjh.com \n kajxushwnds.com \nIPs:\n 156.255.121.95 \n 156.255.121.104 \nMalware:\n024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d\ne2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2\n1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854\n27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c \nRecommendations\nDo not click or open links in emails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IOCs in your environment.\nBlock all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\nKeep applications and operating systems running at the current released patch level.\nReference\nProprietary IBM X-Force Threat Intelligence",
+            "collectionWikiMarkdown": "# Summary\n\nResearchers discovered the Chalubo DDoS Botnet in August 2018, but before long it went silent or at least was not significantly active in any DDoS attacks since then. X-Force Threat Intelligence has now observed a revival with many weakly protected IoT devices from the United States affected. \n\n# Threat Type\n\n- DDoS, Botnet\n\n# Overview\n\nWhen researchers discovered the Chalubo DDoS Botnet in August 2018, it appeared to be on the rise by attacking weak protected SSH servers. Those Linux servers were vulnerable through the secure shell, which is used for the remote administration.\n\nThis same administration method is used by many IoT devices, such as consumer connected devices including smart TVs, smart speakers, toys, wearables and smart appliances, to name a few.\n\nThe botnet's characteristics include a downloader, bot, and Lua script. The bot and its corresponding Lua script are encrypted by using the ChaCha-IETF stream cipher. Variants of the Chalubo Botnet exist for execution on different platforms such as ARM, X86, X64, MIPS, PPC, and MIPS.\n\nAfter a period of silence, X-Force Threat Intelligence has observed a revival as it appears that many weakly protected IoT devices from the United States are affected.\n\nBefore X-Force Threat Intelligence identified the Chalubo Botnet being revived, we identified several massive spikes of calls towards domains we initially marked as malicious back in December 2019, starting with kajxushwnds.com, which was registered in August 9th, 2019. The domain was blocked by the X-Force DNS Analytics source on December 16th, 2019. From then on, the telemetry data constantly showed attempts to contact the domain.\n\nIt finally caught our full attention in early January when we observed a huge increase in those call attempts that continue up to date. Analysis of the URL in various methods left us with a lot of unanswered questions at first, so we started to investigate on the IP instead.\n\nThe domain is hosted on the IP 156.255.121.104 by a Hong Kong based cloud hosting provider, whereas the IP itself is located in the Seychelles. While the domain, despite reaching millions of hits per day, left us with no other signs to track and investigate, the IP turned out to provide more insight.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/45b7bd786106dce21e2ac4b7bdd1b018/2fdf36b006cde8eaccab\n\nkajxushwnds.com  `_blockings_ _based on telemetry data from Quad 9_`\n\nOf particular note, is that the telemetry data which we received from the Quad 9 DNS only points to access attempts within the United States. Since the Chalubo botnet focuses on IoT devices, those millions hits can be attributed to infected IoT devices trying to communicate with the C2 server in order to receive new instructions.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/c9b269a219f849d8b6adf2c85e868e39/23df37c42a44961b6e0f\n\n`_Client Cities Distribution: Top 20 cities with infected Chalubo clients_`\n\nWhile we analyzed the hosting IP, we unfortunately did not find any further suspicious signs, but we widened our search for the whole class C net and found interesting correlations.\n\nOne that attracted our attention was the IP 156.255.121.95. Given that this IP only hosted the domain btjbnmmjh.com with a similar cryptic appearance to the first one, we threw it in our database and found quickly it to be listed in our list of top blocked domains as well. \n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/570169acbe114f9237deabc1b5797b7d/d511f2ea4146dc48dda3\n\nComparing both graphs shows almost identical peaks in the blockings statistics at the same time range. Although lower in numbers, the count was still in the millions. Not only do the access attempts correlate, but also both domains were registered by the same registrar Enom, Inc. The only difference we could identify in our research was that btjbnmmjh.com was registered back in May 15th, 2019.\n\nWe continued our analysis, but this time with a focus on the second domain. We quickly identified the subpath http://btjbnmmjh.com/dvalsr/arm, although it failed to resolve. The characteristics pointed towards a botnet affiliation, which led us, based on our experience on botnet detection, to check the webserver IP http://156.255.121.95:8080/DVALSR/arm with the same path instead. \n\nIt turned out, that our experience was proven right, and we were able to access a direct download for an ARM file. The next section is dedicated the to file analysis by reverse engineering the ARM file. \n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/0cf7d2da93c74e666df9588a5a503ecb/07bccbfc1aec6c60cc6a\n\n# File Analysis \n\n## Downloader\n\nThe downloader tries to download, decrypt, and run the encrypted Chalubo bot. Once the bot is downloaded, the downloader will use a modified version of ChaCha20 stream cipher called ChaCha-IETF to decrypt the Chalubo bot. The ChaCha-IETF implementation used in the downloader requires a 32-byte key, a 12-byte nonce, and a 4-byte counter:\n\n`Fig1:`\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/9e84d27a14d52d3fda9f090d024a777a/64d240f28b94a3debf1b\n\nThe ChaCha key used in the downloader is:\n\n```\nfa 40 88 55 30 4c a1 99 f6 80 b4 94 b6 9e f4 73 dd 9c 5a 5e 0e 78 ba a4 44 04 8b 82 a8 bd 97 a9\n```\n\n`Fig2:`\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/1d957ea95c09bf2d77a38111dc79030a/9bea1b4d9551098ec495\n\nThe ChaCha nonce used in the downloader is: \n\n```\n00 00 00 00 00 00 00 4a 00 00 00 01\n```\n\n`Fig3:`\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/5a3281358552748e2c2ec5057db05de6/20285a3e72e52c33be1b\n\nAnd the counter is 1.\n\nOnce the downloaded bot is decrypted, the downloader will use LZMA to decompress it and execute it using the execve() function.\n\n## ARM\n\nThe malware sample `arm` (SHA256: 024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d ) is an encrypted bot downloaded by the downloader. We implemented a decrypt routine to decrypt and decompress it using the ChaCha-IETF implementation. The decrypted `arm` is an ELF file (SHA256: 27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c ) \n\nThe ELF file is the actual Chalubo bot. It has a built-in Lua script that can be used to download and execute another Lua script from the Command and Control (C2) server. We found the below listed C2 servers hardcoded in the malware.\n\n http://btjbnmmjh.com:8080/DVALSR/res.dat \n http://156.255.121.95:8080/DVALSR/res.dat \n\nThe built-in Lua script will also use the same ChaCha-IETF implementation to decrypt the downloaded Lua script res.dat. The ChaCha key used in the bot is different from the downloader. The value of ChaCha key in the bot is:\n\n```\n00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f\n```\n\nFig4:\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/c718e06c5878c824a3f750dd93cdcb93/17f9128787ae8af5a929\n\nThe bot uses same ChaCha nonce in the downloader, which is:\n\n```\n00 00 00 00 00 00 00 4a 00 00 00 01\n```\n\nOnce the downloaded Lua script is decrypted using task_decrypt function, the bot will call create_task_group function to execute it: \n\n```\nif code ~= 200 and code ~= 304 then\n  select_lua_task_url()\n end\n fail_count = 0\n task_grpid = 0\n restart = false \n function kill_task()\n  if task_grpid ~= 0 then\n  kill_task_group(task_grpid)\n  end\n end\n while true do\n  if code == 200 then\n  kill_task()\n  if body ~= nil and string.len(body) ~= 0 then\n  body = task_decrypt(body) \n  task_grpid = create_task_group(body)\n  end\n  restart = false\n  print(\"[lua] Download Succeed\")\n  sock.sleep(295)\n  fail_count = 0\n  elseif code == 304 then\n  --print(\"Download Not Modified\")\n  if restart then\n  if body ~= nil and string.len(body) ~= 0 then\n  task_grpid = create_task_group(body)\n```\n\nThe downloaded Lua script is res.dat (SHA256: e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2 )\n\n# RES.DAT \n\nOnce the bot successfully decrypted the res.dat, the bot will execute the decrypted res.dat which is another Lua script (SHA256: 1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854 ). The purpose of this Lua script is straight forward. It builds functions such as get, post functions. The User-Agent is selected from 22 items: \n\nFig5:\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/b9d06b4fb292abddd9fb05f532af45fb/7e5299286d7314e70a1f\n\nThe Lua script tries to generate 1,000,000 times HTTP/HTTPS GET request to the target: \n\n\ud83d\udcf7 \n\nFig6:\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/28e185db0602d8f429cbf801ecec92e6/eca05d0be7ba5cc70ca8\n\nThe current victims are:\n\n```\nhttps://www.duote.com/ \n```\n\nThere are many potential victim URLs that are commented at the end of the Lua script as shown in the figure 6 above where duote.com among them is a Chinese APK mirror page for android apps. \n\n# Conclusion\n\nWhen recapping the information above, we'll come inevitably to the question: How does the infection work and who is it targeting? \n\nThe Chalubo botnet was discovered as an IoT-DDoS-Botnet. Un-/weak protected IoT devices like webcams, smart devices, routers, weather stations etc. will be penetrated by the attackers and once accessed the device with admin permission, services like firewalls will be stopped and read-write-execute permission on specific folders established. \n\nThis allows amongst other things to install the malware and its scripts. Targets can vary, especially in DDoS business. The current target list was filled with chinese websites and services, but those can be exchanged quickly in an update which the C2 servers releases to it's botnet clients. Today's threat business models also tend to laterally move towards services. Malware as a Service, DDoS as a Service or Spam as a Service are already models that exists and which threat actors use to execute their campaigns. If Chalubo is also part of such business model, then it's just a matter of time until future cyber criminals decides to rent this botnet for an attack. The targets are then up to them. \n\nBut it's not only how the botnet works or what their current targets are what made us find this case so interesting. It was the view from the client infection perspective that made us wonder. Since the domains btjbnmmjh.com and kajxushwnds.com are hit by users in the U.S in the millions, this fact alone opposes a potential threat when later the targets in the script are updated via the C2 server. \n\nIt also still shows the gap between users with good protected environments and users who install devices and hardware with the out of the box credentials that are easily brute forced. And it is very likely that those users don't even know that they are part of a botnet. \n\nX-Force Threat Intelligence will continue to monitor for such events and will keep you up to date.\n\n# Update\n\nAfter a long period of inactivity, IBM X-Force started to see a new short spike in telemetry hits on the kajxushwnds.com domain. This raises the question, whether the botnet owner reactivated the C2 server in order to transfer new commands to the IoT devices which resulted in a spike of blockings. The graph below shows the timeline of the activity in detail.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/d7c252bdb261f6289d2d74ddacbf145a/959120e0aef095cde087\n\n# Update 2\n\nOne and a half month ago, we reported in a small update about a spike in our telemetry data that shows a sudden increase in traffic towards the Chalubo Botnet C2 server kajxushwnds.com. Our recent monitoring was able to determine a new activity towards this domain shown in the timeline below.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/c2b860bdc0dedd75f24092814c350d27/b2bd5b6f89f90fce9921\n\nThe main activity started slow in low volume at 8:00 A.M on November 1st. 2020 and lasted until 2:00 P.M on November 2nd. 2020. The main increase in volume occurs in the afternoon of November 1st at around 4:00 P.M. \n\nIt is uncertain what caused the massive increase, as it could have many reasons. One plausible theory however could be that the infected IoT devices might have received a command from the botnet C2 server in order to check by and collect a new payload.\n\n# Update 3\n\nAfter pausing for two days, we observed yet another increase in our telemetry data towards the Chalubo Botnet C2 server kajxushwnds.com . In this occasion we observed a sudden increase in traffic on the evening of November 4th that stopped on November 7th, as shown in the timeline below.\n\n /api/casefiles/90da6b96cd64b8b8007f4d72cff47bec/attachments/30830dc8e6e51a6daefeccb7380c2885/1ed8cbfae85cc594522d\n\n The reason for this traffic increment still remains unclear, but the reason could still be that the IoT devices are attempting to retrieve new orders, payloads or both.\n\n# Indicators of Compromise\n\n## URL:\n\n-  http://156.255.121.95:8080/dvalsr/res.dat \n-  http://156.255.121.95:8080/dvalsr/arm \n-  http://btjbnmmjh.com/dvalsr/arm \n-  btjbnmmjh.com \n-  kajxushwnds.com \n\n## IPs:\n\n-  156.255.121.95 \n-  156.255.121.104 \n\n## Malware:\n\n- 024c9166bcb0a071bbeab3c1393725ed0da17d224ba9a8f307cef27ffe7bb41d\n- e2402a96cf49d1085d64bbff18040e7a47b6621474739f8bb7be7f9dd6e7f5a2\n- 1cc8bcef1b08f72f012d4762b131b665d7515f8b71a3aca2d2af3387b674f854\n- 27a7d733f0013acdc2f67d5522e269f7f6449f38e0ca8f399aa3421cecc7109c \n\n# Recommendations\n\n- Do not click or open links in emails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IOCs in your environment.\n- Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n- Keep applications and operating systems running at the current released patch level.\n\n# Reference\n\n- Proprietary IBM X-Force Threat Intelligence",
+            "collectionId": "90da6b96cd64b8b8007f4d72cff47bec",
+            "owner": {
+                "name": "Ashkan Vila",
+                "uuid": "http://www.ibm.com/50HTSMMBFQ"
+            },
+            "tags": [
+                "advisory",
+                "iris",
+                "x-force",
+                "quad9",
+                "ddos",
+                "botnet",
+                "chalubo",
+                "iot",
+                "xftas",
+                "malware"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-09-25T13:22:45.337Z",
+            "modified": "2020-11-10T12:20:41.127Z"
+        }
+    ],
+    "id": "bundle--ab71fe13-7e91-425f-81a5-ea1f9c1a96d0"
+}

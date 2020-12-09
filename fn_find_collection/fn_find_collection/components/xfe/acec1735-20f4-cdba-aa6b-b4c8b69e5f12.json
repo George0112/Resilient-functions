@@ -1,0 +1,157 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--94fed147-839d-b249-9282-a5b0c2b875ca",
+            "type": "indicator",
+            "created": "2020-11-05T17:31:45.799Z",
+            "modified": "2020-11-05T17:31:45.799Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 4fd221c89030a1fe1c2396a957990693ec8e6330ed79c63bde24abdbc0b8b166",
+            "description": "File hash indicator for sha256 hash 4fd221c89030a1fe1c2396a957990693ec8e6330ed79c63bde24abdbc0b8b166",
+            "pattern": "[ file:hashes.'SHA-256' = '4fd221c89030a1fe1c2396a957990693ec8e6330ed79c63bde24abdbc0b8b166' ]",
+            "valid_from": "2020-11-05T17:31:45.799Z"
+        },
+        {
+            "id": "indicator--1cd3df25-6fb6-6b2c-d254-c61ff6641870",
+            "type": "indicator",
+            "created": "2020-11-05T17:31:45.884Z",
+            "modified": "2020-11-05T17:31:45.884Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 40e4fffa431378e9f09310bba5ff4b8bcec1e11e2b9a606d15f123b696bdb697",
+            "description": "File hash indicator for sha256 hash 40e4fffa431378e9f09310bba5ff4b8bcec1e11e2b9a606d15f123b696bdb697",
+            "pattern": "[ file:hashes.'SHA-256' = '40e4fffa431378e9f09310bba5ff4b8bcec1e11e2b9a606d15f123b696bdb697' ]",
+            "valid_from": "2020-11-05T17:31:45.884Z"
+        },
+        {
+            "id": "indicator--66e4768e-f6ed-c759-8c97-a9e64c232865",
+            "type": "indicator",
+            "created": "2020-11-05T17:31:46.143Z",
+            "modified": "2020-11-05T17:31:46.143Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3bb9f55514122071824320091030f517a2809c140d86791275037569b26f53f1",
+            "description": "File hash indicator for sha256 hash 3bb9f55514122071824320091030f517a2809c140d86791275037569b26f53f1",
+            "pattern": "[ file:hashes.'SHA-256' = '3bb9f55514122071824320091030f517a2809c140d86791275037569b26f53f1' ]",
+            "valid_from": "2020-11-05T17:31:46.143Z"
+        },
+        {
+            "id": "indicator--bb13b458-ae17-787d-f8b9-65a866f4fd8f",
+            "type": "indicator",
+            "created": "2020-11-05T17:31:49.625Z",
+            "modified": "2020-11-05T17:31:49.625Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 1412516d5f9e43e9c797bbeb3872ef2ff0f68cf51d66288cfd257bb0b56a0e54",
+            "description": "File hash indicator for sha256 hash 1412516d5f9e43e9c797bbeb3872ef2ff0f68cf51d66288cfd257bb0b56a0e54",
+            "pattern": "[ file:hashes.'SHA-256' = '1412516d5f9e43e9c797bbeb3872ef2ff0f68cf51d66288cfd257bb0b56a0e54' ]",
+            "valid_from": "2020-11-05T17:31:49.625Z"
+        },
+        {
+            "id": "indicator--66e4768e-f6ed-c759-8c97-a9e64c232865",
+            "type": "indicator",
+            "created": "2020-11-05T20:30:26.375Z",
+            "modified": "2020-11-05T20:30:26.375Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3bb9f55514122071824320091030f517a2809c140d86791275037569b26f53f1",
+            "description": "File hash indicator for sha256 hash 3bb9f55514122071824320091030f517a2809c140d86791275037569b26f53f1",
+            "pattern": "[ file:hashes.'SHA-256' = '3bb9f55514122071824320091030f517a2809c140d86791275037569b26f53f1' ]",
+            "valid_from": "2020-11-05T20:30:26.375Z"
+        },
+        {
+            "id": "indicator--1cd3df25-6fb6-6b2c-d254-c61ff6641870",
+            "type": "indicator",
+            "created": "2020-11-05T20:30:26.451Z",
+            "modified": "2020-11-05T20:30:26.451Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 40e4fffa431378e9f09310bba5ff4b8bcec1e11e2b9a606d15f123b696bdb697",
+            "description": "File hash indicator for sha256 hash 40e4fffa431378e9f09310bba5ff4b8bcec1e11e2b9a606d15f123b696bdb697",
+            "pattern": "[ file:hashes.'SHA-256' = '40e4fffa431378e9f09310bba5ff4b8bcec1e11e2b9a606d15f123b696bdb697' ]",
+            "valid_from": "2020-11-05T20:30:26.451Z"
+        },
+        {
+            "id": "indicator--bb13b458-ae17-787d-f8b9-65a866f4fd8f",
+            "type": "indicator",
+            "created": "2020-11-05T20:30:26.470Z",
+            "modified": "2020-11-05T20:30:26.470Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 1412516d5f9e43e9c797bbeb3872ef2ff0f68cf51d66288cfd257bb0b56a0e54",
+            "description": "File hash indicator for sha256 hash 1412516d5f9e43e9c797bbeb3872ef2ff0f68cf51d66288cfd257bb0b56a0e54",
+            "pattern": "[ file:hashes.'SHA-256' = '1412516d5f9e43e9c797bbeb3872ef2ff0f68cf51d66288cfd257bb0b56a0e54' ]",
+            "valid_from": "2020-11-05T20:30:26.470Z"
+        },
+        {
+            "id": "indicator--94fed147-839d-b249-9282-a5b0c2b875ca",
+            "type": "indicator",
+            "created": "2020-11-05T20:30:26.491Z",
+            "modified": "2020-11-05T20:30:26.491Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 4fd221c89030a1fe1c2396a957990693ec8e6330ed79c63bde24abdbc0b8b166",
+            "description": "File hash indicator for sha256 hash 4fd221c89030a1fe1c2396a957990693ec8e6330ed79c63bde24abdbc0b8b166",
+            "pattern": "[ file:hashes.'SHA-256' = '4fd221c89030a1fe1c2396a957990693ec8e6330ed79c63bde24abdbc0b8b166' ]",
+            "valid_from": "2020-11-05T20:30:26.491Z"
+        },
+        {
+            "type": "report",
+            "id": "report--acec1735-20f4-cdba-aa6b-b4c8b69e5f12",
+            "name": "Babax Stealer Rebrands to Osno Ransomware",
+            "published": "2020-11-09T14:49:29.978Z",
+            "created": "2020-11-09T14:49:29.978Z",
+            "modified": "2020-11-09T14:49:29.978Z",
+            "labels": [
+                "ransomware",
+                "malware",
+                "advsiory",
+                "data-theft",
+                "xftag"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nAccording to analysts, the malware Babax steals information\u00a0by\u00a0targeting login credentials saved on web browsers. Recently, the threat actors behind the malware revamped their marketing and advertising approach by increasing the price of this malware while also adding new capabilities into their malware and ransomware, making it a popular asset amongst cybercriminals.\n\n# Threat Type\n\n- Malware,\u00a0Ransomware\n\n# Overview\n\nAnalysts discovered Babax Stealer being sold on forums at higher prices with a repertoire of new features for the ransomware Osno like: Opensource Rootkit r77, lateral movement via SharpExec, Anti-AV, evasion of Windows Defender via allowlist, AnarchyGrabber and microphone records. According to analysts, although the malware\u2019s capabilities have extended, it's nothing of vital concern due to the activation process of tools such as: rootkit and the anti-AV, which are only functional after the malware accesses the targeted system and gains administrative privileges. The same activation process was seen within the lateral movement phase of the attack, which heavily relies on the download of an external tool. Initially, the main purpose of Babax stealer is to steal saved credentials and propagate via the network. To avoid detection of the malware, it is encrypted. Analysts note, however, defenders have high visibility and are privy to the malware\u2019s features, making it harder for the malware to go undetected. As such, multiple workarounds constructed into the ransomware, with more on the way, exist according to analysts. For more information, see the blog post in the Reference section.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the section to the Right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.gdatasoftware.com/blog/2020/11/36459-babax-stealer-rebrands-to-osno-installs-rootkit ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--acec1735-20f4-cdba-aa6b-b4c8b69e5f12",
+            "collectionTitle": "Babax Stealer Rebrands to Osno Ransomware",
+            "collectionWikiContent": "Summary\nAccording to analysts, the malware Babax steals information\u00a0by\u00a0targeting login credentials saved on web browsers. Recently, the threat actors behind the malware revamped their marketing and advertising approach by increasing the price of this malware while also adding new capabilities into their malware and ransomware, making it a popular asset amongst cybercriminals.\nThreat Type\nMalware,\u00a0Ransomware\nOverview\nAnalysts discovered Babax Stealer being sold on forums at higher prices with a repertoire of new features for the ransomware Osno like: Opensource Rootkit r77, lateral movement via SharpExec, Anti-AV, evasion of Windows Defender via allowlist, AnarchyGrabber and microphone records. According to analysts, although the malware\u2019s capabilities have extended, it's nothing of vital concern due to the activation process of tools such as: rootkit and the anti-AV, which are only functional after the malware accesses the targeted system and gains administrative privileges. The same activation process was seen within the lateral movement phase of the attack, which heavily relies on the download of an external tool. Initially, the main purpose of Babax stealer is to steal saved credentials and propagate via the network. To avoid detection of the malware, it is encrypted. Analysts note, however, defenders have high visibility and are privy to the malware\u2019s features, making it harder for the malware to go undetected. As such, multiple workarounds constructed into the ransomware, with more on the way, exist according to analysts. For more information, see the blog post in the Reference section.\nIndicators of Compromise\nA complete list of IoCs can be found in the section to the Right.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://www.gdatasoftware.com/blog/2020/11/36459-babax-stealer-rebrands-to-osno-installs-rootkit ",
+            "collectionWikiMarkdown": "# Summary\n\nAccording to analysts, the malware Babax steals information\u00a0by\u00a0targeting login credentials saved on web browsers. Recently, the threat actors behind the malware revamped their marketing and advertising approach by increasing the price of this malware while also adding new capabilities into their malware and ransomware, making it a popular asset amongst cybercriminals.\n\n# Threat Type\n\n- Malware,\u00a0Ransomware\n\n# Overview\n\nAnalysts discovered Babax Stealer being sold on forums at higher prices with a repertoire of new features for the ransomware Osno like: Opensource Rootkit r77, lateral movement via SharpExec, Anti-AV, evasion of Windows Defender via allowlist, AnarchyGrabber and microphone records. According to analysts, although the malware\u2019s capabilities have extended, it's nothing of vital concern due to the activation process of tools such as: rootkit and the anti-AV, which are only functional after the malware accesses the targeted system and gains administrative privileges. The same activation process was seen within the lateral movement phase of the attack, which heavily relies on the download of an external tool. Initially, the main purpose of Babax stealer is to steal saved credentials and propagate via the network. To avoid detection of the malware, it is encrypted. Analysts note, however, defenders have high visibility and are privy to the malware\u2019s features, making it harder for the malware to go undetected. As such, multiple workarounds constructed into the ransomware, with more on the way, exist according to analysts. For more information, see the blog post in the Reference section.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the section to the Right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.gdatasoftware.com/blog/2020/11/36459-babax-stealer-rebrands-to-osno-installs-rootkit ",
+            "collectionId": "acec173520f4cdbaaa6bb4c8b69e5f12",
+            "owner": {
+                "name": "D.J. Hart",
+                "uuid": "http://www.ibm.com/550008H69H"
+            },
+            "tags": [
+                "ransomware",
+                "malware",
+                "advsiory",
+                "data-theft",
+                "xftag"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T14:49:29.978Z",
+            "modified": "2020-11-09T14:49:29.978Z"
+        }
+    ],
+    "id": "bundle--3a4828ea-4f97-4e88-9d64-371a5c345f03"
+}

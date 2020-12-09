@@ -1,0 +1,13 @@
+[resilient.circuits.components]
+FunctFnDisableHstsFunctionComponent = fn_enable_hsts.components.funct_fn_disable_hsts:FunctionComponent
+FunctFnEnableHstsFunctionComponent = fn_enable_hsts.components.funct_fn_enable_hsts:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = fn_enable_hsts.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = fn_enable_hsts.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = fn_enable_hsts.util.selftest:selftest_function
+

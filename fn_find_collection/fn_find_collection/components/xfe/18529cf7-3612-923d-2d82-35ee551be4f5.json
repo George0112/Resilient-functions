@@ -1,0 +1,574 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--eaafb964-4428-46d1-b385-fb2ba1760354",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:19.583Z",
+            "modified": "2020-11-09T20:13:19.583Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns1.alforatsystem.com",
+            "description": "",
+            "pattern": "[ url:value = 'ns1.alforatsystem.com' ]",
+            "valid_from": "2020-11-09T20:13:19.583Z"
+        },
+        {
+            "id": "indicator--74fcd272-bd95-44db-87d9-962426b278a6",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:19.690Z",
+            "modified": "2020-11-09T20:13:19.690Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for sharepoint-web.com",
+            "description": "",
+            "pattern": "[ url:value = 'sharepoint-web.com' ]",
+            "valid_from": "2020-11-09T20:13:19.690Z"
+        },
+        {
+            "id": "indicator--0252d9ca-b063-407e-a5cd-85f9a43cf8ed",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:19.768Z",
+            "modified": "2020-11-09T20:13:19.768Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns2.alforatsystem.com",
+            "description": "",
+            "pattern": "[ url:value = 'ns2.alforatsystem.com' ]",
+            "valid_from": "2020-11-09T20:13:19.768Z"
+        },
+        {
+            "id": "indicator--031ba351-3640-fdff-44d9-6020688508b6",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:19.848Z",
+            "modified": "2020-11-09T20:13:19.848Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 6c13084f213416089beec7d49f0ef40fea3d28207047385dda4599517b56e127",
+            "description": "File hash indicator for sha256 hash 6c13084f213416089beec7d49f0ef40fea3d28207047385dda4599517b56e127",
+            "pattern": "[ file:hashes.'SHA-256' = '6c13084f213416089beec7d49f0ef40fea3d28207047385dda4599517b56e127' ]",
+            "valid_from": "2020-11-09T20:13:19.848Z"
+        },
+        {
+            "id": "indicator--3ce868bb-8880-537c-cdd6-fa8c3618f89a",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:20.151Z",
+            "modified": "2020-11-09T20:13:20.151Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 407e5fe4f6977dd27bc0050b2ee8f04b398e9bd28edd9d4604b782a945f8120f",
+            "description": "File hash indicator for sha256 hash 407e5fe4f6977dd27bc0050b2ee8f04b398e9bd28edd9d4604b782a945f8120f",
+            "pattern": "[ file:hashes.'SHA-256' = '407e5fe4f6977dd27bc0050b2ee8f04b398e9bd28edd9d4604b782a945f8120f' ]",
+            "valid_from": "2020-11-09T20:13:20.151Z"
+        },
+        {
+            "id": "indicator--3a53c874-49b9-45e8-5b19-35183b9dcdbc",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:20.225Z",
+            "modified": "2020-11-09T20:13:20.225Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash a4a0ec94dd681c030d66e879ff475ca76668acc46545bbaff49b20e17683f99c",
+            "description": "File hash indicator for sha256 hash a4a0ec94dd681c030d66e879ff475ca76668acc46545bbaff49b20e17683f99c",
+            "pattern": "[ file:hashes.'SHA-256' = 'a4a0ec94dd681c030d66e879ff475ca76668acc46545bbaff49b20e17683f99c' ]",
+            "valid_from": "2020-11-09T20:13:20.225Z"
+        },
+        {
+            "id": "indicator--0d1aa4e6-9a32-59a2-d21b-315aab12ecb5",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:20.252Z",
+            "modified": "2020-11-09T20:13:20.252Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash efaa5a87afbb18fc63dbf4527ca34b6d376f14414aa1e7eb962485c45bf38372",
+            "description": "File hash indicator for sha256 hash efaa5a87afbb18fc63dbf4527ca34b6d376f14414aa1e7eb962485c45bf38372",
+            "pattern": "[ file:hashes.'SHA-256' = 'efaa5a87afbb18fc63dbf4527ca34b6d376f14414aa1e7eb962485c45bf38372' ]",
+            "valid_from": "2020-11-09T20:13:20.252Z"
+        },
+        {
+            "id": "indicator--ce95ab4e-0a06-2f6b-7f9d-5d966ef3c486",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:21.236Z",
+            "modified": "2020-11-09T20:13:21.236Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash c18985a949cada3b41919c2da274e0ffa6e2c8c9fb45bade55c1e3b6ee9e1393",
+            "description": "File hash indicator for sha256 hash c18985a949cada3b41919c2da274e0ffa6e2c8c9fb45bade55c1e3b6ee9e1393",
+            "pattern": "[ file:hashes.'SHA-256' = 'c18985a949cada3b41919c2da274e0ffa6e2c8c9fb45bade55c1e3b6ee9e1393' ]",
+            "valid_from": "2020-11-09T20:13:21.236Z"
+        },
+        {
+            "id": "indicator--c442f452-194b-4cbc-bd44-423cf76522e8",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:26.810Z",
+            "modified": "2020-11-09T20:13:26.810Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for deman1.icu",
+            "description": "",
+            "pattern": "[ url:value = 'deman1.icu' ]",
+            "valid_from": "2020-11-09T20:13:26.810Z"
+        },
+        {
+            "id": "indicator--b99d463a-b58e-45ec-8356-37aa99a19431",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:26.841Z",
+            "modified": "2020-11-09T20:13:26.841Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:13:26.841Z"
+        },
+        {
+            "id": "indicator--713b33c7-01ff-4588-9869-b69d160d4a14",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:26.927Z",
+            "modified": "2020-11-09T20:13:26.927Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jm7266502HA.lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jm7266502HA.lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:13:26.927Z"
+        },
+        {
+            "id": "indicator--799272be-8418-42ce-bcb5-0f835d0d592f",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:27.181Z",
+            "modified": "2020-11-09T20:13:27.181Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns2.uplearn.top",
+            "description": "",
+            "pattern": "[ url:value = 'ns2.uplearn.top' ]",
+            "valid_from": "2020-11-09T20:13:27.181Z"
+        },
+        {
+            "id": "indicator--bde66db8-cecc-41f7-b2d2-6c136e4df6ad",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:27.184Z",
+            "modified": "2020-11-09T20:13:27.184Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns2.lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ns2.lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:13:27.184Z"
+        },
+        {
+            "id": "indicator--9b3a9056-0989-4f8d-90ce-6be5088b4338",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:27.188Z",
+            "modified": "2020-11-09T20:13:27.188Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns1.deman1.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ns1.deman1.icu' ]",
+            "valid_from": "2020-11-09T20:13:27.188Z"
+        },
+        {
+            "id": "indicator--3fbfba2f-d974-412b-a333-50db2cf8b94a",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:27.205Z",
+            "modified": "2020-11-09T20:13:27.205Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns1.lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ns1.lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:13:27.205Z"
+        },
+        {
+            "id": "indicator--9f53aa02-fae1-43f2-b4db-fd4442e291c2",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:27.251Z",
+            "modified": "2020-11-09T20:13:27.251Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns2.deman1.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ns2.deman1.icu' ]",
+            "valid_from": "2020-11-09T20:13:27.251Z"
+        },
+        {
+            "id": "indicator--1349b825-71cc-41c4-8bcb-834abc67b04f",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:30.038Z",
+            "modified": "2020-11-09T20:13:30.038Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jhNK5377266.uplearn.top",
+            "description": "",
+            "pattern": "[ url:value = 'jhNK5377266.uplearn.top' ]",
+            "valid_from": "2020-11-09T20:13:30.038Z"
+        },
+        {
+            "id": "indicator--3aab711b-a63a-467e-9b1c-51f7f85e47a0",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:30.347Z",
+            "modified": "2020-11-09T20:13:30.347Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jt7266iW4f1.lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jt7266iW4f1.lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:13:30.347Z"
+        },
+        {
+            "id": "indicator--39e685ec-c57b-40ef-8761-268d80e0ddb2",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:32.456Z",
+            "modified": "2020-11-09T20:13:32.456Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:13:32.456Z"
+        },
+        {
+            "id": "indicator--87b41f0f-9a6a-4d05-b9c9-88ee70585fb7",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:40.721Z",
+            "modified": "2020-11-09T20:13:40.721Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jp4457266xr.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jp4457266xr.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:13:40.721Z"
+        },
+        {
+            "id": "indicator--335babd9-dd8f-4263-bdf1-100b582ab795",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:46.480Z",
+            "modified": "2020-11-09T20:13:46.480Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jz2d4gs7266.deman1.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jz2d4gs7266.deman1.icu' ]",
+            "valid_from": "2020-11-09T20:13:46.480Z"
+        },
+        {
+            "id": "indicator--6ae5115a-5d9d-41c3-aa39-5136bd256dd7",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:47.634Z",
+            "modified": "2020-11-09T20:13:47.634Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jp5497266qV.uplearn.top",
+            "description": "",
+            "pattern": "[ url:value = 'jp5497266qV.uplearn.top' ]",
+            "valid_from": "2020-11-09T20:13:47.634Z"
+        },
+        {
+            "id": "indicator--fc100830-2d56-4166-ac12-4925fc070b41",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:48.541Z",
+            "modified": "2020-11-09T20:13:48.541Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for uplearn.top",
+            "description": "",
+            "pattern": "[ url:value = 'uplearn.top' ]",
+            "valid_from": "2020-11-09T20:13:48.541Z"
+        },
+        {
+            "id": "indicator--2c5fd3b7-94de-43e9-a655-c60e542ffbba",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:53.627Z",
+            "modified": "2020-11-09T20:13:53.627Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns1.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ns1.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:13:53.627Z"
+        },
+        {
+            "id": "indicator--2bbc90c0-225e-48f8-84a2-1bc9aea02d4c",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:57.016Z",
+            "modified": "2020-11-09T20:13:57.016Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for alforatsystem.com",
+            "description": "",
+            "pattern": "[ url:value = 'alforatsystem.com' ]",
+            "valid_from": "2020-11-09T20:13:57.016Z"
+        },
+        {
+            "id": "indicator--fdc0f8f1-e957-4fa3-9289-d5815d8f2c24",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:57.313Z",
+            "modified": "2020-11-09T20:13:57.313Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jt7266CF4b8.lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jt7266CF4b8.lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:13:57.313Z"
+        },
+        {
+            "id": "indicator--3f1a5958-595a-430a-98e4-3bb67c9aa606",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:00.485Z",
+            "modified": "2020-11-09T20:14:00.485Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jm7266456Va.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jm7266456Va.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:14:00.485Z"
+        },
+        {
+            "id": "indicator--7f57ad99-f648-486e-b3ba-4baa6163a1d2",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:08.832Z",
+            "modified": "2020-11-09T20:14:08.832Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jhxv4927266.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jhxv4927266.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:14:08.832Z"
+        },
+        {
+            "id": "indicator--881f55fb-3956-4452-a672-8aff795e3a64",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:09.294Z",
+            "modified": "2020-11-09T20:14:09.294Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jp4e37266iB.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jp4e37266iB.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:14:09.294Z"
+        },
+        {
+            "id": "indicator--084781d0-b7ce-4b19-8460-3025f7bcbaba",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:27.995Z",
+            "modified": "2020-11-09T20:14:27.995Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jp5717266vd.lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jp5717266vd.lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:14:27.995Z"
+        },
+        {
+            "id": "indicator--eee61c96-c372-4507-b55f-94a0c792b35a",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:28.007Z",
+            "modified": "2020-11-09T20:14:28.007Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ot7266Ng502.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ot7266Ng502.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:14:28.007Z"
+        },
+        {
+            "id": "indicator--4fcc219c-9b84-46b6-93cd-9241e384622e",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:48.162Z",
+            "modified": "2020-11-09T20:14:48.162Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns1.uplearn.top",
+            "description": "",
+            "pattern": "[ url:value = 'ns1.uplearn.top' ]",
+            "valid_from": "2020-11-09T20:14:48.162Z"
+        },
+        {
+            "id": "indicator--5bf4cf3a-366e-4e87-954f-4668b79685f0",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:56.219Z",
+            "modified": "2020-11-09T20:14:56.219Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns2.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ns2.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:14:56.219Z"
+        },
+        {
+            "id": "indicator--4fcc219c-9b84-46b6-93cd-9241e384622e",
+            "type": "indicator",
+            "created": "2020-11-09T20:15:12.626Z",
+            "modified": "2020-11-09T20:15:12.626Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns1.uplearn.top",
+            "description": "",
+            "pattern": "[ url:value = 'ns1.uplearn.top' ]",
+            "valid_from": "2020-11-09T20:15:12.626Z"
+        },
+        {
+            "id": "indicator--084781d0-b7ce-4b19-8460-3025f7bcbaba",
+            "type": "indicator",
+            "created": "2020-11-09T20:15:52.322Z",
+            "modified": "2020-11-09T20:15:52.322Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for jp5717266vd.lidarcc.icu",
+            "description": "",
+            "pattern": "[ url:value = 'jp5717266vd.lidarcc.icu' ]",
+            "valid_from": "2020-11-09T20:15:52.322Z"
+        },
+        {
+            "id": "indicator--eee61c96-c372-4507-b55f-94a0c792b35a",
+            "type": "indicator",
+            "created": "2020-11-09T20:15:54.479Z",
+            "modified": "2020-11-09T20:15:54.479Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ot7266Ng502.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ot7266Ng502.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:15:54.479Z"
+        },
+        {
+            "id": "indicator--5bf4cf3a-366e-4e87-954f-4668b79685f0",
+            "type": "indicator",
+            "created": "2020-11-09T20:16:01.056Z",
+            "modified": "2020-11-09T20:16:01.056Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for ns2.hotsoft.icu",
+            "description": "",
+            "pattern": "[ url:value = 'ns2.hotsoft.icu' ]",
+            "valid_from": "2020-11-09T20:16:01.056Z"
+        },
+        {
+            "type": "report",
+            "id": "report--18529cf7-3612-923d-2d82-35ee551be4f5",
+            "name": "xHunt Campaign Using Backdoors for C2",
+            "published": "2020-11-09T20:43:56.770Z",
+            "created": "2020-11-09T20:43:56.770Z",
+            "modified": "2020-11-09T20:43:56.770Z",
+            "labels": [
+                "powershell",
+                "malware",
+                "xftag",
+                "dns",
+                "advisory",
+                "tunneling",
+                "snugy",
+                "trifive",
+                "backdoor"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nActive since at least July 2018, the xHunt campaign has been seen targeting the Kuwaiti government as well as shipping and transportation organizations. Palo Alto's Unit 42 provides insight into new techniques seen with this activity.\n\n# Threat Type\n\n- Malware, Backdoor, DNS Tunneling\n\n# Overview\n\nThe xHunt Campaign has been actively observed since at least July 2018. In the latest developments, Unit 42 has uncovered new techniques being employed to provide new C2 vectors. The campaign has focused its efforts mainly on the Kuwaiti government as well as the shipping and transportation industries. The latest information suggests the threat actors have compromised a Microsoft Exchange server on or before August 22, 2019. Analysts note two backdoors, called TriFive and Snugy by Unit 42, as well as a web shell called BumbleBee were discovered. The backdoors are PowerShell scripts that provide the threat actors with backdoor access through the compromised Exchange server. This access provides different C2 channels with which the actors communicate. TriFive is a backdoor that utilizes an email-based channel using Exchange Web Services to create draft emails in the Deleted Items folder of the email account previously compromised. Snugy uses DNS tunneling to run commands on the compromised server. In September 2020, analysts were notified of a breached organization in Kuwait. Suspicious commands were noted as coming from Exchange server through an Internet Information Services (IIS) process. Threat actors then issued commands using BumbleBee, which had been previously installed on the Exchange server. In reviewing the logs, the analysts were unable to find an infection vector. They were able to find two scheduled tasks, which were in\u00a0place prior to the dates of the collected logs. These tasks executed PowerShell scripts, and although the analysts were unable to confirm, they believe the threat actors were able to access the server prior the creation of logging events. The naming of logs was done in order to blend into other tasks and had names that, upon first glance, would appear to be normal functions. The threat actors were able to resolve hosts through these two scripts. The backdoors mentioned were executed at intervals not matching each other with TriFive occurring every 5 minutes and Snugy every 30 minutes. The hypothesis is that this is done to offer some form of stealth in order to avoid detection. The actor created a draft email with a specific subject that included the commands encrypted and encoded using a base64 format. The commands are executed when PowerShell is directed to the Deleted Items folder and searches for the aforementioned subject line. Persistence for this module is achieved via the scheduled task and not through a looping process. Snugy is a PowerShell backdoor. This backdoor allows the actor to run commands as well as obtain the system's hostname. Snugy is a variant of the CASHY200 backdoor previously employed. Significant overlap exists to suggest this claim. Snugy uses DNS tunneling to communicate with C2 servers using A record lookups to resolve custom subdomains of C2 domains controlled by the actor. Snugy extracts the IP address prior to sending ICMP requests should that technique fail. The tunneling protocol only sends one byte of data per query. This speed makes the backdoor inefficient for the exfiltration of data. DNS tunneling allows for the receipt of four bytes of data making it a little more efficient. Further details of the TTPs of the actor and these tools can be found in the report located within the reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://unit42.paloaltonetworks.com/xhunt-campaign-backdoors[/](https://unit42.paloaltonetworks.com/xhunt-campaign-backdoors/) ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--18529cf7-3612-923d-2d82-35ee551be4f5",
+            "collectionTitle": "xHunt Campaign Using Backdoors for C2",
+            "collectionWikiContent": "Summary\nActive since at least July 2018, the xHunt campaign has been seen targeting the Kuwaiti government as well as shipping and transportation organizations. Palo Alto's Unit 42 provides insight into new techniques seen with this activity.\nThreat Type\nMalware, Backdoor, DNS Tunneling\nOverview\nThe xHunt Campaign has been actively observed since at least July 2018. In the latest developments, Unit 42 has uncovered new techniques being employed to provide new C2 vectors. The campaign has focused its efforts mainly on the Kuwaiti government as well as the shipping and transportation industries. The latest information suggests the threat actors have compromised a Microsoft Exchange server on or before August 22, 2019. Analysts note two backdoors, called TriFive and Snugy by Unit 42, as well as a web shell called BumbleBee were discovered. The backdoors are PowerShell scripts that provide the threat actors with backdoor access through the compromised Exchange server. This access provides different C2 channels with which the actors communicate. TriFive is a backdoor that utilizes an email-based channel using Exchange Web Services to create draft emails in the Deleted Items folder of the email account previously compromised. Snugy uses DNS tunneling to run commands on the compromised server. In September 2020, analysts were notified of a breached organization in Kuwait. Suspicious commands were noted as coming from Exchange server through an Internet Information Services (IIS) process. Threat actors then issued commands using BumbleBee, which had been previously installed on the Exchange server. In reviewing the logs, the analysts were unable to find an infection vector. They were able to find two scheduled tasks, which were in\u00a0place prior to the dates of the collected logs. These tasks executed PowerShell scripts, and although the analysts were unable to confirm, they believe the threat actors were able to access the server prior the creation of logging events. The naming of logs was done in order to blend into other tasks and had names that, upon first glance, would appear to be normal functions. The threat actors were able to resolve hosts through these two scripts. The backdoors mentioned were executed at intervals not matching each other with TriFive occurring every 5 minutes and Snugy every 30 minutes. The hypothesis is that this is done to offer some form of stealth in order to avoid detection. The actor created a draft email with a specific subject that included the commands encrypted and encoded using a base64 format. The commands are executed when PowerShell is directed to the Deleted Items folder and searches for the aforementioned subject line. Persistence for this module is achieved via the scheduled task and not through a looping process. Snugy is a PowerShell backdoor. This backdoor allows the actor to run commands as well as obtain the system's hostname. Snugy is a variant of the CASHY200 backdoor previously employed. Significant overlap exists to suggest this claim. Snugy uses DNS tunneling to communicate with C2 servers using A record lookups to resolve custom subdomains of C2 domains controlled by the actor. Snugy extracts the IP address prior to sending ICMP requests should that technique fail. The tunneling protocol only sends one byte of data per query. This speed makes the backdoor inefficient for the exfiltration of data. DNS tunneling allows for the receipt of four bytes of data making it a little more efficient. Further details of the TTPs of the actor and these tools can be found in the report located within the reference section below.\nIndicators of Compromise\nA complete list of IoCs can be found in the Reports section to the right.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://unit42.paloaltonetworks.com/xhunt-campaign-backdoors/ ",
+            "collectionWikiMarkdown": "# Summary\n\nActive since at least July 2018, the xHunt campaign has been seen targeting the Kuwaiti government as well as shipping and transportation organizations. Palo Alto's Unit 42 provides insight into new techniques seen with this activity.\n\n# Threat Type\n\n- Malware, Backdoor, DNS Tunneling\n\n# Overview\n\nThe xHunt Campaign has been actively observed since at least July 2018. In the latest developments, Unit 42 has uncovered new techniques being employed to provide new C2 vectors. The campaign has focused its efforts mainly on the Kuwaiti government as well as the shipping and transportation industries. The latest information suggests the threat actors have compromised a Microsoft Exchange server on or before August 22, 2019. Analysts note two backdoors, called TriFive and Snugy by Unit 42, as well as a web shell called BumbleBee were discovered. The backdoors are PowerShell scripts that provide the threat actors with backdoor access through the compromised Exchange server. This access provides different C2 channels with which the actors communicate. TriFive is a backdoor that utilizes an email-based channel using Exchange Web Services to create draft emails in the Deleted Items folder of the email account previously compromised. Snugy uses DNS tunneling to run commands on the compromised server. In September 2020, analysts were notified of a breached organization in Kuwait. Suspicious commands were noted as coming from Exchange server through an Internet Information Services (IIS) process. Threat actors then issued commands using BumbleBee, which had been previously installed on the Exchange server. In reviewing the logs, the analysts were unable to find an infection vector. They were able to find two scheduled tasks, which were in\u00a0place prior to the dates of the collected logs. These tasks executed PowerShell scripts, and although the analysts were unable to confirm, they believe the threat actors were able to access the server prior the creation of logging events. The naming of logs was done in order to blend into other tasks and had names that, upon first glance, would appear to be normal functions. The threat actors were able to resolve hosts through these two scripts. The backdoors mentioned were executed at intervals not matching each other with TriFive occurring every 5 minutes and Snugy every 30 minutes. The hypothesis is that this is done to offer some form of stealth in order to avoid detection. The actor created a draft email with a specific subject that included the commands encrypted and encoded using a base64 format. The commands are executed when PowerShell is directed to the Deleted Items folder and searches for the aforementioned subject line. Persistence for this module is achieved via the scheduled task and not through a looping process. Snugy is a PowerShell backdoor. This backdoor allows the actor to run commands as well as obtain the system's hostname. Snugy is a variant of the CASHY200 backdoor previously employed. Significant overlap exists to suggest this claim. Snugy uses DNS tunneling to communicate with C2 servers using A record lookups to resolve custom subdomains of C2 domains controlled by the actor. Snugy extracts the IP address prior to sending ICMP requests should that technique fail. The tunneling protocol only sends one byte of data per query. This speed makes the backdoor inefficient for the exfiltration of data. DNS tunneling allows for the receipt of four bytes of data making it a little more efficient. Further details of the TTPs of the actor and these tools can be found in the report located within the reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://unit42.paloaltonetworks.com/xhunt-campaign-backdoors[/](https://unit42.paloaltonetworks.com/xhunt-campaign-backdoors/) ",
+            "collectionId": "18529cf73612923d2d8235ee551be4f5",
+            "owner": {
+                "name": "Dave Bales",
+                "uuid": "http://www.ibm.com/5500014C32"
+            },
+            "tags": [
+                "powershell",
+                "malware",
+                "xftag",
+                "dns",
+                "advisory",
+                "tunneling",
+                "snugy",
+                "trifive",
+                "backdoor"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T20:43:56.770Z",
+            "modified": "2020-11-09T20:43:56.770Z"
+        }
+    ],
+    "id": "bundle--d27713cf-a846-4e2e-a72c-316cc8b4f9d6"
+}

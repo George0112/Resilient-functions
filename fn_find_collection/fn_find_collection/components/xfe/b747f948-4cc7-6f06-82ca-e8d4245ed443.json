@@ -1,0 +1,431 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--71afd925-9fb6-489f-ba34-0b0a2250a0ce",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:14.702Z",
+            "modified": "2020-11-09T18:37:14.702Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for fastbloodhunter.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'fastbloodhunter.com' ]",
+            "valid_from": "2020-11-09T18:37:14.702Z"
+        },
+        {
+            "id": "indicator--7bd71797-2f96-45ed-a198-9a45cc60ef2d",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.115Z",
+            "modified": "2020-11-09T18:37:15.115Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for luckyhunterrs.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'luckyhunterrs.com' ]",
+            "valid_from": "2020-11-09T18:37:15.115Z"
+        },
+        {
+            "id": "indicator--aba96770-580d-4a16-ae82-d5819e2369f2",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.116Z",
+            "modified": "2020-11-09T18:37:15.116Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for wodemayaa.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'wodemayaa.com' ]",
+            "valid_from": "2020-11-09T18:37:15.116Z"
+        },
+        {
+            "id": "indicator--3959a156-5a71-400a-98e2-6317d51afd80",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.116Z",
+            "modified": "2020-11-09T18:37:15.116Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for hybriqdjs.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'hybriqdjs.com' ]",
+            "valid_from": "2020-11-09T18:37:15.116Z"
+        },
+        {
+            "id": "indicator--ebdf360c-04b2-41d9-a73b-e12dbd2a8d4e",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.126Z",
+            "modified": "2020-11-09T18:37:15.126Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for mixunderax.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'mixunderax.com' ]",
+            "valid_from": "2020-11-09T18:37:15.126Z"
+        },
+        {
+            "id": "indicator--ac658c7f-ab59-4670-bb0a-5d8d257e0ad2",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.138Z",
+            "modified": "2020-11-09T18:37:15.138Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for servicewikii.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'servicewikii.com' ]",
+            "valid_from": "2020-11-09T18:37:15.138Z"
+        },
+        {
+            "id": "indicator--9ad2ba65-60c3-4fd6-bbf2-92ebdf813274",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.139Z",
+            "modified": "2020-11-09T18:37:15.139Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for gungameon.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'gungameon.com' ]",
+            "valid_from": "2020-11-09T18:37:15.139Z"
+        },
+        {
+            "id": "indicator--fac139bf-a65a-4075-befb-a00d9b837aea",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.140Z",
+            "modified": "2020-11-09T18:37:15.140Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for gunsdrag.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'gunsdrag.com' ]",
+            "valid_from": "2020-11-09T18:37:15.140Z"
+        },
+        {
+            "id": "indicator--5103d002-59b6-4d3f-85ec-a92edda1547a",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.142Z",
+            "modified": "2020-11-09T18:37:15.142Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for bugsbunnyy.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'bugsbunnyy.com' ]",
+            "valid_from": "2020-11-09T18:37:15.142Z"
+        },
+        {
+            "id": "indicator--7946d62d-d8f4-4cb3-84ca-b195860da9c3",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.186Z",
+            "modified": "2020-11-09T18:37:15.186Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for serviceboosterr.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'serviceboosterr.com' ]",
+            "valid_from": "2020-11-09T18:37:15.186Z"
+        },
+        {
+            "id": "indicator--84acc188-7866-410f-acdf-c2aa2d15a38c",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.189Z",
+            "modified": "2020-11-09T18:37:15.189Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for secondlivve.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'secondlivve.com' ]",
+            "valid_from": "2020-11-09T18:37:15.189Z"
+        },
+        {
+            "id": "indicator--d7e9b18b-cfe7-4ad6-b8aa-f3c6b85bdfe4",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:15.202Z",
+            "modified": "2020-11-09T18:37:15.202Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for servicemount.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'servicemount.com' ]",
+            "valid_from": "2020-11-09T18:37:15.202Z"
+        },
+        {
+            "id": "indicator--b50c52f0-a7e1-4544-989e-6a878afacdea",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:16.042Z",
+            "modified": "2020-11-09T18:37:16.042Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for qascker.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'qascker.com' ]",
+            "valid_from": "2020-11-09T18:37:16.042Z"
+        },
+        {
+            "id": "indicator--c70a1205-0d1a-4dfe-be33-eb430a65f094",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:19.741Z",
+            "modified": "2020-11-09T18:37:19.741Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for servicesupdater.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'servicesupdater.com' ]",
+            "valid_from": "2020-11-09T18:37:19.741Z"
+        },
+        {
+            "id": "indicator--c204553d-68f8-4039-ab31-aeb17aafdec7",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:23.631Z",
+            "modified": "2020-11-09T18:37:23.631Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for unlockwsa.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'unlockwsa.com' ]",
+            "valid_from": "2020-11-09T18:37:23.631Z"
+        },
+        {
+            "id": "indicator--702a0b80-634e-4930-b261-26de84d81f22",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:25.156Z",
+            "modified": "2020-11-09T18:37:25.156Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for havemosts.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'havemosts.com' ]",
+            "valid_from": "2020-11-09T18:37:25.156Z"
+        },
+        {
+            "id": "indicator--b6b5d1f1-56ef-40f9-97de-0feeb4306a6d",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:25.948Z",
+            "modified": "2020-11-09T18:37:25.948Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for remotessa.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'remotessa.com' ]",
+            "valid_from": "2020-11-09T18:37:25.948Z"
+        },
+        {
+            "id": "indicator--6be65e41-d18e-457e-a95c-cab6b3e94869",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:34.605Z",
+            "modified": "2020-11-09T18:37:34.605Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for zhameharden.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'zhameharden.com' ]",
+            "valid_from": "2020-11-09T18:37:34.605Z"
+        },
+        {
+            "id": "indicator--2c1fda65-e569-4262-a09f-7d0dd8721e3b",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:39.331Z",
+            "modified": "2020-11-09T18:37:39.331Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for sobcase.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'sobcase.com' ]",
+            "valid_from": "2020-11-09T18:37:39.331Z"
+        },
+        {
+            "id": "indicator--ecce1408-8336-41b5-bbb3-4746ff96d1ed",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:44.226Z",
+            "modified": "2020-11-09T18:37:44.226Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for serviceupdatter.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'serviceupdatter.com' ]",
+            "valid_from": "2020-11-09T18:37:44.226Z"
+        },
+        {
+            "id": "indicator--dd22275e-5ecf-433e-879e-21d697c5c960",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:45.281Z",
+            "modified": "2020-11-09T18:37:45.281Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for check1domains.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'check1domains.com' ]",
+            "valid_from": "2020-11-09T18:37:45.281Z"
+        },
+        {
+            "id": "indicator--8b45d7ec-8701-4d50-82ca-18da8334a4e2",
+            "type": "indicator",
+            "created": "2020-11-09T18:37:59.657Z",
+            "modified": "2020-11-09T18:37:59.657Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for sweetmonsterr.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'sweetmonsterr.com' ]",
+            "valid_from": "2020-11-09T18:37:59.657Z"
+        },
+        {
+            "id": "indicator--388876ed-98cb-4f3a-97eb-95f4e07e8890",
+            "type": "indicator",
+            "created": "2020-11-09T18:38:17.478Z",
+            "modified": "2020-11-09T18:38:17.478Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for service-boosterr.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'service-boosterr.com' ]",
+            "valid_from": "2020-11-09T18:38:17.478Z"
+        },
+        {
+            "id": "indicator--efd9cdb7-8999-48c6-9e2e-11e83643c93c",
+            "type": "indicator",
+            "created": "2020-11-09T18:38:17.792Z",
+            "modified": "2020-11-09T18:38:17.792Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for dotmaingame.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'dotmaingame.com' ]",
+            "valid_from": "2020-11-09T18:38:17.792Z"
+        },
+        {
+            "id": "indicator--efd9cdb7-8999-48c6-9e2e-11e83643c93c",
+            "type": "indicator",
+            "created": "2020-11-09T18:38:35.244Z",
+            "modified": "2020-11-09T18:38:35.244Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for dotmaingame.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'dotmaingame.com' ]",
+            "valid_from": "2020-11-09T18:38:35.244Z"
+        },
+        {
+            "id": "indicator--388876ed-98cb-4f3a-97eb-95f4e07e8890",
+            "type": "indicator",
+            "created": "2020-11-09T18:39:38.649Z",
+            "modified": "2020-11-09T18:39:38.649Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for service-boosterr.com",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'service-boosterr.com' ]",
+            "valid_from": "2020-11-09T18:39:38.649Z"
+        },
+        {
+            "type": "report",
+            "id": "report--b747f948-4cc7-6f06-82ca-e8d4245ed443",
+            "name": "BazarBackdoor to Ryuk Ransomware to Cobalt Strike",
+            "published": "2020-11-09T19:22:23.383Z",
+            "created": "2020-11-09T19:22:23.383Z",
+            "modified": "2020-11-09T19:22:23.383Z",
+            "labels": [
+                "ryuk",
+                "adfind",
+                "mimikatz",
+                "powershell",
+                "advisory",
+                "bloodhound",
+                "lazagne",
+                "powersploit",
+                "one",
+                "cobalt-strike",
+                "psexec",
+                "xftag"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nContinuing its targeting of the healthcare system, Ryuk ransomware group \"one\" has been analyzed by AdvIntel in a blog post.\n\n# Threat Type\n\n- Malware, Ransomware\n\n# Overview\n\nAdvIntel has provided an exact attack kill-chain by Ryuk ransomware \"one\" group in a new report. Using BazarBackdoor and Cobalt Strike, the group behind this Ryuk ransomware distribution is mainly targeting the healthcare industry. The typical M.O. of this particular group is a ransom of an average of 48 Bitcoin but has been as high as 2,200 Bitcoin. Recent targets also include technology, energy, financial services, and government. The group favors pen testing tools such as Cobalt Strike beacons as an intermediary payload. Additionally, they employs Mimikatz, PowerShell PowerSploit, LaZagne, AdFind, Bloodhound, and PsExec. A 15-step attack profile is used after having pivoted from BazarBackdoor using Cobalt Strike. The group uses various tools to examine the domain, collect passwords, create tokens for administrative work, view the network, portscan, list accessible hosts, employ AdFind, search for A/V, password recovery, and other actions in order to more efficiently infect and encrypt the target. Further details can be found in the report located within the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.advanced-intel.com/post/anatomy-of-attack-inside-bazarbackdoor-to-ryuk-ransomware-one-group-via-cobalt-strike?s=09 ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--b747f948-4cc7-6f06-82ca-e8d4245ed443",
+            "collectionTitle": "BazarBackdoor to Ryuk Ransomware to Cobalt Strike",
+            "collectionWikiContent": "Summary\nContinuing its targeting of the healthcare system, Ryuk ransomware group \"one\" has been analyzed by AdvIntel in a blog post.\nThreat Type\nMalware, Ransomware\nOverview\nAdvIntel has provided an exact attack kill-chain by Ryuk ransomware \"one\" group in a new report. Using BazarBackdoor and Cobalt Strike, the group behind this Ryuk ransomware distribution is mainly targeting the healthcare industry. The typical M.O. of this particular group is a ransom of an average of 48 Bitcoin but has been as high as 2,200 Bitcoin. Recent targets also include technology, energy, financial services, and government. The group favors pen testing tools such as Cobalt Strike beacons as an intermediary payload. Additionally, they employs Mimikatz, PowerShell PowerSploit, LaZagne, AdFind, Bloodhound, and PsExec. A 15-step attack profile is used after having pivoted from BazarBackdoor using Cobalt Strike. The group uses various tools to examine the domain, collect passwords, create tokens for administrative work, view the network, portscan, list accessible hosts, employ AdFind, search for A/V, password recovery, and other actions in order to more efficiently infect and encrypt the target. Further details can be found in the report located within the Reference section below.\nIndicators of Compromise\nA complete list of IoCs can be found in the Reports section to the right.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://www.advanced-intel.com/post/anatomy-of-attack-inside-bazarbackdoor-to-ryuk-ransomware-one-group-via-cobalt-strike?s=09 ",
+            "collectionWikiMarkdown": "# Summary\n\nContinuing its targeting of the healthcare system, Ryuk ransomware group \"one\" has been analyzed by AdvIntel in a blog post.\n\n# Threat Type\n\n- Malware, Ransomware\n\n# Overview\n\nAdvIntel has provided an exact attack kill-chain by Ryuk ransomware \"one\" group in a new report. Using BazarBackdoor and Cobalt Strike, the group behind this Ryuk ransomware distribution is mainly targeting the healthcare industry. The typical M.O. of this particular group is a ransom of an average of 48 Bitcoin but has been as high as 2,200 Bitcoin. Recent targets also include technology, energy, financial services, and government. The group favors pen testing tools such as Cobalt Strike beacons as an intermediary payload. Additionally, they employs Mimikatz, PowerShell PowerSploit, LaZagne, AdFind, Bloodhound, and PsExec. A 15-step attack profile is used after having pivoted from BazarBackdoor using Cobalt Strike. The group uses various tools to examine the domain, collect passwords, create tokens for administrative work, view the network, portscan, list accessible hosts, employ AdFind, search for A/V, password recovery, and other actions in order to more efficiently infect and encrypt the target. Further details can be found in the report located within the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.advanced-intel.com/post/anatomy-of-attack-inside-bazarbackdoor-to-ryuk-ransomware-one-group-via-cobalt-strike?s=09 ",
+            "collectionId": "b747f9484cc76f0682cae8d4245ed443",
+            "owner": {
+                "name": "Dave Bales",
+                "uuid": "http://www.ibm.com/5500014C32"
+            },
+            "tags": [
+                "ryuk",
+                "adfind",
+                "mimikatz",
+                "powershell",
+                "advisory",
+                "bloodhound",
+                "lazagne",
+                "powersploit",
+                "one",
+                "cobalt-strike",
+                "psexec",
+                "xftag"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T19:22:23.383Z",
+            "modified": "2020-11-09T19:22:23.383Z"
+        }
+    ],
+    "id": "bundle--4d432cb8-bf31-4d03-9d6c-94e6c47740aa"
+}

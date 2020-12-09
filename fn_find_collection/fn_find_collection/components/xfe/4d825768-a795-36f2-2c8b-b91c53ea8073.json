@@ -1,0 +1,235 @@
+{
+    "type": "bundle",
+    "id": "bundle--a35ac00f-7ae3-4252-a1ea-d487cc935db3",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e4df2dcb-5e4b-4c3c-b4e0-d4bea41709ff",
+            "created": "2020-11-10T11:19:29.605356Z",
+            "modified": "2020-11-10T11:19:29.605356Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'wells-fargo-balance-alert.digital']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-10T11:19:29.605356Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-10T09:50:28.935Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-08T16:58:39Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ce1f44fc-10b9-414e-8cfb-f90d5c8b6a5d",
+            "created": "2020-11-10T11:19:29.607368Z",
+            "modified": "2020-11-10T11:19:29.607368Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'wells-fargo-balance-alerts.services']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-10T11:19:29.607368Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-10T09:50:28.935Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-08T17:08:38Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cce82708-6083-48fa-96b9-c61905cfffdf",
+            "created": "2020-11-10T11:19:29.608795Z",
+            "modified": "2020-11-10T11:19:29.608795Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'wells-fargo-payments-posted.network']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-10T11:19:29.608795Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-10T09:50:28.935Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-08T17:04:33Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0f4f55b8-ce71-43bb-8b8d-79fab2d78e63",
+            "created": "2020-11-10T11:19:29.610924Z",
+            "modified": "2020-11-10T11:19:29.610924Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'wells-fargo-text-update.services']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-10T11:19:29.610924Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-10T09:50:28.935Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-08T17:01:14Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fc90d453-3534-40ac-ac97-f68c2b0f15e8",
+            "created": "2020-11-10T11:19:29.612405Z",
+            "modified": "2020-11-10T11:19:29.612405Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'wells-fargo-transaction.digital']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-10T11:19:29.612405Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-10T09:50:28.935Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-08T17:15:31Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9c2b688d-11d7-4746-babd-1c9417c75475",
+            "created": "2020-11-10T11:19:29.6137Z",
+            "modified": "2020-11-10T11:19:29.6137Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'wells-fargo-unexpected-charges.network']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-10T11:19:29.6137Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-10T09:50:28.935Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-08T17:13:51Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9ef3ae94-0412-4df4-bc8e-40d083d8f95b",
+            "created": "2020-11-10T11:19:29.615219Z",
+            "modified": "2020-11-10T11:19:29.615219Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'wells-fargo-withdrawals.services']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-10T11:19:29.615219Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-10T09:50:28.935Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-08T17:17:35Z"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6473a911-f19c-44c1-b54c-1ef79b67c660",
+            "created": "2020-11-10T11:19:29.619854Z",
+            "modified": "2020-11-10T11:19:29.619854Z",
+            "name": "Phishing",
+            "external_references": [
+                {
+                    "source_name": "capec",
+                    "description": "phishing",
+                    "url": "https://capec.mitre.org/data/definitions/98.html",
+                    "external_id": "CAPEC-98"
+                }
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--4d825768-a795-36f2-2c8b-b91c53ea8073",
+            "created": "2020-11-10T11:19:29.620013Z",
+            "modified": "2020-11-10T11:19:29.620013Z",
+            "name": "Wells Fargo Squatting Campaign",
+            "description": "# Overview\nWe observed 7 squatting domain registrations related to a victim in the finance and insurance sector. The campaign was identified starting with the registration on 2020-11-08 16:58:39 up to the latest registration on 2020-11-10 11:17:27.\nFor all registered domains we could identify Namecheap, Inc. as the registrar based in Panama. The email address used for registering the domains was anonymized. In addition we were also able to resolve the hosting IP 199.188.206.63 as well as the ASN AS22612 located in United States to all registered domains.\n\nHowever the registrar NameCheap, Inc. covers a pool of 53.098.022 domains where at least 0.40% can be considered as potentially malicious.The following list shows the nameservers that are configured as authoritative nameservers for the domain and their malicious scores which is the percentage of malicious domains with the same nameserver.\n  \n| Domain | Name server | Name server malicious score |\n|---|---|---|\n|wells-fargo-balance-alert.digital|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-balance-alert.digital|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-balance-alerts.services|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-balance-alerts.services|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-payments-posted.network|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-payments-posted.network|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-text-update.services|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-text-update.services|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-transaction.digital|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-transaction.digital|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-unexpected-charges.network|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-unexpected-charges.network|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-withdrawals.services|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-withdrawals.services|dns2.namecheaphosting.com|0.66%|\n\nNot forgetting to mention the WhoIs Server: X-Force was able to retrieve the WhoIs server information where we were also able to determine the number of domains each WhoIs server manages and as well adding the malicious rating of the domains in the pool.\n\n| Domain | WhoIs server | WhoIs server malicious score |\n|---|---|---|\n|wells-fargo-balance-alert.digital|whois.namecheap.com|0.41%|\n|wells-fargo-balance-alerts.services|whois.namecheap.com|0.41%|\n|wells-fargo-payments-posted.network|whois.namecheap.com|0.41%|\n|wells-fargo-text-update.services|whois.namecheap.com|0.41%|\n|wells-fargo-transaction.digital|whois.namecheap.com|0.41%|\n|wells-fargo-unexpected-charges.network|whois.namecheap.com|0.41%|\n|wells-fargo-withdrawals.services|whois.namecheap.com|0.41%|\n\n# Recommendations\n* Do not click or open links in mails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n* Ensure anti-virus software and associated files are up to date.\n* Search for existing signs of the indicated IOCs in your environment.\n* Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n* Keep applications and operating systems running at the current released patch level.\n\n# Reference\nProprietary IBM X-Force Threat Intelligence ",
+            "published": "2020-11-10T11:19:29.620003Z",
+            "object_refs": [
+                "indicator--e4df2dcb-5e4b-4c3c-b4e0-d4bea41709ff",
+                "indicator--ce1f44fc-10b9-414e-8cfb-f90d5c8b6a5d",
+                "indicator--cce82708-6083-48fa-96b9-c61905cfffdf",
+                "indicator--0f4f55b8-ce71-43bb-8b8d-79fab2d78e63",
+                "indicator--fc90d453-3534-40ac-ac97-f68c2b0f15e8",
+                "indicator--9c2b688d-11d7-4746-babd-1c9417c75475",
+                "indicator--9ef3ae94-0412-4df4-bc8e-40d083d8f95b",
+                "attack-pattern--6473a911-f19c-44c1-b54c-1ef79b67c660"
+            ],
+            "labels": [
+                "phishing",
+                "ew-type:squatting",
+                "ew-type:phishing",
+                "early-warning",
+                "ew-industry:finance",
+                "ew-risk:29",
+                "ew-location:all"
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_com_ibm_hash": "5BBA0D5B3F29B717",
+            "x_com_ibm_short_description": "X-Force has identified a new squatting campaign used by threat actors to target the finance and insurance sector. The campaign has a global scope assumingly luring users into giving away their login credentials.\n  "
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--4d825768-a795-36f2-2c8b-b91c53ea8073",
+            "collectionTitle": "Wells Fargo Squatting Campaign",
+            "collectionWikiContent": "# Overview\nWe observed 7 squatting domain registrations related to a victim in the finance and insurance sector. The campaign was identified starting with the registration on 2020-11-08 16:58:39 up to the latest registration on 2020-11-10 11:17:27.\nFor all registered domains we could identify Namecheap, Inc. as the registrar based in Panama. The email address used for registering the domains was anonymized. In addition we were also able to resolve the hosting IP 199.188.206.63 as well as the ASN AS22612 located in United States to all registered domains.\n\nHowever the registrar NameCheap, Inc. covers a pool of 53.098.022 domains where at least 0.40% can be considered as potentially malicious.The following list shows the nameservers that are configured as authoritative nameservers for the domain and their malicious scores which is the percentage of malicious domains with the same nameserver.\n  \n| Domain | Name server | Name server malicious score |\n|---|---|---|\n|wells-fargo-balance-alert.digital|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-balance-alert.digital|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-balance-alerts.services|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-balance-alerts.services|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-payments-posted.network|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-payments-posted.network|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-text-update.services|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-text-update.services|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-transaction.digital|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-transaction.digital|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-unexpected-charges.network|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-unexpected-charges.network|dns2.namecheaphosting.com|0.66%|\n|wells-fargo-withdrawals.services|dns1.namecheaphosting.com|0.66%|\n|wells-fargo-withdrawals.services|dns2.namecheaphosting.com|0.66%|\n\nNot forgetting to mention the WhoIs Server: X-Force was able to retrieve the WhoIs server information where we were also able to determine the number of domains each WhoIs server manages and as well adding the malicious rating of the domains in the pool.\n\n| Domain | WhoIs server | WhoIs server malicious score |\n|---|---|---|\n|wells-fargo-balance-alert.digital|whois.namecheap.com|0.41%|\n|wells-fargo-balance-alerts.services|whois.namecheap.com|0.41%|\n|wells-fargo-payments-posted.network|whois.namecheap.com|0.41%|\n|wells-fargo-text-update.services|whois.namecheap.com|0.41%|\n|wells-fargo-transaction.digital|whois.namecheap.com|0.41%|\n|wells-fargo-unexpected-charges.network|whois.namecheap.com|0.41%|\n|wells-fargo-withdrawals.services|whois.namecheap.com|0.41%|\n\n# Recommendations\n* Do not click or open links in mails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n* Ensure anti-virus software and associated files are up to date.\n* Search for existing signs of the indicated IOCs in your environment.\n* Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n* Keep applications and operating systems running at the current released patch level.\n\n# Reference\nProprietary IBM X-Force Threat Intelligence ",
+            "collectionId": "4d825768a79536f22c8bb91c53ea8073",
+            "tags": [
+                "phishing",
+                "ew-type:squatting",
+                "ew-type:phishing",
+                "early-warning",
+                "ew-industry:finance",
+                "ew-risk:29",
+                "ew-location:all"
+            ],
+            "created": "2020-11-10T11:19:29.620013Z",
+            "modified": "2020-11-10T11:19:29.620013Z",
+            "published": "2020-11-10T11:19:29.620003Z",
+            "object_refs": [
+                "indicator--e4df2dcb-5e4b-4c3c-b4e0-d4bea41709ff",
+                "indicator--ce1f44fc-10b9-414e-8cfb-f90d5c8b6a5d",
+                "indicator--cce82708-6083-48fa-96b9-c61905cfffdf",
+                "indicator--0f4f55b8-ce71-43bb-8b8d-79fab2d78e63",
+                "indicator--fc90d453-3534-40ac-ac97-f68c2b0f15e8",
+                "indicator--9c2b688d-11d7-4746-babd-1c9417c75475",
+                "indicator--9ef3ae94-0412-4df4-bc8e-40d083d8f95b",
+                "attack-pattern--6473a911-f19c-44c1-b54c-1ef79b67c660"
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_com_ibm_short_description": "X-Force has identified a new squatting campaign used by threat actors to target the finance and insurance sector. The campaign has a global scope assumingly luring users into giving away their login credentials.\n  "
+        }
+    ]
+}

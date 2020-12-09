@@ -1,0 +1,1908 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "vulnerability--1bdf42ee-ec73-4795-9b70-a2d91e088e85",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco AnyConnect Secure Mobility Client Software code execution",
+            "description": "Cisco AnyConnect Secure Mobility Client Software could allow a local authenticated attacker to execute arbitrary code on the system, caused by the lack of authentication to the IPC listener. By sending specially-crafted IPC messages to the AnyConnect client IPC listener, an attacker could exploit this vulnerability to execute arbitrary code with the privileges of the targeted AnyConnect user.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3556"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.3"
+            ],
+            "x_xfe_risk_level": 7.3,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.4,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-anyconnect-ipc-KfQO9QhK for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco AnyConnect Secure Mobility Client for Linux",
+                "Cisco AnyConnect Secure Mobility Client for Windows",
+                "Cisco AnyConnect Secure Mobility Client for MacOS"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-ipc-KfQO9QhK",
+                    "link_name": "Cisco Security Advisory cisco-sa-anyconnect-ipc-KfQO9QhK",
+                    "description": "Cisco AnyConnect Secure Mobility Client Arbitrary Code Execution Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3556",
+                    "link_name": "CVE-2020-3556",
+                    "description": "A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client Software could allow an authenticated, local attacker to cause a targeted AnyConnect user to execute a malicious script. The vulnerability is due to a lack of authentication to the IPC listener. An attacker could exploit this vulnerability by sending crafted IPC messages to the AnyConnect client IPC listener. A successful exploit could allow an attacker to cause the targeted AnyConnect user to execute a script. This script would execute with the privileges of the targeted AnyConnect user. In order to successfully exploit this vulnerability, there must be an ongoing AnyConnect session by the targeted user at the time of the attack. To exploit this vulnerability, the attacker would also"
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--506f4279-1125-4adc-851b-cff3bd7feb01",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Webex Network Recording Player and Cisco Webex Player code execution",
+            "description": "Cisco Webex Network Recording Player and Cisco Webex Player could allow a remote attacker to execute arbitrary code on the system, caused by insufficient validation of certain elements of a Webex recording. By persuading a victim to open a specially crafted file, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3573"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-webex-nbr-NOS6FQ24 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco WebEx Network Recording Player",
+                "Cisco Webex Player"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-nbr-NOS6FQ24",
+                    "link_name": "Cisco Security Advisory cisco-sa-webex-nbr-NOS6FQ24",
+                    "description": "Cisco Webex Network Recording Player and Cisco Webex Player Arbitrary Code Execution Vulnerabilities"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3573",
+                    "link_name": "CVE-2020-3573",
+                    "description": "Multiple vulnerabilities in Cisco Webex Network Recording Player for Windows and Cisco Webex Player for Windows could allow an attacker to execute arbitrary code on an affected system. The vulnerabilities are due to insufficient validation of certain elements of a Webex recording that is stored in the Advanced Recording Format (ARF) or Webex Recording Format (WRF). An attacker could exploit these vulnerabilities by sending a user a malicious ARF or WRF file through a link or email attachment and persuading the user to open the file with the affected software on the local system. A successful exploit could allow the attacker to execute arbitrary code on the affected system with the privileges of the targeted user."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--ce80f919-d3cc-439b-80aa-be9e42c0bd4f",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Webex Network Recording Player and Cisco Webex Player code execution",
+            "description": "Cisco Webex Network Recording Player and Cisco Webex Player could allow a remote attacker to execute arbitrary code on the system, caused by insufficient validation of certain elements of a Webex recording. By persuading a victim to open a specially crafted file, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3603"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-webex-nbr-NOS6FQ24 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco WebEx Network Recording Player",
+                "Cisco Webex Player"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-nbr-NOS6FQ24",
+                    "link_name": "Cisco Security Advisory cisco-sa-webex-nbr-NOS6FQ24",
+                    "description": "Cisco Webex Network Recording Player and Cisco Webex Player Arbitrary Code Execution Vulnerabilities"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3603",
+                    "link_name": "CVE-2020-3603",
+                    "description": "Multiple vulnerabilities in Cisco Webex Network Recording Player for Windows and Cisco Webex Player for Windows could allow an attacker to execute arbitrary code on an affected system. The vulnerabilities are due to insufficient validation of certain elements of a Webex recording that is stored in the Advanced Recording Format (ARF) or Webex Recording Format (WRF). An attacker could exploit these vulnerabilities by sending a user a malicious ARF or WRF file through a link or email attachment and persuading the user to open the file with the affected software on the local system. A successful exploit could allow the attacker to execute arbitrary code on the affected system with the privileges of the targeted user."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--533c853b-9554-4902-b3e4-1cb43123c0d1",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN Software privilege escalation",
+            "description": "Cisco SD-WAN Software could allow a local authenticated attacker to gain elevated privileges on the system, caused by improper input validation. By sending a specially-crafted request to a utility, an authenticated attacker could exploit this vulnerability to gain root privileges.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3593"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vepescm-BjgQm4vJ for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software",
+                "Cisco SD-WAN vEdge Cloud Routers",
+                "Cisco SD-WAN vBond Orchestrator Software",
+                "Cisco SD-WAN vEdge Routers",
+                "Cisco SD-WAN vSmart Controller Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Privileges",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepescm-BjgQm4vJ",
+                    "link_name": "Cisco Security Advisory cisco-sa-vepescm-BjgQm4vJ",
+                    "description": "Cisco SD-WAN Software Privilege Escalation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3593",
+                    "link_name": "CVE-2020-3593",
+                    "description": "A vulnerability in Cisco SD-WAN Software could allow an authenticated, local attacker to elevate privileges to root on the underlying operating system. The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending a crafted request to a utility that is running on an affected system. A successful exploit could allow the attacker to gain root privileges."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--729256c5-69e0-4440-9463-8a916a506095",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN Software denial of service",
+            "description": "Cisco SD-WAN Software is vulnerable to a denial of service, caused by improper input validation for specific commands. By sending a specially-crafted arguments, a local authenticated attacker could exploit this vulnerability to create or overwrite arbitrary files resulting in a denial of service condition.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26071"
+                }
+            ],
+            "labels": [
+                "xfe-risk-8.4"
+            ],
+            "x_xfe_risk_level": 8.4,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 7.3,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vsoln-arbfile-gtsEYxns for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software",
+                "Cisco SD-WAN vEdge Cloud Routers",
+                "Cisco SD-WAN vBond Orchestrator Software",
+                "Cisco SD-WAN vEdge Routers",
+                "Cisco SD-WAN vSmart Controller Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Denial of Service",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vsoln-arbfile-gtsEYxns",
+                    "link_name": "Cisco Security Advisory cisco-sa-vsoln-arbfile-gtsEYxns",
+                    "description": "Cisco SD-WAN Software Arbitrary File Creation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26071",
+                    "link_name": "CVE-2020-26071",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--53de7a61-9ca9-4ef8-a1dd-3486d624d895",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN Software privilege escalation",
+            "description": "Cisco SD-WAN Software could allow a local authenticated attacker to gain elevated privileges on the system, caused by improper permissions being set when command is executed. By executing a specially-crafted command, an <authenticated> attacker could exploit this vulnerability to gain root privileges.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3595"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vepegr-4xynYLUj for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software",
+                "Cisco SD-WAN vEdge Cloud Routers",
+                "Cisco SD-WAN vBond Orchestrator Software",
+                "Cisco SD-WAN vEdge Routers",
+                "Cisco SD-WAN vSmart Controller Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Privileges",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepegr-4xynYLUj",
+                    "link_name": "Cisco Security Advisory cisco-sa-vepegr-4xynYLUj",
+                    "description": "Cisco SD-WAN Software Privilege Escalation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3595",
+                    "link_name": "CVE-2020-3595",
+                    "description": "A vulnerability in Cisco SD-WAN Software could allow an authenticated, local attacker to elevate privileges to root group on the underlying operating system. The vulnerability is due to incorrect permissions being set when the affected command is executed. An attacker could exploit this vulnerability by executing the affected command on an affected system. A successful exploit could allow the attacker to gain root privileges."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--9bdb6c1e-c31f-4e8b-8bb7-c7a88211586c",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Webex Network Recording Player and Cisco Webex Player code execution",
+            "description": "Cisco Webex Network Recording Player and Cisco Webex Player could allow a remote attacker to execute arbitrary code on the system, caused by insufficient validation of certain elements of a Webex recording. By persuading a victim to open a specially crafted file, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3604"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-webex-nbr-NOS6FQ24 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco WebEx Network Recording Player",
+                "Cisco Webex Player"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-nbr-NOS6FQ24",
+                    "link_name": "Cisco Security Advisory cisco-sa-webex-nbr-NOS6FQ24",
+                    "description": "Cisco Webex Network Recording Player and Cisco Webex Player Arbitrary Code Execution Vulnerabilities"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3604",
+                    "link_name": "CVE-2020-3604",
+                    "description": "Multiple vulnerabilities in Cisco Webex Network Recording Player for Windows and Cisco Webex Player for Windows could allow an attacker to execute arbitrary code on an affected system. The vulnerabilities are due to insufficient validation of certain elements of a Webex recording that is stored in the Advanced Recording Format (ARF) or Webex Recording Format (WRF). An attacker could exploit these vulnerabilities by sending a user a malicious ARF or WRF file through a link or email attachment and persuading the user to open the file with the affected software on the local system. A successful exploit could allow the attacker to execute arbitrary code on the affected system with the privileges of the targeted user."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--cc1fa61f-332a-49b2-bfeb-22433fb6a718",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco IP Phones denial of service",
+            "description": "Cisco IP Phones is vulnerable to a denial of service, caused by improper TCP ingress packet rate limiting. By sending specially-crafted TCP traffic, a remote attacker could exploit this vulnerability to cause the phone to reload.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3574"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.5"
+            ],
+            "x_xfe_risk_level": 7.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.5,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-voip-phone-flood-dos-YnU9EXOv for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Unified IP Conference Phone 8831 for Third-Party Call Control",
+                "Cisco IP Phone 8811 Desktop Phones with Multiplatform Firmware",
+                "Cisco IP Phone 8841 Desktop Phones with Multiplatform Firmware",
+                "Cisco IP Phone 8851 Desktop Phones with Multiplatform Firmware",
+                "Cisco IP Phone 8861 Desktop Phones with Multiplatform Firmware",
+                "Cisco IP DECT 210 Multi-Cell Base Station with Multiplatform Firmware",
+                "Cisco IP DECT 6825 with Multiplatform Firmware",
+                "Cisco Webex Room Phone"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Denial of Service",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voip-phone-flood-dos-YnU9EXOv",
+                    "link_name": "Cisco Security Advisory cisco-sa-voip-phone-flood-dos-YnU9EXOv",
+                    "description": "Cisco IP Phone TCP Packet Flood Denial of Service Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3574",
+                    "link_name": "CVE-2020-3574",
+                    "description": "A vulnerability in the TCP packet processing functionality of Cisco IP Phones could allow an unauthenticated, remote attacker to cause the phone to stop responding to incoming calls, drop connected calls, or unexpectedly reload. The vulnerability is due to insufficient TCP ingress packet rate limiting. An attacker could exploit this vulnerability by sending a high and sustained rate of crafted TCP traffic to the targeted device. A successful exploit could allow the attacker to impact operations of the phone or cause the phone to reload, leading to a denial of service (DoS) condition."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--185e93e1-4ce3-460e-9466-c8f4d9fb9374",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco IOS XR Software code execution",
+            "description": "Cisco IOS XR Software could allow a remote attacker to execute arbitrary code on the system, caused by an error in the enhanced Preboot eXecution Environment (PXE) boot loader. By replacing a valid software image with a malicious one, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3284"
+                }
+            ],
+            "labels": [
+                "xfe-risk-8.1"
+            ],
+            "x_xfe_risk_level": 8.1,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "High",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 7.1,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco IOS XR Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2",
+                    "link_name": "Cisco Security Advisory cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2",
+                    "description": "Cisco IOS XR Software Enhanced Preboot eXecution Environment Unsigned Code Execution Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3284",
+                    "link_name": "CVE-2020-3284",
+                    "description": "A vulnerability in the enhanced Preboot eXecution Environment (PXE) boot loader for Cisco IOS XR 64-bit Software could allow an unauthenticated, remote attacker to execute unsigned code during the PXE boot process on an affected device. The PXE boot loader is part of the BIOS and runs over the management interface of hardware platforms that are running Cisco IOS XR Software only. The vulnerability exists because internal commands that are issued when the PXE network boot process is loading a software image are not properly verified. An attacker could exploit this vulnerability by compromising the PXE boot server and replacing a valid software image with a malicious one. Alternatively, the attacker could impersonate the PXE boot server and send a PXE boot reply with a malicious file. A succ"
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--0e5ed9cf-e32c-4dee-a71a-7dbfcbbe5432",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software privilege escalation",
+            "description": "Cisco SD-WAN vManage Software could allow a local authenticated attacker to gain elevated privileges on the system, caused by improper validation of path input to the system file transfer functions. By sending specially-crafted requests using path variables, an authenticated attacker could exploit this vulnerability to overwrite arbitrary files are gain elevated privileges.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26074"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanage-escalation-Jhqs5Skf for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Privileges",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-escalation-Jhqs5Skf",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanage-escalation-Jhqs5Skf",
+                    "description": "Cisco SD-WAN vManage Software Privilege Escalation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26074",
+                    "link_name": "CVE-2020-26074",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--b3d4a426-8c4b-4858-a6eb-a1d6cfa681c0",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Webex Meetings Desktop App for Windows code execution",
+            "description": "Cisco Webex Meetings Desktop App for Windows could allow a local authenticated attacker to execute arbitrary code on the system, caused by improper messages validation. By sending specially-crafted messages using the virtualization channel interface, an attacker could exploit this vulnerability to execute arbitrary code with the privileges of a targeted user.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3588"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.3"
+            ],
+            "x_xfe_risk_level": 7.3,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.4,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-webex-vdi-qQrpBwuJ for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Webex Meetings Virtual Desktop Software for Windows"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-vdi-qQrpBwuJ",
+                    "link_name": "Cisco Security Advisory cisco-sa-webex-vdi-qQrpBwuJ",
+                    "description": "Cisco Webex Meetings Desktop App Arbitrary Code Execution Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3588",
+                    "link_name": "CVE-2020-3588",
+                    "description": "A vulnerability in virtualization channel messaging in Cisco Webex Meetings Desktop App for Windows could allow a local attacker to execute arbitrary code on a targeted system. This vulnerability occurs when this app is deployed in a virtual desktop environment and using virtual environment optimization. This vulnerability is due to improper validation of messages processed by the Cisco Webex Meetings Desktop App. A local attacker with limited privileges could exploit this vulnerability by sending malicious messages to the affected software by using the virtualization channel interface. A successful exploit could allow the attacker to modify the underlying operating system configuration, which could allow the attacker to execute arbitrary code with the privileges of a targeted user. Note: "
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--c8abb7d8-fb75-49c4-94c6-0c00974d241b",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software directory traversal",
+            "description": "Cisco SD-WAN vManage Software could allow a remote attacker to traverse directories on the system, caused by improper validation of user request to application programmatic interfaces (APIs). An attacker could send a specially-crafted URL request containing \"dot dot\" sequences (/../) to gain access to sensitive information.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26073"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.5"
+            ],
+            "x_xfe_risk_level": 7.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.5,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vman-traversal-hQh24tmk for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Obtain Information",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vman-traversal-hQh24tmk",
+                    "link_name": "Cisco Security Advisory cisco-sa-vman-traversal-hQh24tmk",
+                    "description": "Cisco SD-WAN vManage Software Directory Traversal Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26073",
+                    "link_name": "CVE-2020-26073",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--c567bcd9-6b85-4d25-8152-56af4907c75b",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Webex Teams cross-site scripting",
+            "description": "Cisco Webex Teams is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the usernames. A remote authenticated attacker could exploit this vulnerability to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26067"
+                }
+            ],
+            "labels": [
+                "xfe-risk-5.4"
+            ],
+            "x_xfe_risk_level": 5.4,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.2,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-webex-teams-xss-zLW9tD3 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Webex Teams"
+            ],
+            "x_xfe_exploitability": "High",
+            "x_xfe_consequences": "Cross-Site Scripting",
+            "x_xfe_signatures": [
+                {
+                    "coverage": "Cross_Site_Scripting",
+                    "coverage_date": "2008-11-11T00:00:00Z"
+                }
+            ],
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-teams-xss-zLW9tD3",
+                    "link_name": "Cisco Security Advisory cisco-sa-webex-teams-xss-zLW9tD3",
+                    "description": "Cisco Webex Teams Web Interface Cross-Site Scripting Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26067",
+                    "link_name": "CVE-2020-26067",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--9aaa78fc-2675-4a2a-b3e6-4445fb9b086e",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN Software privilege escalation",
+            "description": "Cisco SD-WAN Software could allow a local authenticated attacker to gain elevated privileges on the system, caused by improper security controls on the CLI. By sending a specially-crafted request using the CLI utility, an authenticated attacker could exploit this vulnerability to gain root privileges.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3600"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vepeshlg-tJghOQcA for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software",
+                "Cisco SD-WAN vEdge Cloud Routers",
+                "Cisco SD-WAN vBond Orchestrator Software",
+                "Cisco SD-WAN vEdge Routers",
+                "Cisco SD-WAN vSmart Controller Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Privileges",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepeshlg-tJghOQcA",
+                    "link_name": "Cisco Security Advisory cisco-sa-vepeshlg-tJghOQcA",
+                    "description": "Cisco SD-WAN Software Privilege Escalation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3600",
+                    "link_name": "CVE-2020-3600",
+                    "description": "A vulnerability in Cisco SD-WAN Software could allow an authenticated, local attacker to elevate privileges to root on the underlying operating system. The vulnerability is due to insufficient security controls on the CLI. An attacker could exploit this vulnerability by using an affected CLI utility that is running on an affected system. A successful exploit could allow the attacker to gain root privileges."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--d18635fa-a705-4f4d-be71-20573afaf9da",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software cross-site scripting",
+            "description": "Cisco SD-WAN vManage Software is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the web-based management interface. A remote attacker could exploit this vulnerability using a specially-crafted URL to execute script in a victim's Web browser within the security context of the hosting Web site, once the URL is clicked. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3579"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.1"
+            ],
+            "x_xfe_risk_level": 6.1,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmxss2-NL4KSSVR for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage Software 20.1.12",
+                "Cisco SD-WAN vManage Software 20.3.1"
+            ],
+            "x_xfe_exploitability": "High",
+            "x_xfe_consequences": "Cross-Site Scripting",
+            "x_xfe_signatures": [
+                {
+                    "coverage": "Cross_Site_Scripting",
+                    "coverage_date": "2008-11-11T00:00:00Z"
+                }
+            ],
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmxss2-NL4KSSVR",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmxss2-NL4KSSVR",
+                    "description": "Cisco SD-WAN vManage Software Cross-Site Scripting Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3579",
+                    "link_name": "CVE-2020-3579",
+                    "description": "A vulnerability in the web-based management interface of Cisco SD-WAN vManage Software could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. The vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive, browser-based information."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--bc44706b-4489-4ae6-9c59-858beb2dca1d",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage cross-site scripting",
+            "description": "Cisco SD-WAN vManage is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the web-based management interface. A remote authenticated attacker could exploit this vulnerability to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3591"
+                }
+            ],
+            "labels": [
+                "xfe-risk-4.3"
+            ],
+            "x_xfe_risk_level": 4.3,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 4.1,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanxsshi-9KHEqRpM for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage Software 20.1.12",
+                "Cisco SD-WAN vManage Software 20.3.1"
+            ],
+            "x_xfe_exploitability": "High",
+            "x_xfe_consequences": "Cross-Site Scripting",
+            "x_xfe_signatures": [
+                {
+                    "coverage": "Cross_Site_Scripting",
+                    "coverage_date": "2008-11-11T00:00:00Z"
+                }
+            ],
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxsshi-9KHEqRpM",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanxsshi-9KHEqRpM",
+                    "description": "Cisco SD-WAN vManage Cross-Site Scripting Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3591",
+                    "link_name": "CVE-2020-3591",
+                    "description": "A vulnerability in the web-based management interface of the Cisco SD-WAN vManage Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. The vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive, browser-based information."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--096d2564-cbe7-4bda-95d3-cdbdd4392c40",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN Software privilege escalation",
+            "description": "Cisco SD-WAN Software could allow a local authenticated attacker to gain elevated privileges on the system, caused by improper input validation. By sending specially-crafted options to a specific command, an authenticated attacker could exploit this vulnerability to gain root privileges.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3594"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.8"
+            ],
+            "x_xfe_risk_level": 7.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vepestd-8C3J9Vc for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software",
+                "Cisco SD-WAN vEdge Cloud Routers",
+                "Cisco SD-WAN vBond Orchestrator Software",
+                "Cisco SD-WAN vEdge Routers",
+                "Cisco SD-WAN vSmart Controller Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Privileges",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepestd-8C3J9Vc",
+                    "link_name": "Cisco Security Advisory cisco-sa-vepestd-8C3J9Vc",
+                    "description": "Cisco SD-WAN Software Privilege Escalation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3594",
+                    "link_name": "CVE-2020-3594",
+                    "description": "A vulnerability in Cisco SD-WAN Software could allow an authenticated, local attacker to elevate privileges to root on the underlying operating system. The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by providing crafted options to a specific command. A successful exploit could allow the attacker to gain root privileges."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--e22db517-e936-444d-92f7-70ced8b73c46",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software security bypass",
+            "description": "Cisco SD-WAN vManage Software could allow a remote authenticated attacker to bypass security restrictions, caused by improper authorization validation. By sending specially-crafted HTTP requests to the web-based management interface, an attacker could exploit this vulnerability to modify the configuration.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3592"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.5"
+            ],
+            "x_xfe_risk_level": 6.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.7,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanuafw-ZHkdGGEy for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage Software 20.1.12",
+                "Cisco SD-WAN vManage Software 20.3.1"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Bypass Security",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanuafw-ZHkdGGEy",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanuafw-ZHkdGGEy",
+                    "description": "Cisco SD-WAN vManage Software Authorization Bypass Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3592",
+                    "link_name": "CVE-2020-3592",
+                    "description": "A vulnerability in the web-based management interface of Cisco SD-WAN vManage Software could allow an authenticated, remote attacker to bypass authorization and modify the configuration of an affected system. The vulnerability is due to insufficient authorization checking on an affected system. An attacker could exploit this vulnerability by sending crafted HTTP requests to the web-based management interface of an affected system. A successful exploit could allow the attacker to gain privileges beyond what would normally be authorized for their configured user authorization level. This could allow the attacker to modify the configuration of an affected system."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--d80b2e48-a66a-4ca2-a59c-8d0be431ab1c",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software security bypass",
+            "description": "Cisco SD-WAN vManage Software could allow a remote authenticated attacker to bypass security restrictions, caused by improper handling of XML External Entity (XXE) entries. By persuading a victim to open specially-crafted XML content, an attacker could exploit this vulnerability to read and write files on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26064"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.5"
+            ],
+            "x_xfe_risk_level": 6.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.7,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanx2-KpFVSUc for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage Software 20.1.12"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Bypass Security",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx2-KpFVSUc",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanx2-KpFVSUc",
+                    "description": "Cisco SD-WAN vManage Software XML External Entity Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26064",
+                    "link_name": "CVE-2020-26064",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--4948caee-03c9-40d7-9bda-49124516103c",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software cross-site scripting",
+            "description": "Cisco SD-WAN vManage Software is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the the web-based management interface. A remote authenticated attacker could exploit this vulnerability to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3590"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.4"
+            ],
+            "x_xfe_risk_level": 6.4,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.1,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanxss1-XhJCymBt for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage Software 20.1.12",
+                "Cisco SD-WAN vManage Software 20.3.1"
+            ],
+            "x_xfe_exploitability": "High",
+            "x_xfe_consequences": "Cross-Site Scripting",
+            "x_xfe_signatures": [
+                {
+                    "coverage": "Cross_Site_Scripting",
+                    "coverage_date": "2008-11-11T00:00:00Z"
+                }
+            ],
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss1-XhJCymBt",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanxss1-XhJCymBt",
+                    "description": "Cisco SD-WAN vManage Software Cross-Site Scripting Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3590",
+                    "link_name": "CVE-2020-3590",
+                    "description": "A vulnerability in the web-based management interface of the Cisco SD-WAN vManage Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user. The vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive, browser-based information."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--50711a36-f45f-49ec-a6ae-a48a65c91117",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software cross-site scripting",
+            "description": "Cisco SD-WAN vManage Software is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the web-based management interface. A remote authenticated attacker could exploit this vulnerability to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3587"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.4"
+            ],
+            "x_xfe_risk_level": 6.4,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.1,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanxss2-ugJyqxWF for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage Software 20.1.12",
+                "Cisco SD-WAN vManage Software 20.3.1"
+            ],
+            "x_xfe_exploitability": "High",
+            "x_xfe_consequences": "Cross-Site Scripting",
+            "x_xfe_signatures": [
+                {
+                    "coverage": "Cross_Site_Scripting",
+                    "coverage_date": "2008-11-11T00:00:00Z"
+                }
+            ],
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss2-ugJyqxWF",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanxss2-ugJyqxWF",
+                    "description": "Cisco SD-WAN vManage Software Cross-Site Scripting Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3587",
+                    "link_name": "CVE-2020-3587",
+                    "description": "A vulnerability in the web-based management interface of the Cisco SD-WAN vManage Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user. The vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive, browser-based information."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--1105076a-999d-4232-9277-590edf466a61",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Identity Services Engine privilege escalation",
+            "description": "Cisco Identity Services Engine could allow a local authenticated attacker to gain elevated privileges on the system, caused by incorrect privilege assignment. By logging into the system with a specially crafted Active Directory account, an attacker could exploit this vulnerability to obtain root privileges.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-27122"
+                }
+            ],
+            "labels": [
+                "xfe-risk-4.4"
+            ],
+            "x_xfe_risk_level": 4.4,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "High",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 3.9,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-ise-priv-esc-fNZX8hHj for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Identity Services Engine"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Privileges",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-priv-esc-fNZX8hHj",
+                    "link_name": "Cisco Security Advisory cisco-sa-ise-priv-esc-fNZX8hHj",
+                    "description": "Cisco Identity Services Engine Privilege Escalation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27122",
+                    "link_name": "CVE-2020-27122",
+                    "description": "A vulnerability in the Microsoft Active Directory integration of Cisco Identity Services Engine (ISE) could allow an authenticated, local attacker to elevate privileges on an affected device. To exploit this vulnerability, an attacker would need to have a valid administrator account on an affected device. The vulnerability is due to incorrect privilege assignment. An attacker could exploit this vulnerability by logging in to the system with a crafted Active Directory account. A successful exploit could allow the attacker to obtain root privileges on an affected device."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--ba91d507-ae97-4373-b592-18b5a0139980",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco TelePresence Collaboration Endpoint Software information disclosure",
+            "description": "Cisco TelePresence Collaboration Endpoint Software could allow a remote authenticated attacker to obtain sensitive information, caused by improper storage of sensitive information. By sending a specially crafted request, a remote attacker could exploit this vulnerability to obtain sensitive information.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26086"
+                }
+            ],
+            "labels": [
+                "xfe-risk-4.3"
+            ],
+            "x_xfe_risk_level": 4.3,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 3.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-tele-info-DrEGLpDQ for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco TelePresence Collaboration Endpoint Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Obtain Information",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tele-info-DrEGLpDQ",
+                    "link_name": "Cisco Security Advisory cisco-sa-tele-info-DrEGLpDQ",
+                    "description": "Cisco TelePresence Collaboration Endpoint Software Information Disclosure Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26086",
+                    "link_name": "CVE-2020-26086",
+                    "description": "A vulnerability in the video endpoint API (xAPI) of Cisco TelePresence Collaboration Endpoint (CE) Software could allow an authenticated, remote attacker to gain access to sensitive information on an affected device. The vulnerability is due to improper storage of sensitive information on an affected device. An attacker could exploit this vulnerability by accessing information that should not be accessible to users with low privileges. A successful exploit could allow the attacker to gain access to sensitive information."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--f173083d-3aa9-484e-bcdd-b3ec0111fb3c",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Identity Services Engine cross-site scripting",
+            "description": "Cisco Identity Services Engine is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the web-based management interface. A remote attacker could exploit this vulnerability to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3551"
+                }
+            ],
+            "labels": [
+                "xfe-risk-7.2"
+            ],
+            "x_xfe_risk_level": 7.2,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 6.9,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-ise-xss-euRCwX9 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Identity Services Engine"
+            ],
+            "x_xfe_exploitability": "High",
+            "x_xfe_consequences": "Cross-Site Scripting",
+            "x_xfe_signatures": [
+                {
+                    "coverage": "Cross_Site_Scripting",
+                    "coverage_date": "2008-11-11T00:00:00Z"
+                }
+            ],
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-euRCwX9",
+                    "link_name": "Cisco Security Advisory cisco-sa-ise-xss-euRCwX9",
+                    "description": "Cisco Identity Services Engine Cross-Site Scripting Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3551",
+                    "link_name": "CVE-2020-3551",
+                    "description": "A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface of an affected device. The vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of an affected interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--e6b81e0b-44e5-4035-88da-5a21e288e91c",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Edge Fog Fabric security bypass",
+            "description": "Cisco Edge Fog Fabric could allow a remote authenticated attacker to bypass security restrictions, caused by incorrect authorization enforcement. By sending a specially crafted request, an attacker could exploit this vulnerability to overwrite arbitrary files.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26084"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.5"
+            ],
+            "x_xfe_risk_level": 6.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.7,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-eff-incperm-9E6h4yBz for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Edge Fog Fabric"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Bypass Security",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-eff-incperm-9E6h4yBz",
+                    "link_name": "Cisco Security Advisory cisco-sa-eff-incperm-9E6h4yBz",
+                    "description": "Cisco Edge Fog Fabric Resource Exposure Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26084",
+                    "link_name": "CVE-2020-26084",
+                    "description": "A vulnerability in the REST API of Cisco Edge Fog Fabric could allow an authenticated, remote attacker to access files outside of their authorization sphere on an affected device. The vulnerability is due to incorrect authorization enforcement on an affected system. An attacker could exploit this vulnerability by sending a crafted request to the API. A successful exploit could allow the attacker to overwrite arbitrary files on the affected device."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--6ff23ca9-bde6-4735-b892-49afa5bb68a7",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Identity Services Engine cross-site scripting",
+            "description": "Cisco Identity Services Engine is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the web-based management interface. A remote authenticated attacker could exploit this vulnerability to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26083"
+                }
+            ],
+            "labels": [
+                "xfe-risk-4.8"
+            ],
+            "x_xfe_risk_level": 4.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "High",
+            "x_xfe_cvss_userinteraction": "Required",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 4.6,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-ise-xxs-pkjCmq9d for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Identity Services Engine"
+            ],
+            "x_xfe_exploitability": "High",
+            "x_xfe_consequences": "Cross-Site Scripting",
+            "x_xfe_signatures": [
+                {
+                    "coverage": "Cross_Site_Scripting",
+                    "coverage_date": "2008-11-11T00:00:00Z"
+                }
+            ],
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xxs-pkjCmq9d",
+                    "link_name": "Cisco Security Advisory cisco-sa-ise-xxs-pkjCmq9d",
+                    "description": "Cisco Identity Services Engine Cross-Site Scripting Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26083",
+                    "link_name": "CVE-2020-26083",
+                    "description": "A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker with administrative credentials to conduct a cross-site scripting (XSS) attack against a user of the interface. The vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by injecting malicious code into specific pages of the interface. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive, browser-based information. To exploit this vulnerability, an attacker would need to have valid administrative credentials."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--8267648a-4fe2-48c0-b751-ef678c57f375",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Integrated Management Controller information disclosure",
+            "description": "Cisco Integrated Management Controller could allow a remote attacker to obtain sensitive information, caused by differences in authentication responses sent back from the application as part of an authentication attempt. By sending a specially crafted request, a remote attacker could exploit this vulnerability to obtain sensitive information.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26062"
+                }
+            ],
+            "labels": [
+                "xfe-risk-5.3"
+            ],
+            "x_xfe_risk_level": 5.3,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 4.6,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-cimc-enum-CyheP3B7 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Integrated Management Controller"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Obtain Information",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-enum-CyheP3B7",
+                    "link_name": "Cisco Security Advisory cisco-sa-cimc-enum-CyheP3B7",
+                    "description": "Cisco Integrated Management Controller Username Enumeration Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26062",
+                    "link_name": "CVE-2020-26062",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--fb61de29-e945-4d08-8bd5-8710f7707be0",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software directory traversal",
+            "description": "Cisco SD-WAN vManage Software could allow a remote authenticated attacker to traverse directories on the system, caused by insufficient validation of HTTP requests. An attacker could send a specially crafted HTTP request that contains directory traversal character sequences to view arbitrary files on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26065"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.5"
+            ],
+            "x_xfe_risk_level": 6.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.7,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanpt2-FqLuefsS for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Obtain Information",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanpt2-FqLuefsS",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanpt2-FqLuefsS",
+                    "description": "Cisco SD-WAN vManage Software Path Traversal Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26065",
+                    "link_name": "CVE-2020-26065",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--e0a3eec0-a5d0-44b7-842d-5ee5029fd441",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Unified Communications Manager IM and Presence Service denial of service",
+            "description": "Cisco Unified Communications Manager IM and Presence Service is vulnerable to a denial of service, caused by improper handling of login requests. By sending a specially crafted request, a remote authenticated attacker could exploit this vulnerability to cause the device to restart.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-27121"
+                }
+            ],
+            "labels": [
+                "xfe-risk-4.3"
+            ],
+            "x_xfe_risk_level": 4.3,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "Low",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 3.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-imp-dos-uTx2dqu2 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Unified Communications Manager IM & Presence Service"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Denial of Service",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-dos-uTx2dqu2",
+                    "link_name": "Cisco Security Advisory cisco-sa-imp-dos-uTx2dqu2",
+                    "description": "Cisco Unified Communications Manager IM and Presence Service Denial of Service Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27121",
+                    "link_name": "CVE-2020-27121",
+                    "description": "A vulnerability in Cisco Unified Communications Manager IM &amp; Presence Service (Unified CM IM&amp;P) Software could allow an authenticated, remote attacker to cause the Cisco XCP Authentication Service on an affected device to restart, resulting in a denial of service (DoS) condition. The vulnerability is due to improper handling of login requests. An attacker could exploit this vulnerability by sending a crafted client login request to an affected device. A successful exploit could allow the attacker to cause a process to crash, resulting in a DoS condition for new login attempts. Users who are authenticated at the time of the attack would not be affected. There are workarounds that address this vulnerability."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--df9edc41-4deb-40df-9b32-9e9f6d4fa733",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software command execution",
+            "description": "Cisco SD-WAN vManage Software could allow a local authenticated attacker to execute arbitrary commands on the system, caused by improper validation of commands to the remote management CLI. By sending a specially crafted request, an attacker could exploit this vulnerability to execute arbitrary commands on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-27129"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.7"
+            ],
+            "x_xfe_risk_level": 6.7,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "High",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "High",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanage-privilege-zPmMf73k for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-privilege-zPmMf73k",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanage-privilege-zPmMf73k",
+                    "description": "Cisco SD-WAN vManage Software Command Injection Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27129",
+                    "link_name": "CVE-2020-27129",
+                    "description": "A vulnerability in the remote management feature of Cisco SD-WAN vManage Software could allow an authenticated, local attacker to inject arbitrary commands and potentially gain elevated privileges. The vulnerability is due to improper validation of commands to the remote management CLI of the affected application. An attacker could exploit this vulnerability by sending malicious requests to the affected application. A successful exploit could allow the attacker to inject arbitrary commands and potentially gain elevated privileges."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--8136b245-844e-4a19-a694-80d7c3d81726",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software security bypass",
+            "description": "Cisco SD-WAN vManage Software could allow a remote authenticated attacker to bypass security restrictions, caused by improper handling of XML external entity (XXE) declarations. By persuading a victim to open specially-crafted XML content, an attacker could exploit this vulnerability to o read and write files on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26066"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.5"
+            ],
+            "x_xfe_risk_level": 6.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.7,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanx3-vrZbOqqD for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage Software 20.1.12"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Bypass Security",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx3-vrZbOqqD",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanx3-vrZbOqqD",
+                    "description": "Cisco SD-WAN vManage Software XML External Entity Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26066",
+                    "link_name": "CVE-2020-26066",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--e734b181-86a8-430d-942c-0bbd8dfebd4e",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN vManage Software directory traversal",
+            "description": "Cisco SD-WAN vManage Software could allow a remote authenticated attacker to traverse directories on the system, caused by improper validation of requests to APIs. An attacker could send a specially crafted API to write arbitrary files on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-27128"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.5"
+            ],
+            "x_xfe_risk_level": 6.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "High",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.7,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-vmanage-file-Y2JSRNRb for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco SD-WAN vManage software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Data Manipulation",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-file-Y2JSRNRb",
+                    "link_name": "Cisco Security Advisory cisco-sa-vmanage-file-Y2JSRNRb",
+                    "description": "Cisco SD-WAN vManage Software Arbitrary File Creation Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27128",
+                    "link_name": "CVE-2020-27128",
+                    "description": "A vulnerability in the application data endpoints of Cisco SD-WAN vManage Software could allow an authenticated, remote attacker to write arbitrary files to an affected system. The vulnerability is due to improper validation of requests to APIs. An attacker could exploit this vulnerability by sending malicious requests to an API within the affected application. A successful exploit could allow the attacker to conduct directory traversal attacks and write files to an arbitrary location on the targeted system."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--f696cedc-8a29-4c0d-9f25-fb551088f82b",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Email Security Appliance security bypass",
+            "description": "Cisco Email Security Appliance could allow a remote attacker to bypass security restrictions, caused by improper handling of password-protected zip files. By sending a malicious file inside a crafted zip-compressed file, an attacker could exploit this vulnerability to bypass configured content filters.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26082"
+                }
+            ],
+            "labels": [
+                "xfe-risk-5.8"
+            ],
+            "x_xfe_risk_level": 5.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.1,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-esa-zip-bypass-gbU4gtTg for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Email Security Appliance (ESA)"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Bypass Security",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-zip-bypass-gbU4gtTg",
+                    "link_name": "Cisco Security Advisory cisco-sa-esa-zip-bypass-gbU4gtTg",
+                    "description": "Cisco Email Security Appliance Zip Content Filter Bypass Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26082",
+                    "link_name": "CVE-2020-26082",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--308ce649-583b-4c27-869d-a59b49361f8f",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Integrated Management Controller security bypass",
+            "description": "Cisco Integrated Management Controller could allow a remote authenticated attacker to bypass security restrictions, caused by improper authorization checks on API endpoints. By sending a specially crafted request, an attacker could exploit this vulnerability to download files from or modify limited configuration options.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-26063"
+                }
+            ],
+            "labels": [
+                "xfe-risk-5.4"
+            ],
+            "x_xfe_risk_level": 5.4,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 4.7,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-cimc-auth-zWkppJxL for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Integrated Management Controller"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Bypass Security",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-zWkppJxL",
+                    "link_name": "Cisco Security Advisory cisco-sa-cimc-auth-zWkppJxL",
+                    "description": "Cisco Integrated Management Controller Authorization Bypass Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26063",
+                    "link_name": "CVE-2020-26063",
+                    "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem.  When the candidate has been publicized, the details for this candidate will be provided."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--82bdf45f-9700-44f2-b9f2-7c142df06aaf",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco Integrated Management Controller command execution",
+            "description": "Cisco Integrated Management Controller could allow a remote authenticated attacker to execute arbitrary commands on the system, caused by insufficient input validation. By sending a specially crafted request, an attacker could exploit this vulnerability to execute arbitrary commands on the system.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3371"
+                }
+            ],
+            "labels": [
+                "xfe-risk-6.3"
+            ],
+            "x_xfe_risk_level": 6.3,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "Low",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "Low",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.5,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-CIMC-CIV-pKDBe9x5 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco Integrated Management Controller"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Gain Access",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-CIMC-CIV-pKDBe9x5",
+                    "link_name": "Cisco Security Advisory cisco-sa-CIMC-CIV-pKDBe9x5",
+                    "description": "Cisco Integrated Management Controller Command Injection Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3371",
+                    "link_name": "CVE-2020-3371",
+                    "description": "A vulnerability in the web UI of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to inject arbitrary code and execute arbitrary commands at the underlying operating system level. The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted commands to the web-based management interface of the affected software. A successful exploit could allow the attacker to inject and execute arbitrary commands at the underlying operating system level."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--32a0da98-9f3a-402e-8027-c82ff6fd6e58",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco AnyConnect Secure Mobility Client for Windows information disclosure",
+            "description": "Cisco AnyConnect Secure Mobility Client for Windows could allow a local authenticated attacker to obtain sensitive information, caused by an exposed IPC function. By sending a specially crafted request, an attacker could exploit this vulnerability to obtain sensitive information.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-27123"
+                }
+            ],
+            "labels": [
+                "xfe-risk-5.5"
+            ],
+            "x_xfe_risk_level": 5.5,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "Low",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Unchanged",
+            "x_xfe_cvss_access_vector": "Local",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "High",
+            "x_xfe_cvss_integrity_impact": "None",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 4.8,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-anyconnect-file-read-LsvDD6Uh for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco AnyConnect Secure Mobility Client for Windows"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Obtain Information",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-file-read-LsvDD6Uh",
+                    "link_name": "Cisco Security Advisory cisco-sa-anyconnect-file-read-LsvDD6Uh",
+                    "description": "Cisco AnyConnect Secure Mobility Client for Windows Arbitrary File Read Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27123",
+                    "link_name": "CVE-2020-27123",
+                    "description": "A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to read arbitrary files on the underlying operating system of an affected device. The vulnerability is due to an exposed IPC function. An attacker could exploit this vulnerability by sending a crafted IPC message to the AnyConnect process on an affected device. A successful exploit could allow the attacker to read arbitrary files on the underlying operating system of the affected device."
+                }
+            ]
+        },
+        {
+            "id": "vulnerability--63134ab7-42e2-40ce-b971-d2aa5cffc55f",
+            "type": "vulnerability",
+            "created": "2020-11-04T00:00:00.000Z",
+            "modified": "2020-11-04T00:00:00.000Z",
+            "name": "Vulnerability Report for Cisco SD-WAN Software security bypass",
+            "description": "Cisco SD-WAN Software could allow a remote attacker to bypass security restrictions, caused by improper traffic filtering conditions. By sending a specially crafted request, an attacker could exploit this vulnerability to bypass the L3 and L4 traffic filters and inject an arbitrary packet into the network.",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-3444"
+                }
+            ],
+            "labels": [
+                "xfe-risk-5.8"
+            ],
+            "x_xfe_risk_level": 5.8,
+            "x_xfe_cvss_version": "3.0",
+            "x_xfe_cvss_privilegesrequired": "None",
+            "x_xfe_cvss_userinteraction": "None",
+            "x_xfe_cvss_scope": "Changed",
+            "x_xfe_cvss_access_vector": "Network",
+            "x_xfe_cvss_access_complexity": "Low",
+            "x_xfe_cvss_confidentiality_impact": "None",
+            "x_xfe_cvss_integrity_impact": "Low",
+            "x_xfe_cvss_availability_impact": "None",
+            "x_xfe_cvss_remediation_level": "Official Fix",
+            "x_xfe_temporal_score": 5.1,
+            "x_xfe_remedy": "Refer to Cisco Security Advisory cisco-sa-cedge-filt-bypass-Y6wZMqm4 for patch, upgrade or suggested workaround information. See References.",
+            "x_xfe_platforms_affected": [
+                "Cisco IOS XE SD-WAN Software"
+            ],
+            "x_xfe_exploitability": "Unproven",
+            "x_xfe_consequences": "Bypass Security",
+            "x_xfe_report_confidence": "Confirmed",
+            "x_xfe_references": [
+                {
+                    "link_target": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cedge-filt-bypass-Y6wZMqm4",
+                    "link_name": "Cisco Security Advisory cisco-sa-cedge-filt-bypass-Y6wZMqm4",
+                    "description": "Cisco SD-WAN Software Packet Filtering Bypass Vulnerability"
+                },
+                {
+                    "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3444",
+                    "link_name": "CVE-2020-3444",
+                    "description": "A vulnerability in the packet filtering features of Cisco SD-WAN Software could allow an unauthenticated, remote attacker to bypass L3 and L4 traffic filters. The vulnerability is due to improper traffic filtering conditions on an affected device. An attacker could exploit this vulnerability by crafting a malicious TCP packet with specific characteristics and sending it to a targeted device. A successful exploit could allow the attacker to bypass the L3 and L4 traffic filters and inject an arbitrary packet into the network."
+                }
+            ]
+        },
+        {
+            "type": "report",
+            "id": "report--56b2a14a-016b-894a-8dd8-8422aa2b1034",
+            "name": "Cisco Security Advisories - November",
+            "published": "2020-11-09T04:18:50.901Z",
+            "created": "2020-11-09T04:18:50.901Z",
+            "modified": "2020-11-09T04:18:50.901Z",
+            "labels": [
+                "proof-of-concept",
+                "vulnerability",
+                "xftag",
+                "advisory",
+                "cisco"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nCisco has published thirty-five Security Advisories. Of the advisories, twelve are rated as High, and twenty-three are rated as Medium.\n\n# Threat Type\n\n- Vulnerability\n\n# Overview\n\nCisco has published thirty-five Security Advisories. Of the advisories, twelve are rated as High, and twenty-three are rated as Medium. For the vulnerability (CVE-2020-3556) addressed in the advisory, cisco-sa-anyconnect-ipc-KfQO9QhK, which applies to the\u00a0AnyConnect Secure Mobility Client, Cisco notes it is aware that proof-of-concept exploit code is available. It is noted in all other advisories listed below that\u00a0\"The Cisco\u00a0Product Security Incident Response Team (PSIRT) is not aware of any public announcements or malicious use of the vulnerabilities that are described in this advisory.\"\n\n## Advisories Rated High\n\n**AnyConnect Secure Mobility Client Arbitrary Code Execution Vulnerability**\ncisco-sa-anyconnect-ipc-KfQO9QhK - CVE-2020-3556\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-ipc-KfQO9QhK \n\n**IOS XR Software Enhanced Preboot eXecution Environment Unsigned Code Execution Vulnerability**\ncisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2 - CVE-2020-3284\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2 \n\n**Webex Meetings Desktop App Arbitrary Code Execution Vulnerability**\ncisco-sa-webex-vdi-qQrpBwuJ - CVE-2020-3588\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-vdi-qQrpBwuJ \n\n**Webex Network Recording Player and Webex Player Arbitrary Code Execution Vulnerabilities**\ncisco-sa-webex-nbr-NOS6FQ24 - CVE-2020-3573, CVE-2020-3603, CVE-2020-3604\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-nbr-NOS6FQ24 \n\n**SD-WAN Software Arbitrary File Creation Vulnerability**\ncisco-sa-vsoln-arbfile-gtsEYxns - CVE-2020-26071\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vsoln-arbfile-gtsEYxns \n\n**IP Phone TCP Packet Flood Denial of Service Vulnerability**\ncisco-sa-voip-phone-flood-dos-YnU9EXOv - CVE-2020-3574\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voip-phone-flood-dos-YnU9EXOv \n\n**SD-WAN vManage Software Privilege Escalation Vulnerability**\ncisco-sa-vmanage-escalation-Jhqs5Skf - CVE-2020-26074\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-escalation-Jhqs5Skf \n\n**SD-WAN vManage Software Directory Traversal Vulnerability**\ncisco-sa-vman-traversal-hQh24tmk - CVE-2020-26073\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vman-traversal-hQh24tmk \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepestd-8C3J9Vc - CVE-2020-3594\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepestd-8C3J9Vc \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepeshlg-tJghOQcA - CVE-2020-3600\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepeshlg-tJghOQcA \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepescm-BjgQm4vJ - CVE-2020-3593\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepescm-BjgQm4vJ \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepegr-4xynYLUj - CVE-2020-3595\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepegr-4xynYLUj \n\n## Advisories Rated Medium\n\n**Integrated Management Controller Command Injection Vulnerability**\ncisco-sa-CIMC-CIV-pKDBe9x5 - CVE-2020-3371\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-CIMC-CIV-pKDBe9x5 \n\n**Webex Teams Web Interface Cross-Site Scripting Vulnerability**\ncisco-sa-webex-teams-xss-zLW9tD3 - CVE-2020-26067\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-teams-xss-zLW9tD3 \n\n**SD-WAN vManage Software Cross-Site Scripting Vulnerability**\ncisco-sa-vmxss2-NL4KSSVR - CVE-2020-3579\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmxss2-NL4KSSVR \n\n**SD-WAN vManage Cross-Site Scripting Vulnerability**\ncisco-sa-vmanxsshi-9KHEqRpM - CVE-2020-3591\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxsshi-9KHEqRpM \n\n**SD-WAN vManage Software Cross-Site Scripting Vulnerability**\ncisco-sa-vmanxss2-ugJyqxWF - CVE-2020-3587\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss2-ugJyqxWF \n\n**SD-WAN vManage Software Cross-Site Scripting Vulnerability**\ncisco-sa-vmanxss1-XhJCymBt - CVE-2020-3590\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss1-XhJCymBt \n\n**SD-WAN vManage Software XML External Entity Vulnerability**\ncisco-sa-vmanx3-vrZbOqqD - CVE-2020-26066\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx3-vrZbOqqD \n\n**SD-WAN vManage Software XML External Entity Vulnerability**\ncisco-sa-vmanx2-KpFVSUc - CVE-2020-26064\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx2-KpFVSUc \n\n**SD-WAN vManage Software Authorization Bypass Vulnerability**\ncisco-sa-vmanuafw-ZHkdGGEy - CVE-2020-3592\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanuafw-ZHkdGGEy \n\n**SD-WAN vManage Software Path Traversal Vulnerability**\ncisco-sa-vmanpt2-FqLuefsS - CVE-2020-26065\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanpt2-FqLuefsS \n\n**SD-WAN vManage Software Command Injection Vulnerability**\ncisco-sa-vmanage-privilege-zPmMf73k - CVE-2020-27129\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-privilege-zPmMf73k \n\n**SD-WAN vManage Software Arbitrary File Creation Vulnerability**\ncisco-sa-vmanage-file-Y2JSRNRb - CVE-2020-27128\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-file-Y2JSRNRb \n\n**TelePresence Collaboration Endpoint Software Information Disclosure Vulnerability**\ncisco-sa-tele-info-DrEGLpDQ - CVE-2020-26086\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tele-info-DrEGLpDQ \n\n**Identity Services Engine Cross-Site Scripting Vulnerability**\ncisco-sa-ise-xxs-pkjCmq9d - CVE-2020-26083\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xxs-pkjCmq9d \n\n**Identity Services Engine Cross-Site Scripting Vulnerability**\ncisco-sa-ise-xss-euRCwX9 - CVE-2020-3551\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-euRCwX9 \n\n**Identity Services Engine Privilege Escalation Vulnerability**\ncisco-sa-ise-priv-esc-fNZX8hHj - CVE-2020-27122\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-priv-esc-fNZX8hHj \n\n**Unified Communications Manager IM and Presence Service Denial of Service Vulnerability**\ncisco-sa-imp-dos-uTx2dqu2 - CVE-2020-27121\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-dos-uTx2dqu2 \n\n**Email Security Appliance Zip Content Filter Bypass Vulnerability**\ncisco-sa-esa-zip-bypass-gbU4gtTg - CVE-2020-26082\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-zip-bypass-gbU4gtTg \n\n**Edge Fog Fabric Resource Exposure Vulnerability**\ncisco-sa-eff-incperm-9E6h4yBz - CVE-2020-26084\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-eff-incperm-9E6h4yBz \n\n**Integrated Management Controller Username Enumeration Vulnerability**\ncisco-sa-cimc-enum-CyheP3B7 - CVE-2020-26062\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-enum-CyheP3B7 \n\n**Integrated Management Controller Authorization Bypass Vulnerability**\ncisco-sa-cimc-auth-zWkppJxL - CVE-2020-26063\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-zWkppJxL \n\n**SD-WAN Software Packet Filtering Bypass Vulnerability**\ncisco-sa-cedge-filt-bypass-Y6wZMqm4 - CVE-2020-3444\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cedge-filt-bypass-Y6wZMqm4 \n\n**AnyConnect Secure Mobility Client for Windows Arbitrary File Read Vulnerability**\ncisco-sa-anyconnect-file-read-LsvDD6Uh - CVE-2020-27123\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-file-read-LsvDD6Uh \n\n# CVEs\n\n- A complete list of CVEs can be found be found in the Reports section on the right.\n\n# Recommendations\n\n- Review the source article for full details.\n- Apply applicable patches, updates, or workarounds as necessary.\n\n# Reference\n\n- https://tools.cisco.com/security/center/Search.x?publicationTypeIDs=1&firstPublishedStartDate=2020%2F11%2F04&firstPublishedEndDate=2020%2F11%2F05&offset=20 ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--56b2a14a-016b-894a-8dd8-8422aa2b1034",
+            "collectionTitle": "Cisco Security Advisories - November",
+            "collectionWikiContent": "Summary\nCisco has published thirty-five Security Advisories. Of the advisories, twelve are rated as High, and twenty-three are rated as Medium.\nThreat Type\nVulnerability\nOverview\nCisco has published thirty-five Security Advisories. Of the advisories, twelve are rated as High, and twenty-three are rated as Medium. For the vulnerability (CVE-2020-3556) addressed in the advisory, cisco-sa-anyconnect-ipc-KfQO9QhK, which applies to the\u00a0AnyConnect Secure Mobility Client, Cisco notes it is aware that proof-of-concept exploit code is available. It is noted in all other advisories listed below that\u00a0\"The Cisco\u00a0Product Security Incident Response Team (PSIRT) is not aware of any public announcements or malicious use of the vulnerabilities that are described in this advisory.\"\nAdvisories Rated High\nAnyConnect Secure Mobility Client Arbitrary Code Execution Vulnerability\ncisco-sa-anyconnect-ipc-KfQO9QhK - CVE-2020-3556\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-ipc-KfQO9QhK \nIOS XR Software Enhanced Preboot eXecution Environment Unsigned Code Execution Vulnerability\ncisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2 - CVE-2020-3284\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2 \nWebex Meetings Desktop App Arbitrary Code Execution Vulnerability\ncisco-sa-webex-vdi-qQrpBwuJ - CVE-2020-3588\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-vdi-qQrpBwuJ \nWebex Network Recording Player and Webex Player Arbitrary Code Execution Vulnerabilities\ncisco-sa-webex-nbr-NOS6FQ24 - CVE-2020-3573, CVE-2020-3603, CVE-2020-3604\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-nbr-NOS6FQ24 \nSD-WAN Software Arbitrary File Creation Vulnerability\ncisco-sa-vsoln-arbfile-gtsEYxns - CVE-2020-26071\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vsoln-arbfile-gtsEYxns \nIP Phone TCP Packet Flood Denial of Service Vulnerability\ncisco-sa-voip-phone-flood-dos-YnU9EXOv - CVE-2020-3574\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voip-phone-flood-dos-YnU9EXOv \nSD-WAN vManage Software Privilege Escalation Vulnerability\ncisco-sa-vmanage-escalation-Jhqs5Skf - CVE-2020-26074\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-escalation-Jhqs5Skf \nSD-WAN vManage Software Directory Traversal Vulnerability\ncisco-sa-vman-traversal-hQh24tmk - CVE-2020-26073\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vman-traversal-hQh24tmk \nSD-WAN Software Privilege Escalation Vulnerability\ncisco-sa-vepestd-8C3J9Vc - CVE-2020-3594\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepestd-8C3J9Vc \nSD-WAN Software Privilege Escalation Vulnerability\ncisco-sa-vepeshlg-tJghOQcA - CVE-2020-3600\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepeshlg-tJghOQcA \nSD-WAN Software Privilege Escalation Vulnerability\ncisco-sa-vepescm-BjgQm4vJ - CVE-2020-3593\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepescm-BjgQm4vJ \nSD-WAN Software Privilege Escalation Vulnerability\ncisco-sa-vepegr-4xynYLUj - CVE-2020-3595\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepegr-4xynYLUj \nAdvisories Rated Medium\nIntegrated Management Controller Command Injection Vulnerability\ncisco-sa-CIMC-CIV-pKDBe9x5 - CVE-2020-3371\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-CIMC-CIV-pKDBe9x5 \nWebex Teams Web Interface Cross-Site Scripting Vulnerability\ncisco-sa-webex-teams-xss-zLW9tD3 - CVE-2020-26067\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-teams-xss-zLW9tD3 \nSD-WAN vManage Software Cross-Site Scripting Vulnerability\ncisco-sa-vmxss2-NL4KSSVR - CVE-2020-3579\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmxss2-NL4KSSVR \nSD-WAN vManage Cross-Site Scripting Vulnerability\ncisco-sa-vmanxsshi-9KHEqRpM - CVE-2020-3591\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxsshi-9KHEqRpM \nSD-WAN vManage Software Cross-Site Scripting Vulnerability\ncisco-sa-vmanxss2-ugJyqxWF - CVE-2020-3587\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss2-ugJyqxWF \nSD-WAN vManage Software Cross-Site Scripting Vulnerability\ncisco-sa-vmanxss1-XhJCymBt - CVE-2020-3590\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss1-XhJCymBt \nSD-WAN vManage Software XML External Entity Vulnerability\ncisco-sa-vmanx3-vrZbOqqD - CVE-2020-26066\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx3-vrZbOqqD \nSD-WAN vManage Software XML External Entity Vulnerability\ncisco-sa-vmanx2-KpFVSUc - CVE-2020-26064\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx2-KpFVSUc \nSD-WAN vManage Software Authorization Bypass Vulnerability\ncisco-sa-vmanuafw-ZHkdGGEy - CVE-2020-3592\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanuafw-ZHkdGGEy \nSD-WAN vManage Software Path Traversal Vulnerability\ncisco-sa-vmanpt2-FqLuefsS - CVE-2020-26065\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanpt2-FqLuefsS \nSD-WAN vManage Software Command Injection Vulnerability\ncisco-sa-vmanage-privilege-zPmMf73k - CVE-2020-27129\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-privilege-zPmMf73k \nSD-WAN vManage Software Arbitrary File Creation Vulnerability\ncisco-sa-vmanage-file-Y2JSRNRb - CVE-2020-27128\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-file-Y2JSRNRb \nTelePresence Collaboration Endpoint Software Information Disclosure Vulnerability\ncisco-sa-tele-info-DrEGLpDQ - CVE-2020-26086\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tele-info-DrEGLpDQ \nIdentity Services Engine Cross-Site Scripting Vulnerability\ncisco-sa-ise-xxs-pkjCmq9d - CVE-2020-26083\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xxs-pkjCmq9d \nIdentity Services Engine Cross-Site Scripting Vulnerability\ncisco-sa-ise-xss-euRCwX9 - CVE-2020-3551\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-euRCwX9 \nIdentity Services Engine Privilege Escalation Vulnerability\ncisco-sa-ise-priv-esc-fNZX8hHj - CVE-2020-27122\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-priv-esc-fNZX8hHj \nUnified Communications Manager IM and Presence Service Denial of Service Vulnerability\ncisco-sa-imp-dos-uTx2dqu2 - CVE-2020-27121\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-dos-uTx2dqu2 \nEmail Security Appliance Zip Content Filter Bypass Vulnerability\ncisco-sa-esa-zip-bypass-gbU4gtTg - CVE-2020-26082\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-zip-bypass-gbU4gtTg \nEdge Fog Fabric Resource Exposure Vulnerability\ncisco-sa-eff-incperm-9E6h4yBz - CVE-2020-26084\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-eff-incperm-9E6h4yBz \nIntegrated Management Controller Username Enumeration Vulnerability\ncisco-sa-cimc-enum-CyheP3B7 - CVE-2020-26062\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-enum-CyheP3B7 \nIntegrated Management Controller Authorization Bypass Vulnerability\ncisco-sa-cimc-auth-zWkppJxL - CVE-2020-26063\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-zWkppJxL \nSD-WAN Software Packet Filtering Bypass Vulnerability\ncisco-sa-cedge-filt-bypass-Y6wZMqm4 - CVE-2020-3444\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cedge-filt-bypass-Y6wZMqm4 \nAnyConnect Secure Mobility Client for Windows Arbitrary File Read Vulnerability\ncisco-sa-anyconnect-file-read-LsvDD6Uh - CVE-2020-27123\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-file-read-LsvDD6Uh \nCVEs\nA complete list of CVEs can be found be found in the Reports section on the right.\nRecommendations\nReview the source article for full details.\nApply applicable patches, updates, or workarounds as necessary.\nReference\nhttps://tools.cisco.com/security/center/Search.x?publicationTypeIDs=1&firstPublishedStartDate=2020%2F11%2F04&firstPublishedEndDate=2020%2F11%2F05&offset=20 ",
+            "collectionWikiMarkdown": "# Summary\n\nCisco has published thirty-five Security Advisories. Of the advisories, twelve are rated as High, and twenty-three are rated as Medium.\n\n# Threat Type\n\n- Vulnerability\n\n# Overview\n\nCisco has published thirty-five Security Advisories. Of the advisories, twelve are rated as High, and twenty-three are rated as Medium. For the vulnerability (CVE-2020-3556) addressed in the advisory, cisco-sa-anyconnect-ipc-KfQO9QhK, which applies to the\u00a0AnyConnect Secure Mobility Client, Cisco notes it is aware that proof-of-concept exploit code is available. It is noted in all other advisories listed below that\u00a0\"The Cisco\u00a0Product Security Incident Response Team (PSIRT) is not aware of any public announcements or malicious use of the vulnerabilities that are described in this advisory.\"\n\n## Advisories Rated High\n\n**AnyConnect Secure Mobility Client Arbitrary Code Execution Vulnerability**\ncisco-sa-anyconnect-ipc-KfQO9QhK - CVE-2020-3556\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-ipc-KfQO9QhK \n\n**IOS XR Software Enhanced Preboot eXecution Environment Unsigned Code Execution Vulnerability**\ncisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2 - CVE-2020-3284\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2 \n\n**Webex Meetings Desktop App Arbitrary Code Execution Vulnerability**\ncisco-sa-webex-vdi-qQrpBwuJ - CVE-2020-3588\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-vdi-qQrpBwuJ \n\n**Webex Network Recording Player and Webex Player Arbitrary Code Execution Vulnerabilities**\ncisco-sa-webex-nbr-NOS6FQ24 - CVE-2020-3573, CVE-2020-3603, CVE-2020-3604\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-nbr-NOS6FQ24 \n\n**SD-WAN Software Arbitrary File Creation Vulnerability**\ncisco-sa-vsoln-arbfile-gtsEYxns - CVE-2020-26071\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vsoln-arbfile-gtsEYxns \n\n**IP Phone TCP Packet Flood Denial of Service Vulnerability**\ncisco-sa-voip-phone-flood-dos-YnU9EXOv - CVE-2020-3574\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voip-phone-flood-dos-YnU9EXOv \n\n**SD-WAN vManage Software Privilege Escalation Vulnerability**\ncisco-sa-vmanage-escalation-Jhqs5Skf - CVE-2020-26074\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-escalation-Jhqs5Skf \n\n**SD-WAN vManage Software Directory Traversal Vulnerability**\ncisco-sa-vman-traversal-hQh24tmk - CVE-2020-26073\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vman-traversal-hQh24tmk \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepestd-8C3J9Vc - CVE-2020-3594\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepestd-8C3J9Vc \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepeshlg-tJghOQcA - CVE-2020-3600\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepeshlg-tJghOQcA \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepescm-BjgQm4vJ - CVE-2020-3593\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepescm-BjgQm4vJ \n\n**SD-WAN Software Privilege Escalation Vulnerability**\ncisco-sa-vepegr-4xynYLUj - CVE-2020-3595\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vepegr-4xynYLUj \n\n## Advisories Rated Medium\n\n**Integrated Management Controller Command Injection Vulnerability**\ncisco-sa-CIMC-CIV-pKDBe9x5 - CVE-2020-3371\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-CIMC-CIV-pKDBe9x5 \n\n**Webex Teams Web Interface Cross-Site Scripting Vulnerability**\ncisco-sa-webex-teams-xss-zLW9tD3 - CVE-2020-26067\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-teams-xss-zLW9tD3 \n\n**SD-WAN vManage Software Cross-Site Scripting Vulnerability**\ncisco-sa-vmxss2-NL4KSSVR - CVE-2020-3579\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmxss2-NL4KSSVR \n\n**SD-WAN vManage Cross-Site Scripting Vulnerability**\ncisco-sa-vmanxsshi-9KHEqRpM - CVE-2020-3591\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxsshi-9KHEqRpM \n\n**SD-WAN vManage Software Cross-Site Scripting Vulnerability**\ncisco-sa-vmanxss2-ugJyqxWF - CVE-2020-3587\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss2-ugJyqxWF \n\n**SD-WAN vManage Software Cross-Site Scripting Vulnerability**\ncisco-sa-vmanxss1-XhJCymBt - CVE-2020-3590\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanxss1-XhJCymBt \n\n**SD-WAN vManage Software XML External Entity Vulnerability**\ncisco-sa-vmanx3-vrZbOqqD - CVE-2020-26066\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx3-vrZbOqqD \n\n**SD-WAN vManage Software XML External Entity Vulnerability**\ncisco-sa-vmanx2-KpFVSUc - CVE-2020-26064\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanx2-KpFVSUc \n\n**SD-WAN vManage Software Authorization Bypass Vulnerability**\ncisco-sa-vmanuafw-ZHkdGGEy - CVE-2020-3592\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanuafw-ZHkdGGEy \n\n**SD-WAN vManage Software Path Traversal Vulnerability**\ncisco-sa-vmanpt2-FqLuefsS - CVE-2020-26065\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanpt2-FqLuefsS \n\n**SD-WAN vManage Software Command Injection Vulnerability**\ncisco-sa-vmanage-privilege-zPmMf73k - CVE-2020-27129\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-privilege-zPmMf73k \n\n**SD-WAN vManage Software Arbitrary File Creation Vulnerability**\ncisco-sa-vmanage-file-Y2JSRNRb - CVE-2020-27128\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmanage-file-Y2JSRNRb \n\n**TelePresence Collaboration Endpoint Software Information Disclosure Vulnerability**\ncisco-sa-tele-info-DrEGLpDQ - CVE-2020-26086\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-tele-info-DrEGLpDQ \n\n**Identity Services Engine Cross-Site Scripting Vulnerability**\ncisco-sa-ise-xxs-pkjCmq9d - CVE-2020-26083\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xxs-pkjCmq9d \n\n**Identity Services Engine Cross-Site Scripting Vulnerability**\ncisco-sa-ise-xss-euRCwX9 - CVE-2020-3551\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-euRCwX9 \n\n**Identity Services Engine Privilege Escalation Vulnerability**\ncisco-sa-ise-priv-esc-fNZX8hHj - CVE-2020-27122\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-priv-esc-fNZX8hHj \n\n**Unified Communications Manager IM and Presence Service Denial of Service Vulnerability**\ncisco-sa-imp-dos-uTx2dqu2 - CVE-2020-27121\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-dos-uTx2dqu2 \n\n**Email Security Appliance Zip Content Filter Bypass Vulnerability**\ncisco-sa-esa-zip-bypass-gbU4gtTg - CVE-2020-26082\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-zip-bypass-gbU4gtTg \n\n**Edge Fog Fabric Resource Exposure Vulnerability**\ncisco-sa-eff-incperm-9E6h4yBz - CVE-2020-26084\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-eff-incperm-9E6h4yBz \n\n**Integrated Management Controller Username Enumeration Vulnerability**\ncisco-sa-cimc-enum-CyheP3B7 - CVE-2020-26062\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-enum-CyheP3B7 \n\n**Integrated Management Controller Authorization Bypass Vulnerability**\ncisco-sa-cimc-auth-zWkppJxL - CVE-2020-26063\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-auth-zWkppJxL \n\n**SD-WAN Software Packet Filtering Bypass Vulnerability**\ncisco-sa-cedge-filt-bypass-Y6wZMqm4 - CVE-2020-3444\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cedge-filt-bypass-Y6wZMqm4 \n\n**AnyConnect Secure Mobility Client for Windows Arbitrary File Read Vulnerability**\ncisco-sa-anyconnect-file-read-LsvDD6Uh - CVE-2020-27123\nhttps://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-anyconnect-file-read-LsvDD6Uh \n\n# CVEs\n\n- A complete list of CVEs can be found be found in the Reports section on the right.\n\n# Recommendations\n\n- Review the source article for full details.\n- Apply applicable patches, updates, or workarounds as necessary.\n\n# Reference\n\n- https://tools.cisco.com/security/center/Search.x?publicationTypeIDs=1&firstPublishedStartDate=2020%2F11%2F04&firstPublishedEndDate=2020%2F11%2F05&offset=20 ",
+            "collectionId": "56b2a14a016b894a8dd88422aa2b1034",
+            "owner": {
+                "name": "Lyndon Sutherland",
+                "uuid": "http://www.ibm.com/310000JF0G"
+            },
+            "tags": [
+                "proof-of-concept",
+                "vulnerability",
+                "xftag",
+                "advisory",
+                "cisco"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T04:18:50.901Z",
+            "modified": "2020-11-09T04:18:50.901Z"
+        }
+    ],
+    "id": "bundle--b797bca9-f07b-4bb4-8155-4fc8bb252ea8"
+}

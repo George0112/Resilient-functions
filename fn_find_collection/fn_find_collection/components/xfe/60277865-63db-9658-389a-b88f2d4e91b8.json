@@ -1,0 +1,151 @@
+{
+    "type": "bundle",
+    "id": "bundle--63dee689-8588-4619-b014-cff363137fa4",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4c102310-f55b-4129-8bf8-c4c712321e2c",
+            "created": "2020-11-09T10:38:51.230147Z",
+            "modified": "2020-11-09T10:38:51.230147Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'trustmarkbebefits.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-09T10:38:51.230147Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-09T08:05:01.395Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-07T16:10:25Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6aede28e-d235-40ea-8715-106355ee1005",
+            "created": "2020-11-09T10:38:51.231864Z",
+            "modified": "2020-11-09T10:38:51.231864Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'trustmarkbemefits.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-09T10:38:51.231864Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-09T08:05:01.395Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-07T16:10:15Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--61864e33-86c2-4832-9d99-a1b9a3d4f833",
+            "created": "2020-11-09T10:38:51.233101Z",
+            "modified": "2020-11-09T10:38:51.233101Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'trustmarksbenefits.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-09T10:38:51.233101Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-09T08:05:01.395Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-07T16:10:14Z"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2c2cb183-8abc-4781-a097-2d1168fee40f",
+            "created": "2020-11-09T10:38:51.234355Z",
+            "modified": "2020-11-09T10:38:51.234355Z",
+            "name": "Phishing",
+            "external_references": [
+                {
+                    "source_name": "capec",
+                    "description": "phishing",
+                    "url": "https://capec.mitre.org/data/definitions/98.html",
+                    "external_id": "CAPEC-98"
+                }
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--60277865-63db-9658-389a-b88f2d4e91b8",
+            "created": "2020-11-09T10:38:51.2345Z",
+            "modified": "2020-11-09T10:38:51.2345Z",
+            "name": "Trustmark National Bank Squatting Campaign",
+            "description": "# Overview\nWe observed 3 squatting domain registrations related to a victim in the finance and insurance sector. The campaign was identified starting with the registration on 2020-11-07 16:10:14 up to the latest registration on 2020-11-09 10:36:45.\nFor all registered domains we could identify Alibaba Cloud Computing (Beijing) Co., Ltd. as the registrar based in China. The email address used for registering the domains was anonymized. In addition we were also able to resolve the hosting IP 199.59.242.153 as well as the ASN AS395082 located in United States to all registered domains.\n\nHowever the registrar Alibaba Cloud Computing (Beijing) Co., Ltd. covers a pool of 28.613.800 domains where at least 0.31% can be considered as potentially malicious.The following list shows the nameservers that are configured as authoritative nameservers for the domain and their malicious scores which is the percentage of malicious domains with the same nameserver.\n  \n| Domain | Name server | Name server malicious score |\n|---|---|---|\n|trustmarkbebefits.com|ns1.bodis.com|0.93%|\n|trustmarkbebefits.com|ns2.bodis.com|0.93%|\n|trustmarkbemefits.com|ns1.bodis.com|0.93%|\n|trustmarkbemefits.com|ns2.bodis.com|0.93%|\n|trustmarksbenefits.com|ns1.bodis.com|0.93%|\n|trustmarksbenefits.com|ns2.bodis.com|0.93%|\n\nNot forgetting to mention the WhoIs Server: X-Force was able to retrieve the WhoIs server information where we were also able to determine the number of domains each WhoIs server manages and as well adding the malicious rating of the domains in the pool.\n\n| Domain | WhoIs server | WhoIs server malicious score |\n|---|---|---|\n|trustmarkbebefits.com|grs-whois.hichina.com|1.27%|\n|trustmarkbemefits.com|grs-whois.hichina.com|1.27%|\n|trustmarksbenefits.com|grs-whois.hichina.com|1.27%|\n\n# Recommendations\n* Do not click or open links in mails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n* Ensure anti-virus software and associated files are up to date.\n* Search for existing signs of the indicated IOCs in your environment.\n* Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n* Keep applications and operating systems running at the current released patch level.\n\n# Reference\nProprietary IBM X-Force Threat Intelligence ",
+            "published": "2020-11-09T10:38:51.23449Z",
+            "object_refs": [
+                "indicator--4c102310-f55b-4129-8bf8-c4c712321e2c",
+                "indicator--6aede28e-d235-40ea-8715-106355ee1005",
+                "indicator--61864e33-86c2-4832-9d99-a1b9a3d4f833",
+                "attack-pattern--2c2cb183-8abc-4781-a097-2d1168fee40f"
+            ],
+            "labels": [
+                "phishing",
+                "ew-type:squatting",
+                "ew-type:phishing",
+                "early-warning",
+                "ew-industry:finance",
+                "ew-risk:29",
+                "ew-location:all"
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_com_ibm_hash": "419773118AFFBC4D",
+            "x_com_ibm_short_description": "X-Force has identified a new squatting campaign used by threat actors to target the finance and insurance sector. The campaign has a global scope assumingly luring users into giving away their login credentials.\n  "
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--60277865-63db-9658-389a-b88f2d4e91b8",
+            "collectionTitle": "Trustmark National Bank Squatting Campaign",
+            "collectionWikiContent": "# Overview\nWe observed 3 squatting domain registrations related to a victim in the finance and insurance sector. The campaign was identified starting with the registration on 2020-11-07 16:10:14 up to the latest registration on 2020-11-09 10:36:45.\nFor all registered domains we could identify Alibaba Cloud Computing (Beijing) Co., Ltd. as the registrar based in China. The email address used for registering the domains was anonymized. In addition we were also able to resolve the hosting IP 199.59.242.153 as well as the ASN AS395082 located in United States to all registered domains.\n\nHowever the registrar Alibaba Cloud Computing (Beijing) Co., Ltd. covers a pool of 28.613.800 domains where at least 0.31% can be considered as potentially malicious.The following list shows the nameservers that are configured as authoritative nameservers for the domain and their malicious scores which is the percentage of malicious domains with the same nameserver.\n  \n| Domain | Name server | Name server malicious score |\n|---|---|---|\n|trustmarkbebefits.com|ns1.bodis.com|0.93%|\n|trustmarkbebefits.com|ns2.bodis.com|0.93%|\n|trustmarkbemefits.com|ns1.bodis.com|0.93%|\n|trustmarkbemefits.com|ns2.bodis.com|0.93%|\n|trustmarksbenefits.com|ns1.bodis.com|0.93%|\n|trustmarksbenefits.com|ns2.bodis.com|0.93%|\n\nNot forgetting to mention the WhoIs Server: X-Force was able to retrieve the WhoIs server information where we were also able to determine the number of domains each WhoIs server manages and as well adding the malicious rating of the domains in the pool.\n\n| Domain | WhoIs server | WhoIs server malicious score |\n|---|---|---|\n|trustmarkbebefits.com|grs-whois.hichina.com|1.27%|\n|trustmarkbemefits.com|grs-whois.hichina.com|1.27%|\n|trustmarksbenefits.com|grs-whois.hichina.com|1.27%|\n\n# Recommendations\n* Do not click or open links in mails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n* Ensure anti-virus software and associated files are up to date.\n* Search for existing signs of the indicated IOCs in your environment.\n* Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n* Keep applications and operating systems running at the current released patch level.\n\n# Reference\nProprietary IBM X-Force Threat Intelligence ",
+            "collectionId": "6027786563db9658389ab88f2d4e91b8",
+            "tags": [
+                "phishing",
+                "ew-type:squatting",
+                "ew-type:phishing",
+                "early-warning",
+                "ew-industry:finance",
+                "ew-risk:29",
+                "ew-location:all"
+            ],
+            "created": "2020-11-09T10:38:51.2345Z",
+            "modified": "2020-11-09T10:38:51.2345Z",
+            "published": "2020-11-09T10:38:51.23449Z",
+            "object_refs": [
+                "indicator--4c102310-f55b-4129-8bf8-c4c712321e2c",
+                "indicator--6aede28e-d235-40ea-8715-106355ee1005",
+                "indicator--61864e33-86c2-4832-9d99-a1b9a3d4f833",
+                "attack-pattern--2c2cb183-8abc-4781-a097-2d1168fee40f"
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_com_ibm_short_description": "X-Force has identified a new squatting campaign used by threat actors to target the finance and insurance sector. The campaign has a global scope assumingly luring users into giving away their login credentials.\n  "
+        }
+    ]
+}

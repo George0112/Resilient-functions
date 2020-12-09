@@ -1,0 +1,121 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--7b67bb23-efb9-4059-829a-efb944cf5f8f",
+            "type": "indicator",
+            "created": "2020-11-09T20:45:00.169Z",
+            "modified": "2020-11-09T20:45:00.169Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "URL Report for https://surasuke7.github.io/retrofit/static/vega-schema.json",
+            "description": "Category: Software / Hardware\n      Description: This category includes Web sites from the area of software, computer hardware and other electronic components.",
+            "pattern": "[ url:value = 'https://surasuke7.github.io/retrofit/static/vega-schema.json' ]",
+            "valid_from": "2020-11-09T20:45:00.169Z"
+        },
+        {
+            "id": "indicator--3a445a2f-a6d7-1a34-57a8-b4e2c3e88f0a",
+            "type": "indicator",
+            "created": "2020-11-09T20:45:07.062Z",
+            "modified": "2020-11-09T20:45:07.062Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 33f7593f09f078ad5f6568421f4e9189186e0148490cf47501e1f6c136ca9499",
+            "description": "File hash indicator for sha256 hash 33f7593f09f078ad5f6568421f4e9189186e0148490cf47501e1f6c136ca9499",
+            "pattern": "[ file:hashes.'SHA-256' = '33f7593f09f078ad5f6568421f4e9189186e0148490cf47501e1f6c136ca9499' ]",
+            "valid_from": "2020-11-09T20:45:07.062Z"
+        },
+        {
+            "id": "indicator--07fc38d9-6296-93a8-7a21-538a4ab02570",
+            "type": "indicator",
+            "created": "2020-11-09T20:45:07.090Z",
+            "modified": "2020-11-09T20:45:07.090Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ec0826991bed299fe65d889282bd15182b8899774f9913156e8c2d970389e8e3",
+            "description": "File hash indicator for sha256 hash ec0826991bed299fe65d889282bd15182b8899774f9913156e8c2d970389e8e3",
+            "pattern": "[ file:hashes.'SHA-256' = 'ec0826991bed299fe65d889282bd15182b8899774f9913156e8c2d970389e8e3' ]",
+            "valid_from": "2020-11-09T20:45:07.090Z"
+        },
+        {
+            "id": "indicator--5f5590e4-4629-413f-8258-374fd5496314",
+            "type": "indicator",
+            "created": "2020-11-09T20:45:13.661Z",
+            "modified": "2020-11-09T20:45:13.661Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "URL Report for https://cdn.jsdelivr.net/gh/surasuke7/vega@gh-pages/releases/v1.5.4/ppk-62.zip",
+            "description": "Category: Education\n      Description: Includes e-learning Web sites, dictionaries, encyclopedias, scientific literature and educational institutions such as universities, colleges, schools, kindergartens etc.",
+            "pattern": "[ url:value = 'https://cdn.jsdelivr.net/gh/surasuke7/vega@gh-pages/releases/v1.5.4/ppk-62.zip' ]",
+            "valid_from": "2020-11-09T20:45:13.661Z"
+        },
+        {
+            "id": "indicator--7b67bb23-efb9-4059-829a-efb944cf5f8f",
+            "type": "indicator",
+            "created": "2020-11-09T20:45:39.548Z",
+            "modified": "2020-11-09T20:45:39.548Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "URL Report for https://surasuke7.github.io/retrofit/static/vega-schema.json",
+            "description": "Category: Software / Hardware\n      Description: This category includes Web sites from the area of software, computer hardware and other electronic components.",
+            "pattern": "[ url:value = 'https://surasuke7.github.io/retrofit/static/vega-schema.json' ]",
+            "valid_from": "2020-11-09T20:45:39.548Z"
+        },
+        {
+            "type": "report",
+            "id": "report--7193034f-67f8-7566-8dcd-168ed72b4582",
+            "name": "Github Hides Joker's Payload",
+            "published": "2020-11-09T20:46:00.963Z",
+            "created": "2020-11-09T20:46:00.963Z",
+            "modified": "2020-11-09T20:46:00.963Z",
+            "labels": [
+                "malware",
+                "advisory",
+                "mobile",
+                "infostealer",
+                "xftag"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nJoker is a mobile malware package that has been around since at least 2017. Trend Micro delivers a paper discussing current changes to the malware's tactics.\n\n# Threat Type\n\n- Malware, Mobile\n\n# Overview\n\nTrend Micro's latest paper discusses their findings of a three year old mobile malware package called Joker. In the past, it has been capable of signing its victims up for premium services without their knowledge, compromising SMS messages, and stealing contact information. The code is in constant flux in attempts to bypass Google Play's security defenses. Another means of skirting Google security is to provide a non-malicious version of the application on Google Play that then \"updates\" itself with malicious code. The sample examined was found to use Github as its malicious payload repository. As a lure to entice victims to download and install, Joker claims to be a HD and 4K wallpaper application. Joker has been known to only infect devices with specific SIM cards from a selected few countries. This particular sample appears to only infect devices in Thailand. For full technical details, please refer to the link in the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.trendmicro.com/en_us/research/20/k/an-old-jokers-new-tricks--using-github-to-hide-its-payload.html ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--7193034f-67f8-7566-8dcd-168ed72b4582",
+            "collectionTitle": "Github Hides Joker's Payload",
+            "collectionWikiContent": "Summary\nJoker is a mobile malware package that has been around since at least 2017. Trend Micro delivers a paper discussing current changes to the malware's tactics.\nThreat Type\nMalware, Mobile\nOverview\nTrend Micro's latest paper discusses their findings of a three year old mobile malware package called Joker. In the past, it has been capable of signing its victims up for premium services without their knowledge, compromising SMS messages, and stealing contact information. The code is in constant flux in attempts to bypass Google Play's security defenses. Another means of skirting Google security is to provide a non-malicious version of the application on Google Play that then \"updates\" itself with malicious code. The sample examined was found to use Github as its malicious payload repository. As a lure to entice victims to download and install, Joker claims to be a HD and 4K wallpaper application. Joker has been known to only infect devices with specific SIM cards from a selected few countries. This particular sample appears to only infect devices in Thailand. For full technical details, please refer to the link in the Reference section below.\nIndicators of Compromise\nA complete list of IoCs can be found in the Reports section to the right. \nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://www.trendmicro.com/en_us/research/20/k/an-old-jokers-new-tricks--using-github-to-hide-its-payload.html ",
+            "collectionWikiMarkdown": "# Summary\n\nJoker is a mobile malware package that has been around since at least 2017. Trend Micro delivers a paper discussing current changes to the malware's tactics.\n\n# Threat Type\n\n- Malware, Mobile\n\n# Overview\n\nTrend Micro's latest paper discusses their findings of a three year old mobile malware package called Joker. In the past, it has been capable of signing its victims up for premium services without their knowledge, compromising SMS messages, and stealing contact information. The code is in constant flux in attempts to bypass Google Play's security defenses. Another means of skirting Google security is to provide a non-malicious version of the application on Google Play that then \"updates\" itself with malicious code. The sample examined was found to use Github as its malicious payload repository. As a lure to entice victims to download and install, Joker claims to be a HD and 4K wallpaper application. Joker has been known to only infect devices with specific SIM cards from a selected few countries. This particular sample appears to only infect devices in Thailand. For full technical details, please refer to the link in the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.trendmicro.com/en_us/research/20/k/an-old-jokers-new-tricks--using-github-to-hide-its-payload.html ",
+            "collectionId": "7193034f67f875668dcd168ed72b4582",
+            "owner": {
+                "name": "C Ivey",
+                "uuid": "http://www.ibm.com/310000E1H1"
+            },
+            "tags": [
+                "malware",
+                "advisory",
+                "mobile",
+                "infostealer",
+                "xftag"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T20:46:00.963Z",
+            "modified": "2020-11-09T20:46:00.963Z"
+        }
+    ],
+    "id": "bundle--fe3e0c32-dec8-4367-a85f-a5e16990dd19"
+}

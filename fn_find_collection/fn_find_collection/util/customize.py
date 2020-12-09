@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+
+"""Generate the Resilient customizations required for fn_find_collection"""
+
+try:
+    from resilient import ImportDefinition
+except ImportError:
+    # Support Apps running on resilient-circuits < v35.0.195
+    from resilient_circuits.util import ImportDefinition
+
+
+def codegen_reload_data():
+    """
+    Parameters required reload codegen for the fn_find_collection package
+    """
+    return {
+        "package": u"fn_find_collection",
+        "message_destinations": [u"fn_stix"],
+        "functions": [u"stix_find_collection"],
+        "workflows": [],
+        "actions": [],
+        "incident_fields": [],
+        "incident_artifact_types": [],
+        "datatables": [],
+        "automatic_tasks": [],
+        "scripts": []
+    }
+
+
+def customization_data(client=None):
+    """
+    Returns a Generator of ImportDefinitions (Customizations).
+    Install them using `resilient-circuits customize`
+
+    Contents:
+    - Message Destinations:
+        - fn_stix
+    - Functions:
+        - stix_find_collection
+    """
+
+    yield ImportDefinition(u"""
+eyJpbmNpZGVudF90eXBlcyI6IFt7ImNyZWF0ZV9kYXRlIjogMTYwNTA2ODk2NjU1NywgImRlc2Ny
+aXB0aW9uIjogIkN1c3RvbWl6YXRpb24gUGFja2FnZXMgKGludGVybmFsKSIsICJleHBvcnRfa2V5
+IjogIkN1c3RvbWl6YXRpb24gUGFja2FnZXMgKGludGVybmFsKSIsICJpZCI6IDAsICJuYW1lIjog
+IkN1c3RvbWl6YXRpb24gUGFja2FnZXMgKGludGVybmFsKSIsICJ1cGRhdGVfZGF0ZSI6IDE2MDUw
+Njg5NjY1NTcsICJ1dWlkIjogImJmZWVjMmQ0LTM3NzAtMTFlOC1hZDM5LTRhMDAwNDA0NGFhMCIs
+ICJlbmFibGVkIjogZmFsc2UsICJzeXN0ZW0iOiBmYWxzZSwgInBhcmVudF9pZCI6IG51bGwsICJo
+aWRkZW4iOiBmYWxzZX1dLCAibG9jYWxlIjogbnVsbCwgInNjcmlwdHMiOiBbXSwgImFjdGlvbnMi
+OiBbXSwgImxheW91dHMiOiBbXSwgImV4cG9ydF9mb3JtYXRfdmVyc2lvbiI6IDIsICJpZCI6IDQs
+ICJpbmR1c3RyaWVzIjogbnVsbCwgImZ1bmN0aW9ucyI6IFt7ImRpc3BsYXlfbmFtZSI6ICJTVElY
+OiBmaW5kX2NvbGxlY3Rpb24iLCAiZGVzY3JpcHRpb24iOiB7ImNvbnRlbnQiOiBudWxsLCAiZm9y
+bWF0IjogInRleHQifSwgInRhZ3MiOiBbXSwgInZpZXdfaXRlbXMiOiBbeyJzaG93X2lmIjogbnVs
+bCwgImZpZWxkX3R5cGUiOiAiX19mdW5jdGlvbiIsICJzaG93X2xpbmtfaGVhZGVyIjogZmFsc2Us
+ICJlbGVtZW50IjogImZpZWxkX3V1aWQiLCAiY29udGVudCI6ICJkYThiOGJhNC0yOGEzLTRhZDAt
+YjM1YS0zNTRiMWJjNTlmZDYiLCAic3RlcF9sYWJlbCI6IG51bGx9XSwgImNyZWF0b3IiOiB7ImRp
+c3BsYXlfbmFtZSI6ICJDaGFvIFdlbiBDaGVuIiwgInR5cGUiOiAidXNlciIsICJpZCI6IDUsICJu
+YW1lIjogImNoYW93ZW5AZGVtby5jb20ifSwgImV4cG9ydF9rZXkiOiAic3RpeF9maW5kX2NvbGxl
+Y3Rpb24iLCAibGFzdF9tb2RpZmllZF9ieSI6IHsiZGlzcGxheV9uYW1lIjogIkNoYW8gV2VuIENo
+ZW4iLCAidHlwZSI6ICJ1c2VyIiwgImlkIjogNSwgIm5hbWUiOiAiY2hhb3dlbkBkZW1vLmNvbSJ9
+LCAibmFtZSI6ICJzdGl4X2ZpbmRfY29sbGVjdGlvbiIsICJ2ZXJzaW9uIjogMiwgIndvcmtmbG93
+cyI6IFtdLCAibGFzdF9tb2RpZmllZF90aW1lIjogMTYwNTA2ODY0MDg3OSwgImRlc3RpbmF0aW9u
+X2hhbmRsZSI6ICJmbl9zdGl4IiwgImlkIjogNTIsICJ1dWlkIjogImU0NTJiOTI4LTEwZjAtNGIw
+YS04Njc5LTNiZjQ0Zjc0YzlmOCJ9XSwgImFjdGlvbl9vcmRlciI6IFtdLCAiZ2VvcyI6IG51bGws
+ICJ0YWdzIjogW10sICJhcHBzIjogW10sICJ0YXNrX29yZGVyIjogW10sICJzZXJ2ZXJfdmVyc2lv
+biI6IHsibWFqb3IiOiAzOCwgInZlcnNpb24iOiAiMzguMC42MDA2IiwgImJ1aWxkX251bWJlciI6
+IDYwMDYsICJtaW5vciI6IDB9LCAidGltZWZyYW1lcyI6IG51bGwsICJ3b3Jrc3BhY2VzIjogW10s
+ICJpbmJvdW5kX21haWxib3hlcyI6IG51bGwsICJhdXRvbWF0aWNfdGFza3MiOiBbXSwgInBoYXNl
+cyI6IFtdLCAibm90aWZpY2F0aW9ucyI6IG51bGwsICJyZWd1bGF0b3JzIjogbnVsbCwgImdyb3Vw
+cyI6IG51bGwsICJ3b3JrZmxvd3MiOiBbXSwgInR5cGVzIjogW10sICJtZXNzYWdlX2Rlc3RpbmF0
+aW9ucyI6IFt7InV1aWQiOiAiZDk4NzE5NzQtZjlmOS00ZTYzLTk0NDktZmU3NWIyNjA0MzIyIiwg
+Im5hbWUiOiAiZm5fc3RpeCIsICJ0YWdzIjogW3sidGFnX2hhbmRsZSI6ICJmbl9zdGl4IiwgInZh
+bHVlIjogbnVsbH1dLCAiZXhwb3J0X2tleSI6ICJmbl9zdGl4IiwgImV4cGVjdF9hY2siOiB0cnVl
+LCAiZGVzdGluYXRpb25fdHlwZSI6IDAsICJ1c2VycyI6IFsiY2hhb3dlbkBkZW1vLmNvbSJdLCAi
+YXBpX2tleXMiOiBbIjMxYzg0ODA0LWI4YmMtNGFhOS05NWUyLTk0MzY3YzhkODZiMSJdLCAicHJv
+Z3JhbW1hdGljX25hbWUiOiAiZm5fc3RpeCJ9XSwgImluY2lkZW50X2FydGlmYWN0X3R5cGVzIjog
+W10sICJyb2xlcyI6IFtdLCAiZmllbGRzIjogW3sib3BlcmF0aW9ucyI6IFtdLCAidHlwZV9pZCI6
+IDExLCAib3BlcmF0aW9uX3Blcm1zIjoge30sICJ0ZXh0IjogImFydGlmYWN0X2lkIiwgImJsYW5r
+X29wdGlvbiI6IGZhbHNlLCAicHJlZml4IjogbnVsbCwgImNoYW5nZWFibGUiOiB0cnVlLCAiaWQi
+OiA1NTksICJyZWFkX29ubHkiOiBmYWxzZSwgInV1aWQiOiAiZGE4YjhiYTQtMjhhMy00YWQwLWIz
+NWEtMzU0YjFiYzU5ZmQ2IiwgImNob3NlbiI6IGZhbHNlLCAiaW5wdXRfdHlwZSI6ICJudW1iZXIi
+LCAidG9vbHRpcCI6ICIiLCAiaW50ZXJuYWwiOiBmYWxzZSwgInJpY2hfdGV4dCI6IGZhbHNlLCAi
+dGVtcGxhdGVzIjogW10sICJ0YWdzIjogW3sidGFnX2hhbmRsZSI6ICJmbl91dGlsaXRpZXMiLCAi
+dmFsdWUiOiBudWxsfV0sICJhbGxvd19kZWZhdWx0X3ZhbHVlIjogZmFsc2UsICJleHBvcnRfa2V5
+IjogIl9fZnVuY3Rpb24vYXJ0aWZhY3RfaWQiLCAiaGlkZV9ub3RpZmljYXRpb24iOiBmYWxzZSwg
+InBsYWNlaG9sZGVyIjogIiIsICJpc190cmFja2VkIjogZmFsc2UsICJuYW1lIjogImFydGlmYWN0
+X2lkIiwgImRlcHJlY2F0ZWQiOiBmYWxzZSwgImNhbGN1bGF0ZWQiOiBmYWxzZSwgInZhbHVlcyI6
+IFtdLCAiZGVmYXVsdF9jaG9zZW5fYnlfc2VydmVyIjogZmFsc2V9LCB7InJlYWRfb25seSI6IHRy
+dWUsICJpbnRlcm5hbCI6IHRydWUsICJuYW1lIjogImludGVybmFsX2N1c3RvbWl6YXRpb25zX2Zp
+ZWxkIiwgInRleHQiOiAiQ3VzdG9taXphdGlvbnMgRmllbGQgKGludGVybmFsKSIsICJpbnB1dF90
+eXBlIjogInRleHQiLCAidHlwZV9pZCI6IDAsICJleHBvcnRfa2V5IjogImluY2lkZW50L2ludGVy
+bmFsX2N1c3RvbWl6YXRpb25zX2ZpZWxkIiwgImlkIjogMCwgInV1aWQiOiAiYmZlZWMyZDQtMzc3
+MC0xMWU4LWFkMzktNGEwMDA0MDQ0YWExIn1dLCAib3ZlcnJpZGVzIjogW10sICJleHBvcnRfZGF0
+ZSI6IDE2MDUwNjg5NjY5ODZ9
+""")

@@ -1,0 +1,165 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--53f20885-78a2-48d4-b9a2-3db092db38e1",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:49.003Z",
+            "modified": "2020-11-09T20:13:49.003Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://indyoverheaddoors.com/wp-includes/sx9SD/",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://indyoverheaddoors.com/wp-includes/sx9SD/' ]",
+            "valid_from": "2020-11-09T20:13:49.003Z"
+        },
+        {
+            "id": "indicator--cb6e4f50-7b36-4917-8361-4beda4e23aed",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:49.074Z",
+            "modified": "2020-11-09T20:13:49.074Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://must-in.com/wp-admin/kej4f/",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://must-in.com/wp-admin/kej4f/' ]",
+            "valid_from": "2020-11-09T20:13:49.074Z"
+        },
+        {
+            "id": "indicator--9448495b-20a4-45e5-b3f7-4de5315f5a72",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:49.308Z",
+            "modified": "2020-11-09T20:13:49.308Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://goldcoastoffice365.com/temp/RAr9U/",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://goldcoastoffice365.com/temp/RAr9U/' ]",
+            "valid_from": "2020-11-09T20:13:49.308Z"
+        },
+        {
+            "id": "indicator--a2393506-8460-4f4e-b2ba-0b88be4d7da6",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:49.622Z",
+            "modified": "2020-11-09T20:13:49.622Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://giral2.com/wp-includes/fj2mDY/",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://giral2.com/wp-includes/fj2mDY/' ]",
+            "valid_from": "2020-11-09T20:13:49.622Z"
+        },
+        {
+            "id": "indicator--3ffb4acb-7ad1-4a47-a31e-686f71651924",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:49.736Z",
+            "modified": "2020-11-09T20:13:49.736Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://174.106.122.139/SMqQhLXYVLsodW/qHPV",
+            "description": "Category: Botnet Command and Control Server\n      Description: This category contains Web sites or domains that host a botnet command and control server.",
+            "pattern": "[ url:value = 'http://174.106.122.139/SMqQhLXYVLsodW/qHPV' ]",
+            "valid_from": "2020-11-09T20:13:49.736Z"
+        },
+        {
+            "id": "indicator--f0a8b3b4-dd7c-4265-bb46-6a9ab83c3fdf",
+            "type": "indicator",
+            "created": "2020-11-09T20:13:51.327Z",
+            "modified": "2020-11-09T20:13:51.327Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://bytecreation.es/gestion/hE/",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://bytecreation.es/gestion/hE/' ]",
+            "valid_from": "2020-11-09T20:13:51.327Z"
+        },
+        {
+            "id": "indicator--e13138eb-ba0a-42a3-8602-cd6ab1dfee34",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:14.584Z",
+            "modified": "2020-11-09T20:14:14.584Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://personalizzabili.com/images/x04aAql/",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://personalizzabili.com/images/x04aAql/' ]",
+            "valid_from": "2020-11-09T20:14:14.584Z"
+        },
+        {
+            "id": "indicator--c8740e66-d2c6-4906-aa3d-96cf5a789180",
+            "type": "indicator",
+            "created": "2020-11-09T20:14:27.871Z",
+            "modified": "2020-11-09T20:14:27.871Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://paulospainting.com/wp-includes/uhkHig/",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://paulospainting.com/wp-includes/uhkHig/' ]",
+            "valid_from": "2020-11-09T20:14:27.871Z"
+        },
+        {
+            "type": "report",
+            "id": "report--c86fbc02-3339-f27d-4c5a-57be7a4f4b59",
+            "name": "Variants of Emotet Malware",
+            "published": "2020-11-09T21:52:27.216Z",
+            "created": "2020-11-09T21:52:27.216Z",
+            "modified": "2020-11-09T21:52:27.216Z",
+            "labels": [
+                "emotet",
+                "xftag",
+                "email",
+                "advisory",
+                "malware"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nWith Emotet's recent resurgence, Cofense has observed an increase in the the number of variants being distributed.\n\n# Threat Type\n\n- Malware\n\n# Overview\n\nCofense has published a blog post analyzing the recent resurgence in Emotet variants, specifically looking at one case that bypassed email security gateways. The initial email is relatively simple with minimal text, mainly being used to provide a password for an attached archive. By using both password protection and compression, email security gateways will be unable to scan the contained content. In this case, the archive carries a Word document that uses malicious macros to execute PowerShell commands. The PowerShell command reaches out to a list of C2 servers to obtain variants of Emotet and other malware families, which is a tactic not seen in earlier versions of Emotet. New version of Emotet also appear to have the ability to exploit Windows vulnerabilities and scan directories to harvest sensitive data. After execution, Emotet establishes C2 communication using native Windows DLLs. Shortly after the sample analyzed in this post was run, data exfiltration to its C2 was performed. For more information, see the Cofense blog post in the Reference section.\n\n# Indicators of Compromise\n\nSee the Reports section to the right for a list of indicators of compromise.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://cofense.com/variants-of-emotet-malware[/](https://cofense.com/variants-of-emotet-malware/) ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--c86fbc02-3339-f27d-4c5a-57be7a4f4b59",
+            "collectionTitle": "Variants of Emotet Malware",
+            "collectionWikiContent": "Summary\nWith Emotet's recent resurgence, Cofense has observed an increase in the the number of variants being distributed.\nThreat Type\nMalware\nOverview\nCofense has published a blog post analyzing the recent resurgence in Emotet variants, specifically looking at one case that bypassed email security gateways. The initial email is relatively simple with minimal text, mainly being used to provide a password for an attached archive. By using both password protection and compression, email security gateways will be unable to scan the contained content. In this case, the archive carries a Word document that uses malicious macros to execute PowerShell commands. The PowerShell command reaches out to a list of C2 servers to obtain variants of Emotet and other malware families, which is a tactic not seen in earlier versions of Emotet. New version of Emotet also appear to have the ability to exploit Windows vulnerabilities and scan directories to harvest sensitive data. After execution, Emotet establishes C2 communication using native Windows DLLs. Shortly after the sample analyzed in this post was run, data exfiltration to its C2 was performed. For more information, see the Cofense blog post in the Reference section.\nIndicators of Compromise\nSee the Reports section to the right for a list of indicators of compromise.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://cofense.com/variants-of-emotet-malware/ ",
+            "collectionWikiMarkdown": "# Summary\n\nWith Emotet's recent resurgence, Cofense has observed an increase in the the number of variants being distributed.\n\n# Threat Type\n\n- Malware\n\n# Overview\n\nCofense has published a blog post analyzing the recent resurgence in Emotet variants, specifically looking at one case that bypassed email security gateways. The initial email is relatively simple with minimal text, mainly being used to provide a password for an attached archive. By using both password protection and compression, email security gateways will be unable to scan the contained content. In this case, the archive carries a Word document that uses malicious macros to execute PowerShell commands. The PowerShell command reaches out to a list of C2 servers to obtain variants of Emotet and other malware families, which is a tactic not seen in earlier versions of Emotet. New version of Emotet also appear to have the ability to exploit Windows vulnerabilities and scan directories to harvest sensitive data. After execution, Emotet establishes C2 communication using native Windows DLLs. Shortly after the sample analyzed in this post was run, data exfiltration to its C2 was performed. For more information, see the Cofense blog post in the Reference section.\n\n# Indicators of Compromise\n\nSee the Reports section to the right for a list of indicators of compromise.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://cofense.com/variants-of-emotet-malware[/](https://cofense.com/variants-of-emotet-malware/) ",
+            "collectionId": "c86fbc023339f27d4c5a57be7a4f4b59",
+            "owner": {
+                "name": "Megan Roddie",
+                "uuid": "http://www.ibm.com/5500022R9C"
+            },
+            "tags": [
+                "emotet",
+                "xftag",
+                "email",
+                "advisory",
+                "malware"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T21:52:27.216Z",
+            "modified": "2020-11-09T21:52:27.216Z"
+        }
+    ],
+    "id": "bundle--310af246-568e-4632-80e0-3dcec05aff3f"
+}

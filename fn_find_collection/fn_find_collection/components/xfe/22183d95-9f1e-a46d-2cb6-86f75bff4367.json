@@ -1,0 +1,137 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--20b31a31-b147-4861-803b-ebff83dd3a21",
+            "type": "indicator",
+            "created": "2020-11-09T06:28:27.772Z",
+            "modified": "2020-11-09T06:28:27.772Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for rebate-service-hmrc.com",
+            "description": "Category: Phishing URLs\n      Description: This category includes Web sites that are contained in phishing emails.",
+            "pattern": "[ url:value = 'rebate-service-hmrc.com' ]",
+            "valid_from": "2020-11-09T06:28:27.772Z"
+        },
+        {
+            "id": "indicator--860cdb91-4276-4576-a603-942d3f35d12c",
+            "type": "indicator",
+            "created": "2020-11-09T06:28:28.068Z",
+            "modified": "2020-11-09T06:28:28.068Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for hmrc-online-verify.com",
+            "description": "",
+            "pattern": "[ url:value = 'hmrc-online-verify.com' ]",
+            "valid_from": "2020-11-09T06:28:28.068Z"
+        },
+        {
+            "id": "indicator--73e4dc7b-3590-45f3-9582-17e7c4c17132",
+            "type": "indicator",
+            "created": "2020-11-09T06:29:18.122Z",
+            "modified": "2020-11-09T06:29:18.122Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for hmrcsupport.com",
+            "description": "Category: Phishing URLs\n      Description: This category includes Web sites that are contained in phishing emails.",
+            "pattern": "[ url:value = 'hmrcsupport.com' ]",
+            "valid_from": "2020-11-09T06:29:18.122Z"
+        },
+        {
+            "id": "indicator--5e5c2a75-658c-4ee7-8159-89976674cae8",
+            "type": "indicator",
+            "created": "2020-11-09T06:30:02.258Z",
+            "modified": "2020-11-09T06:30:02.258Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for hmrc.help-rebate.com",
+            "description": "",
+            "pattern": "[ url:value = 'hmrc.help-rebate.com' ]",
+            "valid_from": "2020-11-09T06:30:02.258Z"
+        },
+        {
+            "id": "indicator--5e5c2a75-658c-4ee7-8159-89976674cae8",
+            "type": "indicator",
+            "created": "2020-11-09T06:30:49.245Z",
+            "modified": "2020-11-09T06:30:49.245Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for hmrc.help-rebate.com",
+            "description": "",
+            "pattern": "[ url:value = 'hmrc.help-rebate.com' ]",
+            "valid_from": "2020-11-09T06:30:49.245Z"
+        },
+        {
+            "id": "indicator--5e5c2a75-658c-4ee7-8159-89976674cae8",
+            "type": "indicator",
+            "created": "2020-11-09T06:30:57.206Z",
+            "modified": "2020-11-09T06:30:57.206Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for hmrc.help-rebate.com",
+            "description": "",
+            "pattern": "[ url:value = 'hmrc.help-rebate.com' ]",
+            "valid_from": "2020-11-09T06:30:57.206Z"
+        },
+        {
+            "type": "report",
+            "id": "report--22183d95-9f1e-a46d-2cb6-86f75bff4367",
+            "name": "Tax Rebate Smishing Campaign Targeting the UK",
+            "published": "2020-11-09T14:06:34.344Z",
+            "created": "2020-11-09T14:06:34.344Z",
+            "modified": "2020-11-09T14:06:34.344Z",
+            "labels": [
+                "xftag",
+                "smishing",
+                "phishing",
+                "x-location:europe",
+                "advisory"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nAn smishing campaign is using tax rebate lures to target victims in the UK. The phishing sites the URLs in the SMS messages lead to have a rather interesting workflow, according to BleepingComputer.\n\n# Threat Type\n\n- Phishing, Smishing\n\n# Overview\n\nBleepingComputer has published a report on a smishing and phishing campaign that is targeting victims in the UK. SMS messages sent to victims inform them that they are eligible for a tax refund, a link to claim the refund is included in the message. The link leads to a .com domain hosting phishing pages crafted to look like a UK government site. Multiple steps are involved in the phishing operation. The victim is first asked to enter their name and postcode and then click a button to sign which results in a page that tells them they are eligible for a refund. The amount of the refund is reported to be a random figure between \u00a3200 and \u00a3400. A button is provided to start the refund process. This time, the phishing site requests a significant amount of information from the victim including financial information, and most importantly in this operation, bank account number and the bank's sorting code. The next step leads the victim to a bank phishing page, crafted to appear to be the bank for which the victim entered the sorting code. The campaign has web pages for fifteen different banks. Certain fields within the various phishing pages even have validations checks carried out. Further details are available from the link in the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.bleepingcomputer.com/news/security/hmrc-smishing-tax-scam-targets-uk-banking-customers[/](https://www.bleepingcomputer.com/news/security/hmrc-smishing-tax-scam-targets-uk-banking-customers/) ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--22183d95-9f1e-a46d-2cb6-86f75bff4367",
+            "collectionTitle": "Tax Rebate Smishing Campaign Targeting the UK",
+            "collectionWikiContent": "Summary\nAn smishing campaign is using tax rebate lures to target victims in the UK. The phishing sites the URLs in the SMS messages lead to have a rather interesting workflow, according to BleepingComputer.\nThreat Type\nPhishing, Smishing\nOverview\nBleepingComputer has published a report on a smishing and phishing campaign that is targeting victims in the UK. SMS messages sent to victims inform them that they are eligible for a tax refund, a link to claim the refund is included in the message. The link leads to a .com domain hosting phishing pages crafted to look like a UK government site. Multiple steps are involved in the phishing operation. The victim is first asked to enter their name and postcode and then click a button to sign which results in a page that tells them they are eligible for a refund. The amount of the refund is reported to be a random figure between \u00a3200 and \u00a3400. A button is provided to start the refund process. This time, the phishing site requests a significant amount of information from the victim including financial information, and most importantly in this operation, bank account number and the bank's sorting code. The next step leads the victim to a bank phishing page, crafted to appear to be the bank for which the victim entered the sorting code. The campaign has web pages for fifteen different banks. Certain fields within the various phishing pages even have validations checks carried out. Further details are available from the link in the Reference section below.\nIndicators of Compromise\nA complete list of IoCs can be found in the Reports section to the right. \nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://www.bleepingcomputer.com/news/security/hmrc-smishing-tax-scam-targets-uk-banking-customers/ ",
+            "collectionWikiMarkdown": "# Summary\n\nAn smishing campaign is using tax rebate lures to target victims in the UK. The phishing sites the URLs in the SMS messages lead to have a rather interesting workflow, according to BleepingComputer.\n\n# Threat Type\n\n- Phishing, Smishing\n\n# Overview\n\nBleepingComputer has published a report on a smishing and phishing campaign that is targeting victims in the UK. SMS messages sent to victims inform them that they are eligible for a tax refund, a link to claim the refund is included in the message. The link leads to a .com domain hosting phishing pages crafted to look like a UK government site. Multiple steps are involved in the phishing operation. The victim is first asked to enter their name and postcode and then click a button to sign which results in a page that tells them they are eligible for a refund. The amount of the refund is reported to be a random figure between \u00a3200 and \u00a3400. A button is provided to start the refund process. This time, the phishing site requests a significant amount of information from the victim including financial information, and most importantly in this operation, bank account number and the bank's sorting code. The next step leads the victim to a bank phishing page, crafted to appear to be the bank for which the victim entered the sorting code. The campaign has web pages for fifteen different banks. Certain fields within the various phishing pages even have validations checks carried out. Further details are available from the link in the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.bleepingcomputer.com/news/security/hmrc-smishing-tax-scam-targets-uk-banking-customers[/](https://www.bleepingcomputer.com/news/security/hmrc-smishing-tax-scam-targets-uk-banking-customers/) ",
+            "collectionId": "22183d959f1ea46d2cb686f75bff4367",
+            "owner": {
+                "name": "Lyndon Sutherland",
+                "uuid": "http://www.ibm.com/310000JF0G"
+            },
+            "tags": [
+                "xftag",
+                "smishing",
+                "phishing",
+                "x-location:europe",
+                "advisory"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T14:06:34.344Z",
+            "modified": "2020-11-09T14:06:34.344Z"
+        }
+    ],
+    "id": "bundle--0f62ff6f-1ede-41ce-82d2-535ba6da9f84"
+}
