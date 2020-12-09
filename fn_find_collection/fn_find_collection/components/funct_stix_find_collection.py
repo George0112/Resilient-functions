@@ -43,7 +43,7 @@ class FunctionComponent(ResilientComponent):
             # PUT YOUR FUNCTION IMPLEMENTATION CODE HERE #
             ##############################################
             involved_collections = []
-            query_ip = "2.35.192.209"
+            query_ip = artifact_value
             dir_path = os.path.dirname(__file__)
             for file in sorted(os.listdir(os.path.join(dir_path, 'xfe'))):
                 try:
