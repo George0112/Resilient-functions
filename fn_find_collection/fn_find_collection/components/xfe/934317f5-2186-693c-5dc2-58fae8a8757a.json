@@ -1,0 +1,255 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--a415294e-a4b1-4898-821f-a3bedf1c2d1a",
+            "type": "indicator",
+            "created": "2020-09-07T14:21:53.426Z",
+            "modified": "2020-09-07T14:21:53.426Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://subzerosolution.com",
+            "description": "Category: Botnet Command and Control Server\n      Description: This category contains Web sites or domains that host a botnet command and control server.",
+            "pattern": "[ url:value = 'http://subzerosolution.com' ]",
+            "valid_from": "2020-09-07T14:21:53.426Z"
+        },
+        {
+            "id": "indicator--cac323ac-a332-4444-83f6-208994dbdc4d",
+            "type": "indicator",
+            "created": "2020-09-07T14:21:53.444Z",
+            "modified": "2020-09-07T14:21:53.444Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for mail.subzerosolution.com",
+            "description": "Category: Botnet Command and Control Server\n      Description: This category contains Web sites or domains that host a botnet command and control server.",
+            "pattern": "[ url:value = 'mail.subzerosolution.com' ]",
+            "valid_from": "2020-09-07T14:21:53.444Z"
+        },
+        {
+            "id": "indicator--bbe97e4b-aaf2-2aee-3802-1af08d8d66d6",
+            "type": "indicator",
+            "created": "2020-09-07T05:00:00.000Z",
+            "modified": "2020-09-08T14:30:25.794Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash bbe97e4baaf22aee38021af08d8d66d6",
+            "description": "File hash indicator for md5 hash bbe97e4baaf22aee38021af08d8d66d6",
+            "pattern": "[ file:hashes.MD5 = 'bbe97e4baaf22aee38021af08d8d66d6' ]",
+            "valid_from": "2020-09-08T14:30:25.794Z"
+        },
+        {
+            "id": "indicator--a200c7d6-bf8f-5b8f-6040-a145a931be4b",
+            "type": "indicator",
+            "created": "2020-09-08T05:30:00.000Z",
+            "modified": "2020-09-08T14:30:25.931Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash a200c7d6bf8f5b8f6040a145a931be4b",
+            "description": "File hash indicator for md5 hash a200c7d6bf8f5b8f6040a145a931be4b",
+            "pattern": "[ file:hashes.MD5 = 'a200c7d6bf8f5b8f6040a145a931be4b' ]",
+            "valid_from": "2020-09-08T14:30:25.931Z"
+        },
+        {
+            "id": "indicator--bb4c7f72-0027-6d8f-f9c6-4cf5d76d2bd3",
+            "type": "indicator",
+            "created": "2020-09-10T07:57:02.354Z",
+            "modified": "2020-09-10T07:57:02.354Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash bb4c7f7200276d8ff9c64cf5d76d2bd3",
+            "description": "File hash indicator for md5 hash bb4c7f7200276d8ff9c64cf5d76d2bd3",
+            "pattern": "[ file:hashes.MD5 = 'bb4c7f7200276d8ff9c64cf5d76d2bd3' ]",
+            "valid_from": "2020-09-10T07:57:02.354Z"
+        },
+        {
+            "id": "indicator--9de8aede-b733-22c3-4dff-c5076ed75840",
+            "type": "indicator",
+            "created": "2020-09-09T11:15:00.000Z",
+            "modified": "2020-09-10T07:57:02.924Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash 9de8aedeb73322c34dffc5076ed75840",
+            "description": "File hash indicator for md5 hash 9de8aedeb73322c34dffc5076ed75840",
+            "pattern": "[ file:hashes.MD5 = '9de8aedeb73322c34dffc5076ed75840' ]",
+            "valid_from": "2020-09-10T07:57:02.924Z"
+        },
+        {
+            "id": "indicator--e6897ac0-5cdc-ebae-4d46-f5edb2075da9",
+            "type": "indicator",
+            "created": "2020-09-09T09:15:00.000Z",
+            "modified": "2020-09-10T07:57:02.988Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash e6897ac05cdcebae4d46f5edb2075da9",
+            "description": "File hash indicator for md5 hash e6897ac05cdcebae4d46f5edb2075da9",
+            "pattern": "[ file:hashes.MD5 = 'e6897ac05cdcebae4d46f5edb2075da9' ]",
+            "valid_from": "2020-09-10T07:57:02.988Z"
+        },
+        {
+            "id": "indicator--7cd72415-1b02-ee4c-394c-33c6aff17b82",
+            "type": "indicator",
+            "created": "2020-09-09T07:30:00.000Z",
+            "modified": "2020-09-10T07:57:03.781Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash 7cd724151b02ee4c394c33c6aff17b82",
+            "description": "File hash indicator for md5 hash 7cd724151b02ee4c394c33c6aff17b82",
+            "pattern": "[ file:hashes.MD5 = '7cd724151b02ee4c394c33c6aff17b82' ]",
+            "valid_from": "2020-09-10T07:57:03.781Z"
+        },
+        {
+            "id": "indicator--cadadf72-ae9c-46aa-b680-01bf5450dbd8",
+            "type": "indicator",
+            "created": "2020-09-10T08:48:27.387Z",
+            "modified": "2020-09-10T08:48:27.387Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for mail.totallyanonymous.com",
+            "description": "Category: Botnet Command and Control Server\n      Description: This category contains Web sites or domains that host a botnet command and control server.",
+            "pattern": "[ url:value = 'mail.totallyanonymous.com' ]",
+            "valid_from": "2020-09-10T08:48:27.387Z"
+        },
+        {
+            "id": "indicator--cb9ba948-0403-4acf-b637-e53bd080a02c",
+            "type": "indicator",
+            "created": "2020-09-10T08:48:27.428Z",
+            "modified": "2020-09-10T08:48:27.428Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for mail.davaobay.com.ph",
+            "description": "Category: Botnet Command and Control Server\n      Description: This category contains Web sites or domains that host a botnet command and control server.",
+            "pattern": "[ url:value = 'mail.davaobay.com.ph' ]",
+            "valid_from": "2020-09-10T08:48:27.428Z"
+        },
+        {
+            "id": "indicator--65ddfb74-2953-4c25-9a82-825de8d96c0b",
+            "type": "indicator",
+            "created": "2020-09-10T08:48:27.821Z",
+            "modified": "2020-09-10T08:48:27.821Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for mail.hlrb.pt",
+            "description": "Category: Botnet Command and Control Server\n      Description: This category contains Web sites or domains that host a botnet command and control server.",
+            "pattern": "[ url:value = 'mail.hlrb.pt' ]",
+            "valid_from": "2020-09-10T08:48:27.821Z"
+        },
+        {
+            "id": "indicator--6fb99193-0bd0-1b52-cce4-ac22418c6e8a",
+            "type": "indicator",
+            "created": "2020-10-16T13:17:09.573Z",
+            "modified": "2020-10-16T13:17:09.573Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash 6fb991930bd01b52cce4ac22418c6e8a",
+            "description": "File hash indicator for md5 hash 6fb991930bd01b52cce4ac22418c6e8a",
+            "pattern": "[ file:hashes.MD5 = '6fb991930bd01b52cce4ac22418c6e8a' ]",
+            "valid_from": "2020-10-16T13:17:09.573Z"
+        },
+        {
+            "id": "indicator--85dfbbe2-2511-7a0c-83d3-6dc454baa501",
+            "type": "indicator",
+            "created": "2020-10-15T10:00:00.000Z",
+            "modified": "2020-10-16T13:17:09.663Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash 85dfbbe225117a0c83d36dc454baa501",
+            "description": "File hash indicator for md5 hash 85dfbbe225117a0c83d36dc454baa501",
+            "pattern": "[ file:hashes.MD5 = '85dfbbe225117a0c83d36dc454baa501' ]",
+            "valid_from": "2020-10-16T13:17:09.663Z"
+        },
+        {
+            "id": "indicator--fef1595f-f764-a5b9-bc5a-5e56453717b3",
+            "type": "indicator",
+            "created": "2020-11-10T10:27:11.215Z",
+            "modified": "2020-11-10T10:27:11.215Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash fef1595ff764a5b9bc5a5e56453717b3",
+            "description": "File hash indicator for md5 hash fef1595ff764a5b9bc5a5e56453717b3",
+            "pattern": "[ file:hashes.MD5 = 'fef1595ff764a5b9bc5a5e56453717b3' ]",
+            "valid_from": "2020-11-10T10:27:11.215Z"
+        },
+        {
+            "id": "indicator--6b757349-d2b4-13b3-f3d3-4c681446d604",
+            "type": "indicator",
+            "created": "2020-11-06T04:30:00.000Z",
+            "modified": "2020-11-10T10:27:12.348Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for md5 hash 6b757349d2b413b3f3d34c681446d604",
+            "description": "File hash indicator for md5 hash 6b757349d2b413b3f3d34c681446d604",
+            "pattern": "[ file:hashes.MD5 = '6b757349d2b413b3f3d34c681446d604' ]",
+            "valid_from": "2020-11-10T10:27:12.348Z"
+        },
+        {
+            "type": "report",
+            "id": "report--934317f5-2186-693c-5dc2-58fae8a8757a",
+            "name": "New Agent Tesla Campaign Targeting Manufacturing Industry",
+            "published": "2020-11-10T10:43:41.546Z",
+            "created": "2020-09-10T06:18:49.168Z",
+            "modified": "2020-11-10T10:43:41.546Z",
+            "labels": [
+                "ibm-x-force",
+                "spam",
+                "rat",
+                "xftas",
+                "email",
+                "agent-tesla"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nIBM X-Force observed a new spam campaign that, after a few hiccups, started distributing emails with the popular Agent Tesla malware as an attachment. In this campaign threat actors try to lure recipients with an invitation to bid for a well known manufacturing company.\n\n# Threat Type\n\nRAT, Malware, Spam\n\n# Overview\n\nThe prospect of investing in a well known company or just plain curiosity can drive targets of this campaign to inadvertently become part of a botnet powered by the Agent Tesla malware. It seems however that some early invitees were deprived of this possibility by emails containing only empty promises and no attachments. Threat actors seem to have spotted their mistake late Saturday and swiftly resumed operations first thing Monday, after resting for the Sunday.\n\n# Description\n\nIn a recent analysis IBM X-Force discovered an email with an invitation to become bidders in a well known manufacturing company. The following screenshot shows a recent sample email from this campaign.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/934317f52186693c5dc258fae8ac99b0/6f0169def48d9d43037c\n\nUnfortunately for the fictitious \"Mr. Alfred Wilson\", he made the all-too-common mistake of not including the attachment in the first batch of invitations. The distinctive blue font was never forgotten, however. The following timeline shows the observed mail volume from the last few days.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/53d16679e83155dc9db9a5f192e2e1ed/2adfc4ae3ea101403b9a\n\nThe campaign began on Saturday with innocuous emails lacking their proper Agent Tesla attachment. After taking a rest on Sunday, the spam resumed on Monday fixing its mistake after a few hours. \n\nThe early complications of this campaign do not reduce the actual danger of its payload. The attachment is a compressed file containing an executable that promptly drops Agent Tesla into its host. The next image shows the  graph of this process.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/46f09ac4ccb7ddcfc4b565f8b3d2c857/660367300a6d8ba8256c\n\nThe dropped malware connects to mail.subzerosolution.com using the SMTP protocol, which is a known Agent Tesla behavior. Further analysis of the main domain reveals it to be an Apache server showing an open directory. Since the Whois record of this domain is a decade old this suggests that threat actors are taking advantage of a misconfigured server.\n\n## September 8th update\n\nWe observed a change in the attachment of the emails that distribute the Agent Tesla malware. The email and the infection process are identical but the attachment file name no longer contains the trailing underscore as shown above. In timeline below you can visualize the distribution of both attachments differentiated by the bar color.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/126be11221a152d1727bd2a4a87cbb7d/e037843c024d25717a8d\n\n## September 10th update\n\nWe observed several more email templates distributing Agent Tesla using the same technique described above. The  emails continue to show the admiration threat actors have for blue fonts, although they boldly experiment with different tones. The new variants being distributed with these emails connect to different C2 servers. Below we show some more email samples and the relevant IoCs are in the next section as well as in Reports to the right.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/a6d9f6ed3391a4ec608d56157fd3a7e6/6bf0e680b13cc87a3cde\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/67bcbb88a4d1ec8fc304f04b52ce23cf/8d5d66a7bd13a075a6a0\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/98b0b0e7d901e9c2e6b6b9258ebca7e8/3fbbc7a16985fd91397d\n\n \n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/1ff930921b140859b9efd79f47b29610/844bc6134f6a889bea1d\n\n**Oct 16 update**\n\nWe observed two new campaigns distributing Agent Tesla.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/5d8b7094bf334d20669e398a68691b6d/aadf86ed1456f308efb8\n\n \n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/1ae18a352bda36c421c132c8d01fc512/a6182b7d9e42e898e8d3\n\n**Nov 10th update**\n\nAgent Tesla is still on the rise and we observed two new campaigns.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/d7fb7f6088f84145dc0eb6273e2e2f8c/f027e3dc8a93fefd0999\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/e795b7fcecd34d15edee61646fefb404/a06ef9ceedeac89e9b51\n\n# Indicators of Compromise\n\n C2: mail.subzerosolution.com, main domain:  http://subzerosolution.com \n\nAttachment hashes: A200C7D6BF8F5B8F6040A145A931BE4B BBE97E4BAAF22AEE38021AF08D8D66D6 \n\n## September 10th update\n\nC2: mail.totallyanonymous.com mail.hlrb.pt mail.davaobay.com.ph \n\nAttachment hashes: 7CD724151B02EE4C394C33C6AFF17B82 E6897AC05CDCEBAE4D46F5EDB2075DA9 9DE8AEDEB73322C34DFFC5076ED75840 BB4C7F7200276D8FF9C64CF5D76D2BD3 \n\n**Oct 16 update**\n\nAttachment hashes: 6FB991930BD01B52CCE4AC22418C6E8A 85DFBBE225117A0C83D36DC454BAA501 \n\n**Nov 10th update**\n\nAttachment hashes: FEF1595FF764A5B9BC5A5E56453717B3 6B757349D2B413B3F3D34C681446D604 \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n\n# References\n\nProprietary IBM X-Force Threat Intelligence",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--934317f5-2186-693c-5dc2-58fae8a8757a",
+            "collectionTitle": "New Agent Tesla Campaign Targeting Manufacturing Industry",
+            "collectionWikiContent": "Summary\nIBM X-Force observed a new spam campaign that, after a few hiccups, started distributing emails with the popular Agent Tesla malware as an attachment. In this campaign threat actors try to lure recipients with an invitation to bid for a well known manufacturing company.\nThreat Type\nRAT, Malware, Spam\nOverview\nThe prospect of investing in a well known company or just plain curiosity can drive targets of this campaign to inadvertently become part of a botnet powered by the Agent Tesla malware. It seems however that some early invitees were deprived of this possibility by emails containing only empty promises and no attachments. Threat actors seem to have spotted their mistake late Saturday and swiftly resumed operations first thing Monday, after resting for the Sunday.\nDescription\nIn a recent analysis IBM X-Force discovered an email with an invitation to become bidders in a well known manufacturing company. The following screenshot shows a recent sample email from this campaign.\n \nUnfortunately for the fictitious \"Mr. Alfred Wilson\", he made the all-too-common mistake of not including the attachment in the first batch of invitations. The distinctive blue font was never forgotten, however. The following timeline shows the observed mail volume from the last few days.\n\n \nThe campaign began on Saturday with innocuous emails lacking their proper Agent Tesla attachment. After taking a rest on Sunday, the spam resumed on Monday fixing its mistake after a few hours. \nThe early complications of this campaign do not reduce the actual danger of its payload. The attachment is a compressed file containing an executable that promptly drops Agent Tesla into its host. The next image shows the  graph of this process.\n \nThe dropped malware connects to mail.subzerosolution.com using the SMTP protocol, which is a known Agent Tesla behavior. Further analysis of the main domain reveals it to be an Apache server showing an open directory. Since the Whois record of this domain is a decade old this suggests that threat actors are taking advantage of a misconfigured server.\nSeptember 8th update\nWe observed a change in the attachment of the emails that distribute the Agent Tesla malware. The email and the infection process are identical but the attachment file name no longer contains the trailing underscore as shown above. In timeline below you can visualize the distribution of both attachments differentiated by the bar color.\n \nSeptember 10th update\nWe observed several more email templates distributing Agent Tesla using the same technique described above. The  emails continue to show the admiration threat actors have for blue fonts, although they boldly experiment with different tones. The new variants being distributed with these emails connect to different C2 servers. Below we show some more email samples and the relevant IoCs are in the next section as well as in Reports to the right.\n \n\n \n\n \n \n \nOct 16 update\nWe observed two new campaigns distributing Agent Tesla.\n \n \n \nNov 10th update\nAgent Tesla is still on the rise and we observed two new campaigns.\n \n\n \n\nIndicators of Compromise\n C2: mail.subzerosolution.com, main domain:  http://subzerosolution.com \nAttachment hashes: A200C7D6BF8F5B8F6040A145A931BE4B BBE97E4BAAF22AEE38021AF08D8D66D6 \nSeptember 10th update\nC2: mail.totallyanonymous.com mail.hlrb.pt mail.davaobay.com.ph \nAttachment hashes: 7CD724151B02EE4C394C33C6AFF17B82 E6897AC05CDCEBAE4D46F5EDB2075DA9 9DE8AEDEB73322C34DFFC5076ED75840 BB4C7F7200276D8FF9C64CF5D76D2BD3 \nOct 16 update\nAttachment hashes: 6FB991930BD01B52CCE4AC22418C6E8A 85DFBBE225117A0C83D36DC454BAA501 \nNov 10th update\nAttachment hashes: FEF1595FF764A5B9BC5A5E56453717B3 6B757349D2B413B3F3D34C681446D604 \nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nReferences\nProprietary IBM X-Force Threat Intelligence",
+            "collectionWikiMarkdown": "# Summary\n\nIBM X-Force observed a new spam campaign that, after a few hiccups, started distributing emails with the popular Agent Tesla malware as an attachment. In this campaign threat actors try to lure recipients with an invitation to bid for a well known manufacturing company.\n\n# Threat Type\n\nRAT, Malware, Spam\n\n# Overview\n\nThe prospect of investing in a well known company or just plain curiosity can drive targets of this campaign to inadvertently become part of a botnet powered by the Agent Tesla malware. It seems however that some early invitees were deprived of this possibility by emails containing only empty promises and no attachments. Threat actors seem to have spotted their mistake late Saturday and swiftly resumed operations first thing Monday, after resting for the Sunday.\n\n# Description\n\nIn a recent analysis IBM X-Force discovered an email with an invitation to become bidders in a well known manufacturing company. The following screenshot shows a recent sample email from this campaign.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/934317f52186693c5dc258fae8ac99b0/6f0169def48d9d43037c\n\nUnfortunately for the fictitious \"Mr. Alfred Wilson\", he made the all-too-common mistake of not including the attachment in the first batch of invitations. The distinctive blue font was never forgotten, however. The following timeline shows the observed mail volume from the last few days.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/53d16679e83155dc9db9a5f192e2e1ed/2adfc4ae3ea101403b9a\n\nThe campaign began on Saturday with innocuous emails lacking their proper Agent Tesla attachment. After taking a rest on Sunday, the spam resumed on Monday fixing its mistake after a few hours. \n\nThe early complications of this campaign do not reduce the actual danger of its payload. The attachment is a compressed file containing an executable that promptly drops Agent Tesla into its host. The next image shows the  graph of this process.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/46f09ac4ccb7ddcfc4b565f8b3d2c857/660367300a6d8ba8256c\n\nThe dropped malware connects to mail.subzerosolution.com using the SMTP protocol, which is a known Agent Tesla behavior. Further analysis of the main domain reveals it to be an Apache server showing an open directory. Since the Whois record of this domain is a decade old this suggests that threat actors are taking advantage of a misconfigured server.\n\n## September 8th update\n\nWe observed a change in the attachment of the emails that distribute the Agent Tesla malware. The email and the infection process are identical but the attachment file name no longer contains the trailing underscore as shown above. In timeline below you can visualize the distribution of both attachments differentiated by the bar color.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/126be11221a152d1727bd2a4a87cbb7d/e037843c024d25717a8d\n\n## September 10th update\n\nWe observed several more email templates distributing Agent Tesla using the same technique described above. The  emails continue to show the admiration threat actors have for blue fonts, although they boldly experiment with different tones. The new variants being distributed with these emails connect to different C2 servers. Below we show some more email samples and the relevant IoCs are in the next section as well as in Reports to the right.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/a6d9f6ed3391a4ec608d56157fd3a7e6/6bf0e680b13cc87a3cde\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/67bcbb88a4d1ec8fc304f04b52ce23cf/8d5d66a7bd13a075a6a0\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/98b0b0e7d901e9c2e6b6b9258ebca7e8/3fbbc7a16985fd91397d\n\n \n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/1ff930921b140859b9efd79f47b29610/844bc6134f6a889bea1d\n\n**Oct 16 update**\n\nWe observed two new campaigns distributing Agent Tesla.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/5d8b7094bf334d20669e398a68691b6d/aadf86ed1456f308efb8\n\n \n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/1ae18a352bda36c421c132c8d01fc512/a6182b7d9e42e898e8d3\n\n**Nov 10th update**\n\nAgent Tesla is still on the rise and we observed two new campaigns.\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/d7fb7f6088f84145dc0eb6273e2e2f8c/f027e3dc8a93fefd0999\n\n /api/casefiles/934317f52186693c5dc258fae8a8757a/attachments/e795b7fcecd34d15edee61646fefb404/a06ef9ceedeac89e9b51\n\n# Indicators of Compromise\n\n C2: mail.subzerosolution.com, main domain:  http://subzerosolution.com \n\nAttachment hashes: A200C7D6BF8F5B8F6040A145A931BE4B BBE97E4BAAF22AEE38021AF08D8D66D6 \n\n## September 10th update\n\nC2: mail.totallyanonymous.com mail.hlrb.pt mail.davaobay.com.ph \n\nAttachment hashes: 7CD724151B02EE4C394C33C6AFF17B82 E6897AC05CDCEBAE4D46F5EDB2075DA9 9DE8AEDEB73322C34DFFC5076ED75840 BB4C7F7200276D8FF9C64CF5D76D2BD3 \n\n**Oct 16 update**\n\nAttachment hashes: 6FB991930BD01B52CCE4AC22418C6E8A 85DFBBE225117A0C83D36DC454BAA501 \n\n**Nov 10th update**\n\nAttachment hashes: FEF1595FF764A5B9BC5A5E56453717B3 6B757349D2B413B3F3D34C681446D604 \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n\n# References\n\nProprietary IBM X-Force Threat Intelligence",
+            "collectionId": "934317f52186693c5dc258fae8a8757a",
+            "owner": {
+                "name": "Ashkan Vila",
+                "uuid": "http://www.ibm.com/50HTSMMBFQ"
+            },
+            "tags": [
+                "ibm-x-force",
+                "spam",
+                "rat",
+                "xftas",
+                "email",
+                "agent-tesla"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-09-10T06:18:49.168Z",
+            "modified": "2020-11-10T10:43:41.546Z"
+        }
+    ],
+    "id": "bundle--bd5c0431-6ed8-445e-86eb-5473e9cdb16a"
+}

@@ -1,0 +1,12 @@
+[resilient.circuits.components]
+FunctFnCheckHstsFunctionComponent = fn_check_hsts.components.funct_fn_check_hsts:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = fn_check_hsts.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = fn_check_hsts.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = fn_check_hsts.util.selftest:selftest_function
+

@@ -1,0 +1,63 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "type": "report",
+            "id": "report--42a9ea80-fefc-a288-5dbb-91863dc4bb83",
+            "name": "New Targeting of National Oil Company\u2019s Ongoing Development and Exploration Projects",
+            "published": "2020-11-09T20:26:03.177Z",
+            "created": "2020-11-09T20:26:03.177Z",
+            "modified": "2020-11-09T20:26:03.177Z",
+            "labels": [
+                "advisory",
+                "email",
+                "x-industry:oilgas",
+                "stealer",
+                "malware",
+                "xftag",
+                "xfti",
+                "agenttesla",
+                "phishing",
+                "x-location:sea"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nIBM X-Force Threat Intelligence has identified phishing emails targeting companies with an interest in the pipeline offshore Sarawak, Malaysia project led by Petroleum Authority of Thailand (PTT) Exploration and Production Public Co. Ltd\u2019s (PTTEP). This activity has been connected to a previous credential harvesting campaign identified by X-Force in July 2020.\n\n# Threat Type\n\n- Malware, Credential Harvesting\n\n# Overview\n\nIn mid-September 2020, IBM X-Force Threat Intelligence observed a wave of phishing emails targeting companies likely having an interest in the pipeline offshore Sarawak, Malaysia project led by Petroleum Authority of Thailand (PTT) Exploration and Production Public Co. Ltd\u2019s (PTTEP). X-Force uncovered Domain Name System (DNS) Start of Authority (SOA) records associated with this activity that directly overlap with the DNS SOA record reported by X-Force in July 2020 \u201cYears of Phishing Campaigns Deliver Credential Harvesting Malware to Exploit Worldwide Expansion of Major Saudi Arabian Energy Company\u201d. The emails involved in this campaign deliver the AgentTesla credential harvesting malware. The full story, including indicators of compromise, is available to IBM X-Force Premier Threat Intelligence clients at the link below.\n\n# Indicators of Compromise\n\nIndicators of compromise are available to IBM X-Force Premier Threat Intelligence clients at the link below.\n\n# Recommendations\n\n- Review the source article for full details.\n- Apply applicable patches, updates, or workarounds as necessary.\n\n# Reference\n\n- Premier Threat Intelligence clients can read more and see the indicators at: https://station.trustar.co/constellation/reports/9c339d47-8b17-4c7c-a4e1-5eb9770c3ca0 \n- To learn more about X-Force Premier Threat Intelligence, visit: https://www.ibm.com/security/services/threat-intelligence ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--42a9ea80-fefc-a288-5dbb-91863dc4bb83",
+            "collectionTitle": "New Targeting of National Oil Company\u2019s Ongoing Development and Exploration Projects",
+            "collectionWikiContent": "Summary\nIBM X-Force Threat Intelligence has identified phishing emails targeting companies with an interest in the pipeline offshore Sarawak, Malaysia project led by Petroleum Authority of Thailand (PTT) Exploration and Production Public Co. Ltd\u2019s (PTTEP). This activity has been connected to a previous credential harvesting campaign identified by X-Force in July 2020.\nThreat Type\nMalware, Credential Harvesting\nOverview\nIn mid-September 2020, IBM X-Force Threat Intelligence observed a wave of phishing emails targeting companies likely having an interest in the pipeline offshore Sarawak, Malaysia project led by Petroleum Authority of Thailand (PTT) Exploration and Production Public Co. Ltd\u2019s (PTTEP). X-Force uncovered Domain Name System (DNS) Start of Authority (SOA) records associated with this activity that directly overlap with the DNS SOA record reported by X-Force in July 2020 \u201cYears of Phishing Campaigns Deliver Credential Harvesting Malware to Exploit Worldwide Expansion of Major Saudi Arabian Energy Company\u201d. The emails involved in this campaign deliver the AgentTesla credential harvesting malware. The full story, including indicators of compromise, is available to IBM X-Force Premier Threat Intelligence clients at the link below.\nIndicators of Compromise\nIndicators of compromise are available to IBM X-Force Premier Threat Intelligence clients at the link below.\nRecommendations\nReview the source article for full details.\nApply applicable patches, updates, or workarounds as necessary.\nReference\nPremier Threat Intelligence clients can read more and see the indicators at: https://station.trustar.co/constellation/reports/9c339d47-8b17-4c7c-a4e1-5eb9770c3ca0 \nTo learn more about X-Force Premier Threat Intelligence, visit: https://www.ibm.com/security/services/threat-intelligence ",
+            "collectionWikiMarkdown": "# Summary\n\nIBM X-Force Threat Intelligence has identified phishing emails targeting companies with an interest in the pipeline offshore Sarawak, Malaysia project led by Petroleum Authority of Thailand (PTT) Exploration and Production Public Co. Ltd\u2019s (PTTEP). This activity has been connected to a previous credential harvesting campaign identified by X-Force in July 2020.\n\n# Threat Type\n\n- Malware, Credential Harvesting\n\n# Overview\n\nIn mid-September 2020, IBM X-Force Threat Intelligence observed a wave of phishing emails targeting companies likely having an interest in the pipeline offshore Sarawak, Malaysia project led by Petroleum Authority of Thailand (PTT) Exploration and Production Public Co. Ltd\u2019s (PTTEP). X-Force uncovered Domain Name System (DNS) Start of Authority (SOA) records associated with this activity that directly overlap with the DNS SOA record reported by X-Force in July 2020 \u201cYears of Phishing Campaigns Deliver Credential Harvesting Malware to Exploit Worldwide Expansion of Major Saudi Arabian Energy Company\u201d. The emails involved in this campaign deliver the AgentTesla credential harvesting malware. The full story, including indicators of compromise, is available to IBM X-Force Premier Threat Intelligence clients at the link below.\n\n# Indicators of Compromise\n\nIndicators of compromise are available to IBM X-Force Premier Threat Intelligence clients at the link below.\n\n# Recommendations\n\n- Review the source article for full details.\n- Apply applicable patches, updates, or workarounds as necessary.\n\n# Reference\n\n- Premier Threat Intelligence clients can read more and see the indicators at: https://station.trustar.co/constellation/reports/9c339d47-8b17-4c7c-a4e1-5eb9770c3ca0 \n- To learn more about X-Force Premier Threat Intelligence, visit: https://www.ibm.com/security/services/threat-intelligence ",
+            "collectionId": "42a9ea80fefca2885dbb91863dc4bb83",
+            "owner": {
+                "name": "Megan Roddie",
+                "uuid": "http://www.ibm.com/5500022R9C"
+            },
+            "tags": [
+                "advisory",
+                "email",
+                "x-industry:oilgas",
+                "stealer",
+                "malware",
+                "xftag",
+                "xfti",
+                "agenttesla",
+                "phishing",
+                "x-location:sea"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_GREEN",
+                "tlpColorCode": "green",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T20:26:03.177Z",
+            "modified": "2020-11-09T20:26:03.177Z"
+        }
+    ],
+    "id": "bundle--a38a060e-4654-44c4-b30e-080faeb5abfd"
+}

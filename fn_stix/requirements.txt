@@ -1,0 +1,5 @@
+stix2
+stix2-patterns
+stix2-validator
+pandas
+numpy

@@ -1,0 +1,85 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--4a4df0d3-c5a0-4e1a-b72d-6a091d898198",
+            "type": "indicator",
+            "created": "2012-03-22T07:26:00.000Z",
+            "modified": "2020-11-03T14:14:00.000Z",
+            "labels": [
+                "anomalous-activity",
+                "xfe-threat-score-4.3"
+            ],
+            "name": "IP Report for IP address 204.11.58.39",
+            "description": "Based on the review of an X-Force security analyst.",
+            "pattern": "[ ipv4-addr:value = '204.11.58.39' ]",
+            "valid_from": "2020-11-03T14:14:00.000Z"
+        },
+        {
+            "id": "indicator--5589fe53-6347-4717-99d3-c1aff6472d69",
+            "type": "indicator",
+            "created": "2020-11-03T14:24:53.866Z",
+            "modified": "2020-11-03T14:24:53.866Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10"
+            ],
+            "name": "URL Report for http://qataracfridgerepaire.com/templates/five/fre.php",
+            "description": "Category: Malware\n      Description: This category contains Web sites that install data transmitting programs without the user's knowledge.",
+            "pattern": "[ url:value = 'http://qataracfridgerepaire.com/templates/five/fre.php' ]",
+            "valid_from": "2020-11-03T14:24:53.866Z"
+        },
+        {
+            "type": "report",
+            "id": "report--87a1d942-7d66-4a99-50c1-a17eaa31624c",
+            "name": "Lokibot's Early November Campaign",
+            "published": "2020-11-10T11:32:47.655Z",
+            "created": "2020-11-10T11:32:47.655Z",
+            "modified": "2020-11-10T11:32:47.655Z",
+            "labels": [
+                "trojan",
+                "malware",
+                "spam",
+                "ibm-x-force",
+                "lokibot",
+                "xftas",
+                "email"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nIBM X-Force recent email analysis determined a Lokibot campaign originating from the United States and mainly coming from only one IP address.\n\n# Threat Type\n\nSpam, Trojan, Malware\n\n# Overview\n\n## Timeline\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/fff8f027e6e8d0e575ed7eaa7a2d2182/784850c40125f36e59e6\n\nThe Lokibot campaign started on November 1st. at noon which initially lasted for half an hour until it almost vanished from our monitoring and had only a tiny hiccup  on November 2nd. It reappeared on our sensors today on November 3rd. in even a larger volume at around 7:30 A.M CET\n\n## Lokibot Mail Sample\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/3cf4cf305816ce8b8603c9fcafcb596f/0378918c2181a7e98c88\n\nDespite the convincing email signature, there is nothing special about the sample in general. The threat actors apparently used a U.S based company for their lure which is active in the marketing sector. This allows through invoice-themed campaigns to target potential clients and customers of the spoofed company to distribute their malicious payload.\n\nThe attachment filename is based on the subject, probably to create a consistency for their masquerade. The attachment itself is a ZIP archive containing an executable with the same filename. The executable is the loader for Lokibot which connects to the malware URL listed in the reports section to the right. Details can be viewed in the process graph.\n\n## IP and Country Distribution\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/21beac83a0dad9504ebb1b4a9e55c857/f71e0bffeb34f8258eac\n\nThe most interesting part in this campaign was clearly the distribution which resulted in only one IP and hence country. This was indeed unusual since previous Lokibot campaigns were widely spread and included several hundred to thousands of IP addresses from infected botnet clients sending spam mails.\n\n## Lokibot Process Graph\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/f99a917b9ec86721838c23eea263cd82/2fd7c167b4ce4f6ee8c8\n\nWe exported the attachment into our sandboxing environment for further analysis. Dropping and starting the executable out of the archive resulted to establishing instantly a connection to http://qataracfridgerepaire.com/templates/five/fre.php which downloaded the payload. Some malware only reveal themself when specific actions are performed. In our case, we tried our first shot by starting Notepad++ where we got lucky and Lokibot came out of its closet. It immediately connected to the C2 server 204.11.58.39 via port 80 which is used to receive orders from the command and control server as well as having the option to load additional malware or transmit the stolen data it gathered from the victim to the operators.\n\nIBM X-Force Threat Intelligence will continue to monitor for such events and will keep you up to date if any new changes are observed for this campaign.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n## IBM X-Force Threat Intelligence",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--87a1d942-7d66-4a99-50c1-a17eaa31624c",
+            "collectionTitle": "Lokibot's Early November Campaign",
+            "collectionWikiContent": "Summary\nIBM X-Force recent email analysis determined a Lokibot campaign originating from the United States and mainly coming from only one IP address.\nThreat Type\nSpam, Trojan, Malware\nOverview\nTimeline\n \nThe Lokibot campaign started on November 1st. at noon which initially lasted for half an hour until it almost vanished from our monitoring and had only a tiny hiccup  on November 2nd. It reappeared on our sensors today on November 3rd. in even a larger volume at around 7:30 A.M CET\nLokibot Mail Sample\n \nDespite the convincing email signature, there is nothing special about the sample in general. The threat actors apparently used a U.S based company for their lure which is active in the marketing sector. This allows through invoice-themed campaigns to target potential clients and customers of the spoofed company to distribute their malicious payload.\nThe attachment filename is based on the subject, probably to create a consistency for their masquerade. The attachment itself is a ZIP archive containing an executable with the same filename. The executable is the loader for Lokibot which connects to the malware URL listed in the reports section to the right. Details can be viewed in the process graph.\nIP and Country Distribution\n \nThe most interesting part in this campaign was clearly the distribution which resulted in only one IP and hence country. This was indeed unusual since previous Lokibot campaigns were widely spread and included several hundred to thousands of IP addresses from infected botnet clients sending spam mails.\nLokibot Process Graph\n \nWe exported the attachment into our sandboxing environment for further analysis. Dropping and starting the executable out of the archive resulted to establishing instantly a connection to http://qataracfridgerepaire.com/templates/five/fre.php which downloaded the payload. Some malware only reveal themself when specific actions are performed. In our case, we tried our first shot by starting Notepad++ where we got lucky and Lokibot came out of its closet. It immediately connected to the C2 server 204.11.58.39 via port 80 which is used to receive orders from the command and control server as well as having the option to load additional malware or transmit the stolen data it gathered from the victim to the operators.\nIBM X-Force Threat Intelligence will continue to monitor for such events and will keep you up to date if any new changes are observed for this campaign.\nIndicators of Compromise\nA complete list of IoCs can be found in the Reports section to the right.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nIBM X-Force Threat Intelligence",
+            "collectionWikiMarkdown": "# Summary\n\nIBM X-Force recent email analysis determined a Lokibot campaign originating from the United States and mainly coming from only one IP address.\n\n# Threat Type\n\nSpam, Trojan, Malware\n\n# Overview\n\n## Timeline\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/fff8f027e6e8d0e575ed7eaa7a2d2182/784850c40125f36e59e6\n\nThe Lokibot campaign started on November 1st. at noon which initially lasted for half an hour until it almost vanished from our monitoring and had only a tiny hiccup  on November 2nd. It reappeared on our sensors today on November 3rd. in even a larger volume at around 7:30 A.M CET\n\n## Lokibot Mail Sample\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/3cf4cf305816ce8b8603c9fcafcb596f/0378918c2181a7e98c88\n\nDespite the convincing email signature, there is nothing special about the sample in general. The threat actors apparently used a U.S based company for their lure which is active in the marketing sector. This allows through invoice-themed campaigns to target potential clients and customers of the spoofed company to distribute their malicious payload.\n\nThe attachment filename is based on the subject, probably to create a consistency for their masquerade. The attachment itself is a ZIP archive containing an executable with the same filename. The executable is the loader for Lokibot which connects to the malware URL listed in the reports section to the right. Details can be viewed in the process graph.\n\n## IP and Country Distribution\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/21beac83a0dad9504ebb1b4a9e55c857/f71e0bffeb34f8258eac\n\nThe most interesting part in this campaign was clearly the distribution which resulted in only one IP and hence country. This was indeed unusual since previous Lokibot campaigns were widely spread and included several hundred to thousands of IP addresses from infected botnet clients sending spam mails.\n\n## Lokibot Process Graph\n\n /api/casefiles/87a1d9427d664a9950c1a17eaa31624c/attachments/f99a917b9ec86721838c23eea263cd82/2fd7c167b4ce4f6ee8c8\n\nWe exported the attachment into our sandboxing environment for further analysis. Dropping and starting the executable out of the archive resulted to establishing instantly a connection to http://qataracfridgerepaire.com/templates/five/fre.php which downloaded the payload. Some malware only reveal themself when specific actions are performed. In our case, we tried our first shot by starting Notepad++ where we got lucky and Lokibot came out of its closet. It immediately connected to the C2 server 204.11.58.39 via port 80 which is used to receive orders from the command and control server as well as having the option to load additional malware or transmit the stolen data it gathered from the victim to the operators.\n\nIBM X-Force Threat Intelligence will continue to monitor for such events and will keep you up to date if any new changes are observed for this campaign.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n## IBM X-Force Threat Intelligence",
+            "collectionId": "87a1d9427d664a9950c1a17eaa31624c",
+            "owner": {
+                "name": "Ashkan Vila",
+                "uuid": "http://www.ibm.com/50HTSMMBFQ"
+            },
+            "tags": [
+                "trojan",
+                "malware",
+                "spam",
+                "ibm-x-force",
+                "lokibot",
+                "xftas",
+                "email"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-10T11:32:47.655Z",
+            "modified": "2020-11-10T11:32:47.655Z"
+        }
+    ],
+    "id": "bundle--73d7951b-881c-45c2-97c4-dd1573ce35ac"
+}

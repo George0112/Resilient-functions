@@ -1,0 +1,51 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "type": "report",
+            "id": "report--e738fd78-353a-e32a-72c9-2e91769f6bb9",
+            "name": "Vulnerability in Welcart e-Commerce Plugin for WordPress",
+            "published": "2020-11-10T14:38:05.939Z",
+            "created": "2020-11-10T14:38:05.939Z",
+            "modified": "2020-11-10T14:38:05.939Z",
+            "labels": [
+                "xftag",
+                "advisory",
+                "vulnerability",
+                "welcart-e-commerce"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nA report from Wordfence outlines a vulnerability its Threat Intelligence team discovered in an the Welcart e-Commerce plugin for WordPress.\n\n# Threat Type\n\n- Vulnerability\n\n# Overview\n\nA vulnerability was discovered in Collne Inc's Welcart e-Commerce plugin for WordPress by Wordfence's Threat Intelligence team. The vulnerability could allow an authenticated attacker to include a maliciously crafted string in the \"usces_cookie\" parameter, potentially resulting in the injection of a PHP object. In its report, Wordfence provides a CVSS 3.0 Base score of 7.5 for the vulnerability. Versions of Welcart e-Commerce plugin prior to 1.9.36 are reported as being vulnerable. The vendor has published an update which addresses the vulnerability. Further information is available from the links in the Reference section below.\n\n# CVEs\n\n- None provided.\n\n# Recommendations\n\n- Review the source article for full details.\n- Apply applicable patches, updates, or workarounds as necessary.\n\n# Reference\n\n- https://www.wordfence.com/blog/2020/11/object-injection-vulnerability-in-welcart-e-commerce-plugin[/](https://www.wordfence.com/blog/2020/11/object-injection-vulnerability-in-welcart-e-commerce-plugin/) \n- https://wordpress.org/plugins/usc-e-shop[/](https://wordpress.org/plugins/usc-e-shop/) ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--e738fd78-353a-e32a-72c9-2e91769f6bb9",
+            "collectionTitle": "Vulnerability in Welcart e-Commerce Plugin for WordPress",
+            "collectionWikiContent": "Summary\nA report from Wordfence outlines a vulnerability its Threat Intelligence team discovered in an the Welcart e-Commerce plugin for WordPress.\nThreat Type\nVulnerability\nOverview\nA vulnerability was discovered in Collne Inc's Welcart e-Commerce plugin for WordPress by Wordfence's Threat Intelligence team. The vulnerability could allow an authenticated attacker to include a maliciously crafted string in the \"usces_cookie\" parameter, potentially resulting in the injection of a PHP object. In its report, Wordfence provides a CVSS 3.0 Base score of 7.5 for the vulnerability. Versions of Welcart e-Commerce plugin prior to 1.9.36 are reported as being vulnerable. The vendor has published an update which addresses the vulnerability. Further information is available from the links in the Reference section below.\nCVEs\nNone provided.\nRecommendations\nReview the source article for full details.\nApply applicable patches, updates, or workarounds as necessary.\nReference\nhttps://www.wordfence.com/blog/2020/11/object-injection-vulnerability-in-welcart-e-commerce-plugin/ \nhttps://wordpress.org/plugins/usc-e-shop/ ",
+            "collectionWikiMarkdown": "# Summary\n\nA report from Wordfence outlines a vulnerability its Threat Intelligence team discovered in an the Welcart e-Commerce plugin for WordPress.\n\n# Threat Type\n\n- Vulnerability\n\n# Overview\n\nA vulnerability was discovered in Collne Inc's Welcart e-Commerce plugin for WordPress by Wordfence's Threat Intelligence team. The vulnerability could allow an authenticated attacker to include a maliciously crafted string in the \"usces_cookie\" parameter, potentially resulting in the injection of a PHP object. In its report, Wordfence provides a CVSS 3.0 Base score of 7.5 for the vulnerability. Versions of Welcart e-Commerce plugin prior to 1.9.36 are reported as being vulnerable. The vendor has published an update which addresses the vulnerability. Further information is available from the links in the Reference section below.\n\n# CVEs\n\n- None provided.\n\n# Recommendations\n\n- Review the source article for full details.\n- Apply applicable patches, updates, or workarounds as necessary.\n\n# Reference\n\n- https://www.wordfence.com/blog/2020/11/object-injection-vulnerability-in-welcart-e-commerce-plugin[/](https://www.wordfence.com/blog/2020/11/object-injection-vulnerability-in-welcart-e-commerce-plugin/) \n- https://wordpress.org/plugins/usc-e-shop[/](https://wordpress.org/plugins/usc-e-shop/) ",
+            "collectionId": "e738fd78353ae32a72c92e91769f6bb9",
+            "owner": {
+                "name": "Lyndon Sutherland",
+                "uuid": "http://www.ibm.com/310000JF0G"
+            },
+            "tags": [
+                "xftag",
+                "advisory",
+                "vulnerability",
+                "welcart-e-commerce"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-10T14:38:05.939Z",
+            "modified": "2020-11-10T14:38:05.939Z"
+        }
+    ],
+    "id": "bundle--9312fada-b348-4f55-b0f2-11530c80f9e2"
+}

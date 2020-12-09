@@ -1,0 +1,197 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--c0bf010e-dec5-fa62-ad6a-3b0adc7b4386",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.454Z",
+            "modified": "2020-11-06T22:39:00.454Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 9242ee809fb20d0b9ae86819b10916c69ae0d01d7010e24dc85a6e502eae261a",
+            "description": "File hash indicator for sha256 hash 9242ee809fb20d0b9ae86819b10916c69ae0d01d7010e24dc85a6e502eae261a",
+            "pattern": "[ file:hashes.'SHA-256' = '9242ee809fb20d0b9ae86819b10916c69ae0d01d7010e24dc85a6e502eae261a' ]",
+            "valid_from": "2020-11-06T22:39:00.454Z"
+        },
+        {
+            "id": "indicator--31af28df-ccfe-f8c8-0dfa-0e3a4be65874",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.494Z",
+            "modified": "2020-11-06T22:39:00.494Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 06d6636b9bf9649f5008c777995be0df8685997884a1310288df5df47fd73448",
+            "description": "File hash indicator for sha256 hash 06d6636b9bf9649f5008c777995be0df8685997884a1310288df5df47fd73448",
+            "pattern": "[ file:hashes.'SHA-256' = '06d6636b9bf9649f5008c777995be0df8685997884a1310288df5df47fd73448' ]",
+            "valid_from": "2020-11-06T22:39:00.494Z"
+        },
+        {
+            "id": "indicator--194b84c4-52d8-63c8-488e-e327650f8795",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.511Z",
+            "modified": "2020-11-06T22:39:00.511Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 7f075fd03fd0fa29a4e3339e0a5234c3dd3c0d4077e530c080b9762bccdf17a3",
+            "description": "File hash indicator for sha256 hash 7f075fd03fd0fa29a4e3339e0a5234c3dd3c0d4077e530c080b9762bccdf17a3",
+            "pattern": "[ file:hashes.'SHA-256' = '7f075fd03fd0fa29a4e3339e0a5234c3dd3c0d4077e530c080b9762bccdf17a3' ]",
+            "valid_from": "2020-11-06T22:39:00.511Z"
+        },
+        {
+            "id": "indicator--f8413fd2-00e6-d0db-55b7-ade5fb8e7c05",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.512Z",
+            "modified": "2020-11-06T22:39:00.512Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d12e1bf86a1df8696abbc13e360d7160e620bdcc4d852405141452fcadfde1aa",
+            "description": "File hash indicator for sha256 hash d12e1bf86a1df8696abbc13e360d7160e620bdcc4d852405141452fcadfde1aa",
+            "pattern": "[ file:hashes.'SHA-256' = 'd12e1bf86a1df8696abbc13e360d7160e620bdcc4d852405141452fcadfde1aa' ]",
+            "valid_from": "2020-11-06T22:39:00.512Z"
+        },
+        {
+            "id": "indicator--cae6008a-2bcf-21d0-e941-3483f692371b",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.565Z",
+            "modified": "2020-11-06T22:39:00.565Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 8d87beef493f4d25bb769f8391c6be61180e883f538d8d006587b8dd8e567aa6",
+            "description": "File hash indicator for sha256 hash 8d87beef493f4d25bb769f8391c6be61180e883f538d8d006587b8dd8e567aa6",
+            "pattern": "[ file:hashes.'SHA-256' = '8d87beef493f4d25bb769f8391c6be61180e883f538d8d006587b8dd8e567aa6' ]",
+            "valid_from": "2020-11-06T22:39:00.565Z"
+        },
+        {
+            "id": "indicator--5cf4fa3c-d41c-a922-203c-28e7de9d3857",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.571Z",
+            "modified": "2020-11-06T22:39:00.571Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5c2d714f1db9e17c7e3bd8e627115835ec06e4fff1b9e7598d4a02b5d1d7c7f8",
+            "description": "File hash indicator for sha256 hash 5c2d714f1db9e17c7e3bd8e627115835ec06e4fff1b9e7598d4a02b5d1d7c7f8",
+            "pattern": "[ file:hashes.'SHA-256' = '5c2d714f1db9e17c7e3bd8e627115835ec06e4fff1b9e7598d4a02b5d1d7c7f8' ]",
+            "valid_from": "2020-11-06T22:39:00.571Z"
+        },
+        {
+            "id": "indicator--ff9ad6b7-8617-ac94-31cc-0bf07a00e901",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.597Z",
+            "modified": "2020-11-06T22:39:00.597Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 1db4cc2eb4f35aaa9bc2525a341226fc78bc9bec7cfdd7bca0de4e934686c797",
+            "description": "File hash indicator for sha256 hash 1db4cc2eb4f35aaa9bc2525a341226fc78bc9bec7cfdd7bca0de4e934686c797",
+            "pattern": "[ file:hashes.'SHA-256' = '1db4cc2eb4f35aaa9bc2525a341226fc78bc9bec7cfdd7bca0de4e934686c797' ]",
+            "valid_from": "2020-11-06T22:39:00.597Z"
+        },
+        {
+            "id": "indicator--56a75fa5-8348-131d-bef0-bd55b1ec4ab5",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.626Z",
+            "modified": "2020-11-06T22:39:00.626Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 62a14897f546397865b1d4cfde33fd4fe1175567dd8f4b2a10036b54b426b92b",
+            "description": "File hash indicator for sha256 hash 62a14897f546397865b1d4cfde33fd4fe1175567dd8f4b2a10036b54b426b92b",
+            "pattern": "[ file:hashes.'SHA-256' = '62a14897f546397865b1d4cfde33fd4fe1175567dd8f4b2a10036b54b426b92b' ]",
+            "valid_from": "2020-11-06T22:39:00.626Z"
+        },
+        {
+            "id": "indicator--45bccc2b-8b39-d6a4-a4ba-36acf120d219",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:00.636Z",
+            "modified": "2020-11-06T22:39:00.636Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3b28ffb3b2ac7d860a20add27d60e5bb24a2c576c0b6443091849c9e762bf8c5",
+            "description": "File hash indicator for sha256 hash 3b28ffb3b2ac7d860a20add27d60e5bb24a2c576c0b6443091849c9e762bf8c5",
+            "pattern": "[ file:hashes.'SHA-256' = '3b28ffb3b2ac7d860a20add27d60e5bb24a2c576c0b6443091849c9e762bf8c5' ]",
+            "valid_from": "2020-11-06T22:39:00.636Z"
+        },
+        {
+            "id": "indicator--5eda5c04-9aca-5e8a-7afd-9b74cea4a15d",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:02.644Z",
+            "modified": "2020-11-06T22:39:02.644Z",
+            "labels": [
+                "xfe-malware-risk-high",
+                "heuristic"
+            ],
+            "name": "File hash indicator for sha256 hash 5d12ca486fd48a6ec111535fae4e29d66fb87ddb16c56ae34f888095f7c915e1",
+            "description": "File hash indicator for sha256 hash 5d12ca486fd48a6ec111535fae4e29d66fb87ddb16c56ae34f888095f7c915e1",
+            "pattern": "[ file:hashes.'SHA-256' = '5d12ca486fd48a6ec111535fae4e29d66fb87ddb16c56ae34f888095f7c915e1' ]",
+            "valid_from": "2020-11-06T22:39:02.644Z"
+        },
+        {
+            "id": "indicator--19fd390e-251c-a90d-23c5-f761cceae152",
+            "type": "indicator",
+            "created": "2020-11-06T22:39:02.681Z",
+            "modified": "2020-11-06T22:39:02.681Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 97dab53850d56b3577190a43a4126990df0670680057fc8b58bd62c252a41ce1",
+            "description": "File hash indicator for sha256 hash 97dab53850d56b3577190a43a4126990df0670680057fc8b58bd62c252a41ce1",
+            "pattern": "[ file:hashes.'SHA-256' = '97dab53850d56b3577190a43a4126990df0670680057fc8b58bd62c252a41ce1' ]",
+            "valid_from": "2020-11-06T22:39:02.681Z"
+        },
+        {
+            "type": "report",
+            "id": "report--27a34167-fadc-197b-0208-a782672fb1c1",
+            "name": "Alfa Team Shell ~ v4.1-TeslA: New Features Added",
+            "published": "2020-11-09T14:48:00.102Z",
+            "created": "2020-11-09T14:48:00.102Z",
+            "modified": "2020-11-09T14:48:00.102Z",
+            "labels": [
+                "advsiory",
+                "xftag",
+                "webshell",
+                "malware",
+                "phishing"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nAccording to analysts at Sucuri, the usage of PHP web shells continues to increase as threat actors customarily make changes and updates to enhance their effectiveness; which was seen in a recent analysis of a web shell released by the\u00a0Iranian group Sucuri refer to as\u00a0ALFA TEaM.\n\n# Threat Type\n\n- Malware, Phishing\n\n# Overview\n\nAn analyst at Sucuri, recently analysed an updated version of a PHP web shell, called ALFA TEaM Shell ~ v4.1-Tesla. Sucuri refers to the group behind the web shell as\u00a0ALFA TEaM, they are also known as APT33,\u00a0Elfin, HOLMIUM, and Refined Kitten.\u00a0Analysts were able to make several distinctions between the shells v3 version and v4.1, like the following: additives of new code allowing faster set-ups of phony control panel pages for phishing purposes, enhanced search capabilities and an archive manager feature allowing the consolidation of various files to be loaded into a servers memory. In conclusion, analysts at\u00a0Sucuri address, the severity behind recent developments in threat actors TTPs as it relates to phishing and the various tools they use. For more information, see the blog post in the Reference section.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the section to the Right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://blog.sucuri.net/2020/11/alfa-team-shell-v4-1-tesla-a-feature-update-analysis.html  ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--27a34167-fadc-197b-0208-a782672fb1c1",
+            "collectionTitle": "Alfa Team Shell ~ v4.1-TeslA: New Features Added",
+            "collectionWikiContent": "Summary\nAccording to analysts at Sucuri, the usage of PHP web shells continues to increase as threat actors customarily make changes and updates to enhance their effectiveness; which was seen in a recent analysis of a web shell released by the\u00a0Iranian group Sucuri refer to as\u00a0ALFA TEaM.\nThreat Type\nMalware, Phishing\nOverview\nAn analyst at Sucuri, recently analysed an updated version of a PHP web shell, called ALFA TEaM Shell ~ v4.1-Tesla. Sucuri refers to the group behind the web shell as\u00a0ALFA TEaM, they are also known as APT33,\u00a0Elfin, HOLMIUM, and Refined Kitten.\u00a0Analysts were able to make several distinctions between the shells v3 version and v4.1, like the following: additives of new code allowing faster set-ups of phony control panel pages for phishing purposes, enhanced search capabilities and an archive manager feature allowing the consolidation of various files to be loaded into a servers memory. In conclusion, analysts at\u00a0Sucuri address, the severity behind recent developments in threat actors TTPs as it relates to phishing and the various tools they use. For more information, see the blog post in the Reference section.\nIndicators of Compromise\nA complete list of IoCs can be found in the section to the Right. \nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://blog.sucuri.net/2020/11/alfa-team-shell-v4-1-tesla-a-feature-update-analysis.html  ",
+            "collectionWikiMarkdown": "# Summary\n\nAccording to analysts at Sucuri, the usage of PHP web shells continues to increase as threat actors customarily make changes and updates to enhance their effectiveness; which was seen in a recent analysis of a web shell released by the\u00a0Iranian group Sucuri refer to as\u00a0ALFA TEaM.\n\n# Threat Type\n\n- Malware, Phishing\n\n# Overview\n\nAn analyst at Sucuri, recently analysed an updated version of a PHP web shell, called ALFA TEaM Shell ~ v4.1-Tesla. Sucuri refers to the group behind the web shell as\u00a0ALFA TEaM, they are also known as APT33,\u00a0Elfin, HOLMIUM, and Refined Kitten.\u00a0Analysts were able to make several distinctions between the shells v3 version and v4.1, like the following: additives of new code allowing faster set-ups of phony control panel pages for phishing purposes, enhanced search capabilities and an archive manager feature allowing the consolidation of various files to be loaded into a servers memory. In conclusion, analysts at\u00a0Sucuri address, the severity behind recent developments in threat actors TTPs as it relates to phishing and the various tools they use. For more information, see the blog post in the Reference section.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the section to the Right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://blog.sucuri.net/2020/11/alfa-team-shell-v4-1-tesla-a-feature-update-analysis.html  ",
+            "collectionId": "27a34167fadc197b0208a782672fb1c1",
+            "owner": {
+                "name": "D.J. Hart",
+                "uuid": "http://www.ibm.com/550008H69H"
+            },
+            "tags": [
+                "advsiory",
+                "xftag",
+                "webshell",
+                "malware",
+                "phishing"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T14:48:00.102Z",
+            "modified": "2020-11-09T14:48:00.102Z"
+        }
+    ],
+    "id": "bundle--65af0127-4e8f-49e6-a1dc-e27a03d89274"
+}

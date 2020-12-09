@@ -1,0 +1,164 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--912ec803-b2ce-49e4-a541-068d495ab570",
+            "type": "indicator",
+            "created": "2020-11-06T21:03:29.382Z",
+            "modified": "2020-11-06T21:03:29.382Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for md5 hash 912ec803b2ce49e4a541068d495ab570",
+            "description": "File hash indicator for md5 hash 912ec803b2ce49e4a541068d495ab570",
+            "pattern": "[ file:hashes.MD5 = '912ec803b2ce49e4a541068d495ab570' ]",
+            "valid_from": "2020-11-06T21:03:29.382Z"
+        },
+        {
+            "id": "indicator--6ec6c9a0-a5f4-493c-a873-af3f7e1bd90c",
+            "type": "indicator",
+            "created": "2020-11-06T21:03:36.533Z",
+            "modified": "2020-11-06T21:03:36.533Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for https://www.commodore.com.tr/mobiquo/appExtt/notdefteri/writenote.php",
+            "description": "",
+            "pattern": "[ url:value = 'https://www.commodore.com.tr/mobiquo/appExtt/notdefteri/writenote.php' ]",
+            "valid_from": "2020-11-06T21:03:36.533Z"
+        },
+        {
+            "id": "indicator--c6ec454d-4016-4fab-b945-b1b9f035a3ce",
+            "type": "indicator",
+            "created": "2020-11-06T21:03:42.385Z",
+            "modified": "2020-11-06T21:03:42.385Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for http://scimpex.com:443/admin/assets/backup/requisition/requisition.php",
+            "description": "",
+            "pattern": "[ url:value = 'http://scimpex.com:443/admin/assets/backup/requisition/requisition.php' ]",
+            "valid_from": "2020-11-06T21:03:42.385Z"
+        },
+        {
+            "id": "indicator--85cc1917-094b-43ba-a814-49748f52b1e5",
+            "type": "indicator",
+            "created": "2020-11-06T21:03:43.519Z",
+            "modified": "2020-11-06T21:03:43.519Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "URL Report for https://www.krnetworkcloud.org/blog/js/view.php",
+            "description": "Category: General Business\n      Description: This category includes Web sites of industry, business, economy and supply of services.",
+            "pattern": "[ url:value = 'https://www.krnetworkcloud.org/blog/js/view.php' ]",
+            "valid_from": "2020-11-06T21:03:43.519Z"
+        },
+        {
+            "id": "indicator--48e13726-36c2-4730-be9a-f3e109e10150",
+            "type": "indicator",
+            "created": "2020-11-06T21:03:45.898Z",
+            "modified": "2020-11-06T21:03:45.898Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for https://www.fabianiarte.com/include/action/inc-controller-news.asp",
+            "description": "",
+            "pattern": "[ url:value = 'https://www.fabianiarte.com/include/action/inc-controller-news.asp' ]",
+            "valid_from": "2020-11-06T21:03:45.898Z"
+        },
+        {
+            "id": "indicator--ae8b04dd-19e0-49a4-952c-de8f75682f68",
+            "type": "indicator",
+            "created": "2020-11-06T21:03:51.967Z",
+            "modified": "2020-11-06T21:03:51.967Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for http://fabianiarte.com:443/uploads/docs/bae_defqa_logo.jpg",
+            "description": "",
+            "pattern": "[ url:value = 'http://fabianiarte.com:443/uploads/docs/bae_defqa_logo.jpg' ]",
+            "valid_from": "2020-11-06T21:03:51.967Z"
+        },
+        {
+            "id": "indicator--5899abcb-2641-49df-95ef-f1a20481ecd3",
+            "type": "indicator",
+            "created": "2014-09-07T06:27:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 104.194.220.87",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '104.194.220.87' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "id": "indicator--6d4a9ffb-84bc-4d8a-8ee3-e62816424482",
+            "type": "indicator",
+            "created": "2020-11-06T21:04:02.709Z",
+            "modified": "2020-11-06T21:04:02.709Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for https://www.fabianiarte.com/newsletter/arte/view.asp",
+            "description": "",
+            "pattern": "[ url:value = 'https://www.fabianiarte.com/newsletter/arte/view.asp' ]",
+            "valid_from": "2020-11-06T21:04:02.709Z"
+        },
+        {
+            "type": "report",
+            "id": "report--c986a9af-38b0-aad1-add2-d8314bb7142a",
+            "name": "Operation North Star Analysis",
+            "published": "2020-11-09T13:55:12.509Z",
+            "created": "2020-11-09T13:55:12.509Z",
+            "modified": "2020-11-09T13:55:12.509Z",
+            "labels": [
+                "cyberespionage",
+                "torisma",
+                "advisory",
+                "xftag",
+                "malware"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nMcAfee researchers have published a report on Operation North Star. The report provides a unique insight into the inner workings of a major cyber espionage campaign.\n\n# Threat Type\n\n- Cyber Espionage\n\n# Overview\n\nA rare opportunity provided researchers with McAfee to see the inner workings of a major cyber espionage campaign. Using social media sites, spear-phishing, and infected documents, employees of the defense sector were targeted. Initially, there were many gaps in the analysis, however, a deeper look into the threat actor's infrastructure provided more information on their motives, tactics, techniques, and procedures. The group responsible used compromised domains, primarily in Italy, for its C2 hosting. The compromised domains included an apparel company, an auction house, and a printing company. These servers were used to host the backend\u00a0server code and malicious DOTM files. Some of the hosted documents impersonated a defense contractors job profiles and other files included some rudimentary code used by the implant named Torisma. The fist stage contains an encrypted configuration file and an intermediate dropper DLL. Additionally, it also contains decryption keys for the second stage Torisma payload. Options in the backend components indicate how long the implant has been active. The first stage implant gathers information from the victim's system such as disk information, free disk space, computer name, username, and process information. Server-side\u00a0ASP code was used to create a binary stream to the location it is suspected the Torisma implant was written. Additional code is used to\u00a0compare the victim IP address to a list of allowed IP addresses. The second stage is downloaded if the IP address is on the allowed list. Logging is handled on the server-side by ASP code. The end goal of the payload is to execute custom shellcode. The Torisma payload is also encrypted and contains a configuration file used for C2 communication. This payload is used to monitor for remote desktop connections and new drives. The monitoring routine runs in a loop and performs several functions. C2 communication is done via custom configuration. The campaign itself is identified through campaign IDs kept by the adversary. Further technical details can be found in the report located within the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-behind-the-scenes[/](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-behind-the-scenes/) ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--c986a9af-38b0-aad1-add2-d8314bb7142a",
+            "collectionTitle": "Operation North Star Analysis",
+            "collectionWikiContent": "Summary\nMcAfee researchers have published a report on Operation North Star. The report provides a unique insight into the inner workings of a major cyber espionage campaign.\nThreat Type\nCyber Espionage\nOverview\nA rare opportunity provided researchers with McAfee to see the inner workings of a major cyber espionage campaign. Using social media sites, spear-phishing, and infected documents, employees of the defense sector were targeted. Initially, there were many gaps in the analysis, however, a deeper look into the threat actor's infrastructure provided more information on their motives, tactics, techniques, and procedures. The group responsible used compromised domains, primarily in Italy, for its C2 hosting. The compromised domains included an apparel company, an auction house, and a printing company. These servers were used to host the backend\u00a0server code and malicious DOTM files. Some of the hosted documents impersonated a defense contractors job profiles and other files included some rudimentary code used by the implant named Torisma. The fist stage contains an encrypted configuration file and an intermediate dropper DLL. Additionally, it also contains decryption keys for the second stage Torisma payload. Options in the backend components indicate how long the implant has been active. The first stage implant gathers information from the victim's system such as disk information, free disk space, computer name, username, and process information. Server-side\u00a0ASP code was used to create a binary stream to the location it is suspected the Torisma implant was written. Additional code is used to\u00a0compare the victim IP address to a list of allowed IP addresses. The second stage is downloaded if the IP address is on the allowed list. Logging is handled on the server-side by ASP code. The end goal of the payload is to execute custom shellcode. The Torisma payload is also encrypted and contains a configuration file used for C2 communication. This payload is used to monitor for remote desktop connections and new drives. The monitoring routine runs in a loop and performs several functions. C2 communication is done via custom configuration. The campaign itself is identified through campaign IDs kept by the adversary. Further technical details can be found in the report located within the Reference section below.\nIndicators of Compromise\nA complete list of IoCs can be found in the Reports section to the right.\nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-behind-the-scenes/ ",
+            "collectionWikiMarkdown": "# Summary\n\nMcAfee researchers have published a report on Operation North Star. The report provides a unique insight into the inner workings of a major cyber espionage campaign.\n\n# Threat Type\n\n- Cyber Espionage\n\n# Overview\n\nA rare opportunity provided researchers with McAfee to see the inner workings of a major cyber espionage campaign. Using social media sites, spear-phishing, and infected documents, employees of the defense sector were targeted. Initially, there were many gaps in the analysis, however, a deeper look into the threat actor's infrastructure provided more information on their motives, tactics, techniques, and procedures. The group responsible used compromised domains, primarily in Italy, for its C2 hosting. The compromised domains included an apparel company, an auction house, and a printing company. These servers were used to host the backend\u00a0server code and malicious DOTM files. Some of the hosted documents impersonated a defense contractors job profiles and other files included some rudimentary code used by the implant named Torisma. The fist stage contains an encrypted configuration file and an intermediate dropper DLL. Additionally, it also contains decryption keys for the second stage Torisma payload. Options in the backend components indicate how long the implant has been active. The first stage implant gathers information from the victim's system such as disk information, free disk space, computer name, username, and process information. Server-side\u00a0ASP code was used to create a binary stream to the location it is suspected the Torisma implant was written. Additional code is used to\u00a0compare the victim IP address to a list of allowed IP addresses. The second stage is downloaded if the IP address is on the allowed list. Logging is handled on the server-side by ASP code. The end goal of the payload is to execute custom shellcode. The Torisma payload is also encrypted and contains a configuration file used for C2 communication. This payload is used to monitor for remote desktop connections and new drives. The monitoring routine runs in a loop and performs several functions. C2 communication is done via custom configuration. The campaign itself is identified through campaign IDs kept by the adversary. Further technical details can be found in the report located within the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right.\n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-behind-the-scenes[/](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/operation-north-star-behind-the-scenes/) ",
+            "collectionId": "c986a9af38b0aad1add2d8314bb7142a",
+            "owner": {
+                "name": "Dave Bales",
+                "uuid": "http://www.ibm.com/5500014C32"
+            },
+            "tags": [
+                "cyberespionage",
+                "torisma",
+                "advisory",
+                "xftag",
+                "malware"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-09T13:55:12.509Z",
+            "modified": "2020-11-09T13:55:12.509Z"
+        }
+    ],
+    "id": "bundle--ddd8623e-c80e-41f2-860f-97138c0094f5"
+}

@@ -1,0 +1,12 @@
+[resilient.circuits.components]
+FunctStixCreateBundleFunctionComponent = fn_stix.components.funct_stix_create_bundle:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = fn_stix.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = fn_stix.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = fn_stix.util.selftest:selftest_function
+

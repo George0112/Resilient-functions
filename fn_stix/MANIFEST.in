@@ -1,0 +1,10 @@
+include README.md
+include Dockerfile
+include entrypoint.sh
+include fn_stix/util/*
+include fn_stix/LICENSE
+include doc/*.md
+include doc/screenshots/*
+include fn_stix/components/stix-mapping.csv
+
+exclude *.bak

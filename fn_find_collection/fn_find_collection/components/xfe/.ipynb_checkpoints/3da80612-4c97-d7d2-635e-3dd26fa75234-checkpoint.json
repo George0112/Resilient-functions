@@ -1,0 +1,172 @@
+{
+    "type": "bundle",
+    "id": "bundle--d31cba82-f16e-4ff0-9a6e-8390cc24511b",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--278e170a-13fd-4e2f-9d81-59d5aeaf2934",
+            "created": "2020-11-09T10:44:48.205451Z",
+            "modified": "2020-11-09T10:44:48.205451Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'de-myaccontwwwamazons.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-09T10:44:48.205451Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-09T08:26:41.375Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-06T07:53:09Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d2f77813-564e-400b-90ad-ca9d6bfd7486",
+            "created": "2020-11-09T10:44:48.207405Z",
+            "modified": "2020-11-09T10:44:48.207405Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'reloadmanageaccount-amazon.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-09T10:44:48.207405Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-09T08:26:41.375Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-06T16:37:32Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--577a4951-a41d-40f1-92e5-1736b34baab7",
+            "created": "2020-11-09T10:44:48.208817Z",
+            "modified": "2020-11-09T10:44:48.208817Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'reloginverifications-amazon.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-09T10:44:48.208817Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-09T08:26:41.375Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-06T21:18:17Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--51249043-5a70-47a0-a40b-9b343df21964",
+            "created": "2020-11-09T10:44:48.210059Z",
+            "modified": "2020-11-09T10:44:48.210059Z",
+            "name": "Known malicious domain",
+            "pattern": "[url:value = 'vrs-loginnull-amazon.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-09T10:44:48.210059Z",
+            "labels": [
+                "malicious-activity",
+                "xfe-threat-score-10.0"
+            ],
+            "dateofdetection": "2020-11-09T08:26:41.375Z",
+            "firstactivity": "",
+            "registrationdate": "2020-11-06T18:59:28Z"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7b68524d-5056-4f2a-8c47-e2964a7d48a3",
+            "created": "2020-11-09T10:44:48.211249Z",
+            "modified": "2020-11-09T10:44:48.211249Z",
+            "name": "Phishing",
+            "external_references": [
+                {
+                    "source_name": "capec",
+                    "description": "phishing",
+                    "url": "https://capec.mitre.org/data/definitions/98.html",
+                    "external_id": "CAPEC-98"
+                }
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--3da80612-4c97-d7d2-635e-3dd26fa75234",
+            "created": "2020-11-09T10:44:48.211384Z",
+            "modified": "2020-11-09T10:44:48.211384Z",
+            "name": "Amazon Squatting Campaign",
+            "description": "# Overview\nWe observed 4 squatting domain registrations related to a victim in the media sector. The campaign was identified starting with the registration on 2020-11-06 07:53:09 up to the latest registration on 2020-11-09 10:44:17.\nFor all registered domains we could identify Wix.com Ltd. as the registrar. The email address used for registering the domains was anonymized. The registered domains could not be resolved to any hosting IPs throughout our analysis.\n\nHowever the registrar Wix.com Ltd. covers a pool of 1.901.559 domains where at least 0.15% can be considered as potentially malicious.The following list shows the nameservers that are configured as authoritative nameservers for the domain and their malicious scores which is the percentage of malicious domains with the same nameserver.\n  \n| Domain | Name server | Name server malicious score |\n|---|---|---|\n|de-myaccontwwwamazons.com|ns12.wixdns.net|0.15%|\n|de-myaccontwwwamazons.com|ns13.wixdns.net|0.15%|\n|reloadmanageaccount-amazon.com|ns6.wixdns.net|0.15%|\n|reloadmanageaccount-amazon.com|ns7.wixdns.net|0.15%|\n|reloginverifications-amazon.com|ns6.wixdns.net|0.15%|\n|reloginverifications-amazon.com|ns7.wixdns.net|0.15%|\n|vrs-loginnull-amazon.com|ns6.wixdns.net|0.15%|\n|vrs-loginnull-amazon.com|ns7.wixdns.net|0.15%|\n\nNot forgetting to mention the WhoIs Server: X-Force was able to retrieve the WhoIs server information where we were also able to determine the number of domains each WhoIs server manages and as well adding the malicious rating of the domains in the pool.\n\n| Domain | WhoIs server | WhoIs server malicious score |\n|---|---|---|\n|de-myaccontwwwamazons.com|whois.wix.com|0.15%|\n|reloadmanageaccount-amazon.com|whois.wix.com|0.15%|\n|reloginverifications-amazon.com|whois.wix.com|0.15%|\n|vrs-loginnull-amazon.com|whois.wix.com|0.15%|\n\n# Recommendations\n* Do not click or open links in mails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n* Ensure anti-virus software and associated files are up to date.\n* Search for existing signs of the indicated IOCs in your environment.\n* Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n* Keep applications and operating systems running at the current released patch level.\n\n# Reference\nProprietary IBM X-Force Threat Intelligence ",
+            "published": "2020-11-09T10:44:48.211376Z",
+            "object_refs": [
+                "indicator--278e170a-13fd-4e2f-9d81-59d5aeaf2934",
+                "indicator--d2f77813-564e-400b-90ad-ca9d6bfd7486",
+                "indicator--577a4951-a41d-40f1-92e5-1736b34baab7",
+                "indicator--51249043-5a70-47a0-a40b-9b343df21964",
+                "attack-pattern--7b68524d-5056-4f2a-8c47-e2964a7d48a3"
+            ],
+            "labels": [
+                "phishing",
+                "ew-type:squatting",
+                "ew-type:phishing",
+                "early-warning",
+                "ew-industry:media",
+                "ew-risk:29",
+                "ew-location:all"
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_com_ibm_hash": "5E5F1CA83FD59E4E",
+            "x_com_ibm_short_description": "X-Force has identified a new squatting campaign used by threat actors to target the media sector. The campaign has a global scope assumingly luring users into giving away their login credentials.\n  "
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--3da80612-4c97-d7d2-635e-3dd26fa75234",
+            "collectionTitle": "Amazon Squatting Campaign",
+            "collectionWikiContent": "# Overview\nWe observed 4 squatting domain registrations related to a victim in the media sector. The campaign was identified starting with the registration on 2020-11-06 07:53:09 up to the latest registration on 2020-11-09 10:44:17.\nFor all registered domains we could identify Wix.com Ltd. as the registrar. The email address used for registering the domains was anonymized. The registered domains could not be resolved to any hosting IPs throughout our analysis.\n\nHowever the registrar Wix.com Ltd. covers a pool of 1.901.559 domains where at least 0.15% can be considered as potentially malicious.The following list shows the nameservers that are configured as authoritative nameservers for the domain and their malicious scores which is the percentage of malicious domains with the same nameserver.\n  \n| Domain | Name server | Name server malicious score |\n|---|---|---|\n|de-myaccontwwwamazons.com|ns12.wixdns.net|0.15%|\n|de-myaccontwwwamazons.com|ns13.wixdns.net|0.15%|\n|reloadmanageaccount-amazon.com|ns6.wixdns.net|0.15%|\n|reloadmanageaccount-amazon.com|ns7.wixdns.net|0.15%|\n|reloginverifications-amazon.com|ns6.wixdns.net|0.15%|\n|reloginverifications-amazon.com|ns7.wixdns.net|0.15%|\n|vrs-loginnull-amazon.com|ns6.wixdns.net|0.15%|\n|vrs-loginnull-amazon.com|ns7.wixdns.net|0.15%|\n\nNot forgetting to mention the WhoIs Server: X-Force was able to retrieve the WhoIs server information where we were also able to determine the number of domains each WhoIs server manages and as well adding the malicious rating of the domains in the pool.\n\n| Domain | WhoIs server | WhoIs server malicious score |\n|---|---|---|\n|de-myaccontwwwamazons.com|whois.wix.com|0.15%|\n|reloadmanageaccount-amazon.com|whois.wix.com|0.15%|\n|reloginverifications-amazon.com|whois.wix.com|0.15%|\n|vrs-loginnull-amazon.com|whois.wix.com|0.15%|\n\n# Recommendations\n* Do not click or open links in mails directly, instead type in the main URL in your browser or search the brand/company via your preferred search engine.\n* Ensure anti-virus software and associated files are up to date.\n* Search for existing signs of the indicated IOCs in your environment.\n* Block all URL and IP based IOCs at the firewall, IDS, web gateways, routers or other perimeter-based devices, a course of action, resources or applications to remediate this threat.\n* Keep applications and operating systems running at the current released patch level.\n\n# Reference\nProprietary IBM X-Force Threat Intelligence ",
+            "collectionId": "3da806124c97d7d2635e3dd26fa75234",
+            "tags": [
+                "phishing",
+                "ew-type:squatting",
+                "ew-type:phishing",
+                "early-warning",
+                "ew-industry:media",
+                "ew-risk:29",
+                "ew-location:all"
+            ],
+            "created": "2020-11-09T10:44:48.211384Z",
+            "modified": "2020-11-09T10:44:48.211384Z",
+            "published": "2020-11-09T10:44:48.211376Z",
+            "object_refs": [
+                "indicator--278e170a-13fd-4e2f-9d81-59d5aeaf2934",
+                "indicator--d2f77813-564e-400b-90ad-ca9d6bfd7486",
+                "indicator--577a4951-a41d-40f1-92e5-1736b34baab7",
+                "indicator--51249043-5a70-47a0-a40b-9b343df21964",
+                "attack-pattern--7b68524d-5056-4f2a-8c47-e2964a7d48a3"
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_com_ibm_short_description": "X-Force has identified a new squatting campaign used by threat actors to target the media sector. The campaign has a global scope assumingly luring users into giving away their login credentials.\n  "
+        }
+    ]
+}

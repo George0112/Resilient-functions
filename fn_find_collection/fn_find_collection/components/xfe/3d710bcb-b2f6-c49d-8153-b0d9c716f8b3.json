@@ -1,0 +1,2311 @@
+{
+    "spec_version": "2.0",
+    "type": "bundle",
+    "objects": [
+        {
+            "id": "indicator--8e6a69f2-07a8-e9c8-4f96-02c8125e34ee",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:04.987Z",
+            "modified": "2020-11-10T04:15:04.987Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 0ad10472f7aedfd241ecb65a53d5cafdeb94672d92883d161cb37f769e60f013",
+            "description": "File hash indicator for sha256 hash 0ad10472f7aedfd241ecb65a53d5cafdeb94672d92883d161cb37f769e60f013",
+            "pattern": "[ file:hashes.'SHA-256' = '0ad10472f7aedfd241ecb65a53d5cafdeb94672d92883d161cb37f769e60f013' ]",
+            "valid_from": "2020-11-10T04:15:04.987Z"
+        },
+        {
+            "id": "indicator--d2b2f993-447c-191d-19ec-3609538d86ae",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.029Z",
+            "modified": "2020-11-10T04:15:05.029Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 4d0176e2d6e30e31352f420a4dec79d26cb00f1e6c789b31e84cd05eb4d50956",
+            "description": "File hash indicator for sha256 hash 4d0176e2d6e30e31352f420a4dec79d26cb00f1e6c789b31e84cd05eb4d50956",
+            "pattern": "[ file:hashes.'SHA-256' = '4d0176e2d6e30e31352f420a4dec79d26cb00f1e6c789b31e84cd05eb4d50956' ]",
+            "valid_from": "2020-11-10T04:15:05.029Z"
+        },
+        {
+            "id": "indicator--ff1fc290-d317-dfa7-9377-5ed9fad6ac14",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.048Z",
+            "modified": "2020-11-10T04:15:05.048Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e2faf6586f8ac70cd98e4ec648f79435bfabaf84d440044aedce0c5c59b662e8",
+            "description": "File hash indicator for sha256 hash e2faf6586f8ac70cd98e4ec648f79435bfabaf84d440044aedce0c5c59b662e8",
+            "pattern": "[ file:hashes.'SHA-256' = 'e2faf6586f8ac70cd98e4ec648f79435bfabaf84d440044aedce0c5c59b662e8' ]",
+            "valid_from": "2020-11-10T04:15:05.048Z"
+        },
+        {
+            "id": "indicator--cc3ccb0f-8a26-57cd-db0c-74cdd653c47f",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.056Z",
+            "modified": "2020-11-10T04:15:05.056Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 260be87cd75f304272094d3bef02eff6ef6b605f01ffe2983361e6e2f6116769",
+            "description": "File hash indicator for sha256 hash 260be87cd75f304272094d3bef02eff6ef6b605f01ffe2983361e6e2f6116769",
+            "pattern": "[ file:hashes.'SHA-256' = '260be87cd75f304272094d3bef02eff6ef6b605f01ffe2983361e6e2f6116769' ]",
+            "valid_from": "2020-11-10T04:15:05.056Z"
+        },
+        {
+            "id": "indicator--196a10e2-c708-0162-feb6-19f283f722d1",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.060Z",
+            "modified": "2020-11-10T04:15:05.060Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5d26300ad2fc008fe278f17f98f173236c8bd7eeb6382062d677d1d6fd37c5b5",
+            "description": "File hash indicator for sha256 hash 5d26300ad2fc008fe278f17f98f173236c8bd7eeb6382062d677d1d6fd37c5b5",
+            "pattern": "[ file:hashes.'SHA-256' = '5d26300ad2fc008fe278f17f98f173236c8bd7eeb6382062d677d1d6fd37c5b5' ]",
+            "valid_from": "2020-11-10T04:15:05.060Z"
+        },
+        {
+            "id": "indicator--6477613f-ae22-a9a1-8ff0-2be51bcf3cf4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.076Z",
+            "modified": "2020-11-10T04:15:05.076Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 411eb20988f57317c177ea64c8bb4c059cc39da6e91eb1e7b9b8da96775d93d5",
+            "description": "File hash indicator for sha256 hash 411eb20988f57317c177ea64c8bb4c059cc39da6e91eb1e7b9b8da96775d93d5",
+            "pattern": "[ file:hashes.'SHA-256' = '411eb20988f57317c177ea64c8bb4c059cc39da6e91eb1e7b9b8da96775d93d5' ]",
+            "valid_from": "2020-11-10T04:15:05.076Z"
+        },
+        {
+            "id": "indicator--28620a6d-2823-aba9-7d70-15551777811d",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.091Z",
+            "modified": "2020-11-10T04:15:05.091Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5e90a331bafd98e41bcf36419c44bd7ff8296ac18cce652e944ae22db15a5366",
+            "description": "File hash indicator for sha256 hash 5e90a331bafd98e41bcf36419c44bd7ff8296ac18cce652e944ae22db15a5366",
+            "pattern": "[ file:hashes.'SHA-256' = '5e90a331bafd98e41bcf36419c44bd7ff8296ac18cce652e944ae22db15a5366' ]",
+            "valid_from": "2020-11-10T04:15:05.091Z"
+        },
+        {
+            "id": "indicator--8bb5df30-3526-6a44-64ef-c6569cfbaf78",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.095Z",
+            "modified": "2020-11-10T04:15:05.095Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash b3c6f365819864340a8a8fe3076fb326c1debfdbbc826384cb2978aea82edc48",
+            "description": "File hash indicator for sha256 hash b3c6f365819864340a8a8fe3076fb326c1debfdbbc826384cb2978aea82edc48",
+            "pattern": "[ file:hashes.'SHA-256' = 'b3c6f365819864340a8a8fe3076fb326c1debfdbbc826384cb2978aea82edc48' ]",
+            "valid_from": "2020-11-10T04:15:05.095Z"
+        },
+        {
+            "id": "indicator--9235d3cf-1fdd-f776-1e1e-47cc16814dd8",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.116Z",
+            "modified": "2020-11-10T04:15:05.116Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 814357417aa8a57e43d50cb3347c9d287b99955b0b8aee4e53e12b463f7441a0",
+            "description": "File hash indicator for sha256 hash 814357417aa8a57e43d50cb3347c9d287b99955b0b8aee4e53e12b463f7441a0",
+            "pattern": "[ file:hashes.'SHA-256' = '814357417aa8a57e43d50cb3347c9d287b99955b0b8aee4e53e12b463f7441a0' ]",
+            "valid_from": "2020-11-10T04:15:05.116Z"
+        },
+        {
+            "id": "indicator--b417395d-bb2b-6517-c530-525c646785a9",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.117Z",
+            "modified": "2020-11-10T04:15:05.117Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash f80bcc60e79b387f63edfe0f1fc66492af4ff201ad5eb8080b1249ca43f6f30f",
+            "description": "File hash indicator for sha256 hash f80bcc60e79b387f63edfe0f1fc66492af4ff201ad5eb8080b1249ca43f6f30f",
+            "pattern": "[ file:hashes.'SHA-256' = 'f80bcc60e79b387f63edfe0f1fc66492af4ff201ad5eb8080b1249ca43f6f30f' ]",
+            "valid_from": "2020-11-10T04:15:05.117Z"
+        },
+        {
+            "id": "indicator--05b982af-bc68-6fbb-437b-3b876c844bb4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.120Z",
+            "modified": "2020-11-10T04:15:05.120Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 09bb81e5a6c716f14c625ff36beb3b184d0089ed29252af10635b604b69f22ef",
+            "description": "File hash indicator for sha256 hash 09bb81e5a6c716f14c625ff36beb3b184d0089ed29252af10635b604b69f22ef",
+            "pattern": "[ file:hashes.'SHA-256' = '09bb81e5a6c716f14c625ff36beb3b184d0089ed29252af10635b604b69f22ef' ]",
+            "valid_from": "2020-11-10T04:15:05.120Z"
+        },
+        {
+            "id": "indicator--b313b799-ac9d-3b1a-5967-62f922f1f9d2",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.122Z",
+            "modified": "2020-11-10T04:15:05.122Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e2d4aa8662b3db2f3857dbacada1ff0da0ceaf75bbba579bc5ef1a555c065206",
+            "description": "File hash indicator for sha256 hash e2d4aa8662b3db2f3857dbacada1ff0da0ceaf75bbba579bc5ef1a555c065206",
+            "pattern": "[ file:hashes.'SHA-256' = 'e2d4aa8662b3db2f3857dbacada1ff0da0ceaf75bbba579bc5ef1a555c065206' ]",
+            "valid_from": "2020-11-10T04:15:05.122Z"
+        },
+        {
+            "id": "indicator--83548504-a295-b9eb-7460-ae02dffefbe8",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.124Z",
+            "modified": "2020-11-10T04:15:05.124Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 8d2b3b0cbb32618b86ec362acd142177f5890917ae384cb58bd64f61255e9c7f",
+            "description": "File hash indicator for sha256 hash 8d2b3b0cbb32618b86ec362acd142177f5890917ae384cb58bd64f61255e9c7f",
+            "pattern": "[ file:hashes.'SHA-256' = '8d2b3b0cbb32618b86ec362acd142177f5890917ae384cb58bd64f61255e9c7f' ]",
+            "valid_from": "2020-11-10T04:15:05.124Z"
+        },
+        {
+            "id": "indicator--8b94c675-d603-f198-0277-aa8c9d88db37",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.124Z",
+            "modified": "2020-11-10T04:15:05.124Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash f9da4d61344457c3d68ef0525139c2cf6ee28d3f09220168ba2be601b5c54d6f",
+            "description": "File hash indicator for sha256 hash f9da4d61344457c3d68ef0525139c2cf6ee28d3f09220168ba2be601b5c54d6f",
+            "pattern": "[ file:hashes.'SHA-256' = 'f9da4d61344457c3d68ef0525139c2cf6ee28d3f09220168ba2be601b5c54d6f' ]",
+            "valid_from": "2020-11-10T04:15:05.124Z"
+        },
+        {
+            "id": "indicator--933361df-01bb-8582-f195-1520c6930168",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.150Z",
+            "modified": "2020-11-10T04:15:05.150Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 510cf6e1c55a190490e93d222ea606ed888d222ecedda18bfb2f32bb73f33cab",
+            "description": "File hash indicator for sha256 hash 510cf6e1c55a190490e93d222ea606ed888d222ecedda18bfb2f32bb73f33cab",
+            "pattern": "[ file:hashes.'SHA-256' = '510cf6e1c55a190490e93d222ea606ed888d222ecedda18bfb2f32bb73f33cab' ]",
+            "valid_from": "2020-11-10T04:15:05.150Z"
+        },
+        {
+            "id": "indicator--082afb91-93b8-ed96-ca81-ac909a162ca7",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.151Z",
+            "modified": "2020-11-10T04:15:05.151Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash c58f5b3f7300a13fd9a0a61757e20399fc5e86544befdafae15e8809a02c2db0",
+            "description": "File hash indicator for sha256 hash c58f5b3f7300a13fd9a0a61757e20399fc5e86544befdafae15e8809a02c2db0",
+            "pattern": "[ file:hashes.'SHA-256' = 'c58f5b3f7300a13fd9a0a61757e20399fc5e86544befdafae15e8809a02c2db0' ]",
+            "valid_from": "2020-11-10T04:15:05.151Z"
+        },
+        {
+            "id": "indicator--a2a64b89-8818-c988-2120-dc0a9b3a952a",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.154Z",
+            "modified": "2020-11-10T04:15:05.154Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 9847cea40cec394c947de06010ad1f3033316903b5c822ba16f9574acb30f0cd",
+            "description": "File hash indicator for sha256 hash 9847cea40cec394c947de06010ad1f3033316903b5c822ba16f9574acb30f0cd",
+            "pattern": "[ file:hashes.'SHA-256' = '9847cea40cec394c947de06010ad1f3033316903b5c822ba16f9574acb30f0cd' ]",
+            "valid_from": "2020-11-10T04:15:05.154Z"
+        },
+        {
+            "id": "indicator--0e737713-71df-1bef-1514-c80e97c99ac3",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.159Z",
+            "modified": "2020-11-10T04:15:05.159Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 744d0c4b89e1b2ddd70d614b4dc009afa8f3a528c821c371cf72e60cc3367f19",
+            "description": "File hash indicator for sha256 hash 744d0c4b89e1b2ddd70d614b4dc009afa8f3a528c821c371cf72e60cc3367f19",
+            "pattern": "[ file:hashes.'SHA-256' = '744d0c4b89e1b2ddd70d614b4dc009afa8f3a528c821c371cf72e60cc3367f19' ]",
+            "valid_from": "2020-11-10T04:15:05.159Z"
+        },
+        {
+            "id": "indicator--b6872557-1237-9ed8-1433-71aa5009c4f1",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.163Z",
+            "modified": "2020-11-10T04:15:05.163Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e03680e0af40a6fa1a12bed2f701c6137335d28b3d222579552658e951cbd13c",
+            "description": "File hash indicator for sha256 hash e03680e0af40a6fa1a12bed2f701c6137335d28b3d222579552658e951cbd13c",
+            "pattern": "[ file:hashes.'SHA-256' = 'e03680e0af40a6fa1a12bed2f701c6137335d28b3d222579552658e951cbd13c' ]",
+            "valid_from": "2020-11-10T04:15:05.163Z"
+        },
+        {
+            "id": "indicator--f10794dd-7638-94da-69a4-37fae2f0c9cf",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.165Z",
+            "modified": "2020-11-10T04:15:05.165Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e0f22863c84ee634b2650b322e6def6e5bb74460952f72556715272c6c18fe8e",
+            "description": "File hash indicator for sha256 hash e0f22863c84ee634b2650b322e6def6e5bb74460952f72556715272c6c18fe8e",
+            "pattern": "[ file:hashes.'SHA-256' = 'e0f22863c84ee634b2650b322e6def6e5bb74460952f72556715272c6c18fe8e' ]",
+            "valid_from": "2020-11-10T04:15:05.165Z"
+        },
+        {
+            "id": "indicator--a1dc18cf-e4a0-e1a4-db46-85188e91d098",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.175Z",
+            "modified": "2020-11-10T04:15:05.175Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 78471db16d7bd484932c8eb72f7001db510f4643b3449d71d637567911ca363b",
+            "description": "File hash indicator for sha256 hash 78471db16d7bd484932c8eb72f7001db510f4643b3449d71d637567911ca363b",
+            "pattern": "[ file:hashes.'SHA-256' = '78471db16d7bd484932c8eb72f7001db510f4643b3449d71d637567911ca363b' ]",
+            "valid_from": "2020-11-10T04:15:05.175Z"
+        },
+        {
+            "id": "indicator--12f64243-b6c1-593b-2b19-aa0d042cd92a",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.175Z",
+            "modified": "2020-11-10T04:15:05.175Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 6485bec374f255831b7ddbfed9925e988dcd7e893f610842809dd7cd1988cffc",
+            "description": "File hash indicator for sha256 hash 6485bec374f255831b7ddbfed9925e988dcd7e893f610842809dd7cd1988cffc",
+            "pattern": "[ file:hashes.'SHA-256' = '6485bec374f255831b7ddbfed9925e988dcd7e893f610842809dd7cd1988cffc' ]",
+            "valid_from": "2020-11-10T04:15:05.175Z"
+        },
+        {
+            "id": "indicator--580faf5c-59e2-6cc1-cbad-7f3c2b63e814",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.177Z",
+            "modified": "2020-11-10T04:15:05.177Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 37268f0ade3050fa2008b546920c4f2052732c092de04a6e108257f5de22ff48",
+            "description": "File hash indicator for sha256 hash 37268f0ade3050fa2008b546920c4f2052732c092de04a6e108257f5de22ff48",
+            "pattern": "[ file:hashes.'SHA-256' = '37268f0ade3050fa2008b546920c4f2052732c092de04a6e108257f5de22ff48' ]",
+            "valid_from": "2020-11-10T04:15:05.177Z"
+        },
+        {
+            "id": "indicator--a37d3f35-020a-3c13-e2c3-2ef5fb458531",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.180Z",
+            "modified": "2020-11-10T04:15:05.180Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash f9290cd938d134a480b41d99ac2c5513a964de001602ed34c6383dfeb577b8f7",
+            "description": "File hash indicator for sha256 hash f9290cd938d134a480b41d99ac2c5513a964de001602ed34c6383dfeb577b8f7",
+            "pattern": "[ file:hashes.'SHA-256' = 'f9290cd938d134a480b41d99ac2c5513a964de001602ed34c6383dfeb577b8f7' ]",
+            "valid_from": "2020-11-10T04:15:05.180Z"
+        },
+        {
+            "id": "indicator--ef47a433-15ad-4bf1-77b8-3fc2abc1504e",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.181Z",
+            "modified": "2020-11-10T04:15:05.181Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d271569d5557087aecc340bb570179b73265b29bed2e774d9a2403546c7dd5ff",
+            "description": "File hash indicator for sha256 hash d271569d5557087aecc340bb570179b73265b29bed2e774d9a2403546c7dd5ff",
+            "pattern": "[ file:hashes.'SHA-256' = 'd271569d5557087aecc340bb570179b73265b29bed2e774d9a2403546c7dd5ff' ]",
+            "valid_from": "2020-11-10T04:15:05.181Z"
+        },
+        {
+            "id": "indicator--5bbf5649-af58-c4f0-342e-78cd5bc73e5e",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.182Z",
+            "modified": "2020-11-10T04:15:05.182Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 80bd15267756343f028cbe77afe810068b0e6a36ce32f52be63f620ef5b5ed89",
+            "description": "File hash indicator for sha256 hash 80bd15267756343f028cbe77afe810068b0e6a36ce32f52be63f620ef5b5ed89",
+            "pattern": "[ file:hashes.'SHA-256' = '80bd15267756343f028cbe77afe810068b0e6a36ce32f52be63f620ef5b5ed89' ]",
+            "valid_from": "2020-11-10T04:15:05.182Z"
+        },
+        {
+            "id": "indicator--eb1a4fc7-78b7-65fb-f162-220955914b19",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.185Z",
+            "modified": "2020-11-10T04:15:05.185Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash aed5b487e13e920835b0ba5ca964e25a815f8a10011d8e1eb29278ae254771d9",
+            "description": "File hash indicator for sha256 hash aed5b487e13e920835b0ba5ca964e25a815f8a10011d8e1eb29278ae254771d9",
+            "pattern": "[ file:hashes.'SHA-256' = 'aed5b487e13e920835b0ba5ca964e25a815f8a10011d8e1eb29278ae254771d9' ]",
+            "valid_from": "2020-11-10T04:15:05.185Z"
+        },
+        {
+            "id": "indicator--9cc64575-0b85-92fd-b1ad-e486ae197fa2",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.195Z",
+            "modified": "2020-11-10T04:15:05.195Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5736e167e234e06b33e8d8d6bb80e13b1bacca8d7cd3271695220cdec2e4a79e",
+            "description": "File hash indicator for sha256 hash 5736e167e234e06b33e8d8d6bb80e13b1bacca8d7cd3271695220cdec2e4a79e",
+            "pattern": "[ file:hashes.'SHA-256' = '5736e167e234e06b33e8d8d6bb80e13b1bacca8d7cd3271695220cdec2e4a79e' ]",
+            "valid_from": "2020-11-10T04:15:05.195Z"
+        },
+        {
+            "id": "indicator--7d51925c-6a99-2b94-1cb9-1a068ee1c5a6",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.220Z",
+            "modified": "2020-11-10T04:15:05.220Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ed675db1e7c93526141d40ba969bdc5bbdfd013932aaf1e644c66db66ff008e0",
+            "description": "File hash indicator for sha256 hash ed675db1e7c93526141d40ba969bdc5bbdfd013932aaf1e644c66db66ff008e0",
+            "pattern": "[ file:hashes.'SHA-256' = 'ed675db1e7c93526141d40ba969bdc5bbdfd013932aaf1e644c66db66ff008e0' ]",
+            "valid_from": "2020-11-10T04:15:05.220Z"
+        },
+        {
+            "id": "indicator--31899ba3-a18e-f153-33e2-a211b3f10731",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.223Z",
+            "modified": "2020-11-10T04:15:05.223Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash de44656b4a3dde6e0acdc6f59f73114ce6bb6342bec0dcd45da8676d78b0042e",
+            "description": "File hash indicator for sha256 hash de44656b4a3dde6e0acdc6f59f73114ce6bb6342bec0dcd45da8676d78b0042e",
+            "pattern": "[ file:hashes.'SHA-256' = 'de44656b4a3dde6e0acdc6f59f73114ce6bb6342bec0dcd45da8676d78b0042e' ]",
+            "valid_from": "2020-11-10T04:15:05.223Z"
+        },
+        {
+            "id": "indicator--7ac5d206-d405-a113-8762-61385b585831",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.224Z",
+            "modified": "2020-11-10T04:15:05.224Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash a7affc0d93e27165ce44c55ae28189e8b55967443f9e464232f230ab4ba175ca",
+            "description": "File hash indicator for sha256 hash a7affc0d93e27165ce44c55ae28189e8b55967443f9e464232f230ab4ba175ca",
+            "pattern": "[ file:hashes.'SHA-256' = 'a7affc0d93e27165ce44c55ae28189e8b55967443f9e464232f230ab4ba175ca' ]",
+            "valid_from": "2020-11-10T04:15:05.224Z"
+        },
+        {
+            "id": "indicator--681ab85a-40ce-f4b1-554a-832c85e8ba34",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.229Z",
+            "modified": "2020-11-10T04:15:05.229Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 70dfa6b21f5eea28ccb77ddac876cf6eac58b2ac55ab7b9ee52d79b1b5f3734d",
+            "description": "File hash indicator for sha256 hash 70dfa6b21f5eea28ccb77ddac876cf6eac58b2ac55ab7b9ee52d79b1b5f3734d",
+            "pattern": "[ file:hashes.'SHA-256' = '70dfa6b21f5eea28ccb77ddac876cf6eac58b2ac55ab7b9ee52d79b1b5f3734d' ]",
+            "valid_from": "2020-11-10T04:15:05.229Z"
+        },
+        {
+            "id": "indicator--71880e06-e5f1-543e-9050-b6afb2f8cb71",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.231Z",
+            "modified": "2020-11-10T04:15:05.231Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 61b9b7e1329eb540dd751d1db6c00cc45d91b6f58db75ab0212976d4ec4c848e",
+            "description": "File hash indicator for sha256 hash 61b9b7e1329eb540dd751d1db6c00cc45d91b6f58db75ab0212976d4ec4c848e",
+            "pattern": "[ file:hashes.'SHA-256' = '61b9b7e1329eb540dd751d1db6c00cc45d91b6f58db75ab0212976d4ec4c848e' ]",
+            "valid_from": "2020-11-10T04:15:05.231Z"
+        },
+        {
+            "id": "indicator--29815402-90f7-780e-32b3-4c0a7253954a",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.233Z",
+            "modified": "2020-11-10T04:15:05.233Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 82a2149aa09b2b59ee7c97e05d7200d4ccbcd8444182aca2f8c4913f1f59a42c",
+            "description": "File hash indicator for sha256 hash 82a2149aa09b2b59ee7c97e05d7200d4ccbcd8444182aca2f8c4913f1f59a42c",
+            "pattern": "[ file:hashes.'SHA-256' = '82a2149aa09b2b59ee7c97e05d7200d4ccbcd8444182aca2f8c4913f1f59a42c' ]",
+            "valid_from": "2020-11-10T04:15:05.233Z"
+        },
+        {
+            "id": "indicator--dc7a2f5a-abe9-0e19-6388-de3114a927a4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.241Z",
+            "modified": "2020-11-10T04:15:05.241Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 84428ece8efcb6298435b15d3c4ea281592accf0990cc840ef3a7a0644191061",
+            "description": "File hash indicator for sha256 hash 84428ece8efcb6298435b15d3c4ea281592accf0990cc840ef3a7a0644191061",
+            "pattern": "[ file:hashes.'SHA-256' = '84428ece8efcb6298435b15d3c4ea281592accf0990cc840ef3a7a0644191061' ]",
+            "valid_from": "2020-11-10T04:15:05.241Z"
+        },
+        {
+            "id": "indicator--d4a384f3-2601-e029-e72f-3a232a09bd86",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.264Z",
+            "modified": "2020-11-10T04:15:05.264Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 78147d3be7dc8cf7f631de59ab7797679aba167f82655bcae2c1b70f1fafc13d",
+            "description": "File hash indicator for sha256 hash 78147d3be7dc8cf7f631de59ab7797679aba167f82655bcae2c1b70f1fafc13d",
+            "pattern": "[ file:hashes.'SHA-256' = '78147d3be7dc8cf7f631de59ab7797679aba167f82655bcae2c1b70f1fafc13d' ]",
+            "valid_from": "2020-11-10T04:15:05.264Z"
+        },
+        {
+            "id": "indicator--11b0ed46-50a0-b231-2c34-b28e091e1da1",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.265Z",
+            "modified": "2020-11-10T04:15:05.265Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3a47e59c37dce42304b345a16ba6a3d78fc44b21c4d0e3a0332eee21f1d13845",
+            "description": "File hash indicator for sha256 hash 3a47e59c37dce42304b345a16ba6a3d78fc44b21c4d0e3a0332eee21f1d13845",
+            "pattern": "[ file:hashes.'SHA-256' = '3a47e59c37dce42304b345a16ba6a3d78fc44b21c4d0e3a0332eee21f1d13845' ]",
+            "valid_from": "2020-11-10T04:15:05.265Z"
+        },
+        {
+            "id": "indicator--4ba7f8e9-1609-ad43-265c-50e98c4240ae",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.312Z",
+            "modified": "2020-11-10T04:15:05.312Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash cb408d45762a628872fa782109e8fcfc3a5bf456074b007de21e9331bb3c5849",
+            "description": "File hash indicator for sha256 hash cb408d45762a628872fa782109e8fcfc3a5bf456074b007de21e9331bb3c5849",
+            "pattern": "[ file:hashes.'SHA-256' = 'cb408d45762a628872fa782109e8fcfc3a5bf456074b007de21e9331bb3c5849' ]",
+            "valid_from": "2020-11-10T04:15:05.312Z"
+        },
+        {
+            "id": "indicator--e1dadfd5-9e71-ae35-8459-6024eb1df4ea",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.341Z",
+            "modified": "2020-11-10T04:15:05.341Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash b2b3a199291c3651b1d7413c7dba92566a893010a50e770e1802f173f1c2c7a4",
+            "description": "File hash indicator for sha256 hash b2b3a199291c3651b1d7413c7dba92566a893010a50e770e1802f173f1c2c7a4",
+            "pattern": "[ file:hashes.'SHA-256' = 'b2b3a199291c3651b1d7413c7dba92566a893010a50e770e1802f173f1c2c7a4' ]",
+            "valid_from": "2020-11-10T04:15:05.341Z"
+        },
+        {
+            "id": "indicator--4c27b2f1-82f3-aa37-5f8a-cee5901443c6",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.343Z",
+            "modified": "2020-11-10T04:15:05.343Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash fe564fb38a99dbb94cc8a66d8955b0b7f8e67bf0a5eb820c4a5d0c3efb96c1e5",
+            "description": "File hash indicator for sha256 hash fe564fb38a99dbb94cc8a66d8955b0b7f8e67bf0a5eb820c4a5d0c3efb96c1e5",
+            "pattern": "[ file:hashes.'SHA-256' = 'fe564fb38a99dbb94cc8a66d8955b0b7f8e67bf0a5eb820c4a5d0c3efb96c1e5' ]",
+            "valid_from": "2020-11-10T04:15:05.343Z"
+        },
+        {
+            "id": "indicator--3ee1feaa-2147-2c77-d8e9-e5ad18bc74d3",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.360Z",
+            "modified": "2020-11-10T04:15:05.360Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 4cae449450c07b7aa74314173c7b00d409eabfe22b86859f3b3acedd66010458",
+            "description": "File hash indicator for sha256 hash 4cae449450c07b7aa74314173c7b00d409eabfe22b86859f3b3acedd66010458",
+            "pattern": "[ file:hashes.'SHA-256' = '4cae449450c07b7aa74314173c7b00d409eabfe22b86859f3b3acedd66010458' ]",
+            "valid_from": "2020-11-10T04:15:05.360Z"
+        },
+        {
+            "id": "indicator--d81079f6-6b1c-bfc8-6b03-64171ad1383d",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.527Z",
+            "modified": "2020-11-10T04:15:05.527Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash c7ddbc24a57d1353d73533c47a65e5e3a74e3b666c1fed685fc90de1f089c72b",
+            "description": "File hash indicator for sha256 hash c7ddbc24a57d1353d73533c47a65e5e3a74e3b666c1fed685fc90de1f089c72b",
+            "pattern": "[ file:hashes.'SHA-256' = 'c7ddbc24a57d1353d73533c47a65e5e3a74e3b666c1fed685fc90de1f089c72b' ]",
+            "valid_from": "2020-11-10T04:15:05.527Z"
+        },
+        {
+            "id": "indicator--35fa36fb-0155-3b80-b2fe-4c4cea2f1497",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.543Z",
+            "modified": "2020-11-10T04:15:05.543Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 563dd5a95f439bc2b4170a74c8be565a1af076e6cbebd1d018b2809a1e8bc908",
+            "description": "File hash indicator for sha256 hash 563dd5a95f439bc2b4170a74c8be565a1af076e6cbebd1d018b2809a1e8bc908",
+            "pattern": "[ file:hashes.'SHA-256' = '563dd5a95f439bc2b4170a74c8be565a1af076e6cbebd1d018b2809a1e8bc908' ]",
+            "valid_from": "2020-11-10T04:15:05.543Z"
+        },
+        {
+            "id": "indicator--32f3a866-b72c-6dfe-e445-3d556c939d64",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.581Z",
+            "modified": "2020-11-10T04:15:05.581Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash edd1480fe3d83dc4dc59992fc8436bc1f33bc065504dccf4b14670e9e2c57a89",
+            "description": "File hash indicator for sha256 hash edd1480fe3d83dc4dc59992fc8436bc1f33bc065504dccf4b14670e9e2c57a89",
+            "pattern": "[ file:hashes.'SHA-256' = 'edd1480fe3d83dc4dc59992fc8436bc1f33bc065504dccf4b14670e9e2c57a89' ]",
+            "valid_from": "2020-11-10T04:15:05.581Z"
+        },
+        {
+            "id": "indicator--046a7c26-8f9b-610a-ea56-ed646067615c",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.714Z",
+            "modified": "2020-11-10T04:15:05.714Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 56e96ce15ebd90c197a1638a91e8634dbc5b0b4d8ef28891dcf470ca28d08078",
+            "description": "File hash indicator for sha256 hash 56e96ce15ebd90c197a1638a91e8634dbc5b0b4d8ef28891dcf470ca28d08078",
+            "pattern": "[ file:hashes.'SHA-256' = '56e96ce15ebd90c197a1638a91e8634dbc5b0b4d8ef28891dcf470ca28d08078' ]",
+            "valid_from": "2020-11-10T04:15:05.714Z"
+        },
+        {
+            "id": "indicator--34c06427-6d16-0fb7-11ee-6c1518a05452",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.758Z",
+            "modified": "2020-11-10T04:15:05.758Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3aa746bb94acee94c86a34cb0b355317de8404c91de3f00b40e8257b80c64741",
+            "description": "File hash indicator for sha256 hash 3aa746bb94acee94c86a34cb0b355317de8404c91de3f00b40e8257b80c64741",
+            "pattern": "[ file:hashes.'SHA-256' = '3aa746bb94acee94c86a34cb0b355317de8404c91de3f00b40e8257b80c64741' ]",
+            "valid_from": "2020-11-10T04:15:05.758Z"
+        },
+        {
+            "id": "indicator--bcdef3dd-2a92-fc73-1c5f-e9a9be199601",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.783Z",
+            "modified": "2020-11-10T04:15:05.783Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 1d970f2e7af9962ae6786c35fcd6bc48bb860e2c8ca74d3b81899c0d3a978b2b",
+            "description": "File hash indicator for sha256 hash 1d970f2e7af9962ae6786c35fcd6bc48bb860e2c8ca74d3b81899c0d3a978b2b",
+            "pattern": "[ file:hashes.'SHA-256' = '1d970f2e7af9962ae6786c35fcd6bc48bb860e2c8ca74d3b81899c0d3a978b2b' ]",
+            "valid_from": "2020-11-10T04:15:05.783Z"
+        },
+        {
+            "id": "indicator--2f5e9e80-0a03-8b98-4e70-be5537078976",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.791Z",
+            "modified": "2020-11-10T04:15:05.791Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash a765df03fffa343aa7a420a0a57d4b5c64366392ab6162c3561ff9f7b0ad5623",
+            "description": "File hash indicator for sha256 hash a765df03fffa343aa7a420a0a57d4b5c64366392ab6162c3561ff9f7b0ad5623",
+            "pattern": "[ file:hashes.'SHA-256' = 'a765df03fffa343aa7a420a0a57d4b5c64366392ab6162c3561ff9f7b0ad5623' ]",
+            "valid_from": "2020-11-10T04:15:05.791Z"
+        },
+        {
+            "id": "indicator--c4c18d82-de1a-9399-6cec-8d18d905e35e",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.811Z",
+            "modified": "2020-11-10T04:15:05.811Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 7330fa1ca4e40cdfea9492134636ef06cd999efb71f510074d185840ac16675d",
+            "description": "File hash indicator for sha256 hash 7330fa1ca4e40cdfea9492134636ef06cd999efb71f510074d185840ac16675d",
+            "pattern": "[ file:hashes.'SHA-256' = '7330fa1ca4e40cdfea9492134636ef06cd999efb71f510074d185840ac16675d' ]",
+            "valid_from": "2020-11-10T04:15:05.811Z"
+        },
+        {
+            "id": "indicator--808f1c4e-652b-c4b2-756c-f5d7e5964cd8",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.834Z",
+            "modified": "2020-11-10T04:15:05.834Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5937746fc1a511d9a8404294b0caa2aedae2f86b5b5be8159385b6c7a4d6fb40",
+            "description": "File hash indicator for sha256 hash 5937746fc1a511d9a8404294b0caa2aedae2f86b5b5be8159385b6c7a4d6fb40",
+            "pattern": "[ file:hashes.'SHA-256' = '5937746fc1a511d9a8404294b0caa2aedae2f86b5b5be8159385b6c7a4d6fb40' ]",
+            "valid_from": "2020-11-10T04:15:05.834Z"
+        },
+        {
+            "id": "indicator--4d65df42-5d56-8a94-9162-c7787906b74e",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.839Z",
+            "modified": "2020-11-10T04:15:05.839Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 92a8b74cafa5eda3851cc494f26db70e5ef0259bc7926133902013e5d73fd285",
+            "description": "File hash indicator for sha256 hash 92a8b74cafa5eda3851cc494f26db70e5ef0259bc7926133902013e5d73fd285",
+            "pattern": "[ file:hashes.'SHA-256' = '92a8b74cafa5eda3851cc494f26db70e5ef0259bc7926133902013e5d73fd285' ]",
+            "valid_from": "2020-11-10T04:15:05.839Z"
+        },
+        {
+            "id": "indicator--90ace649-f237-cff6-4096-177324e17aec",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.859Z",
+            "modified": "2020-11-10T04:15:05.859Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 0da9e149ba324f20a390140e9d7913b13ababa07f5b65e4d25e3555c1119e768",
+            "description": "File hash indicator for sha256 hash 0da9e149ba324f20a390140e9d7913b13ababa07f5b65e4d25e3555c1119e768",
+            "pattern": "[ file:hashes.'SHA-256' = '0da9e149ba324f20a390140e9d7913b13ababa07f5b65e4d25e3555c1119e768' ]",
+            "valid_from": "2020-11-10T04:15:05.859Z"
+        },
+        {
+            "id": "indicator--3144a2e7-4a7a-e84a-b18d-d8f5c648bb05",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.934Z",
+            "modified": "2020-11-10T04:15:05.934Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash bacc02fd23c4f95da0fbc5c490b1278d327fea0878734ea9a55f108ef9f4312e",
+            "description": "File hash indicator for sha256 hash bacc02fd23c4f95da0fbc5c490b1278d327fea0878734ea9a55f108ef9f4312e",
+            "pattern": "[ file:hashes.'SHA-256' = 'bacc02fd23c4f95da0fbc5c490b1278d327fea0878734ea9a55f108ef9f4312e' ]",
+            "valid_from": "2020-11-10T04:15:05.934Z"
+        },
+        {
+            "id": "indicator--84da88c8-b392-1d4b-2617-64d4c7b091b3",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:05.945Z",
+            "modified": "2020-11-10T04:15:05.945Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5e0062def3e1d2ac206aa43854a60e23b0d1158fa982e99e0ba8190e77290dbf",
+            "description": "File hash indicator for sha256 hash 5e0062def3e1d2ac206aa43854a60e23b0d1158fa982e99e0ba8190e77290dbf",
+            "pattern": "[ file:hashes.'SHA-256' = '5e0062def3e1d2ac206aa43854a60e23b0d1158fa982e99e0ba8190e77290dbf' ]",
+            "valid_from": "2020-11-10T04:15:05.945Z"
+        },
+        {
+            "id": "indicator--cf5e0dcb-10ce-434c-e609-a9ce33b05015",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.003Z",
+            "modified": "2020-11-10T04:15:06.003Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 2f149a79f721bb78eb956f70183b531fb6a1b233ceb4a3d6385759a0b0c16fd3",
+            "description": "File hash indicator for sha256 hash 2f149a79f721bb78eb956f70183b531fb6a1b233ceb4a3d6385759a0b0c16fd3",
+            "pattern": "[ file:hashes.'SHA-256' = '2f149a79f721bb78eb956f70183b531fb6a1b233ceb4a3d6385759a0b0c16fd3' ]",
+            "valid_from": "2020-11-10T04:15:06.003Z"
+        },
+        {
+            "id": "indicator--0e732f33-32b8-7e73-3312-c03f182d5c23",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.007Z",
+            "modified": "2020-11-10T04:15:06.007Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 6ac07424e5c9b87d76645aa041772ac8af12e30dc670be8adf1cf9f48e32944b",
+            "description": "File hash indicator for sha256 hash 6ac07424e5c9b87d76645aa041772ac8af12e30dc670be8adf1cf9f48e32944b",
+            "pattern": "[ file:hashes.'SHA-256' = '6ac07424e5c9b87d76645aa041772ac8af12e30dc670be8adf1cf9f48e32944b' ]",
+            "valid_from": "2020-11-10T04:15:06.007Z"
+        },
+        {
+            "id": "indicator--963a7f90-14d0-0647-8289-fb91bd1a1886",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.022Z",
+            "modified": "2020-11-10T04:15:06.022Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 915e660ec51abea9ffd5716fb2c9b8593643adc5e9ea0834a88d8ea4016899f0",
+            "description": "File hash indicator for sha256 hash 915e660ec51abea9ffd5716fb2c9b8593643adc5e9ea0834a88d8ea4016899f0",
+            "pattern": "[ file:hashes.'SHA-256' = '915e660ec51abea9ffd5716fb2c9b8593643adc5e9ea0834a88d8ea4016899f0' ]",
+            "valid_from": "2020-11-10T04:15:06.022Z"
+        },
+        {
+            "id": "indicator--a2f4b326-812b-cb45-a093-625c77e81576",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.041Z",
+            "modified": "2020-11-10T04:15:06.041Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 10c4067908181cebb72202d92ff7a054b19ef3aada939bf76178e35be9506525",
+            "description": "File hash indicator for sha256 hash 10c4067908181cebb72202d92ff7a054b19ef3aada939bf76178e35be9506525",
+            "pattern": "[ file:hashes.'SHA-256' = '10c4067908181cebb72202d92ff7a054b19ef3aada939bf76178e35be9506525' ]",
+            "valid_from": "2020-11-10T04:15:06.041Z"
+        },
+        {
+            "id": "indicator--33f18d08-b9ad-988c-bfa6-a8ce4ca30f67",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.047Z",
+            "modified": "2020-11-10T04:15:06.047Z",
+            "labels": [
+                "xfe-malware-risk-unknown"
+            ],
+            "name": "File hash indicator for sha256 hash 6497d14f6dd14c39c037cb7da24b51d90b7040af64c245aaab6c6cc80cde7f3b",
+            "description": "File hash indicator for sha256 hash 6497d14f6dd14c39c037cb7da24b51d90b7040af64c245aaab6c6cc80cde7f3b",
+            "pattern": "[ file:hashes.'SHA-256' = '6497d14f6dd14c39c037cb7da24b51d90b7040af64c245aaab6c6cc80cde7f3b' ]",
+            "valid_from": "2020-11-10T04:15:06.047Z"
+        },
+        {
+            "id": "indicator--12d9d8cf-377f-bf30-0446-3a99a6425610",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.062Z",
+            "modified": "2020-11-10T04:15:06.062Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 375afe90771e63dbec77de439625267d723dc6bbb37cc5e94cf4d281d16c2ca8",
+            "description": "File hash indicator for sha256 hash 375afe90771e63dbec77de439625267d723dc6bbb37cc5e94cf4d281d16c2ca8",
+            "pattern": "[ file:hashes.'SHA-256' = '375afe90771e63dbec77de439625267d723dc6bbb37cc5e94cf4d281d16c2ca8' ]",
+            "valid_from": "2020-11-10T04:15:06.062Z"
+        },
+        {
+            "id": "indicator--dd97e65b-5c4c-e377-e03e-9649075814d0",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.065Z",
+            "modified": "2020-11-10T04:15:06.065Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 382d9bf5da142d44de5fda544de4fffe2915a3ffc67964b993f3c051aa8c2989",
+            "description": "File hash indicator for sha256 hash 382d9bf5da142d44de5fda544de4fffe2915a3ffc67964b993f3c051aa8c2989",
+            "pattern": "[ file:hashes.'SHA-256' = '382d9bf5da142d44de5fda544de4fffe2915a3ffc67964b993f3c051aa8c2989' ]",
+            "valid_from": "2020-11-10T04:15:06.065Z"
+        },
+        {
+            "id": "indicator--1766b333-cf9c-aeab-e6af-8b333619aca8",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.072Z",
+            "modified": "2020-11-10T04:15:06.072Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e5ce1c1b69bd12640c604971be311f9544adb3797df15199bd754d3aefe0a955",
+            "description": "File hash indicator for sha256 hash e5ce1c1b69bd12640c604971be311f9544adb3797df15199bd754d3aefe0a955",
+            "pattern": "[ file:hashes.'SHA-256' = 'e5ce1c1b69bd12640c604971be311f9544adb3797df15199bd754d3aefe0a955' ]",
+            "valid_from": "2020-11-10T04:15:06.072Z"
+        },
+        {
+            "id": "indicator--09c47072-6eb0-50a0-78c0-6da36ad0ca5c",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.077Z",
+            "modified": "2020-11-10T04:15:06.077Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash c9400b2fff71c401fe752aba967fa8e7009b64114c9c431e9e91ac39e8f79497",
+            "description": "File hash indicator for sha256 hash c9400b2fff71c401fe752aba967fa8e7009b64114c9c431e9e91ac39e8f79497",
+            "pattern": "[ file:hashes.'SHA-256' = 'c9400b2fff71c401fe752aba967fa8e7009b64114c9c431e9e91ac39e8f79497' ]",
+            "valid_from": "2020-11-10T04:15:06.077Z"
+        },
+        {
+            "id": "indicator--55d73aab-c6fa-6757-2b00-8caa08eb21d6",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.092Z",
+            "modified": "2020-11-10T04:15:06.092Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ef7e21d874a387f07a9f74f01f2779a280ff06dff3dae0d41906d21e02f9c975",
+            "description": "File hash indicator for sha256 hash ef7e21d874a387f07a9f74f01f2779a280ff06dff3dae0d41906d21e02f9c975",
+            "pattern": "[ file:hashes.'SHA-256' = 'ef7e21d874a387f07a9f74f01f2779a280ff06dff3dae0d41906d21e02f9c975' ]",
+            "valid_from": "2020-11-10T04:15:06.092Z"
+        },
+        {
+            "id": "indicator--129767d7-5348-8da1-9412-aab4b59cafa7",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.093Z",
+            "modified": "2020-11-10T04:15:06.093Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 6c1b17c8d8eca38b9926b40637cb793d0997a6183156d9e6353b53d7b3955f20",
+            "description": "File hash indicator for sha256 hash 6c1b17c8d8eca38b9926b40637cb793d0997a6183156d9e6353b53d7b3955f20",
+            "pattern": "[ file:hashes.'SHA-256' = '6c1b17c8d8eca38b9926b40637cb793d0997a6183156d9e6353b53d7b3955f20' ]",
+            "valid_from": "2020-11-10T04:15:06.093Z"
+        },
+        {
+            "id": "indicator--984df2b0-ad8a-0db6-087b-f3b9fd6a9d24",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.101Z",
+            "modified": "2020-11-10T04:15:06.101Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 4d39782ccdb902e8e5348b8b3ce92f0834c713c565cca82be67a0a8eb6468df6",
+            "description": "File hash indicator for sha256 hash 4d39782ccdb902e8e5348b8b3ce92f0834c713c565cca82be67a0a8eb6468df6",
+            "pattern": "[ file:hashes.'SHA-256' = '4d39782ccdb902e8e5348b8b3ce92f0834c713c565cca82be67a0a8eb6468df6' ]",
+            "valid_from": "2020-11-10T04:15:06.101Z"
+        },
+        {
+            "id": "indicator--6eeb752f-3977-3cd1-48a7-03e485c29c73",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.103Z",
+            "modified": "2020-11-10T04:15:06.103Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d7bcb52f027f66c988e595dc29a343e27af7599e3659901f85a92c26440a5e1f",
+            "description": "File hash indicator for sha256 hash d7bcb52f027f66c988e595dc29a343e27af7599e3659901f85a92c26440a5e1f",
+            "pattern": "[ file:hashes.'SHA-256' = 'd7bcb52f027f66c988e595dc29a343e27af7599e3659901f85a92c26440a5e1f' ]",
+            "valid_from": "2020-11-10T04:15:06.103Z"
+        },
+        {
+            "id": "indicator--c0183ce9-1b5b-bee3-3622-d44dedb2e5a6",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.118Z",
+            "modified": "2020-11-10T04:15:06.118Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 37e8d3ae4c34441b30098d7711df8ef0bcc12c395f265106b825221744b956bc",
+            "description": "File hash indicator for sha256 hash 37e8d3ae4c34441b30098d7711df8ef0bcc12c395f265106b825221744b956bc",
+            "pattern": "[ file:hashes.'SHA-256' = '37e8d3ae4c34441b30098d7711df8ef0bcc12c395f265106b825221744b956bc' ]",
+            "valid_from": "2020-11-10T04:15:06.118Z"
+        },
+        {
+            "id": "indicator--058e69ed-6dbe-37d5-a85b-d169fb9bcbc8",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.122Z",
+            "modified": "2020-11-10T04:15:06.122Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 01a2404fcf56027be610c65bbfb0f2dda9cfaf67385cb7f93f0b586e3aa6803a",
+            "description": "File hash indicator for sha256 hash 01a2404fcf56027be610c65bbfb0f2dda9cfaf67385cb7f93f0b586e3aa6803a",
+            "pattern": "[ file:hashes.'SHA-256' = '01a2404fcf56027be610c65bbfb0f2dda9cfaf67385cb7f93f0b586e3aa6803a' ]",
+            "valid_from": "2020-11-10T04:15:06.122Z"
+        },
+        {
+            "id": "indicator--ebc41e18-1cd8-778b-380a-526999e1a44d",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.126Z",
+            "modified": "2020-11-10T04:15:06.126Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d353eeb623e96b32c086a9b64991dfedbc8d31254aec2c3cda51042ceb07ee82",
+            "description": "File hash indicator for sha256 hash d353eeb623e96b32c086a9b64991dfedbc8d31254aec2c3cda51042ceb07ee82",
+            "pattern": "[ file:hashes.'SHA-256' = 'd353eeb623e96b32c086a9b64991dfedbc8d31254aec2c3cda51042ceb07ee82' ]",
+            "valid_from": "2020-11-10T04:15:06.126Z"
+        },
+        {
+            "id": "indicator--fbd60d3c-c05b-9fc2-e464-15d99e22dea4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.131Z",
+            "modified": "2020-11-10T04:15:06.131Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash b159fadb829a206c9a59ec547aa9e2a3ee83e8a3cc1441de04f58fd02a43c760",
+            "description": "File hash indicator for sha256 hash b159fadb829a206c9a59ec547aa9e2a3ee83e8a3cc1441de04f58fd02a43c760",
+            "pattern": "[ file:hashes.'SHA-256' = 'b159fadb829a206c9a59ec547aa9e2a3ee83e8a3cc1441de04f58fd02a43c760' ]",
+            "valid_from": "2020-11-10T04:15:06.131Z"
+        },
+        {
+            "id": "indicator--fd6b12ce-ee7a-47ea-2cca-690223ba1e7b",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.133Z",
+            "modified": "2020-11-10T04:15:06.133Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5dc7f70a0d20f97c30c25bd927235deec713cde5d1c41916e23dd0c3431ffacd",
+            "description": "File hash indicator for sha256 hash 5dc7f70a0d20f97c30c25bd927235deec713cde5d1c41916e23dd0c3431ffacd",
+            "pattern": "[ file:hashes.'SHA-256' = '5dc7f70a0d20f97c30c25bd927235deec713cde5d1c41916e23dd0c3431ffacd' ]",
+            "valid_from": "2020-11-10T04:15:06.133Z"
+        },
+        {
+            "id": "indicator--106ca5b4-b4fa-7d1d-1045-0a1d226e8048",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.143Z",
+            "modified": "2020-11-10T04:15:06.143Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 57eea67e3eebde707c3fb3473a858e7f895ae12aad37cc664f9c0512c0382e6a",
+            "description": "File hash indicator for sha256 hash 57eea67e3eebde707c3fb3473a858e7f895ae12aad37cc664f9c0512c0382e6a",
+            "pattern": "[ file:hashes.'SHA-256' = '57eea67e3eebde707c3fb3473a858e7f895ae12aad37cc664f9c0512c0382e6a' ]",
+            "valid_from": "2020-11-10T04:15:06.143Z"
+        },
+        {
+            "id": "indicator--18e80c78-b45f-7567-b1ba-c232228f0fae",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.152Z",
+            "modified": "2020-11-10T04:15:06.152Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash b7fbbbdf7e8795022a41f4e6a94be1de432ae1911e49625f73555e01a5fdc719",
+            "description": "File hash indicator for sha256 hash b7fbbbdf7e8795022a41f4e6a94be1de432ae1911e49625f73555e01a5fdc719",
+            "pattern": "[ file:hashes.'SHA-256' = 'b7fbbbdf7e8795022a41f4e6a94be1de432ae1911e49625f73555e01a5fdc719' ]",
+            "valid_from": "2020-11-10T04:15:06.152Z"
+        },
+        {
+            "id": "indicator--34664d2c-371e-b36c-91fc-4e6ae564e621",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.153Z",
+            "modified": "2020-11-10T04:15:06.153Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 4421720e0321ac8b3820f8178eb8a5ff684388438b62c85f93df9743a1d9fdb9",
+            "description": "File hash indicator for sha256 hash 4421720e0321ac8b3820f8178eb8a5ff684388438b62c85f93df9743a1d9fdb9",
+            "pattern": "[ file:hashes.'SHA-256' = '4421720e0321ac8b3820f8178eb8a5ff684388438b62c85f93df9743a1d9fdb9' ]",
+            "valid_from": "2020-11-10T04:15:06.153Z"
+        },
+        {
+            "id": "indicator--678f60bd-293e-1f11-bd13-b652dadd7cc4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.156Z",
+            "modified": "2020-11-10T04:15:06.156Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 66c2038c6d86333cbc51726bc54d3b8a00162493b2c92ca7f839b50435eaa314",
+            "description": "File hash indicator for sha256 hash 66c2038c6d86333cbc51726bc54d3b8a00162493b2c92ca7f839b50435eaa314",
+            "pattern": "[ file:hashes.'SHA-256' = '66c2038c6d86333cbc51726bc54d3b8a00162493b2c92ca7f839b50435eaa314' ]",
+            "valid_from": "2020-11-10T04:15:06.156Z"
+        },
+        {
+            "id": "indicator--14fc93b4-e151-2a7f-feae-414b7dde393a",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.160Z",
+            "modified": "2020-11-10T04:15:06.160Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 7ad92c9d63bd9ed305acbe217c40f9945deb98ed5ecced8b92b93332dc27d3c6",
+            "description": "File hash indicator for sha256 hash 7ad92c9d63bd9ed305acbe217c40f9945deb98ed5ecced8b92b93332dc27d3c6",
+            "pattern": "[ file:hashes.'SHA-256' = '7ad92c9d63bd9ed305acbe217c40f9945deb98ed5ecced8b92b93332dc27d3c6' ]",
+            "valid_from": "2020-11-10T04:15:06.160Z"
+        },
+        {
+            "id": "indicator--33906588-e04f-c58a-e99d-f615fce8fff8",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.163Z",
+            "modified": "2020-11-10T04:15:06.163Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d46f72b8598ff80de5661205f6cac0b47831778f70b5edd7525e23418706cc1a",
+            "description": "File hash indicator for sha256 hash d46f72b8598ff80de5661205f6cac0b47831778f70b5edd7525e23418706cc1a",
+            "pattern": "[ file:hashes.'SHA-256' = 'd46f72b8598ff80de5661205f6cac0b47831778f70b5edd7525e23418706cc1a' ]",
+            "valid_from": "2020-11-10T04:15:06.163Z"
+        },
+        {
+            "id": "indicator--a86db33b-79e4-3b24-1c56-97cbc0e5391a",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.174Z",
+            "modified": "2020-11-10T04:15:06.174Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e1653fe62e8d90153557324ffe4470d9c9262fe3bddad2bf555680b6078cf66a",
+            "description": "File hash indicator for sha256 hash e1653fe62e8d90153557324ffe4470d9c9262fe3bddad2bf555680b6078cf66a",
+            "pattern": "[ file:hashes.'SHA-256' = 'e1653fe62e8d90153557324ffe4470d9c9262fe3bddad2bf555680b6078cf66a' ]",
+            "valid_from": "2020-11-10T04:15:06.174Z"
+        },
+        {
+            "id": "indicator--92aef640-401e-5942-2b97-e88fff8998c9",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.188Z",
+            "modified": "2020-11-10T04:15:06.188Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ccc162d3a3d6136a9c472d7d2d07acbae47f88a9a7d9b2c9b97b331e7ab7605d",
+            "description": "File hash indicator for sha256 hash ccc162d3a3d6136a9c472d7d2d07acbae47f88a9a7d9b2c9b97b331e7ab7605d",
+            "pattern": "[ file:hashes.'SHA-256' = 'ccc162d3a3d6136a9c472d7d2d07acbae47f88a9a7d9b2c9b97b331e7ab7605d' ]",
+            "valid_from": "2020-11-10T04:15:06.188Z"
+        },
+        {
+            "id": "indicator--9b4de1b8-e5d7-289c-c834-af91eaaa7fc6",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.194Z",
+            "modified": "2020-11-10T04:15:06.194Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3cd581621d9a16ebe724e9ba7445aa82162307ff6b2a31be572e87dbce2aa8ad",
+            "description": "File hash indicator for sha256 hash 3cd581621d9a16ebe724e9ba7445aa82162307ff6b2a31be572e87dbce2aa8ad",
+            "pattern": "[ file:hashes.'SHA-256' = '3cd581621d9a16ebe724e9ba7445aa82162307ff6b2a31be572e87dbce2aa8ad' ]",
+            "valid_from": "2020-11-10T04:15:06.194Z"
+        },
+        {
+            "id": "indicator--0aa24d5e-85dd-47ff-f071-b5e12360435f",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.233Z",
+            "modified": "2020-11-10T04:15:06.233Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 75728bc96c934c1521ae08e03ec916e20628e000b056c55b6ee04ccc18c602f6",
+            "description": "File hash indicator for sha256 hash 75728bc96c934c1521ae08e03ec916e20628e000b056c55b6ee04ccc18c602f6",
+            "pattern": "[ file:hashes.'SHA-256' = '75728bc96c934c1521ae08e03ec916e20628e000b056c55b6ee04ccc18c602f6' ]",
+            "valid_from": "2020-11-10T04:15:06.233Z"
+        },
+        {
+            "id": "indicator--5e5c3d57-2a68-0cb6-6eb3-ef7b62dbf50c",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.239Z",
+            "modified": "2020-11-10T04:15:06.239Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 95e5e83b10df32f06080bd6f8428592d81febbf55e72ec5f843dd6188bef25da",
+            "description": "File hash indicator for sha256 hash 95e5e83b10df32f06080bd6f8428592d81febbf55e72ec5f843dd6188bef25da",
+            "pattern": "[ file:hashes.'SHA-256' = '95e5e83b10df32f06080bd6f8428592d81febbf55e72ec5f843dd6188bef25da' ]",
+            "valid_from": "2020-11-10T04:15:06.239Z"
+        },
+        {
+            "id": "indicator--880608c5-8397-6c6c-b368-d12027678b0d",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.246Z",
+            "modified": "2020-11-10T04:15:06.246Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 47d6cc0a05218d0c1078dabf8d0ca7b7b424cdd73eaf3bf6261fa1b42f92fe0b",
+            "description": "File hash indicator for sha256 hash 47d6cc0a05218d0c1078dabf8d0ca7b7b424cdd73eaf3bf6261fa1b42f92fe0b",
+            "pattern": "[ file:hashes.'SHA-256' = '47d6cc0a05218d0c1078dabf8d0ca7b7b424cdd73eaf3bf6261fa1b42f92fe0b' ]",
+            "valid_from": "2020-11-10T04:15:06.246Z"
+        },
+        {
+            "id": "indicator--7748fbb6-4a74-40d4-dcf8-e63a39703165",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.254Z",
+            "modified": "2020-11-10T04:15:06.254Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 0b42bf15b77cfe9f9e693f2776691647e78a91be27f5bdb8d1a366be510a773f",
+            "description": "File hash indicator for sha256 hash 0b42bf15b77cfe9f9e693f2776691647e78a91be27f5bdb8d1a366be510a773f",
+            "pattern": "[ file:hashes.'SHA-256' = '0b42bf15b77cfe9f9e693f2776691647e78a91be27f5bdb8d1a366be510a773f' ]",
+            "valid_from": "2020-11-10T04:15:06.254Z"
+        },
+        {
+            "id": "indicator--7f10ad6d-a789-b3c2-f40e-a8f91a9f5f43",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.267Z",
+            "modified": "2020-11-10T04:15:06.267Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash a50a25a312adb9103e52e94018013ebdb6dbfe792a34122cacd53cfa3bbb26ac",
+            "description": "File hash indicator for sha256 hash a50a25a312adb9103e52e94018013ebdb6dbfe792a34122cacd53cfa3bbb26ac",
+            "pattern": "[ file:hashes.'SHA-256' = 'a50a25a312adb9103e52e94018013ebdb6dbfe792a34122cacd53cfa3bbb26ac' ]",
+            "valid_from": "2020-11-10T04:15:06.267Z"
+        },
+        {
+            "id": "indicator--e7169425-9235-e98a-ed9a-96212ac0eebd",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.347Z",
+            "modified": "2020-11-10T04:15:06.347Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 87210d6f1773473d28b51de21ed55ecfb6a9bd34f56d2d37f483ed05a1d7efd8",
+            "description": "File hash indicator for sha256 hash 87210d6f1773473d28b51de21ed55ecfb6a9bd34f56d2d37f483ed05a1d7efd8",
+            "pattern": "[ file:hashes.'SHA-256' = '87210d6f1773473d28b51de21ed55ecfb6a9bd34f56d2d37f483ed05a1d7efd8' ]",
+            "valid_from": "2020-11-10T04:15:06.347Z"
+        },
+        {
+            "id": "indicator--062b5e5b-0ed7-4a2e-ba50-8be24c56bc6f",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.365Z",
+            "modified": "2020-11-10T04:15:06.365Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d7d28af8af5be22ecca267bdc7e142667f584550cf8a3bbebdb1368725bb6469",
+            "description": "File hash indicator for sha256 hash d7d28af8af5be22ecca267bdc7e142667f584550cf8a3bbebdb1368725bb6469",
+            "pattern": "[ file:hashes.'SHA-256' = 'd7d28af8af5be22ecca267bdc7e142667f584550cf8a3bbebdb1368725bb6469' ]",
+            "valid_from": "2020-11-10T04:15:06.365Z"
+        },
+        {
+            "id": "indicator--add23e41-9a61-9804-14ad-032cc6ce4112",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.392Z",
+            "modified": "2020-11-10T04:15:06.392Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 5aec2fa9e954473d9c6b5233512f833e63541965e2d2e4af2419a457676c440d",
+            "description": "File hash indicator for sha256 hash 5aec2fa9e954473d9c6b5233512f833e63541965e2d2e4af2419a457676c440d",
+            "pattern": "[ file:hashes.'SHA-256' = '5aec2fa9e954473d9c6b5233512f833e63541965e2d2e4af2419a457676c440d' ]",
+            "valid_from": "2020-11-10T04:15:06.392Z"
+        },
+        {
+            "id": "indicator--70969cce-421d-8a41-a0ad-b31c240fb9c7",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.434Z",
+            "modified": "2020-11-10T04:15:06.434Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d7641089fd5d0474b835a633d6d852028b3481c18b3574023b021bfa1e3c1cc1",
+            "description": "File hash indicator for sha256 hash d7641089fd5d0474b835a633d6d852028b3481c18b3574023b021bfa1e3c1cc1",
+            "pattern": "[ file:hashes.'SHA-256' = 'd7641089fd5d0474b835a633d6d852028b3481c18b3574023b021bfa1e3c1cc1' ]",
+            "valid_from": "2020-11-10T04:15:06.434Z"
+        },
+        {
+            "id": "indicator--53b38ea7-50eb-a8c2-9e97-f63a086b6b4e",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.489Z",
+            "modified": "2020-11-10T04:15:06.489Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash c3b3f46a5c850971e1269d09870db755391dcbe575dc7976f90ccb1f3812d5ea",
+            "description": "File hash indicator for sha256 hash c3b3f46a5c850971e1269d09870db755391dcbe575dc7976f90ccb1f3812d5ea",
+            "pattern": "[ file:hashes.'SHA-256' = 'c3b3f46a5c850971e1269d09870db755391dcbe575dc7976f90ccb1f3812d5ea' ]",
+            "valid_from": "2020-11-10T04:15:06.489Z"
+        },
+        {
+            "id": "indicator--408a6a38-8cd8-fbf2-39ab-b4610ae0e463",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.578Z",
+            "modified": "2020-11-10T04:15:06.578Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3928bd8f2fd2db4891b320fa85b37c2598706d27283818ad33a0eeac16d59192",
+            "description": "File hash indicator for sha256 hash 3928bd8f2fd2db4891b320fa85b37c2598706d27283818ad33a0eeac16d59192",
+            "pattern": "[ file:hashes.'SHA-256' = '3928bd8f2fd2db4891b320fa85b37c2598706d27283818ad33a0eeac16d59192' ]",
+            "valid_from": "2020-11-10T04:15:06.578Z"
+        },
+        {
+            "id": "indicator--f474e963-0083-f2ce-a9fc-c29573c3e70e",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.657Z",
+            "modified": "2020-11-10T04:15:06.657Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 8373be56ddab97188a8606eb5f529187bfb819f5cb5a50c56f6a7878c94c7f86",
+            "description": "File hash indicator for sha256 hash 8373be56ddab97188a8606eb5f529187bfb819f5cb5a50c56f6a7878c94c7f86",
+            "pattern": "[ file:hashes.'SHA-256' = '8373be56ddab97188a8606eb5f529187bfb819f5cb5a50c56f6a7878c94c7f86' ]",
+            "valid_from": "2020-11-10T04:15:06.657Z"
+        },
+        {
+            "id": "indicator--a8e89ced-7348-238e-fb97-b415b94a9d30",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.719Z",
+            "modified": "2020-11-10T04:15:06.719Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 2b13dae3c35eb3958253dbf945f6609e59978c2aedbd163608f03920d7d3623b",
+            "description": "File hash indicator for sha256 hash 2b13dae3c35eb3958253dbf945f6609e59978c2aedbd163608f03920d7d3623b",
+            "pattern": "[ file:hashes.'SHA-256' = '2b13dae3c35eb3958253dbf945f6609e59978c2aedbd163608f03920d7d3623b' ]",
+            "valid_from": "2020-11-10T04:15:06.719Z"
+        },
+        {
+            "id": "indicator--d73f7970-994d-8a16-579f-fa9c1140e130",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.743Z",
+            "modified": "2020-11-10T04:15:06.743Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 01011bb45dec3b520ea09e5d9d3c9fb4acce74de72261f68ff1011f9ea6ccebb",
+            "description": "File hash indicator for sha256 hash 01011bb45dec3b520ea09e5d9d3c9fb4acce74de72261f68ff1011f9ea6ccebb",
+            "pattern": "[ file:hashes.'SHA-256' = '01011bb45dec3b520ea09e5d9d3c9fb4acce74de72261f68ff1011f9ea6ccebb' ]",
+            "valid_from": "2020-11-10T04:15:06.743Z"
+        },
+        {
+            "id": "indicator--9130a351-4b23-5984-c960-7b1f2ddda7ed",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.844Z",
+            "modified": "2020-11-10T04:15:06.844Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash a098b5455fd1e9d0dea067405cd891b94cc42a0067cbd21d385f9c1254c21fdd",
+            "description": "File hash indicator for sha256 hash a098b5455fd1e9d0dea067405cd891b94cc42a0067cbd21d385f9c1254c21fdd",
+            "pattern": "[ file:hashes.'SHA-256' = 'a098b5455fd1e9d0dea067405cd891b94cc42a0067cbd21d385f9c1254c21fdd' ]",
+            "valid_from": "2020-11-10T04:15:06.844Z"
+        },
+        {
+            "id": "indicator--2067d5c8-c133-d247-0ad5-d087c80bf483",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.862Z",
+            "modified": "2020-11-10T04:15:06.862Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 80c9d6cf4e8119dc2d0e263f3f4d5c3bf4221715117505d9d6a02e3671337bf8",
+            "description": "File hash indicator for sha256 hash 80c9d6cf4e8119dc2d0e263f3f4d5c3bf4221715117505d9d6a02e3671337bf8",
+            "pattern": "[ file:hashes.'SHA-256' = '80c9d6cf4e8119dc2d0e263f3f4d5c3bf4221715117505d9d6a02e3671337bf8' ]",
+            "valid_from": "2020-11-10T04:15:06.862Z"
+        },
+        {
+            "id": "indicator--2efb5b8b-c203-1217-9c0e-bf63bba98b92",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.930Z",
+            "modified": "2020-11-10T04:15:06.930Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 350926c6bb7419330e55e687c9f00520a560c41f6013528cbb9ea42faeeb3201",
+            "description": "File hash indicator for sha256 hash 350926c6bb7419330e55e687c9f00520a560c41f6013528cbb9ea42faeeb3201",
+            "pattern": "[ file:hashes.'SHA-256' = '350926c6bb7419330e55e687c9f00520a560c41f6013528cbb9ea42faeeb3201' ]",
+            "valid_from": "2020-11-10T04:15:06.930Z"
+        },
+        {
+            "id": "indicator--692a0fec-044a-2ce9-d71b-95f4301af3fd",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.931Z",
+            "modified": "2020-11-10T04:15:06.931Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 1309b052618c6301901ec75cf552e7b49f93d66fb47d4de59b82d37d6ac39039",
+            "description": "File hash indicator for sha256 hash 1309b052618c6301901ec75cf552e7b49f93d66fb47d4de59b82d37d6ac39039",
+            "pattern": "[ file:hashes.'SHA-256' = '1309b052618c6301901ec75cf552e7b49f93d66fb47d4de59b82d37d6ac39039' ]",
+            "valid_from": "2020-11-10T04:15:06.931Z"
+        },
+        {
+            "id": "indicator--97743c6b-c6d5-7fd0-a19e-bf68f6f434c5",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.938Z",
+            "modified": "2020-11-10T04:15:06.938Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 6f1e8f91773609087a417cb34887f292a0be5c246dab667195854f979a45349a",
+            "description": "File hash indicator for sha256 hash 6f1e8f91773609087a417cb34887f292a0be5c246dab667195854f979a45349a",
+            "pattern": "[ file:hashes.'SHA-256' = '6f1e8f91773609087a417cb34887f292a0be5c246dab667195854f979a45349a' ]",
+            "valid_from": "2020-11-10T04:15:06.938Z"
+        },
+        {
+            "id": "indicator--480704f4-3b9d-771b-e834-7f2060369a03",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.961Z",
+            "modified": "2020-11-10T04:15:06.961Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash bec5a3cfd7332241e3a7463d951b8f9a9e771d4f436d7776a426074a82d19a7d",
+            "description": "File hash indicator for sha256 hash bec5a3cfd7332241e3a7463d951b8f9a9e771d4f436d7776a426074a82d19a7d",
+            "pattern": "[ file:hashes.'SHA-256' = 'bec5a3cfd7332241e3a7463d951b8f9a9e771d4f436d7776a426074a82d19a7d' ]",
+            "valid_from": "2020-11-10T04:15:06.961Z"
+        },
+        {
+            "id": "indicator--a45c2bad-a891-8c1f-a328-d9a9f326133d",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.971Z",
+            "modified": "2020-11-10T04:15:06.971Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash c7f96f8b15c324bd6bf1aa16f6697d6d407f91ad2d7628a14d70f146334d34be",
+            "description": "File hash indicator for sha256 hash c7f96f8b15c324bd6bf1aa16f6697d6d407f91ad2d7628a14d70f146334d34be",
+            "pattern": "[ file:hashes.'SHA-256' = 'c7f96f8b15c324bd6bf1aa16f6697d6d407f91ad2d7628a14d70f146334d34be' ]",
+            "valid_from": "2020-11-10T04:15:06.971Z"
+        },
+        {
+            "id": "indicator--625e4726-989f-b0a0-120b-1e850dc7e46b",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.979Z",
+            "modified": "2020-11-10T04:15:06.979Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 2ceb5de547ad250140c7eb3c3d73e4331c94cf5a472e2806f93bf0d9df09d886",
+            "description": "File hash indicator for sha256 hash 2ceb5de547ad250140c7eb3c3d73e4331c94cf5a472e2806f93bf0d9df09d886",
+            "pattern": "[ file:hashes.'SHA-256' = '2ceb5de547ad250140c7eb3c3d73e4331c94cf5a472e2806f93bf0d9df09d886' ]",
+            "valid_from": "2020-11-10T04:15:06.979Z"
+        },
+        {
+            "id": "indicator--ce56b09a-6a03-4e35-bc64-89430e7ac2a4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.982Z",
+            "modified": "2020-11-10T04:15:06.982Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e5fede5eb43732c7f098acf7b68b1350c6524962215b476de571819b6e5a71fc",
+            "description": "File hash indicator for sha256 hash e5fede5eb43732c7f098acf7b68b1350c6524962215b476de571819b6e5a71fc",
+            "pattern": "[ file:hashes.'SHA-256' = 'e5fede5eb43732c7f098acf7b68b1350c6524962215b476de571819b6e5a71fc' ]",
+            "valid_from": "2020-11-10T04:15:06.982Z"
+        },
+        {
+            "id": "indicator--084a0bc0-790c-b537-075f-ee89fdfec260",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.984Z",
+            "modified": "2020-11-10T04:15:06.984Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ecf3f4ba8dd16551908488cfbf2afd18a55584dbf81c28623026a29b9fa4a62d",
+            "description": "File hash indicator for sha256 hash ecf3f4ba8dd16551908488cfbf2afd18a55584dbf81c28623026a29b9fa4a62d",
+            "pattern": "[ file:hashes.'SHA-256' = 'ecf3f4ba8dd16551908488cfbf2afd18a55584dbf81c28623026a29b9fa4a62d' ]",
+            "valid_from": "2020-11-10T04:15:06.984Z"
+        },
+        {
+            "id": "indicator--2797d6e4-ede7-6ded-eb66-c5a9424be9e1",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.990Z",
+            "modified": "2020-11-10T04:15:06.990Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash c5ca45581da0bbb3e4d0c6e51d602512fa52833cd16eebed351397a9a0326518",
+            "description": "File hash indicator for sha256 hash c5ca45581da0bbb3e4d0c6e51d602512fa52833cd16eebed351397a9a0326518",
+            "pattern": "[ file:hashes.'SHA-256' = 'c5ca45581da0bbb3e4d0c6e51d602512fa52833cd16eebed351397a9a0326518' ]",
+            "valid_from": "2020-11-10T04:15:06.990Z"
+        },
+        {
+            "id": "indicator--23770765-d93c-35a7-a0d6-0cdba1b3f4e9",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:06.997Z",
+            "modified": "2020-11-10T04:15:06.997Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 840985b782648d57de302936257ba3d537d21616cb81f9dce000eaf1f76a56c8",
+            "description": "File hash indicator for sha256 hash 840985b782648d57de302936257ba3d537d21616cb81f9dce000eaf1f76a56c8",
+            "pattern": "[ file:hashes.'SHA-256' = '840985b782648d57de302936257ba3d537d21616cb81f9dce000eaf1f76a56c8' ]",
+            "valid_from": "2020-11-10T04:15:06.997Z"
+        },
+        {
+            "id": "indicator--8214a57d-84f6-4ed1-5900-30904edb48e4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.012Z",
+            "modified": "2020-11-10T04:15:07.012Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash edecfdd2a26b4579ecacf453b9dff073233fb66d53c498632464bca8b3084dc5",
+            "description": "File hash indicator for sha256 hash edecfdd2a26b4579ecacf453b9dff073233fb66d53c498632464bca8b3084dc5",
+            "pattern": "[ file:hashes.'SHA-256' = 'edecfdd2a26b4579ecacf453b9dff073233fb66d53c498632464bca8b3084dc5' ]",
+            "valid_from": "2020-11-10T04:15:07.012Z"
+        },
+        {
+            "id": "indicator--7f48ca75-1337-c688-73bc-9b2ad8c2ca8b",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.024Z",
+            "modified": "2020-11-10T04:15:07.024Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 608f34a79e5566593b284ef0d24f48ea89bc007e5654ae0969e6d9f92ec87d32",
+            "description": "File hash indicator for sha256 hash 608f34a79e5566593b284ef0d24f48ea89bc007e5654ae0969e6d9f92ec87d32",
+            "pattern": "[ file:hashes.'SHA-256' = '608f34a79e5566593b284ef0d24f48ea89bc007e5654ae0969e6d9f92ec87d32' ]",
+            "valid_from": "2020-11-10T04:15:07.024Z"
+        },
+        {
+            "id": "indicator--416eba4b-0dc5-e8c4-965c-619ad9b44210",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.026Z",
+            "modified": "2020-11-10T04:15:07.026Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 56934547dcf0d7ecf61868ae2f620f60e94c094dbd5c3b5aaf3d3a904d20a693",
+            "description": "File hash indicator for sha256 hash 56934547dcf0d7ecf61868ae2f620f60e94c094dbd5c3b5aaf3d3a904d20a693",
+            "pattern": "[ file:hashes.'SHA-256' = '56934547dcf0d7ecf61868ae2f620f60e94c094dbd5c3b5aaf3d3a904d20a693' ]",
+            "valid_from": "2020-11-10T04:15:07.026Z"
+        },
+        {
+            "id": "indicator--2c03460f-a8c5-6c24-0b6f-ca0ceaaf3345",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.039Z",
+            "modified": "2020-11-10T04:15:07.039Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3a3b7b198769de3e5d81a92aa166f783b611a39a7fcea1b5ec762b54295dbc8d",
+            "description": "File hash indicator for sha256 hash 3a3b7b198769de3e5d81a92aa166f783b611a39a7fcea1b5ec762b54295dbc8d",
+            "pattern": "[ file:hashes.'SHA-256' = '3a3b7b198769de3e5d81a92aa166f783b611a39a7fcea1b5ec762b54295dbc8d' ]",
+            "valid_from": "2020-11-10T04:15:07.039Z"
+        },
+        {
+            "id": "indicator--d53a6160-e728-12c3-37cf-eeba3d068509",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.041Z",
+            "modified": "2020-11-10T04:15:07.041Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 0d14a1b5574dc12f6286d37d0a624232fb63079416b98c2e1cb5c61f8c2b66ff",
+            "description": "File hash indicator for sha256 hash 0d14a1b5574dc12f6286d37d0a624232fb63079416b98c2e1cb5c61f8c2b66ff",
+            "pattern": "[ file:hashes.'SHA-256' = '0d14a1b5574dc12f6286d37d0a624232fb63079416b98c2e1cb5c61f8c2b66ff' ]",
+            "valid_from": "2020-11-10T04:15:07.041Z"
+        },
+        {
+            "id": "indicator--e0679291-7603-685a-69dd-9ea23503b76f",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.047Z",
+            "modified": "2020-11-10T04:15:07.047Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 3259dd0efed1d28a149d4e8c4f980a19199d9bead951ee1231e3a26521185f2f",
+            "description": "File hash indicator for sha256 hash 3259dd0efed1d28a149d4e8c4f980a19199d9bead951ee1231e3a26521185f2f",
+            "pattern": "[ file:hashes.'SHA-256' = '3259dd0efed1d28a149d4e8c4f980a19199d9bead951ee1231e3a26521185f2f' ]",
+            "valid_from": "2020-11-10T04:15:07.047Z"
+        },
+        {
+            "id": "indicator--878279ae-4ec5-5e86-748f-ce886c0a71ee",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.050Z",
+            "modified": "2020-11-10T04:15:07.050Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 91c62841844bde653e0357193a881a42c0bc9fcc798a69f451511c6e4c46fd18",
+            "description": "File hash indicator for sha256 hash 91c62841844bde653e0357193a881a42c0bc9fcc798a69f451511c6e4c46fd18",
+            "pattern": "[ file:hashes.'SHA-256' = '91c62841844bde653e0357193a881a42c0bc9fcc798a69f451511c6e4c46fd18' ]",
+            "valid_from": "2020-11-10T04:15:07.050Z"
+        },
+        {
+            "id": "indicator--b0597d41-7630-df1a-2f53-ad7649f73d67",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.056Z",
+            "modified": "2020-11-10T04:15:07.056Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 88565b4c707230eac34d4528205056264cd70d797b6b4eb7d891821b00187a69",
+            "description": "File hash indicator for sha256 hash 88565b4c707230eac34d4528205056264cd70d797b6b4eb7d891821b00187a69",
+            "pattern": "[ file:hashes.'SHA-256' = '88565b4c707230eac34d4528205056264cd70d797b6b4eb7d891821b00187a69' ]",
+            "valid_from": "2020-11-10T04:15:07.056Z"
+        },
+        {
+            "id": "indicator--df577d73-1ab1-cef6-a5a8-64c1d97fdfa7",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.064Z",
+            "modified": "2020-11-10T04:15:07.064Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash a50b58e24eb261157c4f85d02412d80911abe8501b011493c7b393c1905fc234",
+            "description": "File hash indicator for sha256 hash a50b58e24eb261157c4f85d02412d80911abe8501b011493c7b393c1905fc234",
+            "pattern": "[ file:hashes.'SHA-256' = 'a50b58e24eb261157c4f85d02412d80911abe8501b011493c7b393c1905fc234' ]",
+            "valid_from": "2020-11-10T04:15:07.064Z"
+        },
+        {
+            "id": "indicator--33ec8b2a-9b45-8610-972a-7115de5d31d1",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.068Z",
+            "modified": "2020-11-10T04:15:07.068Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 73609f8ebd14c6970d9162ec8d7786f5264e910573dff73881f85b03163bd40e",
+            "description": "File hash indicator for sha256 hash 73609f8ebd14c6970d9162ec8d7786f5264e910573dff73881f85b03163bd40e",
+            "pattern": "[ file:hashes.'SHA-256' = '73609f8ebd14c6970d9162ec8d7786f5264e910573dff73881f85b03163bd40e' ]",
+            "valid_from": "2020-11-10T04:15:07.068Z"
+        },
+        {
+            "id": "indicator--7cfb4997-f5fc-be50-2d89-999cb583b9d0",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.068Z",
+            "modified": "2020-11-10T04:15:07.068Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash bd7da341a28a19618b53e649a27740dfeac13444ce0e0d505704b56335cc55bd",
+            "description": "File hash indicator for sha256 hash bd7da341a28a19618b53e649a27740dfeac13444ce0e0d505704b56335cc55bd",
+            "pattern": "[ file:hashes.'SHA-256' = 'bd7da341a28a19618b53e649a27740dfeac13444ce0e0d505704b56335cc55bd' ]",
+            "valid_from": "2020-11-10T04:15:07.068Z"
+        },
+        {
+            "id": "indicator--71c2087e-284a-63ef-feb9-d7121c26c1e9",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.070Z",
+            "modified": "2020-11-10T04:15:07.070Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ce0936366976f07ea24e86733888e97e421393829ecfd0fde66bd943d4b992ab",
+            "description": "File hash indicator for sha256 hash ce0936366976f07ea24e86733888e97e421393829ecfd0fde66bd943d4b992ab",
+            "pattern": "[ file:hashes.'SHA-256' = 'ce0936366976f07ea24e86733888e97e421393829ecfd0fde66bd943d4b992ab' ]",
+            "valid_from": "2020-11-10T04:15:07.070Z"
+        },
+        {
+            "id": "indicator--cbc3a618-d155-4137-a5d3-a9cfa2ed7efd",
+            "type": "indicator",
+            "created": "2012-07-08T06:28:00.000Z",
+            "modified": "2020-03-21T07:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 5.135.230.132",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '5.135.230.132' ]",
+            "valid_from": "2020-03-21T07:52:00.000Z"
+        },
+        {
+            "id": "indicator--619ffb0a-c566-a2f1-d839-18cbd6d3afec",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.076Z",
+            "modified": "2020-11-10T04:15:07.076Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 625c22b21277c8a7e1b701da9c1c21b64bfa02baef5d7a530a38f6d70a7a16d0",
+            "description": "File hash indicator for sha256 hash 625c22b21277c8a7e1b701da9c1c21b64bfa02baef5d7a530a38f6d70a7a16d0",
+            "pattern": "[ file:hashes.'SHA-256' = '625c22b21277c8a7e1b701da9c1c21b64bfa02baef5d7a530a38f6d70a7a16d0' ]",
+            "valid_from": "2020-11-10T04:15:07.076Z"
+        },
+        {
+            "id": "indicator--8a53c7b5-106c-e92f-68f5-b1debd6a09a3",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.095Z",
+            "modified": "2020-11-10T04:15:07.095Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash b1f54b88c9b7680877981f6bebde6aea9effbc38a0a8b27a565fb35331094680",
+            "description": "File hash indicator for sha256 hash b1f54b88c9b7680877981f6bebde6aea9effbc38a0a8b27a565fb35331094680",
+            "pattern": "[ file:hashes.'SHA-256' = 'b1f54b88c9b7680877981f6bebde6aea9effbc38a0a8b27a565fb35331094680' ]",
+            "valid_from": "2020-11-10T04:15:07.095Z"
+        },
+        {
+            "id": "indicator--bf827dbb-9109-ca24-44ac-18b23d9c8915",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.115Z",
+            "modified": "2020-11-10T04:15:07.115Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 56f6084d84bd6371918c3ae7b555099474cdb6665bed0d969f6b5762b8cf5cc9",
+            "description": "File hash indicator for sha256 hash 56f6084d84bd6371918c3ae7b555099474cdb6665bed0d969f6b5762b8cf5cc9",
+            "pattern": "[ file:hashes.'SHA-256' = '56f6084d84bd6371918c3ae7b555099474cdb6665bed0d969f6b5762b8cf5cc9' ]",
+            "valid_from": "2020-11-10T04:15:07.115Z"
+        },
+        {
+            "id": "indicator--97c33057-6a47-18ee-0849-ce8c61400cea",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.125Z",
+            "modified": "2020-11-10T04:15:07.125Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e48e88542ec4cd6f1aa794abc846f336822b1104557c0dfe67cff63e5231c367",
+            "description": "File hash indicator for sha256 hash e48e88542ec4cd6f1aa794abc846f336822b1104557c0dfe67cff63e5231c367",
+            "pattern": "[ file:hashes.'SHA-256' = 'e48e88542ec4cd6f1aa794abc846f336822b1104557c0dfe67cff63e5231c367' ]",
+            "valid_from": "2020-11-10T04:15:07.125Z"
+        },
+        {
+            "id": "indicator--ab1ea31a-9897-e4e7-30bb-3003e166e572",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.128Z",
+            "modified": "2020-11-10T04:15:07.128Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash e07dd37c92d24ac20b94a183e1f0a22a4eec0f950f441761c065faf0afd2abdd",
+            "description": "File hash indicator for sha256 hash e07dd37c92d24ac20b94a183e1f0a22a4eec0f950f441761c065faf0afd2abdd",
+            "pattern": "[ file:hashes.'SHA-256' = 'e07dd37c92d24ac20b94a183e1f0a22a4eec0f950f441761c065faf0afd2abdd' ]",
+            "valid_from": "2020-11-10T04:15:07.128Z"
+        },
+        {
+            "id": "indicator--269bb69e-1269-d8bc-bab4-4fee1fede4d1",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.132Z",
+            "modified": "2020-11-10T04:15:07.132Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash fcdd72fd2e03badfac13eed5e2d17054bbdcea7c1743179095ce109bf40a7f0f",
+            "description": "File hash indicator for sha256 hash fcdd72fd2e03badfac13eed5e2d17054bbdcea7c1743179095ce109bf40a7f0f",
+            "pattern": "[ file:hashes.'SHA-256' = 'fcdd72fd2e03badfac13eed5e2d17054bbdcea7c1743179095ce109bf40a7f0f' ]",
+            "valid_from": "2020-11-10T04:15:07.132Z"
+        },
+        {
+            "id": "indicator--1384a67f-505f-b9ca-cf95-9e0a6bf7784e",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.133Z",
+            "modified": "2020-11-10T04:15:07.133Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d612144c1f6d4a063530ba5bfae7ef4e4ae134bc55dcf067439471934b841b00",
+            "description": "File hash indicator for sha256 hash d612144c1f6d4a063530ba5bfae7ef4e4ae134bc55dcf067439471934b841b00",
+            "pattern": "[ file:hashes.'SHA-256' = 'd612144c1f6d4a063530ba5bfae7ef4e4ae134bc55dcf067439471934b841b00' ]",
+            "valid_from": "2020-11-10T04:15:07.133Z"
+        },
+        {
+            "id": "indicator--00af0d42-0d79-ae06-0e56-20b50eee495a",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.140Z",
+            "modified": "2020-11-10T04:15:07.140Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash a512e5ffd33da906fdf896c536bf64adc59599ec2227f60dace4a4ef23d3d21a",
+            "description": "File hash indicator for sha256 hash a512e5ffd33da906fdf896c536bf64adc59599ec2227f60dace4a4ef23d3d21a",
+            "pattern": "[ file:hashes.'SHA-256' = 'a512e5ffd33da906fdf896c536bf64adc59599ec2227f60dace4a4ef23d3d21a' ]",
+            "valid_from": "2020-11-10T04:15:07.140Z"
+        },
+        {
+            "id": "indicator--8efb8c2c-14a3-e687-271b-aaf1ca2e1c6c",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.141Z",
+            "modified": "2020-11-10T04:15:07.141Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash cb2619b7aab52d612012386d88a0d983c270d9346169b75d2a55010564efc55c",
+            "description": "File hash indicator for sha256 hash cb2619b7aab52d612012386d88a0d983c270d9346169b75d2a55010564efc55c",
+            "pattern": "[ file:hashes.'SHA-256' = 'cb2619b7aab52d612012386d88a0d983c270d9346169b75d2a55010564efc55c' ]",
+            "valid_from": "2020-11-10T04:15:07.141Z"
+        },
+        {
+            "id": "indicator--74867a1f-f79b-22db-3e40-be03afe912e7",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.157Z",
+            "modified": "2020-11-10T04:15:07.157Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ddf83c02effea8ae9ec2c833bf40187bed23ec33c6b828af49632ef98004ea82",
+            "description": "File hash indicator for sha256 hash ddf83c02effea8ae9ec2c833bf40187bed23ec33c6b828af49632ef98004ea82",
+            "pattern": "[ file:hashes.'SHA-256' = 'ddf83c02effea8ae9ec2c833bf40187bed23ec33c6b828af49632ef98004ea82' ]",
+            "valid_from": "2020-11-10T04:15:07.157Z"
+        },
+        {
+            "id": "indicator--8b33e009-3a48-0c0a-7690-80d206847db0",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.178Z",
+            "modified": "2020-11-10T04:15:07.178Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash d50f28cf5012e1ffde1cd28655e07519dadcf94218b15c701c526ab0f6acb915",
+            "description": "File hash indicator for sha256 hash d50f28cf5012e1ffde1cd28655e07519dadcf94218b15c701c526ab0f6acb915",
+            "pattern": "[ file:hashes.'SHA-256' = 'd50f28cf5012e1ffde1cd28655e07519dadcf94218b15c701c526ab0f6acb915' ]",
+            "valid_from": "2020-11-10T04:15:07.178Z"
+        },
+        {
+            "id": "indicator--21192bd8-52ab-dc33-f535-7f72ea9659f0",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.208Z",
+            "modified": "2020-11-10T04:15:07.208Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 2f1e047e840620460bdf7371e62e966919f25f763a53248357f890a4ff11791f",
+            "description": "File hash indicator for sha256 hash 2f1e047e840620460bdf7371e62e966919f25f763a53248357f890a4ff11791f",
+            "pattern": "[ file:hashes.'SHA-256' = '2f1e047e840620460bdf7371e62e966919f25f763a53248357f890a4ff11791f' ]",
+            "valid_from": "2020-11-10T04:15:07.208Z"
+        },
+        {
+            "id": "indicator--daaf3a9a-61c0-dbfb-50db-3a83b10a80d5",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.324Z",
+            "modified": "2020-11-10T04:15:07.324Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 6812190b1dec8c2a4c5d2b327d1bdbe72974fc017d86d2337ea06e9d3337959e",
+            "description": "File hash indicator for sha256 hash 6812190b1dec8c2a4c5d2b327d1bdbe72974fc017d86d2337ea06e9d3337959e",
+            "pattern": "[ file:hashes.'SHA-256' = '6812190b1dec8c2a4c5d2b327d1bdbe72974fc017d86d2337ea06e9d3337959e' ]",
+            "valid_from": "2020-11-10T04:15:07.324Z"
+        },
+        {
+            "id": "indicator--4136a9dc-d131-26f6-ac97-d831777e0645",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.359Z",
+            "modified": "2020-11-10T04:15:07.359Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 77f2df32060e5125c6d4a3ab2a2a0c862eb44bc44614d494d23f4690a45d08a3",
+            "description": "File hash indicator for sha256 hash 77f2df32060e5125c6d4a3ab2a2a0c862eb44bc44614d494d23f4690a45d08a3",
+            "pattern": "[ file:hashes.'SHA-256' = '77f2df32060e5125c6d4a3ab2a2a0c862eb44bc44614d494d23f4690a45d08a3' ]",
+            "valid_from": "2020-11-10T04:15:07.359Z"
+        },
+        {
+            "id": "indicator--776c34de-33d8-1a8c-1d6c-ff7dc2ceac3f",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.371Z",
+            "modified": "2020-11-10T04:15:07.371Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash c2861e5626c5ba40d28ec6c7d4ac32edc972a969d2454e74dc50829d02b5de2a",
+            "description": "File hash indicator for sha256 hash c2861e5626c5ba40d28ec6c7d4ac32edc972a969d2454e74dc50829d02b5de2a",
+            "pattern": "[ file:hashes.'SHA-256' = 'c2861e5626c5ba40d28ec6c7d4ac32edc972a969d2454e74dc50829d02b5de2a' ]",
+            "valid_from": "2020-11-10T04:15:07.371Z"
+        },
+        {
+            "id": "indicator--f9c6faee-33d1-2d16-32e1-2f8ab49af6d7",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.452Z",
+            "modified": "2020-11-10T04:15:07.452Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 0e7824dfb7668af175a2b887e592773517f17213555c3b9af4f98d54278621d5",
+            "description": "File hash indicator for sha256 hash 0e7824dfb7668af175a2b887e592773517f17213555c3b9af4f98d54278621d5",
+            "pattern": "[ file:hashes.'SHA-256' = '0e7824dfb7668af175a2b887e592773517f17213555c3b9af4f98d54278621d5' ]",
+            "valid_from": "2020-11-10T04:15:07.452Z"
+        },
+        {
+            "id": "indicator--5677144d-c45a-74c8-ecc5-1a29d2840ea0",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.496Z",
+            "modified": "2020-11-10T04:15:07.496Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 8a7dc1c39321d972a21bf4fdd24f6f2ef3a03e4ea95c49f383ba03902010210c",
+            "description": "File hash indicator for sha256 hash 8a7dc1c39321d972a21bf4fdd24f6f2ef3a03e4ea95c49f383ba03902010210c",
+            "pattern": "[ file:hashes.'SHA-256' = '8a7dc1c39321d972a21bf4fdd24f6f2ef3a03e4ea95c49f383ba03902010210c' ]",
+            "valid_from": "2020-11-10T04:15:07.496Z"
+        },
+        {
+            "id": "indicator--84a8f8b9-1b87-1881-f06f-0a45a45eaaef",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.501Z",
+            "modified": "2020-11-10T04:15:07.501Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash 309af51a8d86e031e25c2c928101b9afc9bcd1dcadbf4ef27ed3c0e8d7da0c98",
+            "description": "File hash indicator for sha256 hash 309af51a8d86e031e25c2c928101b9afc9bcd1dcadbf4ef27ed3c0e8d7da0c98",
+            "pattern": "[ file:hashes.'SHA-256' = '309af51a8d86e031e25c2c928101b9afc9bcd1dcadbf4ef27ed3c0e8d7da0c98' ]",
+            "valid_from": "2020-11-10T04:15:07.501Z"
+        },
+        {
+            "id": "indicator--a1be7aea-6438-6e4b-74e0-d17debba6de0",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.571Z",
+            "modified": "2020-11-10T04:15:07.571Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash ab432a84b05de381c2f96a000c318ec78c98e39abfa7eea3210840c85b0cbee7",
+            "description": "File hash indicator for sha256 hash ab432a84b05de381c2f96a000c318ec78c98e39abfa7eea3210840c85b0cbee7",
+            "pattern": "[ file:hashes.'SHA-256' = 'ab432a84b05de381c2f96a000c318ec78c98e39abfa7eea3210840c85b0cbee7' ]",
+            "valid_from": "2020-11-10T04:15:07.571Z"
+        },
+        {
+            "id": "indicator--603c6258-04d1-1db8-cc16-e1e7f2a05106",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.572Z",
+            "modified": "2020-11-10T04:15:07.572Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash bde87df68407fafc3ebd95665838eb5476cb854b338fb97252d153a2250f28b8",
+            "description": "File hash indicator for sha256 hash bde87df68407fafc3ebd95665838eb5476cb854b338fb97252d153a2250f28b8",
+            "pattern": "[ file:hashes.'SHA-256' = 'bde87df68407fafc3ebd95665838eb5476cb854b338fb97252d153a2250f28b8' ]",
+            "valid_from": "2020-11-10T04:15:07.572Z"
+        },
+        {
+            "id": "indicator--c2539739-339c-2520-e44a-821ef09e652f",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:07.589Z",
+            "modified": "2020-11-10T04:15:07.589Z",
+            "labels": [
+                "xfe-malware-risk-low"
+            ],
+            "name": "File hash indicator for sha256 hash d389e2fc1515b8a2d8d365d072c201a308f776c873fdb185f826a35fde6fbf2b",
+            "description": "File hash indicator for sha256 hash d389e2fc1515b8a2d8d365d072c201a308f776c873fdb185f826a35fde6fbf2b",
+            "pattern": "[ file:hashes.'SHA-256' = 'd389e2fc1515b8a2d8d365d072c201a308f776c873fdb185f826a35fde6fbf2b' ]",
+            "valid_from": "2020-11-10T04:15:07.589Z"
+        },
+        {
+            "id": "indicator--7400b7e3-e676-d5cf-229b-8781631d2024",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:08.092Z",
+            "modified": "2020-11-10T04:15:08.092Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash ea27862bd01ee8882817067f19df1e61edca7364ce649ae4d09e1a1cae14f7cc",
+            "description": "File hash indicator for sha256 hash ea27862bd01ee8882817067f19df1e61edca7364ce649ae4d09e1a1cae14f7cc",
+            "pattern": "[ file:hashes.'SHA-256' = 'ea27862bd01ee8882817067f19df1e61edca7364ce649ae4d09e1a1cae14f7cc' ]",
+            "valid_from": "2020-11-10T04:15:08.092Z"
+        },
+        {
+            "id": "indicator--b1d9ee65-7775-4f3b-abda-4e6ab9a99ab1",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:11.410Z",
+            "modified": "2020-11-10T04:15:11.410Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for j3qq4.club",
+            "description": "",
+            "pattern": "[ url:value = 'j3qq4.club' ]",
+            "valid_from": "2020-11-10T04:15:11.410Z"
+        },
+        {
+            "id": "indicator--2da99852-233d-43ca-8c32-0fc3077deaa0",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:11.631Z",
+            "modified": "2020-11-10T04:15:11.631Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for benreat.com",
+            "description": "",
+            "pattern": "[ url:value = 'benreat.com' ]",
+            "valid_from": "2020-11-10T04:15:11.631Z"
+        },
+        {
+            "id": "indicator--1872166b-d426-f894-0f2c-2091029f9f85",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:12.919Z",
+            "modified": "2020-11-10T04:15:12.919Z",
+            "labels": [
+                "xfe-malware-risk-high"
+            ],
+            "name": "File hash indicator for sha256 hash 8eef012c2eecb7f8a776464f52e12f62c466cfc85adf4eef0d2bc270e7a19212",
+            "description": "File hash indicator for sha256 hash 8eef012c2eecb7f8a776464f52e12f62c466cfc85adf4eef0d2bc270e7a19212",
+            "pattern": "[ file:hashes.'SHA-256' = '8eef012c2eecb7f8a776464f52e12f62c466cfc85adf4eef0d2bc270e7a19212' ]",
+            "valid_from": "2020-11-10T04:15:12.919Z"
+        },
+        {
+            "id": "indicator--d3b1f15b-4835-4b83-a0e1-c7dd75704e53",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:13.426Z",
+            "modified": "2020-11-10T04:15:13.426Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for syvansoft.com",
+            "description": "",
+            "pattern": "[ url:value = 'syvansoft.com' ]",
+            "valid_from": "2020-11-10T04:15:13.426Z"
+        },
+        {
+            "id": "indicator--6cb9a6df-f7fa-4a94-a1bf-f4c3eb8e990a",
+            "type": "indicator",
+            "created": "2013-07-13T06:27:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 162.216.240.7",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '162.216.240.7' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "id": "indicator--b5d998bb-6ea4-4a70-ae71-9ac4bdafc40a",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:16.766Z",
+            "modified": "2020-11-10T04:15:16.766Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for m33.bar",
+            "description": "",
+            "pattern": "[ url:value = 'm33.bar' ]",
+            "valid_from": "2020-11-10T04:15:16.766Z"
+        },
+        {
+            "id": "indicator--da490b06-db5c-42dd-8816-9f55f081146f",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:17.896Z",
+            "modified": "2020-11-10T04:15:17.896Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for sarymar.com",
+            "description": "",
+            "pattern": "[ url:value = 'sarymar.com' ]",
+            "valid_from": "2020-11-10T04:15:17.896Z"
+        },
+        {
+            "id": "indicator--53910353-fe8b-4f8d-a4ff-697a38342bcc",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:18.381Z",
+            "modified": "2020-11-10T04:15:18.381Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for planlamaison.com",
+            "description": "",
+            "pattern": "[ url:value = 'planlamaison.com' ]",
+            "valid_from": "2020-11-10T04:15:18.381Z"
+        },
+        {
+            "id": "indicator--c4006576-4840-4bd2-890f-9492cbf5639d",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:21.735Z",
+            "modified": "2020-11-10T04:15:21.735Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for hekutn.com",
+            "description": "",
+            "pattern": "[ url:value = 'hekutn.com' ]",
+            "valid_from": "2020-11-10T04:15:21.735Z"
+        },
+        {
+            "id": "indicator--1cefa0be-e706-4482-9ccb-55d9ec87aa65",
+            "type": "indicator",
+            "created": "2012-06-20T07:03:00.000Z",
+            "modified": "2020-03-22T07:54:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 51.79.42.156",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '51.79.42.156' ]",
+            "valid_from": "2020-03-22T07:54:00.000Z"
+        },
+        {
+            "id": "indicator--b41ed9e4-4d54-4963-b3bd-8af62f4982c4",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:26.051Z",
+            "modified": "2020-11-10T04:15:26.051Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for teamchuan.com",
+            "description": "",
+            "pattern": "[ url:value = 'teamchuan.com' ]",
+            "valid_from": "2020-11-10T04:15:26.051Z"
+        },
+        {
+            "id": "indicator--2cd3c6e1-a650-413d-a1e2-62ec21c09283",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:30.591Z",
+            "modified": "2020-11-10T04:15:30.591Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for mustome.com",
+            "description": "",
+            "pattern": "[ url:value = 'mustome.com' ]",
+            "valid_from": "2020-11-10T04:15:30.591Z"
+        },
+        {
+            "id": "indicator--3a65c9b0-e1d5-4952-81c4-a7dd0560d828",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:30.603Z",
+            "modified": "2020-11-10T04:15:30.603Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for bookrah.com",
+            "description": "",
+            "pattern": "[ url:value = 'bookrah.com' ]",
+            "valid_from": "2020-11-10T04:15:30.603Z"
+        },
+        {
+            "id": "indicator--d9ecfa9c-2b98-44d6-abe8-0dceb3522f96",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:35.658Z",
+            "modified": "2020-11-10T04:15:35.658Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for c1oudflare.com",
+            "description": "",
+            "pattern": "[ url:value = 'c1oudflare.com' ]",
+            "valid_from": "2020-11-10T04:15:35.658Z"
+        },
+        {
+            "id": "indicator--7e8174a8-21c5-4ed0-b369-1677bc96c9be",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:36.344Z",
+            "modified": "2020-11-10T04:15:36.344Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for tedxns.com",
+            "description": "",
+            "pattern": "[ url:value = 'tedxns.com' ]",
+            "valid_from": "2020-11-10T04:15:36.344Z"
+        },
+        {
+            "id": "indicator--25e1974b-f50d-4bc0-b7ca-864329d07069",
+            "type": "indicator",
+            "created": "2020-11-10T04:15:44.253Z",
+            "modified": "2020-11-10T04:15:44.253Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for safealyzer.com",
+            "description": "",
+            "pattern": "[ url:value = 'safealyzer.com' ]",
+            "valid_from": "2020-11-10T04:15:44.253Z"
+        },
+        {
+            "id": "indicator--7256e74c-5bdf-45ce-b0b6-e40910a76cc2",
+            "type": "indicator",
+            "created": "2015-03-18T07:28:00.000Z",
+            "modified": "2020-05-20T03:45:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 192.169.6.180",
+            "description": "At least one of the websites that is hosted on this IP address contains content of the aforementioned category.",
+            "pattern": "[ ipv4-addr:value = '192.169.6.180' ]",
+            "valid_from": "2020-05-20T03:45:00.000Z"
+        },
+        {
+            "id": "indicator--430461f5-72a2-4f55-8906-3806d120ef25",
+            "type": "indicator",
+            "created": "2020-11-10T04:16:23.606Z",
+            "modified": "2020-11-10T04:16:23.606Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for cloud.falconoasisdubai.com",
+            "description": "",
+            "pattern": "[ url:value = 'cloud.falconoasisdubai.com' ]",
+            "valid_from": "2020-11-10T04:16:23.606Z"
+        },
+        {
+            "id": "indicator--7b7c277b-724b-430a-b037-9a950ec8ad0f",
+            "type": "indicator",
+            "created": "2020-11-10T04:16:36.059Z",
+            "modified": "2020-11-10T04:16:36.059Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for gue.life",
+            "description": "",
+            "pattern": "[ url:value = 'gue.life' ]",
+            "valid_from": "2020-11-10T04:16:36.059Z"
+        },
+        {
+            "id": "indicator--7b7c277b-724b-430a-b037-9a950ec8ad0f",
+            "type": "indicator",
+            "created": "2020-11-10T04:16:43.730Z",
+            "modified": "2020-11-10T04:16:43.730Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for gue.life",
+            "description": "",
+            "pattern": "[ url:value = 'gue.life' ]",
+            "valid_from": "2020-11-10T04:16:43.730Z"
+        },
+        {
+            "id": "indicator--7256e74c-5bdf-45ce-b0b6-e40910a76cc2",
+            "type": "indicator",
+            "created": "2015-03-18T07:28:00.000Z",
+            "modified": "2020-05-20T03:45:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 192.169.6.180",
+            "description": "At least one of the websites that is hosted on this IP address contains content of the aforementioned category.",
+            "pattern": "[ ipv4-addr:value = '192.169.6.180' ]",
+            "valid_from": "2020-05-20T03:45:00.000Z"
+        },
+        {
+            "id": "indicator--430461f5-72a2-4f55-8906-3806d120ef25",
+            "type": "indicator",
+            "created": "2020-11-10T04:17:06.426Z",
+            "modified": "2020-11-10T04:17:06.426Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for cloud.falconoasisdubai.com",
+            "description": "",
+            "pattern": "[ url:value = 'cloud.falconoasisdubai.com' ]",
+            "valid_from": "2020-11-10T04:17:06.426Z"
+        },
+        {
+            "id": "indicator--f8fb2449-70c2-452e-81f8-c49460bc1627",
+            "type": "indicator",
+            "created": "2015-03-18T07:28:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 192.169.7.160",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '192.169.7.160' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "id": "indicator--430461f5-72a2-4f55-8906-3806d120ef25",
+            "type": "indicator",
+            "created": "2020-11-10T04:17:07.864Z",
+            "modified": "2020-11-10T04:17:07.864Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-undefined"
+            ],
+            "name": "URL Report for cloud.falconoasisdubai.com",
+            "description": "",
+            "pattern": "[ url:value = 'cloud.falconoasisdubai.com' ]",
+            "valid_from": "2020-11-10T04:17:07.864Z"
+        },
+        {
+            "id": "indicator--a96aabe2-3465-4c4c-a803-9ad25e7829ec",
+            "type": "indicator",
+            "created": "2013-04-23T06:27:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 172.245.21.224",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '172.245.21.224' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "id": "indicator--f8fb2449-70c2-452e-81f8-c49460bc1627",
+            "type": "indicator",
+            "created": "2015-03-18T07:28:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 192.169.7.160",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '192.169.7.160' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "id": "indicator--a96aabe2-3465-4c4c-a803-9ad25e7829ec",
+            "type": "indicator",
+            "created": "2013-04-23T06:27:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 172.245.21.224",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '172.245.21.224' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "id": "indicator--f8fb2449-70c2-452e-81f8-c49460bc1627",
+            "type": "indicator",
+            "created": "2015-03-18T07:28:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 192.169.7.160",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '192.169.7.160' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "id": "indicator--a96aabe2-3465-4c4c-a803-9ad25e7829ec",
+            "type": "indicator",
+            "created": "2013-04-23T06:27:00.000Z",
+            "modified": "2020-03-29T06:52:00.000Z",
+            "labels": [
+                "benign",
+                "xfe-threat-score-1"
+            ],
+            "name": "IP Report for IP address 172.245.21.224",
+            "description": "One of the five RIRs announced a (new) location mapping of the IP.",
+            "pattern": "[ ipv4-addr:value = '172.245.21.224' ]",
+            "valid_from": "2020-03-29T06:52:00.000Z"
+        },
+        {
+            "type": "report",
+            "id": "report--3d710bcb-b2f6-c49d-8153-b0d9c716f8b3",
+            "name": "Same Group Developed Defray777, PyXie, and Vatet Malwares",
+            "published": "2020-11-10T14:33:54.604Z",
+            "created": "2020-11-10T14:33:54.604Z",
+            "modified": "2020-11-10T14:33:54.604Z",
+            "labels": [
+                "malware",
+                "advisory",
+                "ransomware",
+                "gold-dupont",
+                "xftag",
+                "pyxie",
+                "defray777",
+                "vatet"
+            ],
+            "object_marking_refs": [],
+            "description": "# Summary\n\nThe Defray777 ransomware, PyXie RAT, and Vatet loader all have something in common according to a report from Palo Alto's Unit 42. Analysis suggests that all three malwares were created and maintained by the threat group known as PyXie and GOLD DUPONT.\n\n# Threat Type\n\n- Malware, Ransomware\n\n# Overview\n\nThe threat group known as as PyXie and GOLD DUPONT have, according to Palo Alto's Unit 42, been operating since at least 2018. The analysis carried out by Unit 42 suggests that the group developed and maintain the three malware families known as Defray777 ransomware, PyXie RAT, and Vatet loader. The group is reportedly financially motivated and known to have carried out ransomware attacks on organizations in the education, government, healthcare, and technology sectors. In some instances, the group obtained their initial foothold in a victim organization using the well known IcedID or Trickbot banking Trojans. The Vatet loader is used to deliver payloads including PyXie and Cobalt Strike. A version of PyXie Unit 42 refer to as PyXie Lite is used for reconnaissance and to exfiltrate potentially sensitive files from within a victim organization. And lastly, the Defray777 ransomware is executed and traces of the malwares are removed from the system. The group has also developed a Linux port of Defray777, which Unit 42 notes is the first time this has been observed in the world of targeted ransomware. The entire report from Palo Alto is spread over five URLs and provides a detailed technical analysis, as well as IoCs. All pages are linked in the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777[/](https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/) \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/2 \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/3 \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/4 \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/5 ",
+            "object_refs": []
+        }
+    ],
+    "custom_objects": [
+        {
+            "type": "x-xfe-collection",
+            "id": "x-xfe-collection--3d710bcb-b2f6-c49d-8153-b0d9c716f8b3",
+            "collectionTitle": "Same Group Developed Defray777, PyXie, and Vatet Malwares",
+            "collectionWikiContent": "Summary\nThe Defray777 ransomware, PyXie RAT, and Vatet loader all have something in common according to a report from Palo Alto's Unit 42. Analysis suggests that all three malwares were created and maintained by the threat group known as PyXie and GOLD DUPONT.\nThreat Type\nMalware, Ransomware\nOverview\nThe threat group known as as PyXie and GOLD DUPONT have, according to Palo Alto's Unit 42, been operating since at least 2018. The analysis carried out by Unit 42 suggests that the group developed and maintain the three malware families known as Defray777 ransomware, PyXie RAT, and Vatet loader. The group is reportedly financially motivated and known to have carried out ransomware attacks on organizations in the education, government, healthcare, and technology sectors. In some instances, the group obtained their initial foothold in a victim organization using the well known IcedID or Trickbot banking Trojans. The Vatet loader is used to deliver payloads including PyXie and Cobalt Strike. A version of PyXie Unit 42 refer to as PyXie Lite is used for reconnaissance and to exfiltrate potentially sensitive files from within a victim organization. And lastly, the Defray777 ransomware is executed and traces of the malwares are removed from the system. The group has also developed a Linux port of Defray777, which Unit 42 notes is the first time this has been observed in the world of targeted ransomware. The entire report from Palo Alto is spread over five URLs and provides a detailed technical analysis, as well as IoCs. All pages are linked in the Reference section below.\nIndicators of Compromise\nA complete list of IoCs can be found in the Reports section to the right. \nRecommendations\nEnsure anti-virus software and associated files are up to date.\nSearch for existing signs of the indicated IoCs in your environment.\nConsider blocking and or setting up detection for all URL and IP based IoCs.\nKeep applications and operating systems running at the current released patch level.\nExercise caution with attachments and links in emails.\nReference\nhttps://unit42.paloaltonetworks.com/vatet-pyxie-defray777/ \nhttps://unit42.paloaltonetworks.com/vatet-pyxie-defray777/2 \nhttps://unit42.paloaltonetworks.com/vatet-pyxie-defray777/3 \nhttps://unit42.paloaltonetworks.com/vatet-pyxie-defray777/4 \nhttps://unit42.paloaltonetworks.com/vatet-pyxie-defray777/5 ",
+            "collectionWikiMarkdown": "# Summary\n\nThe Defray777 ransomware, PyXie RAT, and Vatet loader all have something in common according to a report from Palo Alto's Unit 42. Analysis suggests that all three malwares were created and maintained by the threat group known as PyXie and GOLD DUPONT.\n\n# Threat Type\n\n- Malware, Ransomware\n\n# Overview\n\nThe threat group known as as PyXie and GOLD DUPONT have, according to Palo Alto's Unit 42, been operating since at least 2018. The analysis carried out by Unit 42 suggests that the group developed and maintain the three malware families known as Defray777 ransomware, PyXie RAT, and Vatet loader. The group is reportedly financially motivated and known to have carried out ransomware attacks on organizations in the education, government, healthcare, and technology sectors. In some instances, the group obtained their initial foothold in a victim organization using the well known IcedID or Trickbot banking Trojans. The Vatet loader is used to deliver payloads including PyXie and Cobalt Strike. A version of PyXie Unit 42 refer to as PyXie Lite is used for reconnaissance and to exfiltrate potentially sensitive files from within a victim organization. And lastly, the Defray777 ransomware is executed and traces of the malwares are removed from the system. The group has also developed a Linux port of Defray777, which Unit 42 notes is the first time this has been observed in the world of targeted ransomware. The entire report from Palo Alto is spread over five URLs and provides a detailed technical analysis, as well as IoCs. All pages are linked in the Reference section below.\n\n# Indicators of Compromise\n\n- A complete list of IoCs can be found in the Reports section to the right. \n\n# Recommendations\n\n- Ensure anti-virus software and associated files are up to date.\n- Search for existing signs of the indicated IoCs in your environment.\n- Consider blocking and or setting up detection for all URL and IP based IoCs.\n- Keep applications and operating systems running at the current released patch level.\n- Exercise caution with attachments and links in emails.\n\n# Reference\n\n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777[/](https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/) \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/2 \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/3 \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/4 \n- https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/5 ",
+            "collectionId": "3d710bcbb2f6c49d8153b0d9c716f8b3",
+            "owner": {
+                "name": "Lyndon Sutherland",
+                "uuid": "http://www.ibm.com/310000JF0G"
+            },
+            "tags": [
+                "malware",
+                "advisory",
+                "ransomware",
+                "gold-dupont",
+                "xftag",
+                "pyxie",
+                "defray777",
+                "vatet"
+            ],
+            "tlp": {
+                "tlpColorName": "TLP_WHITE",
+                "tlpColorCode": "white",
+                "tlpIsUserDefined": true
+            },
+            "created": "2020-11-10T14:33:54.604Z",
+            "modified": "2020-11-10T14:33:54.604Z"
+        }
+    ],
+    "id": "bundle--3b98c499-b28b-4377-b140-bad2ec2d620d"
+}
